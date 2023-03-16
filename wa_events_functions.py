@@ -253,8 +253,7 @@ def add_additional_events(ics_current_path, ics_latest_path):
 
     return ics_current.to_ical()
 
-def save_ics_file(events, file_name="rmm_events.ics"):
-    ics_content = create_ics_file(events)
+def save_ics_file(ics_content, file_name="rmm_events.ics"):
     with open(file_name, "wb") as f:
         f.write(ics_content)
 

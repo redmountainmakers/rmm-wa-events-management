@@ -13,11 +13,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_PAT }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+
+      - name: Set up Git user
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "github-actions@github.com"
 
       - name: Set up cache for pip
         uses: actions/cache@v2

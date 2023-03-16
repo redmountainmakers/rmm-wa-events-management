@@ -171,7 +171,7 @@ def download_and_commit(current_events):
         if not os.path.exists(archive_folder):
             os.makedirs(archive_folder)
         
-        with open(file_path, 'wb') as f:
+        with open(filename, 'wb') as f:
             f.write(response.content)
         
         # Commit and push the changes
@@ -239,3 +239,33 @@ def commit_and_push(file_name, commit_message="Update ICS file"):
     subprocess.run(['git', 'commit', '-m', commit_message])
     subprocess.run(['git', 'push'])
 
+def delete_old_events(ics_current_path):
+    # Read the ICS file
+    with open(ics_current_path, "rb") as f:
+        ics_data = f.read()
+
+    # Parse the ICS data
+    ics_current = Calendar.from_ical(ics_data)
+
+    # Get the current time in UTC
+    now = datetime.utcnow().replace(tzinfo=pytz.UTC)
+
+    # Filter out past events
+    new_components = []
+    for component in ics_current.walk():
+        if component.name == "VEVENT":
+            event_dt = component.get("dtstart").dt
+            # Keep the event only if it's in the future
+            if event_dt > now:
+                new_components.append(component)
+        else:
+            # Keep all non-event components
+            new_components.append(component)
+
+    # Create a new calendar with the updated components
+    ics_updated = Calendar()
+    for component in new_components:
+        ics_updated.add_component(component)
+
+    # Return the updated ICS data
+    return ics_updated.to_ical()

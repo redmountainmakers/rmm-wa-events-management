@@ -8,6 +8,9 @@ current_events = 'https://github.com/Creidhne86/wa_events_2_ics/blob/main/archiv
 
 download_and_commit(current_events)
 upcoming_events = get_upcoming_events(access_token)
-ics_file = create_ics_file(upcoming_events)
-save_ics_file(ics_file)
+wa_ics_file = create_ics_file(upcoming_events)
+ics_current_path = 'redmountainmakers_events_2023-0316.ics'
+new_ics = add_additional_events(ics_current_path, wa_ics_file)
+new_ics = update_fields(ics_current_path, new_ics)
+save_ics_file(new_ics)
 commit_and_push("rmm_events.ics")

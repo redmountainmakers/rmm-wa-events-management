@@ -227,35 +227,36 @@ def add_additional_events(ics_current_path, ics_latest_path):
 def upload_file_to_wildapricot(access_token, file_name, ical_data):
     api_base_url = 'https://api.wildapricot.org/v2.1'
 
-    # Set the headers with the access token for API requests
+    # Set up the headers for the API request
     headers = {
-        'Authorization': f'Bearer {access_token}',
         'Content-Type': 'application/json',
-        'Accept': 'application/json',
+        'Authorization': f'Bearer {access_token}',
     }
 
     # Make an API request to retrieve the account details
     account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
-    
     print(f"Account response status code: {account_response.status_code}")
     print(f"Account response content: {account_response.content}")
-    
+
     account_id = account_response.json()[0]['Id']
-    
 
+    # Make an API request to retrieve the account's files
+    files_response = requests.get(f'{api_base_url}/accounts/{account_id}/files', headers=headers)
+    existing_files = files_response.json()
 
-    # Upload the iCal data
-    upload_headers = headers.copy()
-    upload_headers['Content-Type'] = 'application/octet-stream'
+    # Check if the file already exists, and delete it if it does
+    for existing_file in existing_files:
+        if existing_file['Name'] == file_name:
+            delete_response = requests.delete(existing_file['Url'], headers=headers)
 
-    upload_response = requests.post(
-        f'{api_base_url}/accounts/{account_id}/filestorage/files',
-        headers=upload_headers,
-        files = {'file': (file_name, ical_data.encode('utf-8'), 'text/calendar')},
-    )
+    # Upload the new file
+    upload_url = f'{api_base_url}/accounts/{account_id}/files'
+    files = {'file': (file_name, ical_data.encode('utf-8'), 'text/calendar')}
+    upload_response = requests.post(upload_url, headers=headers, files=files)
 
     if upload_response.status_code == 201:
-        print(f'Successfully uploaded {file_name} to WildApricot.')
+        print(f"File uploaded: {file_name}")
     else:
-        print(f'Failed to upload file: {upload_response.status_code}')
+        print(f"Failed to upload file. Status code: {upload_response.status_code}")
+        print(f"Response content: {upload_response.content}")
 

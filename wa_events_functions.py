@@ -227,23 +227,8 @@ def add_additional_events(ics_current_path, ics_latest_path):
 
     return ics_current.to_ical()
 
-def upload_file_to_wildapricot(api_key, file_name, ical_data):
+def upload_file_to_wildapricot(access_token, file_name, ical_data):
     api_base_url = 'https://api.wildapricot.org/v2.1'
-    auth_url = 'https://oauth.wildapricot.org/auth/token'
-
-    # Encode the API key in base64 format
-    encoded_key = base64.b64encode(f'APIKEY:{api_key}'.encode()).decode()
-
-    # Set the headers for authentication
-    auth_headers = {
-        'Authorization': f'Basic {encoded_key}',
-        'Content-Type': 'application/x-www-form-urlencoded',
-    }
-
-    # Obtain the access token
-    auth_data = {'grant_type': 'client_credentials', 'scope': 'auto'}
-    auth_response = requests.post(auth_url, headers=auth_headers, data=auth_data)
-    access_token = auth_response.json()['access_token']
 
     # Set the headers with the access token for API requests
     headers = {
@@ -263,10 +248,23 @@ def upload_file_to_wildapricot(api_key, file_name, ical_data):
     upload_response = requests.post(
         f'{api_base_url}/accounts/{account_id}/filestorage/files',
         headers=upload_headers,
-        data=ical_data,
+        files={file_name: ('filename', ical_data, 'text/calendar')},
     )
 
     if upload_response.status_code == 201:
-        print(f'Successfully uploaded {file_path} to WildApricot.')
+        print(f'Successfully uploaded {file_name} to WildApricot.')
     else:
         print(f'Failed to upload file: {upload_response.status_code}')
+
+# Example usage
+api_key = ''  # Replace with your WildApricot API key
+ics_current_path = 'path/to/current.ics'
+ics_latest_path = 'path/to/latest.ics'
+file_name = 'updated_calendar.ics'
+
+# Get access token
+access_token = get_access_token(api_key)
+
+ical_data = add_additional_events(ics_current_path, ics_latest_path)
+upload_file_to_wildapricot(access_token, file_name, ical_data)
+

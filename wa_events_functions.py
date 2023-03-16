@@ -11,8 +11,9 @@ from datetime import datetime, timezone, timedelta
 
 
 def get_access_token(api_key):
+    
     """Obtains and returns an access token for the Wild Apricot API."""
-    api_base_url = 'https://api.wildapricot.org/v2.1'
+    api_base_url = 'https://api.wildapricot.org/v2.2'
     auth_url = 'https://oauth.wildapricot.org/auth/token'
 
     # Encode the API key in base64 format
@@ -31,9 +32,37 @@ def get_access_token(api_key):
 
     return access_token
 
+def list_folders(access_token, account_id):
+    api_url = f"https://api.wildapricot.org/v2.2/accounts/{account_id}/filestorage/folders"
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+    }
+
+    response = requests.get(api_url, headers=headers)
+
+    if response.status_code == 200:
+        folders = response.json()
+        print("List of available folders:")
+        for folder in folders:
+            print(f"Name: {folder['Name']}, ID: {folder['Id']}")
+    else:
+        print("Error listing folders:", response.status_code, response.text)
+
+def get_account_id(access_token):
+    api_base_url = 'https://api.wildapricot.org/v2.2'
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+    }
+    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
+    return account_response.json()[0]['Id']
+
 def get_upcoming_events(access_token):
     """Retrieves upcoming public event data from the Wild Apricot API and returns a list of events."""
-    api_base_url = 'https://api.wildapricot.org/v2.1'
+    api_base_url = 'https://api.wildapricot.org/v2.2'
     headers = {
         'Authorization': f'Bearer {access_token}',
         'Content-Type': 'application/json',
@@ -224,39 +253,18 @@ def add_additional_events(ics_current_path, ics_latest_path):
 
     return ics_current.to_ical()
 
-def upload_file_to_wildapricot(access_token, file_name, ical_data):
-    api_base_url = 'https://api.wildapricot.org/v2.1'
-
-    # Set up the headers for the API request
+def upload_file_to_wildapricot(access_token, account_id, folder_id, file_name, ics_file):
+    api_url = f"https://api.wildapricot.org/v2.2/accounts/{account_id}/filestorage/folders/{folder_id}/files"
     headers = {
-        'Content-Type': 'application/json',
-        'Authorization': f'Bearer {access_token}',
+        "Authorization": f"Bearer {access_token}",
+        "Content-Type": "application/octet-stream",
+        "Api-Version": "1.0",
     }
 
-    # Make an API request to retrieve the account details
-    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
-    print(f"Account response status code: {account_response.status_code}")
-    print(f"Account response content: {account_response.content}")
+    
+    response = requests.post(api_url, headers=headers, data=ics_file, params={"fileName": file_name})
 
-    account_id = account_response.json()[0]['Id']
-
-    # Make an API request to retrieve the account's files
-    files_response = requests.get(f'{api_base_url}/accounts/{account_id}/files', headers=headers)
-    existing_files = files_response.json()
-
-    # Check if the file already exists, and delete it if it does
-    #for existing_file in existing_files:
-    #    if existing_file['Name'] == file_name:
-    #        delete_response = requests.delete(existing_file['Url'], headers=headers)
-
-    # Upload the new file
-    upload_url = f'{api_base_url}/accounts/{account_id}/files'
-    files = {'file': (file_name, ical_data.encode('utf-8'), 'text/calendar')}
-    upload_response = requests.post(upload_url, headers=headers, files=files)
-
-    if upload_response.status_code == 201:
-        print(f"File uploaded: {file_name}")
+    if response.status_code == 201:
+        print("File uploaded successfully!")
     else:
-        print(f"Failed to upload file. Status code: {upload_response.status_code}")
-        print(f"Response content: {upload_response.content}")
-
+        print("Error uploading file:", response.status_code, response.text)

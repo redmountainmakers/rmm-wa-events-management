@@ -1,0 +1,11 @@
+import requests
+import datetime
+
+def download_file():
+    url = "https://redmountainmakers.org/resources/Events_Conversion/redmountainmakers_events.ics"
+    today = datetime.date.today().strftime("%Y-%m%d")
+    filename = f"redmountainmakers_events_{today}.ics"
+    response = requests.get(url)
+    with open(filename, "wb") as f:
+        f.write(response.content)
+    print(f"File saved as {filename}")

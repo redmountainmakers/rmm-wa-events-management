@@ -180,29 +180,6 @@ def download_and_commit(current_events):
         subprocess.run(['git', 'push', 'origin', 'main'])
     else:
         print(f"Failed to download file: {response.status_code}")
-        
-
-    with open(ics_current_path, 'rb') as ics_current_file:
-        ics_current = Calendar.from_ical(ics_current_file.read())
-
-    with open(ics_latest_path, 'rb') as ics_latest_file:
-        ics_latest = Calendar.from_ical(ics_latest_file.read())
-
-    current_event_ids = set()
-    latest_event_ids = set()
-
-    for event in ics_current.walk('VEVENT'):
-        event_id = event.get('EVENT_ID')
-        if event_id:
-            current_event_ids.add(event_id)
-
-    for event in ics_latest.walk('VEVENT'):
-        event_id = event.get('EVENT_ID')
-        if event_id:
-            latest_event_ids.add(event_id)
-
-    additional_events = latest_event_ids - current_event_ids
-    return len(additional_events)
 
 def update_fields(ics_current_path, ics_latest_path):
     with open(ics_current_path, 'rb') as ics_current_file:

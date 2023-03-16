@@ -175,8 +175,6 @@ def count_additional_events(ics_current_path, ics_latest_path):
     additional_events = latest_event_ids - current_event_ids
     return len(additional_events)
 
-from icalendar import Calendar, Event
-
 def update_fields(ics_current_path, ics_latest_path):
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
@@ -203,7 +201,6 @@ def update_fields(ics_current_path, ics_latest_path):
                     event[field] = latest_event[field]
 
     return ics_current.to_ical()
-
 
 def add_additional_events(ics_current_path, ics_latest_path):
     # Read the current and latest .ics files
@@ -254,7 +251,7 @@ def upload_file_to_wildapricot(access_token, file_name, ical_data):
     upload_response = requests.post(
         f'{api_base_url}/accounts/{account_id}/filestorage/files',
         headers=upload_headers,
-        files={file_name: ('filename', ical_data, 'text/calendar')},
+        files = {'file': (file_name, ical_data.encode('utf-8'), 'text/calendar')},
     )
 
     if upload_response.status_code == 201:

@@ -240,6 +240,9 @@ def upload_file_to_wildapricot(access_token, file_name, ical_data):
     # Make an API request to retrieve the account details
     account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
     account_id = account_response.json()[0]['Id']
+    
+    print(f"Account response status code: {account_response.status_code}")
+    print(f"Account response content: {account_response.content}")
 
     # Upload the iCal data
     upload_headers = headers.copy()

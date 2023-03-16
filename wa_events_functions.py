@@ -5,9 +5,7 @@ import pytz
 import base64
 import requests
 import subprocess
-from datetime import datetime
 from bs4 import BeautifulSoup
-from icalendar import Calendar
 from icalendar import Calendar, Event
 from datetime import datetime, timezone, timedelta
 

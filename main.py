@@ -1,5 +1,5 @@
 import os
-import wa_events_functions
+from wa_events_functions import*
 
 api_key = os.environ.get("API_KEY")
 

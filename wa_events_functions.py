@@ -245,9 +245,9 @@ def upload_file_to_wildapricot(access_token, file_name, ical_data):
     existing_files = files_response.json()
 
     # Check if the file already exists, and delete it if it does
-    for existing_file in existing_files:
-        if existing_file['Name'] == file_name:
-            delete_response = requests.delete(existing_file['Url'], headers=headers)
+    #for existing_file in existing_files:
+    #    if existing_file['Name'] == file_name:
+    #        delete_response = requests.delete(existing_file['Url'], headers=headers)
 
     # Upload the new file
     upload_url = f'{api_base_url}/accounts/{account_id}/files'

@@ -256,15 +256,3 @@ def upload_file_to_wildapricot(access_token, file_name, ical_data):
     else:
         print(f'Failed to upload file: {upload_response.status_code}')
 
-# Example usage
-api_key = ''  # Replace with your WildApricot API key
-ics_current_path = 'path/to/current.ics'
-ics_latest_path = 'path/to/latest.ics'
-file_name = 'updated_calendar.ics'
-
-# Get access token
-access_token = get_access_token(api_key)
-
-ical_data = add_additional_events(ics_current_path, ics_latest_path)
-upload_file_to_wildapricot(access_token, file_name, ical_data)
-

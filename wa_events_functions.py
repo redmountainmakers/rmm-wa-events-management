@@ -253,18 +253,13 @@ def add_additional_events(ics_current_path, ics_latest_path):
 
     return ics_current.to_ical()
 
-def upload_file_to_wildapricot(access_token, account_id, folder_id, file_name, ics_file):
-    api_url = f"https://api.wildapricot.org/v2.2/accounts/{account_id}/filestorage/folders/{folder_id}/files"
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/octet-stream",
-        "Api-Version": "1.0",
-    }
+def save_ics_file(events, file_name="rmm_events.ics"):
+    ics_content = create_ics_file(events)
+    with open(file_name, "wb") as f:
+        f.write(ics_content)
 
-    
-    response = requests.post(api_url, headers=headers, data=ics_file, params={"fileName": file_name})
+def commit_and_push(file_name, commit_message="Update ICS file"):
+    subprocess.run(['git', 'add', file_name])
+    subprocess.run(['git', 'commit', '-m', commit_message])
+    subprocess.run(['git', 'push'])
 
-    if response.status_code == 201:
-        print("File uploaded successfully!")
-    else:
-        print("Error uploading file:", response.status_code, response.text)

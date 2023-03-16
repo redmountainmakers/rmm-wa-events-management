@@ -156,9 +156,9 @@ def create_ics_file(events):
     # Return the iCalendar file
     return cal.to_ical()
 
-def download_and_commit():
+def download_and_commit(current_events):
     # Download the file
-    url = 'https://redmountainmakers.org/resources/Events_Conversion/redmountainmakers_events.ics'
+    url = current_events
     response = requests.get(url)
     
     if response.status_code == 200:
@@ -181,7 +181,7 @@ def download_and_commit():
     else:
         print(f"Failed to download file: {response.status_code}")
         
-def count_additional_events(ics_current_path, ics_latest_path):
+
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
 

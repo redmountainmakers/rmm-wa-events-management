@@ -1,9 +1,12 @@
 name: My Workflow
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      example_input:
+        description: 'An example input'
+        required: true
+        default: 'default_value'
   schedule:
       - cron: '0 0 * * *'
 

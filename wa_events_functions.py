@@ -27,6 +27,3 @@ def download_and_commit():
         subprocess.run(['git', 'push', 'origin', 'main'])
     else:
         print(f"Failed to download file: {response.status_code}")
-
-if __name__ == "__main__":
-    download_and_commit()

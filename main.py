@@ -23,7 +23,7 @@ with open(wa_ics_path, 'wb') as f:#writes the ics data locally
 
 
 new_ics = add_additional_events(ics_current_path, wa_ics_path)
-with open(new_ics, 'wb') as f:#writes the ics data locally
+with open(new_ics_path, 'wb') as f:#writes the ics data locally
     f.write(new_ics)
 new_ics = update_fields(ics_current_path, wa_ics_path)
 save_ics_file(new_ics)#saves the final file as rmm events.ics

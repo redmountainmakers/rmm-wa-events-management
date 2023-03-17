@@ -13,18 +13,14 @@ wa_ics_path = 'wa_events.ics'
 new_ics_path = 'updated_events.ics'
 
 wa_ics_file = create_ics_file(upcoming_events)#creates the ics file from the WA API data
-with open(wa_ics_path, 'wb') as f:#writes the ics data locally
-    f.write(wa_ics_file)
+save_ics_file(wa_ics_file,wa_ics_path)
 
 #new_ics = delete_old_events(ics_current_path, new_ics_path)
 #with open(wa_ics_path, 'wb') as f:#writes the ics data locally
 #    f.write(new_ics)
 
-
-
 new_ics = add_additional_events(ics_current_path, wa_ics_path)
-with open(new_ics_path, 'wb') as f:#writes the ics data locally
-    f.write(new_ics)
+save_ics_file(new_ics,new_ics_path)
 new_ics = update_fields(new_ics_path, wa_ics_path)
 save_ics_file(new_ics)#saves the final file as rmm events.ics
 commit_and_push("rmm_events.ics")

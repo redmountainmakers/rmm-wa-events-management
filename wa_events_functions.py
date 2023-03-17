@@ -152,7 +152,7 @@ def download_and_commit(current_events):
         if not os.path.exists(archive_folder):
             os.makedirs(archive_folder)
         
-        with open(filename, 'wb') as f:
+        with open(file_path, 'wb') as f:
             f.write(response.content)
         
         # Commit and push the changes

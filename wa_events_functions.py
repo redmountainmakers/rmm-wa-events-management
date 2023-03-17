@@ -1,5 +1,4 @@
 import os
-import ssl
 import uuid
 import pytz
 import base64
@@ -7,7 +6,7 @@ import requests
 import subprocess
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 
 
 def get_access_token(api_key):
@@ -31,24 +30,6 @@ def get_access_token(api_key):
     access_token = auth_response.json()['access_token']
 
     return access_token
-
-def list_folders(access_token, account_id):
-    api_url = f"https://api.wildapricot.org/v2.2/accounts/{account_id}/filestorage/folders"
-    headers = {
-        "Authorization": f"Bearer {access_token}",
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-    }
-
-    response = requests.get(api_url, headers=headers)
-
-    if response.status_code == 200:
-        folders = response.json()
-        print("List of available folders:")
-        for folder in folders:
-            print(f"Name: {folder['Name']}, ID: {folder['Id']}")
-    else:
-        print("Error listing folders:", response.status_code, response.text)
 
 def get_account_id(access_token):
     api_base_url = 'https://api.wildapricot.org/v2.2'

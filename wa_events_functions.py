@@ -190,6 +190,7 @@ def update_fields(ics_current_path, ics_latest_path):
     return ics_current.to_ical()
 
 def add_additional_events(ics_current_path, ics_latest_path):
+    
     # Read the current and latest .ics files
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
@@ -208,6 +209,29 @@ def add_additional_events(ics_current_path, ics_latest_path):
         if new_event:
             ics_current.add_component(new_event)
             print(f'Added event_id {event_id}')
+
+    return ics_current.to_ical()
+
+def delete_past_events(ics_current_path):
+    # Read the current .ics file
+    with open(ics_current_path, 'rb') as ics_current_file:
+        ics_current = Calendar.from_ical(ics_current_file.read())
+
+    # Get the current date and time in the UTC timezone
+    utc_now = datetime.datetime.now(tz=pytz.utc)
+
+    # Loop through each event in the calendar
+    for component in ics_current.walk():
+        if component.name == "VEVENT":
+            # Get the start time of the event in the UTC timezone
+            start_time = component.get("DTSTART").dt.astimezone(pytz.utc)
+
+            # Check if the event has already occurred
+            if start_time < utc_now:
+                # Remove the event from the calendar
+                event_id = component.get("EVENT_ID")
+                ics_current.subcomponents.remove(component)
+                print(f'Removed event with ID {event_id}')
 
     return ics_current.to_ical()
 

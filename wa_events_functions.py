@@ -218,7 +218,7 @@ def delete_past_events(ics_current_path):
         ics_current = Calendar.from_ical(ics_current_file.read())
 
     # Get the current date and time in the UTC timezone
-    utc_now = datetime.datetime.now(tz=pytz.utc)
+    utc_now = datetime.now(tz=pytz.utc)
 
     # Loop through each event in the calendar
     for component in ics_current.walk():

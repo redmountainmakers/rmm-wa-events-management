@@ -608,11 +608,11 @@ PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
-DTSTART:20231018T230000Z
-DTEND:20231019T010000Z
-UID:9d4e88f7-5ea5-4e03-a281-ab1da60bc6d3
+DTSTART:20230816T230000Z
+DTEND:20230817T010000Z
+UID:901d1417-cc5a-49e0-aec9-9f395e586b03
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5212000</href><div class="inner gadgetEventEditableArea">\n <sp
+ .org/event-5211999</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <
  span style="">\n    <font face="Arial\, Helvetica\, sans-serif" style="">\
  n     This course is designed to introduce you to the 3d design process us
@@ -660,7 +660,7 @@ DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  : transparent\;">\n  <font color="#0F1115" style="font-size: 16px\;">\n   
  <br/>\n  </font>\n </p>\n <p style="background-color: transparent\;">\n  <
  br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>
-EVENT_ID:5212000
+EVENT_ID:5211999
 LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
@@ -668,7 +668,7 @@ BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230614T230000Z
 DTEND:20230615T010000Z
-UID:4e38ee0b-df66-46dd-bd66-e9799a55a2ed
+UID:2ec90323-bb26-4174-8222-442efa8bbabd
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  .org/event-5211987</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <
@@ -724,11 +724,11 @@ PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
-DTSTART:20230816T230000Z
-DTEND:20230817T010000Z
-UID:28bcc4db-a2ab-4530-b36a-f3a855304439
+DTSTART:20231018T230000Z
+DTEND:20231019T010000Z
+UID:a81e560b-642f-4019-bcdf-f63dc29f2e1d
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5211999</href><div class="inner gadgetEventEditableArea">\n <sp
+ .org/event-5212000</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <
  span style="">\n    <font face="Arial\, Helvetica\, sans-serif" style="">\
  n     This course is designed to introduce you to the 3d design process us
@@ -776,7 +776,7 @@ DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  : transparent\;">\n  <font color="#0F1115" style="font-size: 16px\;">\n   
  <br/>\n  </font>\n </p>\n <p style="background-color: transparent\;">\n  <
  br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>
-EVENT_ID:5211999
+EVENT_ID:5212000
 LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

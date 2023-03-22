@@ -8,6 +8,16 @@ from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 from datetime import datetime, timezone
 
+def download_ics_file(url, save_path):
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        with open(save_path, 'wb') as f:
+            f.write(response.content)
+        print(f"File saved to {save_path}")
+    else:
+        print(f"Failed to download file: {response.status_code}")
+
 
 def get_access_token(api_key):
     
@@ -140,32 +150,6 @@ def create_ics_file(events, file_path):
 
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(file_path)}')
-
-def download_and_commit(current_events):
-    # Download the file
-    url = current_events
-    response = requests.get(url)
-    
-    if response.status_code == 200:
-        # Save the file with today's date in the filename
-        today = datetime.today().strftime('%Y-%m%d')
-        archive_folder = 'archive'
-        filename = f'redmountainmakers_events_{today}.ics'
-        file_path = os.path.join(archive_folder, filename)
-        
-        if not os.path.exists(archive_folder):
-            os.makedirs(archive_folder)
-        
-        with open(file_path, 'wb') as f:
-            f.write(response.content)
-        
-        # Commit and push the changes
-        subprocess.run(['git', 'add', file_path])
-        subprocess.run(['git', 'commit', '-m', f'Add {filename} to archive'])
-        subprocess.run(['git', 'push', 'origin', 'main'])
-    else:
-        print(f"Failed to download file: {response.status_code}")
-
 
 def update_fields(ics_current_path, ics_latest_path, ics_output_path):
     with open(ics_current_path, 'rb') as ics_current_file:

@@ -3,7 +3,7 @@ import uuid
 import pytz
 import base64
 import requests
-import subprocess
+import logging
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
 from datetime import datetime, timezone
@@ -160,6 +160,49 @@ def create_ics_file(events, file_path):
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(file_path)}')
 
+def delete_past_events(ics_current_path, ics_output_path, log_file_path):
+    # Create a logger object
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+
+    # Create a file handler
+    file_handler = logging.FileHandler(log_file_path)
+    file_handler.setLevel(logging.INFO)
+
+    # Create a formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add the file handler to the logger
+    logger.addHandler(file_handler)
+
+    # Read the current .ics file
+    with open(ics_current_path, 'rb') as ics_current_file:
+        ics_current = Calendar.from_ical(ics_current_file.read())
+
+    # Get the current date and time in the UTC timezone
+    utc_now = datetime.now(tz=pytz.utc)
+
+    # Loop through each event in the calendar
+    for component in ics_current.walk():
+        if component.name == "VEVENT":
+            # Get the start time of the event in the UTC timezone
+            start_time = component.get("DTSTART").dt.astimezone(pytz.utc)
+
+            # Check if the event has already occurred
+            if start_time < utc_now:
+                # Remove the event from the calendar
+                event_id = component.get("EVENT_ID")
+                ics_current.subcomponents.remove(component)
+                logger.info(f'Removed event with ID {event_id}')
+
+    # Write the iCalendar file to disk
+    with open(ics_output_path, 'wb') as f:
+        f.write(ics_current.to_ical())
+
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
+
 def update_fields(ics_current_path, ics_latest_path, ics_output_path):
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
@@ -220,36 +263,9 @@ def add_additional_events(ics_current_path, ics_latest_path,ics_output_path):
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
-def delete_past_events(ics_current_path,ics_output_path):
-    # Read the current .ics file
-    with open(ics_current_path, 'rb') as ics_current_file:
-        ics_current = Calendar.from_ical(ics_current_file.read())
-
-    # Get the current date and time in the UTC timezone
-    utc_now = datetime.now(tz=pytz.utc)
-
-    # Loop through each event in the calendar
-    for component in ics_current.walk():
-        if component.name == "VEVENT":
-            # Get the start time of the event in the UTC timezone
-            start_time = component.get("DTSTART").dt.astimezone(pytz.utc)
-
-            # Check if the event has already occurred
-            if start_time < utc_now:
-                # Remove the event from the calendar
-                event_id = component.get("EVENT_ID")
-                ics_current.subcomponents.remove(component)
-                print(f'Removed event with ID {event_id}')
-
-    # Write the iCalendar file to disk
-    with open(ics_output_path, 'wb') as f:
-        f.write(ics_current.to_ical())
-
-    # Print the file path for confirmation
-    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
-
 def save_ics_file(ics_content, file_name="rmm_events.ics"):
     with open(file_name, "wb") as f:
         f.write(ics_content)
+
 
 

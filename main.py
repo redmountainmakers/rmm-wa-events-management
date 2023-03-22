@@ -11,13 +11,11 @@ upcoming_events = get_upcoming_events(access_token) #Gets the list of upcoming e
 ics_current_path = 'redmountainmakers_events.ics'
 wa_ics_path = 'wa_events.ics'
 new_ics_path = 'updated_events.ics'
+output_ics_path = 'rmm_events.ics'
 
-wa_ics_file = create_ics_file(upcoming_events)#creates the ics file from the WA API data
-save_ics_file(wa_ics_file,wa_ics_path)
-new_ics = delete_past_events(ics_current_path)
-save_ics_file(new_ics,new_ics_path)
-new_ics = add_additional_events(ics_current_path, wa_ics_path)
-save_ics_file(new_ics,new_ics_path)
-new_ics = update_fields(new_ics_path, wa_ics_path)
-save_ics_file(new_ics)#saves the final file as rmm events.ics
-commit_and_push("rmm_events.ics")
+create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA API data
+delete_past_events(ics_current_path,new_ics_path)
+add_additional_events(ics_current_path, wa_ics_path, new_ics_path)
+update_fields(new_ics_path, wa_ics_path,output_ics_path)
+
+commit_and_push(output_ics_path)

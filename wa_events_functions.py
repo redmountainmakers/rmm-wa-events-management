@@ -95,8 +95,8 @@ def get_wa_description(event_id):
 
     return contents
 
-def create_ics_file(events):
-    """Creates and returns an iCalendar file containing the events."""
+def create_ics_file(events, file_path):
+    """Creates and writes an iCalendar file containing the events to the given file path."""
     # Create a new iCalendar file
     cal = Calendar()
 
@@ -134,8 +134,12 @@ def create_ics_file(events):
         # Add the event to the iCalendar file
         cal.add_component(event)
 
-    # Return the iCalendar file
-    return cal.to_ical()
+    # Write the iCalendar file to disk
+    with open(file_path, 'wb') as f:
+        f.write(cal.to_ical())
+
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(file_path)}')
 
 def download_and_commit(current_events):
     # Download the file
@@ -162,7 +166,7 @@ def download_and_commit(current_events):
     else:
         print(f"Failed to download file: {response.status_code}")
 
-def update_fields(ics_current_path, ics_latest_path):
+def update_fields(ics_current_path, ics_latest_path, ics_output_path):
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
 
@@ -187,9 +191,14 @@ def update_fields(ics_current_path, ics_latest_path):
                 if latest_event.get(field) is not None:
                     event[field] = latest_event[field]
 
-    return ics_current.to_ical()
+    # Write the iCalendar file to disk
+    with open(ics_output_path, 'wb') as f:
+        f.write(ics_current_file.to_ical())
 
-def add_additional_events(ics_current_path, ics_latest_path):
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
+
+def add_additional_events(ics_current_path, ics_latest_path,ics_output_path):
     
     # Read the current and latest .ics files
     with open(ics_current_path, 'rb') as ics_current_file:
@@ -210,9 +219,14 @@ def add_additional_events(ics_current_path, ics_latest_path):
             ics_current.add_component(new_event)
             print(f'Added event_id {event_id}')
 
-    return ics_current.to_ical()
+    # Write the iCalendar file to disk
+    with open(ics_output_path, 'wb') as f:
+        f.write(ics_current_file.to_ical())
 
-def delete_past_events(ics_current_path):
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
+
+def delete_past_events(ics_current_path,ics_output_path):
     # Read the current .ics file
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
@@ -233,7 +247,12 @@ def delete_past_events(ics_current_path):
                 ics_current.subcomponents.remove(component)
                 print(f'Removed event with ID {event_id}')
 
-    return ics_current.to_ical()
+    # Write the iCalendar file to disk
+    with open(ics_output_path, 'wb') as f:
+        f.write(ics_current_file.to_ical())
+
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
 def save_ics_file(ics_content, file_name="rmm_events.ics"):
     with open(file_name, "wb") as f:
@@ -244,33 +263,3 @@ def commit_and_push(file_name, commit_message="Update ICS file"):
     subprocess.run(['git', 'commit', '-m', commit_message])
     subprocess.run(['git', 'push'])
 
-def delete_old_events(ics_current_path):
-    # Read the ICS file
-    with open(ics_current_path, "rb") as f:
-        ics_data = f.read()
-
-    # Parse the ICS data
-    ics_current = Calendar.from_ical(ics_data)
-
-    # Get the current time in UTC
-    now = datetime.utcnow().replace(tzinfo=pytz.UTC)
-
-    # Filter out past events
-    new_components = []
-    for component in ics_current.walk():
-        if component.name == "VEVENT":
-            event_dt = component.get("dtstart").dt
-            # Keep the event only if it's in the future
-            if event_dt > now:
-                new_components.append(component)
-        else:
-            # Keep all non-event components
-            new_components.append(component)
-
-    # Create a new calendar with the updated components
-    ics_updated = Calendar()
-    for component in new_components:
-        ics_updated.add_component(component)
-
-    # Return the updated ICS data
-    return ics_updated.to_ical()

@@ -605,61 +605,10 @@ LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Electronics Class: FREE Teardown Tuesday
-DTSTART:20230411T210000Z
-DTEND:20230411T230000Z
-UID:9da91bbd-0c22-43df-9593-d670aee4ffb4
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5217692</href><div class="inner gadgetEventEditableArea">\n <p 
- style="">\n  <font face="Arial\, Helvetica\, sans-serif">\n   <span style=
- "background-color: rgb(15\, 17\, 21)\;">\n    <img alt="" border="0" heigh
- t="343" src="https://www.redmountainmakers.org/resources/Pictures/Electron
- ics/TEAR%20DOWN%20TUESDAY.jpg" title="" width="343"/>\n   </span>\n  </fon
- t>\n </p>\n <p style="">\n  <font face="Arial\, Helvetica\, sans-serif">\n
-    <span style="background-color: rgb(15\, 17\, 21)\;">\n    Have an old e
- lectronic that has died but curious?\n   </span>\n  </font>\n </p>\n <p st
- yle="background-color: transparent\;">\n  <span style="background-color: r
- gb(15\, 17\, 21)\;">\n   <font face="Arial\, Helvetica\, sans-serif" style
- ="">\n    Announcing Teardown Tuesdays! This is a hands-on class to take t
- hings apart and find out what makes them tick. In this first session we wi
- ll disassemble one (or more) flat screen TV’s. We will figure out what t
- he different parts are\, how to identify (and in some cases test) parts\, 
- find ways to repurpose some of them\, and if we’re lucky\, we may be abl
- e to find out why the TV died. We’ll also talk about safety and the prop
- er use of test equipment.  The class will be led by an expert in the field
-  of Electronics.\n   </font>\n  </span>\n </p>\n <p style="background-colo
- r: transparent\;">\n  <span style="background-color: rgb(15\, 17\, 21)\;">
- \n   <font face="Arial\, Helvetica\, sans-serif" style="">\n   </font>\n  
- </span>\n </p>\n <p style="background-color: transparent\;">\n  <span styl
- e="background-color: rgb(15\, 17\, 21)\;">\n   <font face="Arial\, Helveti
- ca\, sans-serif" style="">\n    If you’ve got something you’d like to 
- see disassembled (we will NOT be putting it back together!)\, bring it wit
- h you.  If we don’t get to it during this class we’ll save it for a fu
- ture one.  Also- We’re open to suggestions as to what you’d like to se
- e taken apart during a future “Teardown Tuesday”.\n   </font>\n  </spa
- n>\n </p>\n <p style="background-color: transparent\;">\n  <strong>\n   Ab
- out the Instructor:\n  </strong>\n </p>\n <p style="background-color: tran
- sparent\;">\n  Rick Curl has been working in electronic design for more th
- an 50 years and holds seven U.S. patents. He is currently Chief Engineer a
- t Hatchery Electronics. He works with both analog and digital designs\, in
- cluding embedded microcontroller projects. He has extensive experience wit
- h digital PBX systems and automated high voltage test equipment design (ov
- er a million volts!!). He enjoys working on unusual projects\, such as the
-  solar powered automatic henhouse door.\n </p>\n <p style="background-colo
- r: transparent\;">\n  Rick has designed hundreds of circuit boards\, both 
- through-hole and surface mount. He is eager to share many tips and tricks 
- with you!\n </p>\n <p style="background-color: transparent\;">\n  <font>\n
-    We're looking forward to learning with you!!\n  </font>\n </p>\n <div c
- lass="clearEndContainer">\n </div>\n</div>
-EVENT_ID:5217692
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Design Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230614T230000Z
 DTEND:20230615T010000Z
-UID:158824b6-1a02-4620-88dd-fd474e999fac
+UID:1de8ead5-8cb8-415a-8919-f339c585ac52
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  .org/event-5211987</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <
@@ -714,10 +663,61 @@ LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Electronics Class: FREE Teardown Tuesday
+DTSTART:20230411T210000Z
+DTEND:20230411T230000Z
+UID:bd7e25bc-d613-4829-ba21-79a321385286
+DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
+ .org/event-5217692</href><div class="inner gadgetEventEditableArea">\n <p 
+ style="">\n  <font face="Arial\, Helvetica\, sans-serif">\n   <span style=
+ "background-color: rgb(15\, 17\, 21)\;">\n    <img alt="" border="0" heigh
+ t="343" src="https://www.redmountainmakers.org/resources/Pictures/Electron
+ ics/TEAR%20DOWN%20TUESDAY.jpg" title="" width="343"/>\n   </span>\n  </fon
+ t>\n </p>\n <p style="">\n  <font face="Arial\, Helvetica\, sans-serif">\n
+    <span style="background-color: rgb(15\, 17\, 21)\;">\n    Have an old e
+ lectronic that has died but curious?\n   </span>\n  </font>\n </p>\n <p st
+ yle="background-color: transparent\;">\n  <span style="background-color: r
+ gb(15\, 17\, 21)\;">\n   <font face="Arial\, Helvetica\, sans-serif" style
+ ="">\n    Announcing Teardown Tuesdays! This is a hands-on class to take t
+ hings apart and find out what makes them tick. In this first session we wi
+ ll disassemble one (or more) flat screen TV’s. We will figure out what t
+ he different parts are\, how to identify (and in some cases test) parts\, 
+ find ways to repurpose some of them\, and if we’re lucky\, we may be abl
+ e to find out why the TV died. We’ll also talk about safety and the prop
+ er use of test equipment.  The class will be led by an expert in the field
+  of Electronics.\n   </font>\n  </span>\n </p>\n <p style="background-colo
+ r: transparent\;">\n  <span style="background-color: rgb(15\, 17\, 21)\;">
+ \n   <font face="Arial\, Helvetica\, sans-serif" style="">\n   </font>\n  
+ </span>\n </p>\n <p style="background-color: transparent\;">\n  <span styl
+ e="background-color: rgb(15\, 17\, 21)\;">\n   <font face="Arial\, Helveti
+ ca\, sans-serif" style="">\n    If you’ve got something you’d like to 
+ see disassembled (we will NOT be putting it back together!)\, bring it wit
+ h you.  If we don’t get to it during this class we’ll save it for a fu
+ ture one.  Also- We’re open to suggestions as to what you’d like to se
+ e taken apart during a future “Teardown Tuesday”.\n   </font>\n  </spa
+ n>\n </p>\n <p style="background-color: transparent\;">\n  <strong>\n   Ab
+ out the Instructor:\n  </strong>\n </p>\n <p style="background-color: tran
+ sparent\;">\n  Rick Curl has been working in electronic design for more th
+ an 50 years and holds seven U.S. patents. He is currently Chief Engineer a
+ t Hatchery Electronics. He works with both analog and digital designs\, in
+ cluding embedded microcontroller projects. He has extensive experience wit
+ h digital PBX systems and automated high voltage test equipment design (ov
+ er a million volts!!). He enjoys working on unusual projects\, such as the
+  solar powered automatic henhouse door.\n </p>\n <p style="background-colo
+ r: transparent\;">\n  Rick has designed hundreds of circuit boards\, both 
+ through-hole and surface mount. He is eager to share many tips and tricks 
+ with you!\n </p>\n <p style="background-color: transparent\;">\n  <font>\n
+    We're looking forward to learning with you!!\n  </font>\n </p>\n <div c
+ lass="clearEndContainer">\n </div>\n</div>
+EVENT_ID:5217692
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230816T230000Z
 DTEND:20230817T010000Z
-UID:a6233b65-37a9-4041-81dd-db47fb9f6bf5
+UID:6a2e603b-dd7d-44fc-9c18-c80bf1def635
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  .org/event-5211999</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <
@@ -775,7 +775,7 @@ BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20231018T230000Z
 DTEND:20231019T010000Z
-UID:e1d27ec2-c438-46a2-a2ab-9183688434cb
+UID:264582f1-5cc8-4271-b60a-deabc415dc5d
 DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  .org/event-5212000</href><div class="inner gadgetEventEditableArea">\n <sp
  an style="background-color: rgb(15\, 17\, 21)\;">\n  <span style="">\n   <

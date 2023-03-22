@@ -28,8 +28,6 @@ def download_ics_file(url, save_path):
     else:
         print(f"Failed to download file: {response.status_code}")
 
-
-
 def get_access_token(api_key):
     
     """Obtains and returns an access token for the Wild Apricot API."""
@@ -254,8 +252,4 @@ def save_ics_file(ics_content, file_name="rmm_events.ics"):
     with open(file_name, "wb") as f:
         f.write(ics_content)
 
-def commit_and_push(file_name, commit_message="Update ICS file"):
-    subprocess.run(['git', 'add', file_name])
-    subprocess.run(['git', 'commit', '-m', commit_message])
-    subprocess.run(['git', 'push'])
 

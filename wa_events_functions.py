@@ -145,7 +145,7 @@ def download_and_commit(current_events):
     # Download the file
     url = current_events
     response = requests.get(url)
-    print(response)
+    print(response.content)
     
     if response.status_code == 200:
         # Save the file with today's date in the filename

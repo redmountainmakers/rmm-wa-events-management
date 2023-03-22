@@ -193,7 +193,7 @@ def update_fields(ics_current_path, ics_latest_path, ics_output_path):
 
     # Write the iCalendar file to disk
     with open(ics_output_path, 'wb') as f:
-        f.write(ics_current_file.to_ical())
+        f.write(ics_current.to_ical())
 
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
@@ -221,7 +221,7 @@ def add_additional_events(ics_current_path, ics_latest_path,ics_output_path):
 
     # Write the iCalendar file to disk
     with open(ics_output_path, 'wb') as f:
-        f.write(ics_current_file.to_ical())
+        f.write(ics_current.to_ical())
 
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')

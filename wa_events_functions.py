@@ -295,5 +295,76 @@ def save_ics_file(ics_content, file_name="rmm_events.ics"):
     with open(file_name, "wb") as f:
         f.write(ics_content)
 
+def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_file_path):
+    # Create a logger object
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+
+    # Create a file handler
+    file_handler = logging.FileHandler(log_file_path)
+    file_handler.setLevel(logging.INFO)
+
+    # Create a formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add the file handler to the logger
+    logger.addHandler(file_handler)
+
+    # Read the current and latest .ics files
+    with open(ics_current_path, 'rb') as ics_current_file:
+        ics_current = Calendar.from_ical(ics_current_file.read())
+
+    with open(ics_latest_path, 'rb') as ics_latest_file:
+        ics_latest = Calendar.from_ical(ics_latest_file.read())
+
+    # Get the current date and time in the UTC timezone
+    utc_now = datetime.now(tz=pytz.utc)
+
+    latest_events = {}
+    for event in ics_latest.walk('VEVENT'):
+        event_id = event.get('EVENT_ID')
+        if event_id:
+            latest_events[event_id] = event
+
+    current_event_ids = set()
+    for event in ics_current.walk('VEVENT'):
+        event_id = event.get('EVENT_ID')
+
+        # Delete past events
+        start_time = event.get("DTSTART").dt.astimezone(pytz.utc)
+        if start_time < utc_now:
+            ics_current.subcomponents.remove(event)
+            logger.info(f'Removed event with ID {event_id}')
+            continue
+
+        current_event_ids.add(event_id)
+
+        # Update fields
+        if event_id and event_id in latest_events:
+            latest_event = latest_events[event_id]
+            fields_to_update = ['SUMMARY', 'DTSTART', 'DTEND', 'DESCRIPTION', 'LOCATION']
+
+            for field in fields_to_update:
+                if latest_event.get(field) != event.get(field):
+                    logger.info(f'{field} has changed for {event_id}')
+                if latest_event.get(field) is not None:
+                    event[field] = latest_event[field]
+
+    # Add additional events
+    latest_event_ids = set(latest_events.keys())
+    additional_events = latest_event_ids - current_event_ids
+    for event_id in additional_events:
+        new_event = latest_events.get(event_id)
+        if new_event:
+            ics_current.add_component(new_event)
+            logger.info(f'Added event_id {event_id}')
+
+    # Write the iCalendar file to disk
+    with open(ics_output_path, 'wb') as f:
+        f.write(ics_current.to_ical())
+
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
 

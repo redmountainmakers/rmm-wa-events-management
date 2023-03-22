@@ -9,7 +9,6 @@ current_ics_url = 'https://redmountainmakers.org/resources/Events_Conversion/red
 upcoming_events = get_upcoming_events(access_token) #Gets the list of upcoming events from the WA API
 ics_current_path = 'redmountainmakers_events.ics'
 wa_ics_path = 'wa_events.ics'
-new_ics_path = 'updated_events.ics'
 output_ics_path = 'rmm_events.ics'
 today = datetime.today().strftime('%Y-%m%d')
 save_path_with_date = ics_current_path[:-4] + f"_{today}.ics"

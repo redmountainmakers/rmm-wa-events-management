@@ -2,11 +2,6 @@ name: My Workflow
 
 on:
   workflow_dispatch:
-    inputs:
-      example_input:
-        description: 'An example input'
-        required: true
-        default: 'default_value'
   schedule:
       - cron: '0 0 * * *'
 

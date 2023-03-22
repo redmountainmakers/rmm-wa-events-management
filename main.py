@@ -11,6 +11,9 @@ ics_current_path = 'redmountainmakers_events.ics'
 wa_ics_path = 'wa_events.ics'
 new_ics_path = 'updated_events.ics'
 output_ics_path = 'rmm_events.ics'
+today = datetime.today().strftime('%Y-%m%d')
+save_path_with_date = ics_current_path[:-4] + f"_{today}.ics"
+archive_ics_path = "archive/" + save_path_with_date
 
 download_ics_file(current_ics_url,ics_current_path)
 create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA API data
@@ -18,4 +21,9 @@ delete_past_events(ics_current_path,new_ics_path)
 add_additional_events(ics_current_path, wa_ics_path, new_ics_path)
 update_fields(new_ics_path, wa_ics_path,output_ics_path)
 
-commit_and_push(output_ics_path)
+
+
+subprocess.run(['git', 'add', output_ics_path])
+subprocess.run(['git', 'add', archive_ics_path])
+subprocess.run(['git', 'commit', '-m', 'Added updated .ics files'])
+subprocess.run(['git', 'push'])

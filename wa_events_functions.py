@@ -15,8 +15,19 @@ def download_ics_file(url, save_path):
         with open(save_path, 'wb') as f:
             f.write(response.content)
         print(f"File saved to {save_path}")
+
+        # Save a second copy with today's date in the filename
+        today = datetime.today().strftime('%Y-%m%d')
+        archive_folder = 'archive'
+        if not os.path.exists(archive_folder):
+            os.makedirs(archive_folder)
+        save_path_with_date = os.path.join(archive_folder, save_path[:-4] + f"_{today}.ics")
+        with open(save_path_with_date, 'wb') as f:
+            f.write(response.content)
+        print(f"File saved to {save_path_with_date}")
     else:
         print(f"Failed to download file: {response.status_code}")
+
 
 
 def get_access_token(api_key):

@@ -50,16 +50,6 @@ def get_access_token(api_key):
 
     return access_token
 
-def get_account_id(access_token):
-    api_base_url = 'https://api.wildapricot.org/v2.2'
-    headers = {
-        'Authorization': f'Bearer {access_token}',
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-    }
-    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
-    return account_response.json()[0]['Id']
-
 def get_upcoming_events(access_token):
     """Retrieves upcoming public event data from the Wild Apricot API and returns a list of events."""
     api_base_url = 'https://api.wildapricot.org/v2.2'

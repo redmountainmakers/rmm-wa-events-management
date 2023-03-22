@@ -145,7 +145,6 @@ def download_and_commit(current_events):
     # Download the file
     url = current_events
     response = requests.get(url)
-    print(response)
     
     if response.status_code == 200:
         # Save the file with today's date in the filename
@@ -166,6 +165,7 @@ def download_and_commit(current_events):
         subprocess.run(['git', 'push', 'origin', 'main'])
     else:
         print(f"Failed to download file: {response.status_code}")
+
 
 def update_fields(ics_current_path, ics_latest_path, ics_output_path):
     with open(ics_current_path, 'rb') as ics_current_file:

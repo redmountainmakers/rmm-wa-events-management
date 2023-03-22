@@ -203,7 +203,22 @@ def delete_past_events(ics_current_path, ics_output_path, log_file_path):
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
-def update_fields(ics_current_path, ics_latest_path, ics_output_path):
+def update_fields(ics_current_path, ics_latest_path, ics_output_path, log_file_path):
+    # Create a logger object
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+
+    # Create a file handler
+    file_handler = logging.FileHandler(log_file_path)
+    file_handler.setLevel(logging.INFO)
+
+    # Create a formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add the file handler to the logger
+    logger.addHandler(file_handler)
+
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
 
@@ -224,39 +239,52 @@ def update_fields(ics_current_path, ics_latest_path, ics_output_path):
 
             for field in fields_to_update:
                 if latest_event.get(field) != event.get(field):
-                    print(f'{field} has changed for {event_id}')
+                    logger.info(f'{field} has changed for {event_id}')
                 if latest_event.get(field) is not None:
                     event[field] = latest_event[field]
 
-    # Write the iCalendar file to disk
     with open(ics_output_path, 'wb') as f:
         f.write(ics_current.to_ical())
+        
+    # Print the file path for confirmation
+    print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
+
 
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
-def add_additional_events(ics_current_path, ics_latest_path,ics_output_path):
-    
-    # Read the current and latest .ics files
+def add_additional_events(ics_current_path, ics_latest_path, ics_output_path, log_file_path):
+    # Create a logger object
+    logger = logging.getLogger(__name__)
+    logger.setLevel(logging.INFO)
+
+    # Create a file handler
+    file_handler = logging.FileHandler(log_file_path)
+    file_handler.setLevel(logging.INFO)
+
+    # Create a formatter
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    file_handler.setFormatter(formatter)
+
+    # Add the file handler to the logger
+    logger.addHandler(file_handler)
+
     with open(ics_current_path, 'rb') as ics_current_file:
         ics_current = Calendar.from_ical(ics_current_file.read())
 
     with open(ics_latest_path, 'rb') as ics_latest_file:
         ics_latest = Calendar.from_ical(ics_latest_file.read())
 
-    # Extract event IDs from both calendars
     current_event_ids = {event.get('EVENT_ID') for event in ics_current.walk('VEVENT') if event.get('EVENT_ID')}
     latest_event_ids = {event.get('EVENT_ID') for event in ics_latest.walk('VEVENT') if event.get('EVENT_ID')}
 
-    # Find additional events and add them to the current .ics file
     additional_events = latest_event_ids - current_event_ids
     for event_id in additional_events:
         new_event = next((event for event in ics_latest.walk('VEVENT') if event.get('EVENT_ID') == event_id), None)
         if new_event:
             ics_current.add_component(new_event)
-            print(f'Added event_id {event_id}')
+            logger.info(f'Added event_id {event_id}')
 
-    # Write the iCalendar file to disk
     with open(ics_output_path, 'wb') as f:
         f.write(ics_current.to_ical())
 

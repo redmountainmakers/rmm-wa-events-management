@@ -12,6 +12,11 @@ def download_ics_file(url, save_path):
     response = requests.get(url)
 
     if response.status_code == 200:
+        content_type = response.headers.get('content-type')
+        if content_type != 'text/calendar':
+            print(f"Error: {url} is not a valid .ics file")
+            return
+
         with open(save_path, 'wb') as f:
             f.write(response.content)
         print(f"File saved to {save_path}")
@@ -27,6 +32,7 @@ def download_ics_file(url, save_path):
         print(f"File saved to {save_path_with_date}")
     else:
         print(f"Failed to download file: {response.status_code}")
+
 
 def get_access_token(api_key):
     

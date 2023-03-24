@@ -1,5 +1,38 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
+SUMMARY:Electronics Class: Intro to Soldering
+DTSTART:20230322T230000Z
+DTEND:20230323T010000Z
+UID:be17e86b-b526-491c-a23d-b4ee97c32216
+DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
+ .org/event-5079412</href><div class="inner gadgetEventEditableArea">\n <p>
+ \n  <img align="left" alt="" border="0" height="169.5" src="https://www.re
+ dmountainmakers.org/resources/Pictures/Electronics/soldering.jpeg" style="
+ margin: 8px\;" title="" width="254.5"/>\n </p>\n <p>\n  Learn how to solde
+ r and\n  <strong>\n   get a FREE month of membership ($\n  </strong>\n  <i
+ mg align="right" alt="" border="0" height="114.25" src="https://www.redmou
+ ntainmakers.org/resources/Pictures/Electronics/Picture1.png" style="margin
+ : 8px\;" title="" width="103.49999999999999"/>\n  <strong>\n   40 value)!\
+ n  </strong>\n </p>\n <p>\n  In this introductory crash course you'll have
+  the opportunity to practice the basics of through-hole soldering with an 
+ electronics expert who has decades of experience.\n </p>\n <p>\n  You'll a
+ lso get some background on the history of soldering\, electronics componen
+ ts\, and more advanced soldering techniques.\n </p>\n <p>\n  <strong>\n   
+ About the Instructor:\n  </strong>\n </p>\n <p>\n  Rick Curl has been work
+ ing in electronic design for more than 50 years and holds seven U.S. paten
+ ts. He is currently Chief Engineer at Hatchery Electronics. He works with 
+ both analog and digital designs\, including embedded microcontroller proje
+ cts. He has extensive experience with digital PBX systems and automated hi
+ gh voltage test equipment design (over a million volts!!). He enjoys worki
+ ng on unusual projects\, such as the solar powered automatic henhouse door
+ .\n </p>\n <p>\n  Rick has designed hundreds of circuit boards\, both thro
+ ugh-hole and surface mount. He is eager to share many tips and tricks with
+  you!\n </p>\n <p>\n  <font>\n   We're looking forward to learning with yo
+ u!!\n  </font>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>
+EVENT_ID:5079412
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Welding Class: Welding Basics: Introduction to MIG
 DTSTART:20230331T230000Z
 DTEND:20230401T020000Z
@@ -433,6 +466,51 @@ LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sewing Class: Learn to Make a Lumbar Pillow
+DTSTART:20230323T230000Z
+DTEND:20230324T010000Z
+UID:ea3be4a8-0829-4063-8e27-a866d0809b42
+DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
+ .org/event-5209976</href><div class="inner gadgetEventEditableArea">\n <sp
+ an style="font-size: 16px\;">\n  <img alt="" border="0" height="391" src="
+ https://www.redmountainmakers.org/resources/Pictures/image_6487327%20(5).J
+ PG" title="" width="522"/>\n  Beginning Sewing Class. Learn How to operate
+  one of our basic sewing machines!\n </span>\n <p>\n  <font style="font-si
+ ze: 16px\;">\n   We will use what we learn to make a lumbar pillow.\n  </f
+ ont>\n </p>\n <p>\n  <span style="font-size: 16px\; font-family: Ubuntu\, 
+ Arial\, sans-serif\;">\n   Class includes fabric choices\, insert\, and in
+ spiration to plan your nect sewing project.\n  </span>\n </p>\n <p>\n  <fo
+ nt style="font-size: 16px\;">\n   <strong>\n    Are minors allowed?\n   </
+ strong>\n   Only if accompanied by parent.\n  </font>\n </p>\n <p style="l
+ ine-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <font>\n    <
+ font>\n     What to Wear: You must dress safely and appropriately. Arrive\
+ n    </font>\n    for class in long pants\, closed toe and heal shoes with
+  socks\n   </font>\n   that protect up to the ankle. Long sleeves should b
+ e avoided. Long hair must be tied back and jewelry should not be worn. Add
+ itional protective gear will be provided as needed.\n  </font>\n </p>\n <p
+  style="line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <str
+ ong>\n    About the instructor -\n   </strong>\n   <strong>\n    Gina Lee:
+ \n   </strong>\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">
+ \n   My love for collecting vintage sewing machines have opened many paths
+  for me. I have restored a long lost vintage singer machine. Then I grew i
+ nto acquiring an industrial sewing machine.\n  </font>\n </p>\n <p>\n  <fo
+ nt style="font-size: 16px\;">\n   As a resident of Los Angeles\, Ca.\, my 
+ exposure allowed me to experience production and percument in the fabric d
+ istrict in the downtown area.\n  </font>\n </p>\n <p>\n  <font style="font
+ -size: 16px\;">\n   Pillow covers were my most requested items to make. I 
+ found such ease to kick out these projects on an industrial machine.\n  </
+ font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   So\, let's expe
+ rience what a pleasure it is to learn about this great machine and make an
+  indoor/outdoor pillow here at the space!\n  </font>\n </p>\n <font style=
+ "font-size: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </font>\n <p sty
+ le="line-height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;"
+ >\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEnd
+ Container">\n </div>\n</div>
+EVENT_ID:5209976
+LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Design Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230614T230000Z
 DTEND:20230615T010000Z
@@ -655,51 +733,6 @@ DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
  lass="clearEndContainer">\n </div>\n</div>
 EVENT_ID:5217692
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sewing Class: Learn to Make a Lumbar Pillow
-DTSTART:20230326T200000Z
-DTEND:20230326T220000Z
-UID:171badf0-b340-4f0e-b2fa-1438f572cc81
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5209976</href><div class="inner gadgetEventEditableArea">\n <sp
- an style="font-size: 16px\;">\n  <img alt="" border="0" height="391" src="
- https://www.redmountainmakers.org/resources/Pictures/image_6487327%20(5).J
- PG" title="" width="522"/>\n  Beginning Sewing Class. Learn How to operate
-  one of our basic sewing machines!\n </span>\n <p>\n  <font style="font-si
- ze: 16px\;">\n   We will use what we learn to make a lumbar pillow.\n  </f
- ont>\n </p>\n <p>\n  <span style="font-size: 16px\; font-family: Ubuntu\, 
- Arial\, sans-serif\;">\n   Class includes fabric choices\, insert\, and in
- spiration to plan your nect sewing project.\n  </span>\n </p>\n <p>\n  <fo
- nt style="font-size: 16px\;">\n   <strong>\n    Are minors allowed?\n   </
- strong>\n   Only if accompanied by parent.\n  </font>\n </p>\n <p style="l
- ine-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <font>\n    <
- font>\n     What to Wear: You must dress safely and appropriately. Arrive\
- n    </font>\n    for class in long pants\, closed toe and heal shoes with
-  socks\n   </font>\n   that protect up to the ankle. Long sleeves should b
- e avoided. Long hair must be tied back and jewelry should not be worn. Add
- itional protective gear will be provided as needed.\n  </font>\n </p>\n <p
-  style="line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <str
- ong>\n    About the instructor -\n   </strong>\n   <strong>\n    Gina Lee:
- \n   </strong>\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">
- \n   My love for collecting vintage sewing machines have opened many paths
-  for me. I have restored a long lost vintage singer machine. Then I grew i
- nto acquiring an industrial sewing machine.\n  </font>\n </p>\n <p>\n  <fo
- nt style="font-size: 16px\;">\n   As a resident of Los Angeles\, Ca.\, my 
- exposure allowed me to experience production and percument in the fabric d
- istrict in the downtown area.\n  </font>\n </p>\n <p>\n  <font style="font
- -size: 16px\;">\n   Pillow covers were my most requested items to make. I 
- found such ease to kick out these projects on an industrial machine.\n  </
- font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   So\, let's expe
- rience what a pleasure it is to learn about this great machine and make an
-  indoor/outdoor pillow here at the space!\n  </font>\n </p>\n <font style=
- "font-size: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </font>\n <p sty
- le="line-height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;"
- >\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEnd
- Container">\n </div>\n</div>
-EVENT_ID:5209976
-LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 END:VCALENDAR

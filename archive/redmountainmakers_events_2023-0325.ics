@@ -1,5 +1,38 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
+SUMMARY:Electronics Class: Intro to Soldering
+DTSTART:20230322T230000Z
+DTEND:20230323T010000Z
+UID:be17e86b-b526-491c-a23d-b4ee97c32216
+DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
+ .org/event-5079412</href><div class="inner gadgetEventEditableArea">\n <p>
+ \n  <img align="left" alt="" border="0" height="169.5" src="https://www.re
+ dmountainmakers.org/resources/Pictures/Electronics/soldering.jpeg" style="
+ margin: 8px\;" title="" width="254.5"/>\n </p>\n <p>\n  Learn how to solde
+ r and\n  <strong>\n   get a FREE month of membership ($\n  </strong>\n  <i
+ mg align="right" alt="" border="0" height="114.25" src="https://www.redmou
+ ntainmakers.org/resources/Pictures/Electronics/Picture1.png" style="margin
+ : 8px\;" title="" width="103.49999999999999"/>\n  <strong>\n   40 value)!\
+ n  </strong>\n </p>\n <p>\n  In this introductory crash course you'll have
+  the opportunity to practice the basics of through-hole soldering with an 
+ electronics expert who has decades of experience.\n </p>\n <p>\n  You'll a
+ lso get some background on the history of soldering\, electronics componen
+ ts\, and more advanced soldering techniques.\n </p>\n <p>\n  <strong>\n   
+ About the Instructor:\n  </strong>\n </p>\n <p>\n  Rick Curl has been work
+ ing in electronic design for more than 50 years and holds seven U.S. paten
+ ts. He is currently Chief Engineer at Hatchery Electronics. He works with 
+ both analog and digital designs\, including embedded microcontroller proje
+ cts. He has extensive experience with digital PBX systems and automated hi
+ gh voltage test equipment design (over a million volts!!). He enjoys worki
+ ng on unusual projects\, such as the solar powered automatic henhouse door
+ .\n </p>\n <p>\n  Rick has designed hundreds of circuit boards\, both thro
+ ugh-hole and surface mount. He is eager to share many tips and tricks with
+  you!\n </p>\n <p>\n  <font>\n   We're looking forward to learning with yo
+ u!!\n  </font>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>
+EVENT_ID:5079412
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Welding Class: Welding Basics: Introduction to MIG
 DTSTART:20230331T230000Z
 DTEND:20230401T020000Z
@@ -433,6 +466,51 @@ LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Sewing Class: Learn to Make a Lumbar Pillow
+DTSTART:20230323T230000Z
+DTEND:20230324T010000Z
+UID:ea3be4a8-0829-4063-8e27-a866d0809b42
+DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
+ .org/event-5209976</href><div class="inner gadgetEventEditableArea">\n <sp
+ an style="font-size: 16px\;">\n  <img alt="" border="0" height="391" src="
+ https://www.redmountainmakers.org/resources/Pictures/image_6487327%20(5).J
+ PG" title="" width="522"/>\n  Beginning Sewing Class. Learn How to operate
+  one of our basic sewing machines!\n </span>\n <p>\n  <font style="font-si
+ ze: 16px\;">\n   We will use what we learn to make a lumbar pillow.\n  </f
+ ont>\n </p>\n <p>\n  <span style="font-size: 16px\; font-family: Ubuntu\, 
+ Arial\, sans-serif\;">\n   Class includes fabric choices\, insert\, and in
+ spiration to plan your nect sewing project.\n  </span>\n </p>\n <p>\n  <fo
+ nt style="font-size: 16px\;">\n   <strong>\n    Are minors allowed?\n   </
+ strong>\n   Only if accompanied by parent.\n  </font>\n </p>\n <p style="l
+ ine-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <font>\n    <
+ font>\n     What to Wear: You must dress safely and appropriately. Arrive\
+ n    </font>\n    for class in long pants\, closed toe and heal shoes with
+  socks\n   </font>\n   that protect up to the ankle. Long sleeves should b
+ e avoided. Long hair must be tied back and jewelry should not be worn. Add
+ itional protective gear will be provided as needed.\n  </font>\n </p>\n <p
+  style="line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <str
+ ong>\n    About the instructor -\n   </strong>\n   <strong>\n    Gina Lee:
+ \n   </strong>\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">
+ \n   My love for collecting vintage sewing machines have opened many paths
+  for me. I have restored a long lost vintage singer machine. Then I grew i
+ nto acquiring an industrial sewing machine.\n  </font>\n </p>\n <p>\n  <fo
+ nt style="font-size: 16px\;">\n   As a resident of Los Angeles\, Ca.\, my 
+ exposure allowed me to experience production and percument in the fabric d
+ istrict in the downtown area.\n  </font>\n </p>\n <p>\n  <font style="font
+ -size: 16px\;">\n   Pillow covers were my most requested items to make. I 
+ found such ease to kick out these projects on an industrial machine.\n  </
+ font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   So\, let's expe
+ rience what a pleasure it is to learn about this great machine and make an
+  indoor/outdoor pillow here at the space!\n  </font>\n </p>\n <font style=
+ "font-size: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </font>\n <p sty
+ le="line-height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;"
+ >\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEnd
+ Container">\n </div>\n</div>
+EVENT_ID:5209976
+LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Design Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230614T230000Z
 DTEND:20230615T010000Z
@@ -654,365 +732,6 @@ DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
     We're looking forward to learning with you!!\n  </font>\n </p>\n <div c
  lass="clearEndContainer">\n </div>\n</div>
 EVENT_ID:5217692
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Blacksmithing Class: Forging Nails - First Blacksmith Class
-DTSTART:20230401T150000Z
-DTEND:20230401T170000Z
-UID:d26b3d15-eacb-48b7-98df-251992726f44
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222389</href><div class="inner gadgetEventEditableArea">\n <p 
- align="center" style="">\n  <span style="">\n   <font face="Ubuntu" style=
- "font-size: 16px\;">\n    <img align="left" alt="" border="0" height="159"
-  src="https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/I
- MG_0566.PNG" title="" width="283.5"/>\n   </font>\n  </span>\n </p>\n <p s
- tyle="">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <span>\n   
-  Making nails has been one the oldest forms of Blacksmithing\n   </span>\n
-    <span>\n    for centuries. It is usually the first task of any apprenti
- ce to learn the\n   </span>\n   <span>\n    basics skills necessary toward
-  becoming a blacksmith.\n   </span>\n  </font>\n </p>\n <p style="">\n  <f
- ont face="Ubuntu" style="font-size: 16px\;">\n   <span>\n    This course d
- oes\n   </span>\n   <span>\n    not require a lot of strength nor skill-se
- t prior to the class. For these reasons\n   </span>\n   <span>\n    it is 
- the perfect starting lesson for those wanting to try their hand at some\n 
-   </span>\n   <span>\n    old fashioned Blacksmithing. This course will te
- ach students the proper\n   </span>\n   <span>\n    terms\, techniques\, a
- nd protocols required to successfully create usable\n   </span>\n   <span>
- \n    nails. For anyone looking to get a basic understanding of Blacksmith
- ing\,\n   </span>\n   <span>\n    this is the course for you.\n   </span>\
- n  </font>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 
- 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="">\n  <span>\n   <font fa
- ce="Ubuntu" style="font-size: 16px\;">\n    There will be no refunds withi
- n 14 days of the event.\n   </font>\n  </span>\n </p>\n <p style="">\n  <f
- ont face="Ubuntu" style="font-size: 16px\;">\n   <span>\n    <br/>\n    <s
- trong>\n     About the Instructor\n    </strong>\n    :\n    <br/>\n   </s
- pan>\n  </font>\n </p>\n <p>\n  Class is taught by\n  <a href="http://www.
- fireandbrimstoneforge.net/about.html">\n   <font face="Ubuntu" style="font
- -size: 16px\;">\n    Kenneth of Fire &amp\; Brimstone Forge\n   </font>\n 
-  </a>\n  .\n </p>\n <p style="">\n  <strong style="font-size: 16px\; font-
- family: Ubuntu\;">\n   Age\n  </strong>\n  <span style="">\n   : there are
-  no age restrictions to the class. Please read carefully the disclaimers a
- nd guidelines\n  </span>\n  <br/>\n </p>\n <p style="">\n  <span>\n   <fon
- t face="Ubuntu" style="font-size: 16px\;">\n    <font style="-webkit-tap-h
- ighlight-color: rgba(26\, 26\, 26\, 0.3)\; text-size-adjust: none\;">\n   
-   <strong style="">\n      What to wear:\n     </strong>\n    </font>\n   
-  <span style="caret-color: rgb(34\, 30\, 31)\; -webkit-tap-highlight-color
- : rgba(26\, 26\, 26\, 0.3)\; text-size-adjust: none\;">\n     At RMM\, you
-  must dress safely and appropriately. Arrive for class in all-natural fibe
- r clothing (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes
-  with socks that protect up to the ankle. Long hair must be tied back. Nyl
- on\, polyester\, spandex\, or other synthetics are not allowed around mach
- ines\, equipment\, or processes that can produce hot fragments\, sparks\, 
- or flames. Additional protective gear will be provided as needed. The CDC 
- has\n    </span>\n    <a href="https://www.cdc.gov/coronavirus/2019-ncov/p
- revent-getting-sick/diy-cloth-face-coverings.html" style="-webkit-tap-high
- light-color: rgba(26\, 26\, 26\, 0.3)\; text-size-adjust: none\;">\n     <
- font color="#0563C1">\n      a guide\n     </font>\n    </a>\n    <span st
- yle="caret-color: rgb(34\, 30\, 31)\; -webkit-tap-highlight-color: rgba(26
- \, 26\, 26\, 0.3)\; text-size-adjust: none\;">\n     to acceptable cloth m
- asks that help prevent the spread of infection.\n    </span>\n    <br/>\n 
-   </font>\n  </span>\n </p>\n <p style="">\n  <font face="Ubuntu" style="f
- ont-size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="">\n  <font fac
- e="Ubuntu" style="font-size: 16px\;">\n   <img alt="" border="0" src="http
- s://www.redmountainmakers.org/resources/Pictures/IMG_0566.PNG" title=""/>\
- n  </font>\n </p>\n <div style="font-size: 18px\;">\n  <span style="backgr
- ound-color: transparent\;">\n   <br/>\n  </span>\n </div>\n <div class="cl
- earEndContainer">\n </div>\n</div>
-EVENT_ID:5222389
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Blacksmithing Class: Forging A Stock Knife
-DTSTART:20230408T140000Z
-DTEND:20230408T210000Z
-UID:d3978237-e48b-4a6d-93fa-70f66c4a354b
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222393</href><div class="inner gadgetEventEditableArea">\n <p 
- align="center" style="background-color: transparent\;">\n  <img align="lef
- t" alt="" border="0" height="159" src="https://www.redmountainmakers.org/r
- esources/Pictures/Blacksmithing/stock_knife.png" title="" width="283.5"/>\
- n </p>\n <p style="background-color: transparent\;">\n  <font style="font-
- size: 16px\;">\n   <span style="">\n    In this class students will forge 
- a small knife out of a piece of solid stock metal. This lesson will cover 
- material foresight\, design vs functionality\, and will briefly hit upon t
- ypes of metal and tempering techniques. The task used to create this knife
-  will involve drawing- stretching out metal in a linear direction\, forgin
- g out a bevel using hammer control\, cutting\, and sharpening. This class 
- will involve the challenge of utilizing tongs and will introduce the metho
- ds necessary to handle the metal quickly and efficiently. Though this is a
- n intermediate class\, no previous knowledge is necessary to take this cla
- ss. Work level is light to moderate.\n   </span>\n   <br/>\n  </font>\n </
- p>\n <p style="background-color: transparent\;">\n  <span>\n   <span>\n   
-  <span style="">\n     <font style="font-size: 16px\;">\n      There will 
- be no refunds within 14 days of the event.\n     </font>\n    </span>\n   
- </span>\n  </span>\n </p>\n <p style="background-color: transparent\;">\n 
-  <font style="font-size: 16px\;">\n   <span>\n    <strong>\n     About the
-  Instructor\n    </strong>\n    :\n   </span>\n   Classes taught by\n   <a
-  href="http://www.fireandbrimstoneforge.net/about.html" target="_blank">\n
-     Kenneth of Fire &amp\; Brimstone Forge\n   </a>\n  </font>\n </p>\n <p
-  style="background-color: transparent\;">\n  <strong>\n   <font style="fon
- t-size: 16px\;">\n    <br/>\n   </font>\n  </strong>\n </p>\n <p style="ba
- ckground-color: transparent\;">\n  <font style="font-size: 16px\;">\n   <s
- trong>\n    Age\n   </strong>\n   : there are no age restrictions to the c
- lass. Please read carefully the disclaimers and guidelines\n  </font>\n </
- p>\n <p style="">\n  <span style="">\n   <font style="font-size: 16px\;">\
- n    <font style="-webkit-tap-highlight-color: rgba(26\, 26\, 26\, 0.3)\; 
- text-size-adjust: none\;">\n     <strong style="">\n      What to wear:\n 
-     </strong>\n    </font>\n    <span style="caret-color: rgb(34\, 30\, 31
- )\; -webkit-tap-highlight-color: rgba(26\, 26\, 26\, 0.3)\; text-size-adju
- st: none\;">\n     At RMM\, you must dress safely and appropriately. Arriv
- e for class in all-natural fiber clothing (100% cotton)\, long pants\, and
-  closed-toe\, closed-heel shoes with socks that protect up to the ankle. L
- ong hair must be tied back. Nylon\, polyester\, spandex\, or other synthet
- ics are not allowed around machines\, equipment\, or processes that can pr
- oduce hot fragments\, sparks\, or flames. Additional protective gear will 
- be provided as needed. The CDC has\n    </span>\n    <a href="https://www.
- cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-covering
- s.html" style="-webkit-tap-highlight-color: rgba(26\, 26\, 26\, 0.3)\; tex
- t-size-adjust: none\;" target="_blank">\n     <font>\n      a guide\n     
- </font>\n    </a>\n    <span style="caret-color: rgb(34\, 30\, 31)\; -webk
- it-tap-highlight-color: rgba(26\, 26\, 26\, 0.3)\; text-size-adjust: none\
- ;">\n     to acceptable cloth masks that help prevent the spread of infect
- ion.\n    </span>\n   </font>\n  </span>\n </p>\n <p style="background-col
- or: transparent\; font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>
- \n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\
- n </style>\n <style>\n </style>\n <div class="clearEndContainer">\n </div>
- \n</div>
-EVENT_ID:5222393
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Blacksmithing Class: Forging a Leaf Key Fob
-DTSTART:20230401T180000Z
-DTEND:20230401T210000Z
-UID:7b71bd0e-7a10-4db5-a1f2-5c425d954409
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222384</href><div class="inner gadgetEventEditableArea">\n <im
- g align="left" alt="" border="0" height="220" src="https://www.redmountain
- makers.org/resources/Pictures/Blacksmithing/Leaf%20Key%20Fob.jpg" style="m
- argin: 8px\;" title="" width="165"/>\n <p align="center" style="">\n  <str
- ong style="">\n   <font style="font-size: 24px\;">\n    Forging a Leaf Key
-  Fob\n   </font>\n  </strong>\n  <br/>\n </p>\n <p style="font-size: 18px\
- ;">\n  <br/>\n </p>\n <p style="font-size: 18px\;">\n  <span>\n   <font st
- yle="font-size: 16px\;">\n    Students will learn how to forge a key fob i
- n the shape of a leaf. Floral and decorative patterns are a hallmark of sm
- ithing\; rather it’s for a unique decoration or repeating pattern. It is
-  often a artistic liberty used to enhance work as well as show likeness th
- rough the dichotomy of the hard steel and organic shape. In this class stu
- dents will advance their skills by forging a key-fob in the shape of a lea
- f. Techniques such as dishing\, pattern impression\, and brush gilding wil
- l be introduced.\n   </font>\n  </span>\n </p>\n <p style="font-size: 18px
- \;">\n  <span>\n   <font style="font-size: 16px\;">\n    There will be no 
- refunds within 14 days of the event.\n   </font>\n  </span>\n </p>\n <p st
- yle="font-size: 18px\;">\n  <span>\n   <font style="font-size: 16px\;">\n 
-    <br/>\n   </font>\n  </span>\n </p>\n <p style="font-size: 18px\;">\n  
- <font style="font-size: 16px\;">\n   <strong>\n    <u>\n     About the Ins
- tructor\n    </u>\n   </strong>\n   :  Sean Lytle started to learn blacksm
- ithing from Sons of Vulcan in Birmingham several years ago when master smi
- th Lee McKee was alive. Recently\, Sean has trained extensively with\n   <
- a href="http://www.fireandbrimstoneforge.net/about.html">\n    <font face=
- "Ubuntu" style="font-size: 16px\;">\n     Kenneth of Fire &amp\; Brimstone
-  Forge\n    </font>\n   </a>\n   over the past year. Interest in Blacksmit
- hing include history\, artistry\, and teaching.\n  </font>\n </p>\n <p sty
- le="font-size: 18px\;">\n  <font style="font-size: 16px\;">\n   <strong>\n
-     <u>\n     Prerequisites\n    </u>\n    :\n   </strong>\n   Recommended
-  to take "Learn to Forge nails" first\n  </font>\n </p>\n <p style="font-s
- ize: 18px\;">\n  <font style="font-size: 16px\;">\n   <strong>\n    <u>\n 
-     Age\n    </u>\n   </strong>\n   : there are no age restrictions to the
-  class. Please read carefully the disclaimers and guidelines\n  </font>\n 
- </p>\n <p style="font-size: 18px\;">\n  <font style="font-size: 16px\;">\n
-    <strong>\n    <u>\n     What to wear\n    </u>\n    :\n   </strong>\n  
-  At RMM\, you must dress safely and appropriately. Arrive for class in all
- -natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, clos
- ed-heel shoes with socks that protect up to the ankle. Long hair must be t
- ied back. Nylon\, polyester\, spandex\, or other synthetics are not allowe
- d around machines\, equipment\, or processes that can produce hot fragment
- s\, sparks\, or flames. Additional protective gear will be provided as nee
- ded. The CDC has\n   <a href="https://www.cdc.gov/coronavirus/2019-ncov/pr
- event-getting-sick/diy-cloth-face-coverings.html">\n    a guide\n   </a>\n
-    to acceptable cloth masks that help prevent the spread of infection.\n 
-  </font>\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </st
- yle>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <sty
- le>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </sty
- le>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <styl
- e>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </styl
- e>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style
- >\n </style>\n <style>\n </style>\n <div class="clearEndContainer">\n </di
- v>\n</div>
-EVENT_ID:5222384
-LOCATION:810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Blacksmithing Class: Forging Railroad Spike Knives
-DTSTART:20230402T140000Z
-DTEND:20230402T200000Z
-UID:567994ba-6f0f-4c15-87d4-d7d0d04dbac2
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222388</href><div class="inner gadgetEventEditableArea">\n <p 
- style="">\n  <span style="">\n   <span style="">\n    <font style="font-si
- ze: 16px\;">\n     <img align="left" alt="" border="0" height="213" src="h
- ttps://www.redmountainmakers.org/resources/Pictures/Blacksmithing/Railroad
- %20spike%20knife.jpg" style="margin: 8px\;" title="" width="283.5"/>\n    
-  Learn how to forge a knife out of a\n     <font>\n      railroad spike\n 
-     </font>\n    </font>\n   </span>\n  </span>\n </p>\n <p style="">\n  <
- span style="">\n   <span style="">\n    <font style="font-size: 16px\;">\n
-      This is the perfect class to learn one of the basics of knives-making
- : balancing durability and hardness of the metal to make the perfect blade
- !\n    </font>\n   </span>\n  </span>\n </p>\n <p style="">\n  <span style
- ="">\n   <span style="">\n    <font style="font-size: 16px\;">\n     <font
- >\n      Students will utilize a high carbon railroad spike and learn meth
- ods that induce carbon into the metal while also learning how to temper in
-  a process called normalization. The metal will then posses both features 
- of a durable and hard metal that is ideal for knives.\n     </font>\n     
- <br/>\n    </font>\n   </span>\n  </span>\n </p>\n <p style="">\n  <span s
- tyle="">\n   <span style="">\n    <font style="font-size: 16px\;">\n     A
- s far as knives are concerned\, the harder the steel\, the better the edge
- \, however\, the harder edge makes for a brittle knife. A balance is neede
- d between the soft flexible metal and the hard brittle metal to achieve a 
- knife that will hold an edge without breaking. In this class more techniqu
- es for blade smithing will be covered\, including various heat treatments\
- , tapering\, and tempering methods used to maximize strength with durabili
- ty.\n    </font>\n   </span>\n  </span>\n </p>\n <p style="">\n  <span sty
- le="">\n   <font style="">\n    <span>\n     <strong>\n      About the Ins
- tructor\n     </strong>\n     :\n    </span>\n    <font face="Ubuntu" styl
- e="font-size: 16px\;">\n     Class is taught by\n    </font>\n    <a href=
- "http://www.fireandbrimstoneforge.net/about.html" target="_blank">\n     K
- enneth of Fire &amp\; Brimstone Forge\n    </a>\n   </font>\n  </span>\n <
- /p>\n <p style="">\n  <span style="">\n   <font style="">\n    <strong>\n 
-     <span class="Apple-style-span" style="">\n      Prerequisites\n     </
- span>\n     :\n    </strong>\n    <span>\n     Recommended to take "Learn 
- to Forge nails" first\n    </span>\n   </font>\n  </span>\n </p>\n <p styl
- e="">\n  <span style="">\n   <font style="">\n    <strong>\n     Age\n    
- </strong>\n    : there are no age restrictions to the class. Please read c
- arefully the disclaimers and guidelines\n   </font>\n  </span>\n </p>\n <p
-  style="">\n  <span style="">\n   <span style="">\n    <font>\n     <font 
- style="-webkit-tap-highlight-color: rgba(26\, 26\, 26\, 0.3)\; text-size-a
- djust: none\;">\n      <strong>\n       <span class="Apple-style-span" sty
- le="">\n        What to wear\n       </span>\n       :\n      </strong>\n 
-     </font>\n     <span style="">\n      At RMM\, you must dress safely an
- d appropriately. Arrive for class in all-natural fiber clothing (100% cott
- on)\, long pants\, and closed-toe\, closed-heel shoes with socks that prot
- ect up to the ankle. Long hair must be tied back. Nylon\, polyester\, span
- dex\, or other synthetics are not allowed around machines\, equipment\, or
-  processes that can produce hot fragments\, sparks\, or flames. Additional
-  protective gear will be provided as needed. The CDC has\n     </span>\n  
-    <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick
- /diy-cloth-face-coverings.html" style="-webkit-tap-highlight-color: rgba(2
- 6\, 26\, 26\, 0.3)\; text-size-adjust: none\;" target="_blank">\n      <fo
- nt>\n       a guide\n      </font>\n     </a>\n     <span style="">\n     
-  to acceptable cloth masks that help prevent the spread of infection.\n   
-   </span>\n    </font>\n   </span>\n  </span>\n </p>\n <p style="backgroun
- d-color: transparent\;">\n  <br/>\n </p>\n <style>\n </style>\n <style>\n 
- </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n 
- <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n <
- /style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <
- style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class="
- clearEndContainer">\n </div>\n</div>
-EVENT_ID:5222388
-LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sewing Class: Learn to Make a Lumbar Pillow
-DTSTART:20230326T200000Z
-DTEND:20230326T220000Z
-UID:f2d80803-bbd9-4feb-accf-eaf0da03efac
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5209976</href><div class="inner gadgetEventEditableArea">\n <sp
- an style="font-size: 16px\;">\n  <img alt="" border="0" height="391" src="
- https://www.redmountainmakers.org/resources/Pictures/image_6487327%20(5).J
- PG" title="" width="522"/>\n  Beginning Sewing Class. Learn How to operate
-  one of our basic sewing machines!\n </span>\n <p>\n  <font style="font-si
- ze: 16px\;">\n   We will use what we learn to make a lumbar pillow.\n  </f
- ont>\n </p>\n <p>\n  <span style="font-size: 16px\; font-family: Ubuntu\, 
- Arial\, sans-serif\;">\n   Class includes fabric choices\, insert\, and in
- spiration to plan your nect sewing project.\n  </span>\n </p>\n <p>\n  <fo
- nt style="font-size: 16px\;">\n   <strong>\n    Are minors allowed?\n   </
- strong>\n   Only if accompanied by parent.\n  </font>\n </p>\n <p style="l
- ine-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <font>\n    <
- font>\n     What to Wear: You must dress safely and appropriately. Arrive\
- n    </font>\n    for class in long pants\, closed toe and heal shoes with
-  socks\n   </font>\n   that protect up to the ankle. Long sleeves should b
- e avoided. Long hair must be tied back and jewelry should not be worn. Add
- itional protective gear will be provided as needed.\n  </font>\n </p>\n <p
-  style="line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <str
- ong>\n    About the instructor -\n   </strong>\n   <strong>\n    Gina Lee:
- \n   </strong>\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">
- \n   My love for collecting vintage sewing machines have opened many paths
-  for me. I have restored a long lost vintage singer machine. Then I grew i
- nto acquiring an industrial sewing machine.\n  </font>\n </p>\n <p>\n  <fo
- nt style="font-size: 16px\;">\n   As a resident of Los Angeles\, Ca.\, my 
- exposure allowed me to experience production and percument in the fabric d
- istrict in the downtown area.\n  </font>\n </p>\n <p>\n  <font style="font
- -size: 16px\;">\n   Pillow covers were my most requested items to make. I 
- found such ease to kick out these projects on an industrial machine.\n  </
- font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   So\, let's expe
- rience what a pleasure it is to learn about this great machine and make an
-  indoor/outdoor pillow here at the space!\n  </font>\n </p>\n <font style=
- "font-size: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </font>\n <p sty
- le="line-height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;"
- >\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEnd
- Container">\n </div>\n</div>
-EVENT_ID:5209976
-LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stain glass Class: Stained Glass Ornament - Easter Egg
-DTSTART:20230409T140000Z
-DTEND:20230409T180000Z
-UID:a49d3b0d-1864-4fe9-861c-e32f551a3645
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222395</href><div class="inner gadgetEventEditableArea">\n <p>
- \n  <img alt="" border="0" height="312" src="https://www.redmountainmakers
- .org/resources/Pictures/Glass/il_fullxfull.2193976586_d26l.jpg" title="" w
- idth="234"/>\n  <br/>\n </p>\n <p>\n  There will be no refunds within 14 d
- ays of the event.\n </p>\n <p>\n  About the Instructor: Class is taught by
-  Kenneth of Fire &amp\; Brimstone Forge\n </p>\n <p>\n  Age: there are no 
- age restrictions to the class. Please read carefully the disclaimers and g
- uidelines\n </p>\n <p>\n  What to wear: At RMM\, you must dress safely and
-  appropriately. Arrive for class in all-natural fiber clothing (100% cotto
- n)\, long pants\, and closed-toe\, closed-heel shoes with socks that prote
- ct up to the ankle. Long hair must be tied back. Nylon\, polyester\, spand
- ex\, or other synthetics are not allowed around machines\, equipment\, or 
- processes that can produce hot fragments\, sparks\, or flames. Additional 
- protective gear will be provided as needed. The CDC has a guide to accepta
- ble cloth masks that help prevent the spread of infection.\n </p>\n <p>\n 
-  <br/>\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </styl
- e>\n <style>\n </style>\n <div class="clearEndContainer">\n </div>\n</div>
-EVENT_ID:5222395
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Stain glass Class: Stained Glass Ornament - Easter Egg
-DTSTART:20230409T070000Z
-DTEND:20230409T230000Z
-UID:a28b996b-2ecd-4000-b27d-f199e6a3cdfc
-DESCRIPTION:Click here to register:\n\n<href>https://www.redmountainmakers
- .org/event-5222399</href><div class="inner gadgetEventEditableArea">\n <p>
- \n  <img alt="" border="0" height="312" src="https://www.redmountainmakers
- .org/resources/Pictures/Glass/il_fullxfull.2193976586_d26l.jpg" title="" w
- idth="234"/>\n  <br/>\n </p>\n <p>\n  There will be no refunds within 14 d
- ays of the event.\n </p>\n <p>\n  About the Instructor: Class is taught by
-  Kenneth of Fire &amp\; Brimstone Forge\n </p>\n <p>\n  Age: there are no 
- age restrictions to the class. Please read carefully the disclaimers and g
- uidelines\n </p>\n <p>\n  What to wear: At RMM\, you must dress safely and
-  appropriately. Arrive for class in all-natural fiber clothing (100% cotto
- n)\, long pants\, and closed-toe\, closed-heel shoes with socks that prote
- ct up to the ankle. Long hair must be tied back. Nylon\, polyester\, spand
- ex\, or other synthetics are not allowed around machines\, equipment\, or 
- processes that can produce hot fragments\, sparks\, or flames. Additional 
- protective gear will be provided as needed. The CDC has a guide to accepta
- ble cloth masks that help prevent the spread of infection.\n </p>\n <p>\n 
-  <br/>\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </styl
- e>\n <style>\n </style>\n <div class="clearEndContainer">\n </div>\n</div>
-EVENT_ID:5222399
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

@@ -34,7 +34,6 @@ def download_ics_file(url, save_path):
     else:
         print(f"Failed to download file: {response.status_code}")
 
-
 def get_access_token(api_key):
     
     """Obtains and returns an access token for the Wild Apricot API."""
@@ -229,7 +228,6 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
 
-
 def events_to_csv(events, file_path):
     headers = [
         "Event Name", "Org Name", "Venue Name", "Event Description", "Event Category",
@@ -249,12 +247,12 @@ def events_to_csv(events, file_path):
             weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
             weekday_start_time = {day: "" for day in weekdays}
             weekday_start_time[weekdays[start_date.weekday()]] = start_date.strftime("%-I:%M %p")
-
+            print(get_wa_description(event['id']))
             writer.writerow({
                 "Event Name": event["Name"],
                 "Org Name": "Red Mountain Makers",
                 "Venue Name": "Red Mountain Makers HWP",
-                "Event Description": "",
+                "Event Description": get_wa_description(event['id']),
                 "Event Category": "Classes + Lectures",
                 "Event Sub-Category": "",
                 "Event URL": event["Url"],

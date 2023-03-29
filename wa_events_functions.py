@@ -251,6 +251,9 @@ def events_to_csv(events, file_path):
 
             soup = BeautifulSoup(html_input, 'html.parser')
             event_image = None
+            
+            event_id = event['Id']
+            url = f'https://redmountainmakers.org/event-{event_id}'
 
             img_tag = soup.find('img')
             if img_tag:
@@ -263,11 +266,11 @@ def events_to_csv(events, file_path):
                 "Event Description": get_wa_description(event['Id']),
                 "Event Category": "Classes + Lectures",
                 "Event Sub-Category": "",
-                "Event URL": event["Url"],
+                "Event URL": url,
                 "Event Phone": "205-588-4077",
                 "Event Email": "classes@redmountainmakers.org",
                 "Admission": "",
-                "Ticket URL": event["Url"],
+                "Ticket URL": url,
                 "Start Date": start_date.strftime("%m/%d/%Y"),
                 "End Date": end_date.strftime("%m/%d/%Y"),
                 **weekday_start_time,

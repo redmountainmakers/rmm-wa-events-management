@@ -1,25 +1,1911 @@
 Event Name,Org Name,Venue Name,Event Description,Event Category,Event Sub-Category,Event URL,Event Phone,Event Email,Admission,Ticket URL,Start Date,End Date,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,Image,Contact Name,Contact Phone,Contact Email
-Intro to 3d Design with Solidworks CAD,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5212000,205-588-4077,classes@redmountainmakers.org,,,10/18/2023,10/18/2023,,,6:00 PM,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Intro to 3d Design with Solidworks CAD,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5211987,205-588-4077,classes@redmountainmakers.org,,,06/14/2023,06/14/2023,,,6:00 PM,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Cutting Boards for Beginners 101,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208473,205-588-4077,classes@redmountainmakers.org,,,05/20/2023,05/20/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Welding: Advanced Project Class,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204463,205-588-4077,classes@redmountainmakers.org,,,05/19/2023,05/19/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Welding Basics: Introduction to TIG,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204447,205-588-4077,classes@redmountainmakers.org,,,05/12/2023,05/12/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Turn a Wooden Pen,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208475,205-588-4077,classes@redmountainmakers.org,,,05/08/2023,05/08/2023,6:00 PM,,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-"Torch Welding, Brazing & Soldering",Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224122,205-588-4077,classes@redmountainmakers.org,,,04/30/2023,04/30/2023,,,,,,,2:00 PM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-"Torch Welding, Brazing & Soldering",Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224119,205-588-4077,classes@redmountainmakers.org,,,04/30/2023,04/30/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224117,205-588-4077,classes@redmountainmakers.org,,,04/29/2023,04/29/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Welding Basics: Introduction to MIG,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204446,205-588-4077,classes@redmountainmakers.org,,,04/21/2023,04/21/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Turn a Wooden Pen,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208474,205-588-4077,classes@redmountainmakers.org,,,04/17/2023,04/17/2023,6:00 PM,,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging Axes,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224112,205-588-4077,classes@redmountainmakers.org,,,04/16/2023,04/16/2023,,,,,,,10:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Welding: Basic Project Class,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204457,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,4:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Cutting Boards for Beginners 101,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208472,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224107,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Metal Art Class: Make a piece of art from scrap metal.,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204450,205-588-4077,classes@redmountainmakers.org,,,04/14/2023,04/14/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-FREE Teardown Tuesday,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5217692,205-588-4077,classes@redmountainmakers.org,,,04/11/2023,04/11/2023,,4:00 PM,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Stained Glass Ornament - Easter Egg,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222399,205-588-4077,classes@redmountainmakers.org,,,04/09/2023,04/09/2023,,,,,,,2:00 PM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Stained Glass Ornament - Easter Egg,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222395,205-588-4077,classes@redmountainmakers.org,,,04/09/2023,04/09/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging A Stock Knife,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222393,205-588-4077,classes@redmountainmakers.org,,,04/08/2023,04/08/2023,,,,,,9:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging Railroad Spike Knives,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222388,205-588-4077,classes@redmountainmakers.org,,,04/02/2023,04/02/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging a Leaf Key Fob,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222384,205-588-4077,classes@redmountainmakers.org,,,04/01/2023,04/01/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222389,205-588-4077,classes@redmountainmakers.org,,,04/01/2023,04/01/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
-Welding Basics: Introduction to MIG,Red Mountain Makers,Red Mountain Makers HWP,,Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5083176,205-588-4077,classes@redmountainmakers.org,,,03/31/2023,03/31/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Intro to 3d Design with Solidworks CAD,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <span style=""background-color: rgb(15, 17, 21);"">
+  <span style="""">
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"" style="""">
+     This course is designed to introduce you to the 3d design process using Solidworks CAD software, a powerful 3D modeling tool used in a variety of industries. The course will cover the basics of Solidworks, including the user interface, basic features, and tools needed to create 3D models.
+    </font>
+   </span>
+   <br/>
+   <br/>
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"">
+     In the first half of the class, you will learn the fundamentals of Solidworks. You will learn how to navigate the interface and tools, create sketches, and use basic features to create 3D models. You will also learn how to use Solidworks’ parametric modeling capabilities to quickly make changes to your designs.
+    </font>
+   </span>
+   <br/>
+   <br/>
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"">
+     The second half of the class will focus on creating your own personal project. You will have the opportunity to use your new skills to design and create your own 3D model. Some example projects include a phone stand, desk organizer, or replacement parts for items around your home. Feel free to bring your own project!
+    </font>
+   </span>
+  </span>
+ </span>
+ <p style="""">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <font face=""Arial, Helvetica, sans-serif"" style="""">
+    <br/>
+    Before you leave the class, you will export your 3D model to an STL file, a common file format used for 3D printing. We will kick off a 3D print of your part, and all parts will be available for pickup within one week of the class. You will have the opportunity to see your design come to life and take it home with you.
+    <br/>
+    <br/>
+    Whether you're interested in creating prototypes, product designs, or just want to learn a new skill, this course is an excellent starting point for anyone interested in 3D modeling and Solidworks CAD.
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <span style="""">
+    <br/>
+   </span>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font style=""font-size: 16px;"">
+   <span style=""background-color: transparent;"">
+    <strong>
+     About the Instructor
+    </strong>
+   </span>
+   :
+   <span style=""background-color: rgb(15, 17, 21);"">
+    <font face=""Arial, Helvetica, sans-serif"">
+     Matt Behling is a highly experienced Mechanical Design Engineer with a career spanning over a decade. He has an extensive background in designing for various industries, including internal combustion engines, electric vehicles, and machine design. With his wealth of experience and expertise, Matt is an excellent instructor who is well-equipped to teach and guide students as they learn how to 3d model. His passion for the subject and commitment to excellence are evident in his teaching style, which emphasizes practical applications and hands-on learning.
+    </font>
+   </span>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font color=""#0F1115"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5212000,205-588-4077,classes@redmountainmakers.org,,,10/18/2023,10/18/2023,,,6:00 PM,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Intro to 3d Design with Solidworks CAD,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <span style=""background-color: rgb(15, 17, 21);"">
+  <span style="""">
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"" style="""">
+     This course is designed to introduce you to the 3d design process using Solidworks CAD software, a powerful 3D modeling tool used in a variety of industries. The course will cover the basics of Solidworks, including the user interface, basic features, and tools needed to create 3D models.
+    </font>
+   </span>
+   <br/>
+   <br/>
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"">
+     In the first half of the class, you will learn the fundamentals of Solidworks. You will learn how to navigate the interface and tools, create sketches, and use basic features to create 3D models. You will also learn how to use Solidworks’ parametric modeling capabilities to quickly make changes to your designs.
+    </font>
+   </span>
+   <br/>
+   <br/>
+   <span style="""">
+    <font face=""Arial, Helvetica, sans-serif"">
+     The second half of the class will focus on creating your own personal project. You will have the opportunity to use your new skills to design and create your own 3D model. Some example projects include a phone stand, desk organizer, or replacement parts for items around your home. Feel free to bring your own project!
+    </font>
+   </span>
+  </span>
+ </span>
+ <p style="""">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <font face=""Arial, Helvetica, sans-serif"" style="""">
+    <br/>
+    Before you leave the class, you will export your 3D model to an STL file, a common file format used for 3D printing. We will kick off a 3D print of your part, and all parts will be available for pickup within one week of the class. You will have the opportunity to see your design come to life and take it home with you.
+    <br/>
+    <br/>
+    Whether you're interested in creating prototypes, product designs, or just want to learn a new skill, this course is an excellent starting point for anyone interested in 3D modeling and Solidworks CAD.
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <span style="""">
+    <br/>
+   </span>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font style=""font-size: 16px;"">
+   <span style=""background-color: transparent;"">
+    <strong>
+     About the Instructor
+    </strong>
+   </span>
+   :
+   <span style=""background-color: rgb(15, 17, 21);"">
+    <font face=""Arial, Helvetica, sans-serif"">
+     Matt Behling is a highly experienced Mechanical Design Engineer with a career spanning over a decade. He has an extensive background in designing for various industries, including internal combustion engines, electric vehicles, and machine design. With his wealth of experience and expertise, Matt is an excellent instructor who is well-equipped to teach and guide students as they learn how to 3d model. His passion for the subject and commitment to excellence are evident in his teaching style, which emphasizes practical applications and hands-on learning.
+    </font>
+   </span>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font color=""#0F1115"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5211987,205-588-4077,classes@redmountainmakers.org,,,06/14/2023,06/14/2023,,,6:00 PM,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Cutting Boards for Beginners 101,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p>
+  <font style=""font-size: 16px;"">
+   <img align=""left"" alt="""" border=""0"" height=""109"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/Cutting%20Boards.jpg"" style=""margin: 8px;"" title="""" width=""283.5""/>
+   Get introduced to the beautiful craft of woodworking by making your own cutting board.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   You will choose from a variety of designs composed of different native hardwoods, learn proper assembling, gluing, sanding and finishing techniques and will be taught how to correctly use thickness planer and orbital sander.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   After this 3-hour course, you will bring home a stylish ~ 8.5"" x 11"" handmade board that you can show off to your friends and family.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   Check out the designs available to make during this class
+   <em>
+    <u>
+     <a href=""https://eliseferrerphotography.pixieset.com/cuttingboardsdesigns-carlorezzonicowoodworking/"" target=""_blank"">
+      here
+     </a>
+    </u>
+   </em>
+  </font>
+ </p>
+ <p align=""center"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <img alt="""" border=""0"" height=""213"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/IMG_9282.jpg"" title="""" width=""283.5""/>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    What to wear:
+   </strong>
+   You must dress safely and appropriately. Arrive for class in long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long sleeves should be avoided if possible and rolled up if necessary. Long hair must be tied back and dangly necklaces, earrings or other accessories shall be removed before starting the class. Additional protective gear will be provided as needed.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    About the Instructor
+   </strong>
+   :
+  </font>
+  <span>
+   <span style="""">
+    Terry Tingle
+   </span>
+   is th
+  </span>
+  e president of the Alabama Woodturners Association and is a member of The American Association of Woodturners. Terry has been doing woodworking since 2014, and has taught students how to create cutting board designs, cut segments, glue and use a variety of clamps, and how to use planers and orbital sanders, and how to use the right finishes to preserve cutting boards. Terry is knowledgeable and experienced in making long grain, edge grain, and end grain cutting boards. He especially enjoys seeing the expression of a student who has just learned how to make something that looks great and is so useful. And cutting boards make great gifts!
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208473,205-588-4077,classes@redmountainmakers.org,,,05/20/2023,05/20/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Welding: Advanced Project Class,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""font-size: 18px;"">
+  <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/Screenshot%202023-03-10%20191423.png"" title=""""/>
+  <br/>
+ </p>
+ <p>
+  Advanced weld project class, Friday May 19th 3hr course with extra open hour time available as needed. Additional material charge will apply (for the actual material cost) if you select a project larger than a stool.
+ </p>
+ <p>
+  This class requires prior welding training (Intro to MIG, TIG, or stick class, or sufficient other welding experience to produce sound welds) as all the class time will be needed for fabrication without extra time available for welding training.
+ </p>
+ <p>
+  Under the guidance of a fabrication instructor, using welding, cutting, and bending techniques you’ll make cool stuff out of metal!
+ </p>
+ <p>
+  We’ll have several designs to choose from; Intricate tables and stools, etc. but you’re welcome to build your own unique design.
+ </p>
+ <p>
+  What to wear: At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed.
+ </p>
+ <p>
+  About the Instructor: Stephen Charles is a former Welding Engineer with many years of experience in production welding and custom fabrication. He has taught hundreds of beginners in the basics of welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor just smile and nod when everyone else laughs and maybe no one will notice.
+ </p>
+ <p style=""line-height: 25px;"">
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204463,205-588-4077,classes@redmountainmakers.org,,,05/19/2023,05/19/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Welding Basics: Introduction to TIG,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <span style=""font-size: 18px;"">
+    <img align=""left"" alt="""" border=""0"" height=""166.5"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/TIG_Welding.jpg"" style=""margin: 8px;"" title="""" width=""250""/>
+   </span>
+   TIG welding is most commonly used to weld thin sections of stainless steel and non-ferrous metals such as aluminum, magnesium, and copper alloys. The process grants the operator greater control over the weld than competing processes such as MIG welding, allowing for stronger, higher quality welds.
+  </font>
+  <font style=""font-size: 16px;"">
+   Students will have the opportunity to learn the basic techniques of the TIG process and practice with feedback from an expert.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <font>
+    <strong>
+     What to wear:
+    </strong>
+   </font>
+   At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong style="""">
+    About the Instructor
+   </strong>
+   :
+   <font style=""font-size: 16px;"">
+    Stephen Charles is a former Welding Engineer with many years of experience in production welding and custom fabrication. He has taught hundreds of beginners in the basics of welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor there will be many moments of awkward silence.
+   </font>
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204447,205-588-4077,classes@redmountainmakers.org,,,05/12/2023,05/12/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Turn a Wooden Pen,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <img align=""left"" alt="""" border=""0"" height=""201"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/Terry_Pens_cropped.jpg"" style=""margin: 8px;"" title="""" width=""225""/>
+ <p>
+  <font style=""font-size: 16px;"">
+   Learn the beautiful craft of pen-turning
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   In this introductory course to wood turning, you'll be shown how to turn a beautiful wooden pen on the lathe.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   Over a couple of hours, you'll produce a gorgeous piece that is a perfect present for a dear one (or for yourself!) and learn the basics of woodturning, safety behind the lathe and its operations, as well as the different gouges to use in the process.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    About the Instructor:
+   </strong>
+   Terry Tingle is the president of the Alabama Woodturners Association and is a
+  </font>
+  <font style=""font-size: 16px;"">
+   member of The American Association of Woodturners. Terry has been teaching students how to turn pens for years, some of whom have had their exhibitions in Art and Craft Shows throughout Alabama, including Mentone.
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+   </strong>
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+    Are Minors allowed
+   </strong>
+   ? Yes, accompanied by parent.
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+   </strong>
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+    What to wear
+   </strong>
+   : You must dress safely and appropriately. Arrive for class in long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long sleeves should be avoided if possible and rolled up if necessary. Long hair must be tied back and dangly necklaces, earrings or other accessories shall be removed before starting the class. Additional protective gear will be provided as needed. Masks may be required depending on circumstances.
+  </font>
+ </p>
+ <p align=""center"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <img alt="""" border=""0"" height=""145"" src=""https://www.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20Logo%20transparent%20bg.png"" title="""" width=""141.75""/>
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208475,205-588-4077,classes@redmountainmakers.org,,,05/08/2023,05/08/2023,6:00 PM,,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+"Torch Welding, Brazing & Soldering",Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <div align=""center"" style="""">
+  <p style=""line-height: 22px; margin-bottom: 0px !important;"">
+   <img align=""left"" alt="""" border=""0"" height=""150"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/Picture3.png"" title="""" width=""267""/>
+  </p>
+ </div>
+ <p style="""">
+  <strong>
+   Learn how to weld three metals together:
+  </strong>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   This course covers different methods of adjoining metal together by use of a torch with the techniques of welding, brazing, and soldering. The differences in these techniques will be covered and the process demonstrated. The metals being a-joined include steel to steel, copper to copper, and Aluminum to aluminum, dissimilar joining between the three metals will also be touched on and demonstrated. In this class students will bond various metals with the aid of a gas fueled torch. Subjects like filling rods, fluxes, and various torch technique will be covered. No prerequisites are required for this class.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   No prerequisites are needed for the class, the work-level is light to moderate.
+  </font>
+ </p>
+ <p style=""margin-bottom: 0px !important;"">
+  <br/>
+ </p>
+ <p style=""margin-bottom: 0px !important;"">
+  <strong>
+   Skill Level
+  </strong>
+  : Beginner
+ </p>
+ <p style="""">
+  <strong>
+   Age
+  </strong>
+  : 18+
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    What to wear:
+   </strong>
+  </font>
+  At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+  <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"">
+   <font>
+    a guide
+   </font>
+  </a>
+  to acceptable cloth masks that help prevent the spread of infection.
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong style="""">
+    About the Instructor
+   </strong>
+   :
+   <font style=""font-size: 16px;"">
+    Classes taught by
+   </font>
+   <a href=""http://www.fireandbrimstoneforge.net/about.html"" style="""">
+    <font style=""font-size: 16px;"">
+     <font style="""">
+      <em style="""">
+       <font style="""">
+        Kenneth of Fire &amp; Brimstone Forge
+       </font>
+      </em>
+     </font>
+    </font>
+   </a>
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224122,205-588-4077,classes@redmountainmakers.org,,,04/30/2023,04/30/2023,,,,,,,2:00 PM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+"Torch Welding, Brazing & Soldering",Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <div align=""center"" style="""">
+  <p style=""line-height: 22px; margin-bottom: 0px !important;"">
+   <img align=""left"" alt="""" border=""0"" height=""150"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/Picture3.png"" title="""" width=""267""/>
+  </p>
+ </div>
+ <p style="""">
+  <strong>
+   Learn how to weld three metals together:
+  </strong>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   This course covers different methods of adjoining metal together by use of a torch with the techniques of welding, brazing, and soldering. The differences in these techniques will be covered and the process demonstrated. The metals being a-joined include steel to steel, copper to copper, and Aluminum to aluminum, dissimilar joining between the three metals will also be touched on and demonstrated. In this class students will bond various metals with the aid of a gas fueled torch. Subjects like filling rods, fluxes, and various torch technique will be covered. No prerequisites are required for this class.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   No prerequisites are needed for the class, the work-level is light to moderate.
+  </font>
+ </p>
+ <p style=""margin-bottom: 0px !important;"">
+  <br/>
+ </p>
+ <p style=""margin-bottom: 0px !important;"">
+  <strong>
+   Skill Level
+  </strong>
+  : Beginner
+ </p>
+ <p style="""">
+  <strong>
+   Age
+  </strong>
+  : 18+
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    What to wear:
+   </strong>
+  </font>
+  At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+  <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"">
+   <font>
+    a guide
+   </font>
+  </a>
+  to acceptable cloth masks that help prevent the spread of infection.
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong style="""">
+    About the Instructor
+   </strong>
+   :
+   <font style=""font-size: 16px;"">
+    Classes taught by
+   </font>
+   <a href=""http://www.fireandbrimstoneforge.net/about.html"" style="""">
+    <font style=""font-size: 16px;"">
+     <font style="""">
+      <em style="""">
+       <font style="""">
+        Kenneth of Fire &amp; Brimstone Forge
+       </font>
+      </em>
+     </font>
+    </font>
+   </a>
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224119,205-588-4077,classes@redmountainmakers.org,,,04/30/2023,04/30/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style="""">
+  <span style="""">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <img align=""left"" alt="""" border=""0"" height=""159"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/IMG_0566.PNG"" title="""" width=""283.5""/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    Making nails has been one the oldest forms of Blacksmithing
+   </span>
+   <span>
+    for centuries. It is usually the first task of any apprentice to learn the
+   </span>
+   <span>
+    basics skills necessary toward becoming a blacksmith.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    This course does
+   </span>
+   <span>
+    not require a lot of strength nor skill-set prior to the class. For these reasons
+   </span>
+   <span>
+    it is the perfect starting lesson for those wanting to try their hand at some
+   </span>
+   <span>
+    old fashioned Blacksmithing. This course will teach students the proper
+   </span>
+   <span>
+    terms, techniques, and protocols required to successfully create usable
+   </span>
+   <span>
+    nails. For anyone looking to get a basic understanding of Blacksmithing,
+   </span>
+   <span>
+    this is the course for you.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    There will be no refunds within 14 days of the event.
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    <br/>
+    <strong>
+     About the Instructor
+    </strong>
+    :
+    <br/>
+   </span>
+  </font>
+ </p>
+ <p>
+  Class is taught by with
+  <a href=""http://www.fireandbrimstoneforge.net/about.html"">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    Kenneth of Fire &amp; Brimstone Forge
+   </font>
+  </a>
+  .
+ </p>
+ <p style="""">
+  <strong style=""font-size: 16px; font-family: Ubuntu;"">
+   Age
+  </strong>
+  <span style="""">
+   : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+  </span>
+  <br/>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <font style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <strong style="""">
+      What to wear:
+     </strong>
+    </font>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+    </span>
+    <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <font color=""#0563C1"">
+      a guide
+     </font>
+    </a>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     to acceptable cloth masks that help prevent the spread of infection.
+    </span>
+    <br/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/IMG_0566.PNG"" title=""""/>
+  </font>
+ </p>
+ <div style=""font-size: 18px;"">
+  <span style=""background-color: transparent;"">
+   <br/>
+  </span>
+ </div>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224117,205-588-4077,classes@redmountainmakers.org,,,04/29/2023,04/29/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Welding Basics: Introduction to MIG,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""font-size: 18px;"">
+  <img align=""left"" alt="""" border=""0"" height=""189"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/welding_stock.jpeg"" style=""margin: 10px;"" title="""" width=""283.5""/>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   Develop fundamental skills in creating and repairing metal objects under the instruction of Stephen Charles. This introductory class includes a crash course in the MIG welding process, metal cutting, grinding, as well as the basics of hand tool use and shop safety.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   Students will leave with a wide familiarity of skills and studio techniques.
+   <br/>
+   <br/>
+   NOTE: This class is a pre-requisite for the Project-Based Metalcraft class.
+  </font>
+ </p>
+ <p align=""center"" style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <font>
+    <strong>
+     What to wear:
+    </strong>
+   </font>
+   At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong style="""">
+    About the Instructor
+   </strong>
+   :
+   <font style=""font-size: 16px;"">
+    Stephen Charles is a former Welding Engineer with many years of experience in production welding and custom fabrication. He has taught hundreds of beginners in the basics of welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor there will be many moments of awkward silence.
+   </font>
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204446,205-588-4077,classes@redmountainmakers.org,,,04/21/2023,04/21/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Turn a Wooden Pen,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <img align=""left"" alt="""" border=""0"" height=""201"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/Terry_Pens_cropped.jpg"" style=""margin: 8px;"" title="""" width=""225""/>
+ <p>
+  <font style=""font-size: 16px;"">
+   Learn the beautiful craft of pen-turning
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   In this introductory course to wood turning, you'll be shown how to turn a beautiful wooden pen on the lathe.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   Over a couple of hours, you'll produce a gorgeous piece that is a perfect present for a dear one (or for yourself!) and learn the basics of woodturning, safety behind the lathe and its operations, as well as the different gouges to use in the process.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    About the Instructor:
+   </strong>
+   Terry Tingle is the president of the Alabama Woodturners Association and is a
+  </font>
+  <font style=""font-size: 16px;"">
+   member of The American Association of Woodturners. Terry has been teaching students how to turn pens for years, some of whom have had their exhibitions in Art and Craft Shows throughout Alabama, including Mentone.
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+   </strong>
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+    Are Minors allowed
+   </strong>
+   ? Yes, accompanied by parent.
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+   </strong>
+  </font>
+ </p>
+ <p align=""left"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <strong>
+    What to wear
+   </strong>
+   : You must dress safely and appropriately. Arrive for class in long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long sleeves should be avoided if possible and rolled up if necessary. Long hair must be tied back and dangly necklaces, earrings or other accessories shall be removed before starting the class. Additional protective gear will be provided as needed. Masks may be required depending on circumstances.
+  </font>
+ </p>
+ <p align=""center"">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <img alt="""" border=""0"" height=""145"" src=""https://www.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20Logo%20transparent%20bg.png"" title="""" width=""141.75""/>
+   <br/>
+  </font>
+ </p>
+ <p>
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208474,205-588-4077,classes@redmountainmakers.org,,,04/17/2023,04/17/2023,6:00 PM,,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging Axes,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""background-color: transparent;"">
+  <font face=""Helvetica"">
+   <strong>
+    <font style=""font-size: 18px;"">
+     <span>
+      <span>
+       <font>
+        <img align=""left"" alt="""" border=""0"" height=""216"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/IMG_9462.jpeg"" style=""margin: 8px;"" title="""" width=""283.5""/>
+        <br/>
+       </font>
+      </span>
+     </span>
+    </font>
+   </strong>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font face=""Helvetica"">
+   <strong>
+    <font style=""font-size: 18px;"">
+     <span>
+      <span>
+       <font>
+        Forging Axes
+       </font>
+      </span>
+     </span>
+    </font>
+   </strong>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <span>
+   In this class students will learn how to take one metal object and transform it into another in a case of extreme transformation. Students will take old hammers consisting of tool steel and transform the striking surface into an axe. Students will also be introduced to drifting dies designed to widen the eye for proper fitting to an axe handle. From here students will learn how to shape and refine the blade using the grinder and finally finishing it off with a fair amount of sanding before polishing. The final task is the heat treatment to temper the blade to withstand heavy blows. This will involve normalization, oil quenching, and heat tempering.
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <p style=""background-color: transparent;"">
+  There will be no refunds within 14 days of the event.
+ </p>
+ <p style=""background-color: transparent;"">
+  <strong>
+   About the Instructor
+  </strong>
+  : Classes taught by
+  <a href=""http://www.fireandbrimstoneforge.net/about.html"">
+   Kenneth of Fire &amp; Brimstone Forge
+  </a>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <p style="""">
+  <span style=""background-color: transparent;"">
+   <font style="""">
+    <strong style="""">
+     What to wear:
+    </strong>
+   </font>
+  </span>
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <span style="""">
+    <span style="""">
+     At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+    </span>
+    <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style="""">
+     <font>
+      a guide
+     </font>
+    </a>
+    <span style="""">
+     to acceptable cloth masks that help prevent the spread of infection.
+    </span>
+   </span>
+  </span>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224112,205-588-4077,classes@redmountainmakers.org,,,04/16/2023,04/16/2023,,,,,,,10:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Welding: Basic Project Class,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""font-size: 18px;"">
+  <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/metalcraft.png"" title=""""/>
+  <br/>
+ </p>
+ <p style=""line-height: 25px;"">
+  Under the guidance of a fabrication instructor, using welding, cutting, and bending techniques you’ll make cool stuff out of metal!
+ </p>
+ <p style=""line-height: 25px;"">
+  We’ll have several designs to choose from; Lamps, stools, coat hooks., etc.) but you’re welcome to build your own unique design.
+ </p>
+ <p style=""line-height: 25px;"">
+  Prior welding experience is great, however we will review basic MIG welding techniques, metal cutting, grinding, as well as the basics of hand tool use and shop safety.
+ </p>
+ <p style=""line-height: 25px;"">
+  What to wear: At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed.
+ </p>
+ <p style=""line-height: 25px;"">
+  About the Instructor: Stephen Charles is a former Welding Engineer with many years of experience in production welding and custom fabrication. He has taught hundreds of beginners in the basics of welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor just smile and nod when everyone else laughs and maybe no one will notice.
+ </p>
+ <p style=""line-height: 25px;"">
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204457,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,4:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Cutting Boards for Beginners 101,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p>
+  <font style=""font-size: 16px;"">
+   <img align=""left"" alt="""" border=""0"" height=""109"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/Cutting%20Boards.jpg"" style=""margin: 8px;"" title="""" width=""283.5""/>
+   Get introduced to the beautiful craft of woodworking by making your own cutting board.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   You will choose from a variety of designs composed of different native hardwoods, learn proper assembling, gluing, sanding and finishing techniques and will be taught how to correctly use thickness planer and orbital sander.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   After this 3-hour course, you will bring home a stylish ~ 8.5"" x 11"" handmade board that you can show off to your friends and family.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   Check out the designs available to make during this class
+   <em>
+    <u>
+     <a href=""https://eliseferrerphotography.pixieset.com/cuttingboardsdesigns-carlorezzonicowoodworking/"" target=""_blank"">
+      here
+     </a>
+    </u>
+   </em>
+  </font>
+ </p>
+ <p align=""center"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <img alt="""" border=""0"" height=""213"" src=""https://www.redmountainmakers.org/resources/Pictures/Woodworking/IMG_9282.jpg"" title="""" width=""283.5""/>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    What to wear:
+   </strong>
+   You must dress safely and appropriately. Arrive for class in long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long sleeves should be avoided if possible and rolled up if necessary. Long hair must be tied back and dangly necklaces, earrings or other accessories shall be removed before starting the class. Additional protective gear will be provided as needed.
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <strong>
+    About the Instructor
+   </strong>
+   :
+  </font>
+  <span>
+   <span style="""">
+    Terry Tingle
+   </span>
+   is th
+  </span>
+  e president of the Alabama Woodturners Association and is a member of The American Association of Woodturners. Terry has been doing woodworking since 2014, and has taught students how to create cutting board designs, cut segments, glue and use a variety of clamps, and how to use planers and orbital sanders, and how to use the right finishes to preserve cutting boards. Terry is knowledgeable and experienced in making long grain, edge grain, and end grain cutting boards. He especially enjoys seeing the expression of a student who has just learned how to make something that looks great and is so useful. And cutting boards make great gifts!
+ </p>
+ <p>
+  <font style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p>
+  <br/>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5208472,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style="""">
+  <span style="""">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <img align=""left"" alt="""" border=""0"" height=""159"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/IMG_0566.PNG"" title="""" width=""283.5""/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    Making nails has been one the oldest forms of Blacksmithing
+   </span>
+   <span>
+    for centuries. It is usually the first task of any apprentice to learn the
+   </span>
+   <span>
+    basics skills necessary toward becoming a blacksmith.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    This course does
+   </span>
+   <span>
+    not require a lot of strength nor skill-set prior to the class. For these reasons
+   </span>
+   <span>
+    it is the perfect starting lesson for those wanting to try their hand at some
+   </span>
+   <span>
+    old fashioned Blacksmithing. This course will teach students the proper
+   </span>
+   <span>
+    terms, techniques, and protocols required to successfully create usable
+   </span>
+   <span>
+    nails. For anyone looking to get a basic understanding of Blacksmithing,
+   </span>
+   <span>
+    this is the course for you.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    There will be no refunds within 14 days of the event.
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    <br/>
+    <strong>
+     About the Instructor
+    </strong>
+    :
+    <br/>
+   </span>
+  </font>
+ </p>
+ <p>
+  Sean Lytle started to learn blacksmithing from Sons of Vulcan in Birmingham several years ago when master smith Lee McKee was alive. Recently, Sean has trained extensively with
+  <a href=""http://www.fireandbrimstoneforge.net/about.html"">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    Kenneth of Fire &amp; Brimstone Forge
+   </font>
+  </a>
+  . Over the past year. Interest in Blacksmithing include history, artistry, and teaching.
+ </p>
+ <p style="""">
+  <strong style=""font-size: 16px; font-family: Ubuntu;"">
+   Age
+  </strong>
+  <span style="""">
+   : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+  </span>
+  <br/>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <font style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <strong style="""">
+      What to wear:
+     </strong>
+    </font>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+    </span>
+    <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <font color=""#0563C1"">
+      a guide
+     </font>
+    </a>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     to acceptable cloth masks that help prevent the spread of infection.
+    </span>
+    <br/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/IMG_0566.PNG"" title=""""/>
+  </font>
+ </p>
+ <div style=""font-size: 18px;"">
+  <span style=""background-color: transparent;"">
+   <br/>
+  </span>
+ </div>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5224107,205-588-4077,classes@redmountainmakers.org,,,04/15/2023,04/15/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Metal Art Class: Make a piece of art from scrap metal.,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""font-size: 18px;"">
+  <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/metal%20art%20class.png"" title=""""/>
+  <br/>
+ </p>
+ <p>
+  Under the guidance of a fabrication instructor, using welding, cutting, and bending techniques you’ll
+ </p>
+ <p>
+  make cool stuff out of metal!
+ </p>
+ <p>
+  We’ll have a few simple designs to choose from (chain hearts, metal letters/words, pencil holders, small
+ </p>
+ <p>
+  table/shelf, etc.) but you’re encouraged to peruse our diverse collection of reclaimed scrap metal to
+ </p>
+ <p>
+  devise your own unique design.
+ </p>
+ <p>
+  Prior welding experience is great; however, we will review basic MIG welding techniques, metal cutting,
+ </p>
+ <p>
+  grinding, as well as the basics of hand tool use and shop safety.
+ </p>
+ <p>
+  What to wear: At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber.
+ </p>
+ <p>
+  clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the
+ </p>
+ <p>
+  ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed
+ </p>
+ <p>
+  around machines, equipment, or processes that can produce hot fragments, sparks, or flames.
+ </p>
+ <p>
+  Additional protective gear will be provided as needed.
+ </p>
+ <p>
+  About the Instructor: Stephen Charles is a former Welding Engineer with many years of experience in
+ </p>
+ <p>
+  production welding and custom fabrication. He has taught hundreds of beginners in the basics of
+ </p>
+ <p>
+  welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor just smile and
+ </p>
+ <p>
+  nod when everyone else laughs and maybe no one will notice.
+ </p>
+ <br/>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5204450,205-588-4077,classes@redmountainmakers.org,,,04/14/2023,04/14/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+FREE Teardown Tuesday,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p style="""">
+  <font face=""Arial, Helvetica, sans-serif"">
+   <span style=""background-color: rgb(15, 17, 21);"">
+    <img alt="""" border=""0"" height=""343"" src=""https://www.redmountainmakers.org/resources/Pictures/Electronics/TEAR%20DOWN%20TUESDAY.jpg"" title="""" width=""343""/>
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Arial, Helvetica, sans-serif"">
+   <span style=""background-color: rgb(15, 17, 21);"">
+    Have an old electronic that has died but curious?
+   </span>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <font face=""Arial, Helvetica, sans-serif"" style="""">
+    Announcing Teardown Tuesdays! This is a hands-on class to take things apart and find out what makes them tick. In this first session we will disassemble one (or more) flat screen TV’s. We will figure out what the different parts are, how to identify (and in some cases test) parts, find ways to repurpose some of them, and if we’re lucky, we may be able to find out why the TV died. We’ll also talk about safety and the proper use of test equipment.  The class will be led by an expert in the field of Electronics.
+   </font>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <font face=""Arial, Helvetica, sans-serif"" style="""">
+   </font>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <span style=""background-color: rgb(15, 17, 21);"">
+   <font face=""Arial, Helvetica, sans-serif"" style="""">
+    If you’ve got something you’d like to see disassembled (we will NOT be putting it back together!), bring it with you.  If we don’t get to it during this class we’ll save it for a future one.  Also- We’re open to suggestions as to what you’d like to see taken apart during a future “Teardown Tuesday”.
+   </font>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <strong>
+   About the Instructor:
+  </strong>
+ </p>
+ <p style=""background-color: transparent;"">
+  Rick Curl has been working in electronic design for more than 50 years and holds seven U.S. patents. He is currently Chief Engineer at Hatchery Electronics. He works with both analog and digital designs, including embedded microcontroller projects. He has extensive experience with digital PBX systems and automated high voltage test equipment design (over a million volts!!). He enjoys working on unusual projects, such as the solar powered automatic henhouse door.
+ </p>
+ <p style=""background-color: transparent;"">
+  Rick has designed hundreds of circuit boards, both through-hole and surface mount. He is eager to share many tips and tricks with you!
+ </p>
+ <p style=""background-color: transparent;"">
+  <font>
+   We're looking forward to learning with you!!
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5217692,205-588-4077,classes@redmountainmakers.org,,,04/11/2023,04/11/2023,,4:00 PM,,,,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Stained Glass Ornament - Easter Egg,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p>
+  <img alt="""" border=""0"" height=""312"" src=""https://www.redmountainmakers.org/resources/Pictures/Glass/il_fullxfull.2193976586_d26l.jpg"" title="""" width=""234""/>
+  <br/>
+ </p>
+ <p>
+  There will be no refunds within 14 days of the event.
+ </p>
+ <p>
+  About the Instructor: Class is taught by Kenneth of Fire &amp; Brimstone Forge
+ </p>
+ <p>
+  Age: there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+ </p>
+ <p>
+  What to wear: At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has a guide to acceptable cloth masks that help prevent the spread of infection.
+ </p>
+ <p>
+  <br/>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222399,205-588-4077,classes@redmountainmakers.org,,,04/09/2023,04/09/2023,,,,,,,2:00 PM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Stained Glass Ornament - Easter Egg,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p>
+  <img alt="""" border=""0"" height=""312"" src=""https://www.redmountainmakers.org/resources/Pictures/Glass/il_fullxfull.2193976586_d26l.jpg"" title="""" width=""234""/>
+  <br/>
+ </p>
+ <p>
+  There will be no refunds within 14 days of the event.
+ </p>
+ <p>
+  About the Instructor: Class is taught by Kenneth of Fire &amp; Brimstone Forge
+ </p>
+ <p>
+  Age: there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+ </p>
+ <p>
+  What to wear: At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has a guide to acceptable cloth masks that help prevent the spread of infection.
+ </p>
+ <p>
+  <br/>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222395,205-588-4077,classes@redmountainmakers.org,,,04/09/2023,04/09/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging A Stock Knife,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""background-color: transparent;"">
+  <img align=""left"" alt="""" border=""0"" height=""159"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/stock_knife.png"" title="""" width=""283.5""/>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font style=""font-size: 16px;"">
+   <span style="""">
+    In this class students will forge a small knife out of a piece of solid stock metal. This lesson will cover material foresight, design vs functionality, and will briefly hit upon types of metal and tempering techniques. The task used to create this knife will involve drawing- stretching out metal in a linear direction, forging out a bevel using hammer control, cutting, and sharpening. This class will involve the challenge of utilizing tongs and will introduce the methods necessary to handle the metal quickly and efficiently. Though this is an intermediate class, no previous knowledge is necessary to take this class. Work level is light to moderate.
+   </span>
+   <br/>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <span>
+   <span>
+    <span style="""">
+     <font style=""font-size: 16px;"">
+      There will be no refunds within 14 days of the event.
+     </font>
+    </span>
+   </span>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font style=""font-size: 16px;"">
+   <span>
+    <strong>
+     About the Instructor
+    </strong>
+    :
+   </span>
+   Classes taught by
+   <a href=""http://www.fireandbrimstoneforge.net/about.html"" target=""_blank"">
+    Kenneth of Fire &amp; Brimstone Forge
+   </a>
+  </font>
+ </p>
+ <p style=""background-color: transparent;"">
+  <strong>
+   <font style=""font-size: 16px;"">
+    <br/>
+   </font>
+  </strong>
+ </p>
+ <p style=""background-color: transparent;"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    Age
+   </strong>
+   : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+  </font>
+ </p>
+ <p style="""">
+  <span style="""">
+   <font style=""font-size: 16px;"">
+    <font style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <strong style="""">
+      What to wear:
+     </strong>
+    </font>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+    </span>
+    <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"" target=""_blank"">
+     <font>
+      a guide
+     </font>
+    </a>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     to acceptable cloth masks that help prevent the spread of infection.
+    </span>
+   </font>
+  </span>
+ </p>
+ <p style=""background-color: transparent; font-size: 18px;"">
+  <br/>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222393,205-588-4077,classes@redmountainmakers.org,,,04/08/2023,04/08/2023,,,,,,9:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging Railroad Spike Knives,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p style="""">
+  <span style="""">
+   <span style="""">
+    <font style=""font-size: 16px;"">
+     <img align=""left"" alt="""" border=""0"" height=""213"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/Railroad%20spike%20knife.jpg"" style=""margin: 8px;"" title="""" width=""283.5""/>
+     Learn how to forge a knife out of a
+     <font>
+      railroad spike
+     </font>
+    </font>
+   </span>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <span style="""">
+    <font style=""font-size: 16px;"">
+     This is the perfect class to learn one of the basics of knives-making: balancing durability and hardness of the metal to make the perfect blade!
+    </font>
+   </span>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <span style="""">
+    <font style=""font-size: 16px;"">
+     <font>
+      Students will utilize a high carbon railroad spike and learn methods that induce carbon into the metal while also learning how to temper in a process called normalization. The metal will then posses both features of a durable and hard metal that is ideal for knives.
+     </font>
+     <br/>
+    </font>
+   </span>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <span style="""">
+    <font style=""font-size: 16px;"">
+     As far as knives are concerned, the harder the steel, the better the edge, however, the harder edge makes for a brittle knife. A balance is needed between the soft flexible metal and the hard brittle metal to achieve a knife that will hold an edge without breaking. In this class more techniques for blade smithing will be covered, including various heat treatments, tapering, and tempering methods used to maximize strength with durability.
+    </font>
+   </span>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <font style="""">
+    <span>
+     <strong>
+      About the Instructor
+     </strong>
+     :
+    </span>
+    <font face=""Ubuntu"" style=""font-size: 16px;"">
+     Class is taught by
+    </font>
+    <a href=""http://www.fireandbrimstoneforge.net/about.html"" target=""_blank"">
+     Kenneth of Fire &amp; Brimstone Forge
+    </a>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <font style="""">
+    <strong>
+     <span class=""Apple-style-span"" style="""">
+      Prerequisites
+     </span>
+     :
+    </strong>
+    <span>
+     Recommended to take ""Learn to Forge nails"" first
+    </span>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <font style="""">
+    <strong>
+     Age
+    </strong>
+    : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <span style="""">
+   <span style="""">
+    <font>
+     <font style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+      <strong>
+       <span class=""Apple-style-span"" style="""">
+        What to wear
+       </span>
+       :
+      </strong>
+     </font>
+     <span style="""">
+      At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+     </span>
+     <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"" target=""_blank"">
+      <font>
+       a guide
+      </font>
+     </a>
+     <span style="""">
+      to acceptable cloth masks that help prevent the spread of infection.
+     </span>
+    </font>
+   </span>
+  </span>
+ </p>
+ <p style=""background-color: transparent;"">
+  <br/>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222388,205-588-4077,classes@redmountainmakers.org,,,04/02/2023,04/02/2023,,,,,,,9:00 AM,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging a Leaf Key Fob,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <img align=""left"" alt="""" border=""0"" height=""220"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/Leaf%20Key%20Fob.jpg"" style=""margin: 8px;"" title="""" width=""165""/>
+ <p align=""center"" style="""">
+  <strong style="""">
+   <font style=""font-size: 24px;"">
+    Forging a Leaf Key Fob
+   </font>
+  </strong>
+  <br/>
+ </p>
+ <p style=""font-size: 18px;"">
+  <br/>
+ </p>
+ <p style=""font-size: 18px;"">
+  <span>
+   <font style=""font-size: 16px;"">
+    Students will learn how to forge a key fob in the shape of a leaf. Floral and decorative patterns are a hallmark of smithing; rather it’s for a unique decoration or repeating pattern. It is often a artistic liberty used to enhance work as well as show likeness through the dichotomy of the hard steel and organic shape. In this class students will advance their skills by forging a key-fob in the shape of a leaf. Techniques such as dishing, pattern impression, and brush gilding will be introduced.
+   </font>
+  </span>
+ </p>
+ <p style=""font-size: 18px;"">
+  <span>
+   <font style=""font-size: 16px;"">
+    There will be no refunds within 14 days of the event.
+   </font>
+  </span>
+ </p>
+ <p style=""font-size: 18px;"">
+  <span>
+   <font style=""font-size: 16px;"">
+    <br/>
+   </font>
+  </span>
+ </p>
+ <p style=""font-size: 18px;"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <u>
+     About the Instructor
+    </u>
+   </strong>
+   :  Sean Lytle started to learn blacksmithing from Sons of Vulcan in Birmingham several years ago when master smith Lee McKee was alive. Recently, Sean has trained extensively with
+   <a href=""http://www.fireandbrimstoneforge.net/about.html"">
+    <font face=""Ubuntu"" style=""font-size: 16px;"">
+     Kenneth of Fire &amp; Brimstone Forge
+    </font>
+   </a>
+   over the past year. Interest in Blacksmithing include history, artistry, and teaching.
+  </font>
+ </p>
+ <p style=""font-size: 18px;"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <u>
+     Prerequisites
+    </u>
+    :
+   </strong>
+   Recommended to take ""Learn to Forge nails"" first
+  </font>
+ </p>
+ <p style=""font-size: 18px;"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <u>
+     Age
+    </u>
+   </strong>
+   : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+  </font>
+ </p>
+ <p style=""font-size: 18px;"">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <u>
+     What to wear
+    </u>
+    :
+   </strong>
+   At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+   <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"">
+    a guide
+   </a>
+   to acceptable cloth masks that help prevent the spread of infection.
+  </font>
+ </p>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <style>
+ </style>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222384,205-588-4077,classes@redmountainmakers.org,,,04/01/2023,04/01/2023,,,,,,1:00 PM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Forging Nails - First Blacksmith Class,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style="""">
+  <span style="""">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <img align=""left"" alt="""" border=""0"" height=""159"" src=""https://www.redmountainmakers.org/resources/Pictures/Blacksmithing/IMG_0566.PNG"" title="""" width=""283.5""/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    Making nails has been one the oldest forms of Blacksmithing
+   </span>
+   <span>
+    for centuries. It is usually the first task of any apprentice to learn the
+   </span>
+   <span>
+    basics skills necessary toward becoming a blacksmith.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    This course does
+   </span>
+   <span>
+    not require a lot of strength nor skill-set prior to the class. For these reasons
+   </span>
+   <span>
+    it is the perfect starting lesson for those wanting to try their hand at some
+   </span>
+   <span>
+    old fashioned Blacksmithing. This course will teach students the proper
+   </span>
+   <span>
+    terms, techniques, and protocols required to successfully create usable
+   </span>
+   <span>
+    nails. For anyone looking to get a basic understanding of Blacksmithing,
+   </span>
+   <span>
+    this is the course for you.
+   </span>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    There will be no refunds within 14 days of the event.
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <span>
+    <br/>
+    <strong>
+     About the Instructor
+    </strong>
+    :
+    <br/>
+   </span>
+  </font>
+ </p>
+ <p>
+  Class is taught by
+  <a href=""http://www.fireandbrimstoneforge.net/about.html"">
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    Kenneth of Fire &amp; Brimstone Forge
+   </font>
+  </a>
+  .
+ </p>
+ <p style="""">
+  <strong style=""font-size: 16px; font-family: Ubuntu;"">
+   Age
+  </strong>
+  <span style="""">
+   : there are no age restrictions to the class. Please read carefully the disclaimers and guidelines
+  </span>
+  <br/>
+ </p>
+ <p style="""">
+  <span>
+   <font face=""Ubuntu"" style=""font-size: 16px;"">
+    <font style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <strong style="""">
+      What to wear:
+     </strong>
+    </font>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed. The CDC has
+    </span>
+    <a href=""https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-face-coverings.html"" style=""-webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     <font color=""#0563C1"">
+      a guide
+     </font>
+    </a>
+    <span style=""caret-color: rgb(34, 30, 31); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); text-size-adjust: none;"">
+     to acceptable cloth masks that help prevent the spread of infection.
+    </span>
+    <br/>
+   </font>
+  </span>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <br/>
+  </font>
+ </p>
+ <p style="""">
+  <font face=""Ubuntu"" style=""font-size: 16px;"">
+   <img alt="""" border=""0"" src=""https://www.redmountainmakers.org/resources/Pictures/IMG_0566.PNG"" title=""""/>
+  </font>
+ </p>
+ <div style=""font-size: 18px;"">
+  <span style=""background-color: transparent;"">
+   <br/>
+  </span>
+ </div>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5222389,205-588-4077,classes@redmountainmakers.org,,,04/01/2023,04/01/2023,,,,,,10:00 AM,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org
+Welding Basics: Introduction to MIG,Red Mountain Makers,Red Mountain Makers HWP,"<div class=""inner gadgetEventEditableArea"">
+ <p align=""center"" style=""font-size: 18px;"">
+  <img align=""left"" alt="""" border=""0"" height=""189"" src=""https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/welding_stock.jpeg"" style=""margin: 10px;"" title="""" width=""283.5""/>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   Develop fundamental skills in creating and repairing metal objects under the instruction of Stephen Charles. This introductory class includes a crash course in the MIG welding process, metal cutting, grinding, as well as the basics of hand tool use and shop safety.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   Students will leave with a wide familiarity of skills and studio techniques.
+   <br/>
+   <br/>
+   NOTE: This class is a pre-requisite for the Project-Based Metalcraft class.
+  </font>
+ </p>
+ <p align=""center"" style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <font>
+    <strong>
+     What to wear:
+    </strong>
+   </font>
+   At RMM, you must dress safely and appropriately. Arrive for class in all-natural fiber clothing (100% cotton), long pants, and closed-toe, closed-heel shoes with socks that protect up to the ankle. Long hair must be tied back. Nylon, polyester, spandex, or other synthetics are not allowed around machines, equipment, or processes that can produce hot fragments, sparks, or flames. Additional protective gear will be provided as needed.
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong>
+    <br/>
+   </strong>
+  </font>
+ </p>
+ <p style="""">
+  <font style=""font-size: 16px;"">
+   <strong style="""">
+    About the Instructor
+   </strong>
+   :
+   <font style=""font-size: 16px;"">
+    Stephen Charles is a former Welding Engineer with many years of experience in production welding and custom fabrication. He has taught hundreds of beginners in the basics of welding and fabrication. Also, he’s pretty funny, so if you don’t have a sense of humor there will be many moments of awkward silence.
+   </font>
+  </font>
+ </p>
+ <div class=""clearEndContainer"">
+ </div>
+</div>",Classes + Lectures,,https://api.wildapricot.org/v2.2/accounts/303621/Events/5083176,205-588-4077,classes@redmountainmakers.org,,,03/31/2023,03/31/2023,,,,,6:00 PM,,,,Carla Gadson,205-588-4077,Carla@redmountainmakers.org

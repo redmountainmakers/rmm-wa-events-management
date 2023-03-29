@@ -1,4 +1,5 @@
 import os
+import csv
 import uuid
 import pytz
 import base64
@@ -227,5 +228,58 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
     # Print the file path for confirmation
     print(f'iCalendar file written to {os.path.abspath(ics_output_path)}')
+
+
+def events_to_csv(events, file_path):
+    headers = [
+        "Event Name", "Org Name", "Venue Name", "Event Description", "Event Category", "Event Sub-Category", 
+        "Event URL", "Event Phone", "Event Email", "Admission", "Ticket URL", "Start Date", "End Date", 
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Image", 
+        "Contact Name", "Contact Phone", "Contact Email"
+    ]
+    
+    org_name = "Red Mountain Makers"
+    venue_name = "Red Mountain Makers HWP"
+    event_phone = "205-588-4077"
+    event_email = "classes@redmountainmakers.org"
+    contact_name = "Carla Gadson"
+    contact_phone = "205-588-4077"
+    contact_email = "Carla@redmountainmakers.org"
+
+    with open(file_path, "w", newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+        
+        for event in events:
+            start_time = datetime.fromisoformat(event.get("StartDate", "")[:-1]).strftime("%I:%M")
+            week_days = [True if day in event.get("WeekDays", []) else False for day in range(1, 8)]
+            day_times = [start_time if day else "" for day in week_days]
+            
+            # Get the first image link from the description
+            soup = BeautifulSoup(get_wa_description(event.get("Id", "")), 'html.parser')
+            image = soup.find("img")["src"] if soup.find("img") else ""
+
+            row = [
+                event.get("Name", ""),
+                org_name,
+                venue_name,
+                get_wa_description(event.get("Id", "")),
+                event.get("EventType", {}).get("Name", ""),
+                "",  # Event Sub-Category not available in the given data
+                event.get("DetailsUrl", ""),
+                event_phone,
+                event_email,
+                event.get("RegistrationTypes", [])[0].get("Name", "") if event.get("RegistrationTypes", []) else "",
+                event.get("DetailsUrl", ""),  # Using DetailsUrl for Ticket URL since it's not available in the given data
+                event.get("StartDate", ""),
+                event.get("EndDate", ""),
+                *day_times,
+                image,
+                contact_name,
+                contact_phone,
+                contact_email
+            ]
+            writer.writerow(row)
+
 
 

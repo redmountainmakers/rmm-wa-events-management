@@ -251,10 +251,14 @@ def events_to_csv(events, file_path):
         writer.writerow(headers)
         
         for event in events:
-            start_datetime = datetime.fromisoformat(event.get("StartDate", "")[:-5])
-            start_time = start_datetime.strftime("%I:%M")
-            week_days = [True if day in event.get("WeekDays", []) else False for day in range(1, 8)]
-            day_times = [start_time if day else "" for day in week_days]
+            start_date_str = event.get("StartDate", "")
+            if start_date_str:
+                if len(start_date_str) == 19:  # If no minutes in timezone offset
+                    start_date_str += "00"
+                start_datetime = datetime.fromisoformat(start_date_str)
+                start_time = start_datetime.strftime("%I:%M")
+            else:
+                start_time = ""
 
             # Get the first image link from the description
             soup = BeautifulSoup(get_wa_description(event.get("Id", "")), 'html.parser')

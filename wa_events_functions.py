@@ -252,7 +252,7 @@ def events_to_csv(events, file_path):
                 "Event Name": event["Name"],
                 "Org Name": "Red Mountain Makers",
                 "Venue Name": "Red Mountain Makers HWP",
-                "Event Description": get_wa_description(event['id']),
+                "Event Description": get_wa_description(event['Id']),
                 "Event Category": "Classes + Lectures",
                 "Event Sub-Category": "",
                 "Event URL": event["Url"],

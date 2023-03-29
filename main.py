@@ -23,7 +23,9 @@ create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA AP
 
 process_calendar(ics_current_path, wa_ics_path, output_ics_path,log_file_path)#Deletes old events, adds new events, and updates changed events
 
-events_to_csv(upcoming_events,bham365_events)
+print(upcoming_events)
+
+#events_to_csv(upcoming_events,bham365_events)
 
 #pushes the log file, archive ics file, and the updated ics file to the git repo
 subprocess.run(['git', 'add', output_ics_path])

@@ -247,7 +247,7 @@ def events_to_csv(events, file_path):
             weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
             weekday_start_time = {day: "" for day in weekdays}
             weekday_start_time[weekdays[start_date.weekday()]] = start_date.strftime("%-I:%M %p")
-            print(get_wa_description(event['id']))
+            print(get_wa_description(event['Id']))
             writer.writerow({
                 "Event Name": event["Name"],
                 "Org Name": "Red Mountain Makers",

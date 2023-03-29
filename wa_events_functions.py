@@ -247,7 +247,15 @@ def events_to_csv(events, file_path):
             weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
             weekday_start_time = {day: "" for day in weekdays}
             weekday_start_time[weekdays[start_date.weekday()]] = start_date.strftime("%-I:%M %p")
-            print(get_wa_description(event['Id']))
+            html_input = get_wa_description(event['Id'])
+
+            soup = BeautifulSoup(html_input, 'html.parser')
+            event_image = None
+
+            img_tag = soup.find('img')
+            if img_tag:
+                event_image = img_tag.get('src')
+
             writer.writerow({
                 "Event Name": event["Name"],
                 "Org Name": "Red Mountain Makers",
@@ -259,11 +267,11 @@ def events_to_csv(events, file_path):
                 "Event Phone": "205-588-4077",
                 "Event Email": "classes@redmountainmakers.org",
                 "Admission": "",
-                "Ticket URL": "",
+                "Ticket URL": event["Url"],
                 "Start Date": start_date.strftime("%m/%d/%Y"),
                 "End Date": end_date.strftime("%m/%d/%Y"),
                 **weekday_start_time,
-                "Image": "",
+                "Image": event_image,
                 "Contact Name": "Carla Gadson",
                 "Contact Phone": "205-588-4077",
                 "Contact Email": "Carla@redmountainmakers.org"

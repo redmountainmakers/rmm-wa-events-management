@@ -232,59 +232,41 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
 def events_to_csv(events, file_path):
     headers = [
-        "Event Name", "Org Name", "Venue Name", "Event Description", "Event Category", "Event Sub-Category", 
-        "Event URL", "Event Phone", "Event Email", "Admission", "Ticket URL", "Start Date", "End Date", 
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", "Image", 
-        "Contact Name", "Contact Phone", "Contact Email"
+        "Event Name", "Org Name", "Venue Name", "Event Description", "Event Category",
+        "Event Sub-Category", "Event URL", "Event Phone", "Event Email", "Admission",
+        "Ticket URL", "Start Date", "End Date", "Monday", "Tuesday", "Wednesday", "Thursday",
+        "Friday", "Saturday", "Sunday", "Image", "Contact Name", "Contact Phone", "Contact Email"
     ]
-    
-    org_name = "Red Mountain Makers"
-    venue_name = "Red Mountain Makers HWP"
-    event_phone = "205-588-4077"
-    event_email = "classes@redmountainmakers.org"
-    contact_name = "Carla Gadson"
-    contact_phone = "205-588-4077"
-    contact_email = "Carla@redmountainmakers.org"
 
-    with open(file_path, "w", newline='', encoding='utf-8') as csvfile:
-        writer = csv.writer(csvfile)
-        writer.writerow(headers)
-        
+    with open(file_path, mode='w', newline='', encoding='utf-8') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=headers)
+        writer.writeheader()
+
         for event in events:
-            start_date_str = event.get("StartDate", "")
-            if start_date_str:
-                if len(start_date_str) == 19:  # If no minutes in timezone offset
-                    start_date_str += "00"
-                start_datetime = datetime.fromisoformat(start_date_str)
-                start_time = start_datetime.strftime("%I:%M")
-            else:
-                start_time = ""
+            start_date = datetime.fromisoformat(event['StartDate'].replace("Z", "+00:00"))
+            end_date = datetime.fromisoformat(event['EndDate'].replace("Z", "+00:00"))
 
-            # Get the first image link from the description
-            soup = BeautifulSoup(get_wa_description(event.get("Id", "")), 'html.parser')
-            image = soup.find("img")["src"] if soup.find("img") else ""
+            weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+            weekday_start_time = {day: "" for day in weekdays}
+            weekday_start_time[weekdays[start_date.weekday()]] = start_date.strftime("%-I:%M %p")
 
-            row = [
-                event.get("Name", ""),
-                org_name,
-                venue_name,
-                get_wa_description(event.get("Id", "")),
-                event.get("EventType", {}).get("Name", ""),
-                "",  # Event Sub-Category not available in the given data
-                event.get("DetailsUrl", ""),
-                event_phone,
-                event_email,
-                event.get("RegistrationTypes", [])[0].get("Name", "") if event.get("RegistrationTypes", []) else "",
-                event.get("DetailsUrl", ""),  # Using DetailsUrl for Ticket URL since it's not available in the given data
-                event.get("StartDate", ""),
-                event.get("EndDate", ""),
-                *day_times,
-                image,
-                contact_name,
-                contact_phone,
-                contact_email
-            ]
-            writer.writerow(row)
-
-
-
+            writer.writerow({
+                "Event Name": event["Name"],
+                "Org Name": "Red Mountain Makers",
+                "Venue Name": "Red Mountain Makers HWP",
+                "Event Description": "",
+                "Event Category": "Classes + Lectures",
+                "Event Sub-Category": "",
+                "Event URL": event["Url"],
+                "Event Phone": "205-588-4077",
+                "Event Email": "classes@redmountainmakers.org",
+                "Admission": "",
+                "Ticket URL": "",
+                "Start Date": start_date.strftime("%Y-%m-%d"),
+                "End Date": end_date.strftime("%Y-%m-%d"),
+                **weekday_start_time,
+                "Image": "",
+                "Contact Name": "Carla Gadson",
+                "Contact Phone": "205-588-4077",
+                "Contact Email": "Carla@redmountainmakers.org"
+            })

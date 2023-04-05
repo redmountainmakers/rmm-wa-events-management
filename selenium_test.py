@@ -46,6 +46,18 @@ password_field.send_keys(password)
 submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
+# Locate the reCAPTCHA element
+recaptcha_element = WebDriverWait(driver, 10).until(
+    EC.presence_of_element_located((By.XPATH, "//*[@class='g-recaptcha' or @data-sitekey]"))
+)
+
+# Check the data-size attribute
+captcha_type = recaptcha_element.get_attribute("data-size")
+if captcha_type == "invisible":
+    print("Invisible reCAPTCHA")
+else:
+    print("Normal reCAPTCHA")
+
 admin_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.-wa-admin-switcher_admin-view-link')))
 admin_button.click()
 

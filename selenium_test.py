@@ -1,5 +1,4 @@
 import os
-import time
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -46,10 +45,13 @@ password_field.send_keys(password)
 submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
-# Locate the reCAPTCHA element
-recaptcha_element = WebDriverWait(driver, 10).until(
-    EC.presence_of_element_located((By.XPATH, "//*[@class='g-recaptcha' or @data-sitekey]"))
-)
+wait = WebDriverWait(driver, 10)
+div_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[style*="position: absolute; width: 360px; top: 10px; left: 0px; right: 0px;"]')))
+
+if div_element:
+    print("Div element with specified style exists!")
+else:
+    print("Div element with specified style does not exist.")
 
 # Check the data-size attribute
 captcha_type = recaptcha_element.get_attribute("data-size")

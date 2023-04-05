@@ -46,19 +46,13 @@ submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
 wait = WebDriverWait(driver, 10)
-div_element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div[style*="position: absolute; width: 360px; top: 10px; left: 0px; right: 0px;"]')))
+div_element = wait.until(EC.presence_of_element_located((By.XPATH, '//div[contains(@style,"position: absolute; width: 360px; top: 10px; left: 0px; right: 0px;") and .//iframe[contains(@title,"recaptcha challenge")]]')))
+iframe_element = div_element.find_element(By.TAG_NAME, "iframe")
 
-if div_element:
-    print("Div element with specified style exists!")
+if "recaptcha challenge" in iframe_element.get_attribute("title"):
+    print("Div element with specified iframe title exists!")
 else:
-    print("Div element with specified style does not exist.")
-
-# Check the data-size attribute
-captcha_type = recaptcha_element.get_attribute("data-size")
-if captcha_type == "invisible":
-    print("Invisible reCAPTCHA")
-else:
-    print("Normal reCAPTCHA")
+    print("Div element with specified iframe title does not exist.")
 
 admin_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.-wa-admin-switcher_admin-view-link')))
 admin_button.click()

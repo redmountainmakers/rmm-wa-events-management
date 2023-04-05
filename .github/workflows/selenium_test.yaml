@@ -1,0 +1,38 @@
+# second-workflow.yml
+name: Selenium_test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+     
+      - name: Set up cache for pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements_selenium.txt
+
+      - name: Run second script
+        run: python selenium_test.py
+        env:
+          RMM_EMAIL: ${{ secrets.RMM_EMAIL }}
+          RMM_PASSWORD: ${{ secrets.RMM_PASSWORD }}

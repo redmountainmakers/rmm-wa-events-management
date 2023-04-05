@@ -13,6 +13,9 @@ jobs:
         with:
           token: ${{ secrets.GH_PAT }}
 
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@latest
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:

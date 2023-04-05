@@ -23,6 +23,10 @@ mobile_emulation = {
 chrome_options = Options()
 chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
 
+# Add headless and no-sandbox options for running in GitHub Actions
+chrome_options.add_argument("--headless")
+chrome_options.add_argument("--no-sandbox")
+
 # Set up the Chrome driver
 driver = webdriver.Chrome(options=chrome_options)
 

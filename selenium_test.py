@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-email = os.environ.get("RMM_Email")
+email = os.environ.get("RMM_EMAIL")
 password = os.environ.get("RMM_PASSWORD")
 
 file_name = "test.txt"

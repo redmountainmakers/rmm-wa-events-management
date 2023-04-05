@@ -45,6 +45,9 @@ password_field.send_keys(password)
 submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
+# Get the full page source and print it
+print(driver.page_source)
+
 wait = WebDriverWait(driver, 10)
 div_element = wait.until(EC.presence_of_element_located((By.XPATH, '//div[contains(@style,"position: absolute; width: 360px; top: 10px; left: 0px; right: 0px;") and .//iframe[contains(@title,"recaptcha challenge")]]')))
 iframe_element = div_element.find_element(By.TAG_NAME, "iframe")

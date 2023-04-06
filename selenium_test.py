@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
-def solve_invisible_recaptcha(api_key, site_key, page_url, invisible=1, timeout=30):
+def solve_invisible_recaptcha(api_key, site_key, page_url, invisible=1):
     # Submit the initial request to 2captcha
     submit_url = "http://2captcha.com/in.php"
     submit_data = {
@@ -93,7 +93,7 @@ password_field.send_keys(password)
 submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
-solve_invisible_recaptcha()
+solve_invisible_recaptcha(api_key, site_key, page_url)
 
 admin_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.-wa-admin-switcher_admin-view-link')))
 admin_button.click()

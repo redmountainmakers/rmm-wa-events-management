@@ -22,8 +22,6 @@ def solve_invisible_recaptcha(api_key, site_key, page_url, invisible=1):
     }
     response = requests.post(submit_url, data=submit_data)
 
-    print(api_key)
-
     if not response.text.startswith("OK|"):
         raise ValueError(f"Error submitting captcha: {response.text}")
 

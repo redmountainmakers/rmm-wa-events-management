@@ -39,3 +39,5 @@ jobs:
         env:
           RMM_EMAIL: ${{ secrets.RMM_EMAIL }}
           RMM_PASSWORD: ${{ secrets.RMM_PASSWORD }}
+          SITE_KEY: ${{ secrets.SITE_KEY }}
+          CAPTCHA_API_KEY: ${{ secrets.CAPTCHA_API_KEY }}

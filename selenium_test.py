@@ -1,13 +1,61 @@
 import os
+import time
+import requests
 from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
+
+def solve_invisible_recaptcha(api_key, site_key, page_url, invisible=1, timeout=30):
+    # Submit the initial request to 2captcha
+    submit_url = "http://2captcha.com/in.php"
+    submit_data = {
+        "key": api_key,
+        "method": "userrecaptcha",
+        "googlekey": site_key,
+        "pageurl": page_url,
+        "invisible": invisible,
+    }
+    response = requests.post(submit_url, data=submit_data)
+
+    if not response.text.startswith("OK|"):
+        raise ValueError(f"Error submitting captcha: {response.text}")
+
+    captcha_id = response.text.split("|")[1]
+
+    # Poll the 2captcha API for the solution
+    result_url = "http://2captcha.com/res.php"
+    result_data = {
+        "key": api_key,
+        "action": "get",
+        "id": captcha_id,
+    }
+
+    max_retries = 5
+    for i in range(max_retries):
+        try:
+            time.sleep(5 ** i)  # Wait for an exponentially increasing duration
+            result = requests.get(result_url, params=result_data)
+
+            if result.text.startswith("OK|"):
+                return result.text.split("|")[1]
+            elif result.text != "CAPCHA_NOT_READY":
+                raise ValueError(f"Error fetching captcha solution: {result.text}")
+        except requests.exceptions.RequestException as e:
+            if i == max_retries - 1:
+                raise e  # Raise the exception if we reached the maximum number of retries
+
+    raise TimeoutError("Timeout reached while waiting for captcha solution")
 
 email = os.environ.get("RMM_EMAIL")
 password = os.environ.get("RMM_PASSWORD")
+site_key = os.environ.get("SITE_KEY")
+api_key = os.environ.get("CAPTCHA_API_KEY")
+page_url = "https://redmountainmakers.org/"
 
 file_name = "test.txt"
 with open(file_name, "w") as f:
@@ -16,7 +64,7 @@ with open(file_name, "w") as f:
 # Set up the mobile browser user agent
 mobile_emulation = {
     "deviceMetrics": { "width": 360, "height": 640, "pixelRatio": 3.0 },
-    "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19"
+    "userAgent": "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
 }
 
 chrome_options = Options()
@@ -45,17 +93,7 @@ password_field.send_keys(password)
 submit_button = driver.find_element(By.ID, "id_QFpB82d_loginAction")
 submit_button.click()
 
-# Get the full page source and print it
-print(driver.page_source)
-
-wait = WebDriverWait(driver, 10)
-div_element = wait.until(EC.presence_of_element_located((By.XPATH, '//div[contains(@style,"position: absolute; width: 360px; top: 10px; left: 0px; right: 0px;") and .//iframe[contains(@title,"recaptcha challenge")]]')))
-iframe_element = div_element.find_element(By.TAG_NAME, "iframe")
-
-if "recaptcha challenge" in iframe_element.get_attribute("title"):
-    print("Div element with specified iframe title exists!")
-else:
-    print("Div element with specified iframe title does not exist.")
+solve_invisible_recaptcha()
 
 admin_button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.-wa-admin-switcher_admin-view-link')))
 admin_button.click()

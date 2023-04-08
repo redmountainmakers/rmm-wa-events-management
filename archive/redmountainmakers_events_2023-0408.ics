@@ -576,8 +576,8 @@ PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Electronics Class: FREE Teardown Tuesday
-DTSTART:20230411T230000Z
-DTEND:20230412T010000Z
+DTSTART:20230411T210000Z
+DTEND:20230411T230000Z
 UID:ba4a4f27-8cf0-46bc-af01-698d15efc28d
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5217692>https://www.redmountainmakers.org/event-5217692</a>

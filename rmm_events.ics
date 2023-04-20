@@ -575,12 +575,38 @@ LOCATION:
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:**Free Event** Board Game Night
-DTSTART:20230630T230000Z
-DTEND:20230701T040000Z
-UID:c7101cea-62aa-445d-a656-b7978a66fdf3
+SUMMARY:Stain glass Class: Stained Glass Ornament - Memorial Day Flag
+DTSTART:20230528T150000Z
+DTEND:20230528T180000Z
+UID:1682ec5e-36b2-43c4-a08a-72af4d16dd0e
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5256489>https://www.redmountainmakers.org/event-5256489</a>
+ kers.org/event-5256484>https://www.redmountainmakers.org/event-5256484</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <p>\n 
+  There will be no refunds within 14 days of the event.\n </p>\n <p>\n  Abo
+ ut the Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone For
+ ge\n </p>\n <p>\n  Age: there are no age restrictions to the class. Please
+  read carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wea
+ r: At RMM\, you must dress safely and appropriately. Arrive for class in a
+ ll-natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, cl
+ osed-heel shoes with socks that protect up to the ankle. Long hair must be
+  tied back. Nylon\, polyester\, spandex\, or other synthetics are not allo
+ wed around machines\, equipment\, or processes that can produce hot fragme
+ nts\, sparks\, or flames. Additional protective gear will be provided as n
+ eeded. The CDC has a guide to acceptable cloth masks that help prevent the
+  spread of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n 
+ <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
+ "clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5256484
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:**Free Event** Board Game Night
+DTSTART:20230526T230000Z
+DTEND:20230527T040000Z
+UID:867d7779-bc80-4d22-8970-08ded42b121f
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5256487>https://www.redmountainmakers.org/event-5256487</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
  " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
   title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
@@ -591,7 +617,7 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
   Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
  >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
  n</div>\n
-EVENT_ID:5256489
+EVENT_ID:5256487
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
@@ -599,7 +625,7 @@ BEGIN:VEVENT
 SUMMARY:Blacksmithing Class: Forged belt buckle
 DTSTART:20230527T180000Z
 DTEND:20230527T230000Z
-UID:647582cd-a995-4163-ac0e-1a646890be11
+UID:0f90d15b-e33d-4217-ab06-eb0a0bdae39e
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-4975127>https://www.redmountainmakers.org/event-4975127</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img align="left" alt
@@ -22542,30 +22568,9 @@ PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:**Free Event** Board Game Night
-DTSTART:20230428T230000Z
-DTEND:20230429T040000Z
-UID:249059ff-9e5e-489f-bbd7-f7d2432b77e5
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5253248>https://www.redmountainmakers.org/event-5253248</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
- " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
-  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
- e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
- n <p>\n  We will have a variety of board games to choose from. Some games 
- include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
-  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
-  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
- >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
- n</div>\n
-EVENT_ID:5253248
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:**Free Event** Board Game Night
 DTSTART:20230728T230000Z
 DTEND:20230729T040000Z
-UID:41d8f0e2-6b8f-48c8-9996-d0c41feda41a
+UID:0bd9abc3-bbd7-4b33-813a-545ab093ff7a
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5256490>https://www.redmountainmakers.org/event-5256490</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
@@ -22583,10 +22588,67 @@ LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:**Free Event** Board Game Night
+DTSTART:20230428T230000Z
+DTEND:20230429T040000Z
+UID:b1cbc8d8-c193-4728-8c7d-d8ecb2fbd9f2
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5253248>https://www.redmountainmakers.org/event-5253248</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <a href="/resources/P
+ ictures/RMM_Game_night_flyer.png" target="_blank" title="">\n   <img align
+ ="left" alt="" border="0" height="155" src="https://www.redmountainmakers.
+ org/resources/Pictures/RMM_Game_night_flyer.png" style="margin: 8px\;" wid
+ th="283.5"/>\n  </a>\n  <br/>\n </p>\n <p>\n  We will be hosting a game ni
+ ght in the classroom at RMM. Come join us for a night of fun and adventure
+ !\n </p>\n <p>\n  We will have a variety of board games to choose from. So
+ me games include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios
+ \, Ticket to Ride and more. You may also bring your own.\n </p>\n <p>\n  E
+ very last Friday of the month we will have a board game night.\n </p>\n <p
+ >\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\
+ n </div>\n</div>\n
+EVENT_ID:5253248
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:**Free Event** Board Game Night
+DTSTART:20230630T230000Z
+DTEND:20230701T040000Z
+UID:27f47e50-ac25-4079-8633-1fe0ae2a8f74
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5256489>https://www.redmountainmakers.org/event-5256489</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
+ " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
+  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
+ e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
+ n <p>\n  We will have a variety of board games to choose from. Some games 
+ include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
+  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
+  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
+ >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
+ n</div>\n
+EVENT_ID:5256489
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Test Event
+DTSTART:20231231T060000Z
+DTEND:20231231T070000Z
+UID:9797d17c-0dd8-44d8-a2fb-216eee8bd971
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5248419>https://www.redmountainmakers.org/event-5248419</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <div c
+ lass="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5248419
+LOCATION:
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Blacksmithing Class: Forging A Dagger - 2 day course
 DTSTART:20230520T150000Z
 DTEND:20230521T230000Z
-UID:c2838ca4-15fe-4e86-b462-bdef54e72a26
+UID:39ed32ea-d568-455a-b40a-dbb4af95b68b
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5256480>https://www.redmountainmakers.org/event-5256480</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img align="left" alt
@@ -22649,63 +22711,41 @@ LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Stain glass Class: Stained Glass Ornament - Memorial Day Flag
-DTSTART:20230528T150000Z
-DTEND:20230528T180000Z
-UID:a910a7d4-9f06-403d-ac81-2389772e5c76
+SUMMARY:Social Class: **Free Event** Taco Tuesday: Maker Member Appreciati
+ on Day
+DTSTART:20230509T233000Z
+DTEND:20230510T020000Z
+UID:9017f50d-0f02-42c4-bf44-f4bd1621210d
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5256484>https://www.redmountainmakers.org/event-5256484</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <p>\n 
-  There will be no refunds within 14 days of the event.\n </p>\n <p>\n  Abo
- ut the Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone For
- ge\n </p>\n <p>\n  Age: there are no age restrictions to the class. Please
-  read carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wea
- r: At RMM\, you must dress safely and appropriately. Arrive for class in a
- ll-natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, cl
- osed-heel shoes with socks that protect up to the ankle. Long hair must be
-  tied back. Nylon\, polyester\, spandex\, or other synthetics are not allo
- wed around machines\, equipment\, or processes that can produce hot fragme
- nts\, sparks\, or flames. Additional protective gear will be provided as n
- eeded. The CDC has a guide to acceptable cloth masks that help prevent the
-  spread of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n 
- <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
- "clearEndContainer">\n </div>\n</div>\n
-EVENT_ID:5256484
+ kers.org/event-5257128>https://www.redmountainmakers.org/event-5257128</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <span style="">\n   <
+ font style="font-size: 16px\;">\n    <span style="">\n     <font face="Seg
+ oe UI Historic\, Segoe UI\, Helvetica\, Arial\, sans-serif" style="">\n   
+    <img alt="" border="0" src="https://www.redmountainmakers.org/resources
+ /Pictures/341690939_3460415014223281_6172294780972247038_n.jpg" title=""/>
+ \n      <img alt="" border="0" height="551" src="https://www.redmountainma
+ kers.org/resources/Pictures/341690939_3460415014223281_6172294780972247038
+ _n.jpg" title="" width="551"/>\n      Red Mountain Makers has undergone ma
+ jor changes in the past year and those changes wouldn't be possible withou
+ t our makers and supporters. Whether you are a longtime member or admirer 
+ of our creative space come down and share a taco with us!\n     </font>\n 
+    </span>\n   </font>\n  </span>\n </p>\n <p>\n  <span style="">\n   <fon
+ t style="font-size: 16px\;">\n    <span style="">\n     <font face="Segoe 
+ UI Historic\, Segoe UI\, Helvetica\, Arial\, sans-serif" style="">\n      
+ If you are new\, come take a tour! Learn more about our space and get 50% 
+ off on your 1st month membership.\n     </font>\n    </span>\n   </font>\n
+   </span>\n </p>\n <p>\n  <span style="">\n   <font style="font-size: 16px
+ \;">\n    <span style="">\n     <font face="Segoe UI Historic\, Segoe UI\,
+  Helvetica\, Arial\, sans-serif">\n      We are inviting the whole maker\,
+  diyer\, and creator community down to have a taco and some fun! Friends\,
+  Family and Kids are invited! See you Tuesday!\n     </font>\n    </span>\
+ n   </font>\n  </span>\n </p>\n <p style="background-color: transparent\;"
+ >\n  <span style="background-color: rgb(255\, 255\, 255)\;">\n   <span sty
+ le="">\n    <font style="font-size: 16px\;">\n     <br/>\n    </font>\n   
+ </span>\n  </span>\n </p>\n <p style="background-color: transparent\;">\n 
+  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5257128
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:**Free Event** Board Game Night
-DTSTART:20230526T230000Z
-DTEND:20230527T040000Z
-UID:50a246f3-c663-4523-878a-1321f5b91cff
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5256487>https://www.redmountainmakers.org/event-5256487</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
- " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
-  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
- e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
- n <p>\n  We will have a variety of board games to choose from. Some games 
- include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
-  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
-  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
- >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
- n</div>\n
-EVENT_ID:5256487
-LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Test Event
-DTSTART:20231231T060000Z
-DTEND:20231231T070000Z
-UID:490cae75-2479-4e0b-9357-e2a40b4c0c71
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5248419>https://www.redmountainmakers.org/event-5248419</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <div c
- lass="clearEndContainer">\n </div>\n</div>\n
-EVENT_ID:5248419
-LOCATION:
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 END:VCALENDAR

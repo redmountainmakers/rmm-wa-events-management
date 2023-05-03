@@ -78,7 +78,7 @@ def get_upcoming_events(access_token):
 
     # Make an API request to retrieve event data
     events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events?$filter={filter_query}', headers=headers)
-    
+    print('test')
     print(events_response)
     
     events = events_response.json()['Events']

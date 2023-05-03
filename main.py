@@ -10,7 +10,7 @@ output_ics_path = 'rmm_events.ics'
 today = datetime.today().strftime('%Y-%m%d')
 save_path_with_date = ics_current_path[:-4] + f"_{today}.ics"
 archive_ics_path = "archive/" + save_path_with_date
-log_file_path = f"archive/event_update_{today}.log"
+log_file_path = f"archive/event_update.log"
 bham365_events = "bham365.csv"
 
 download_ics_file(current_ics_url,ics_current_path)#Downloads the current ics file from the RMM website

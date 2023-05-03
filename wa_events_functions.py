@@ -72,8 +72,15 @@ def get_upcoming_events(access_token):
     # Get the current date and time
     current_datetime = datetime.now(timezone.utc)
 
-    # Make an API request to retrieve upcoming event data
-    events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events', headers=headers)
+    
+    #Create a filter query to only get a response based on the recently completed events
+    filter_query = f"StartDate gt {current_datetime.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+
+    # Make an API request to retrieve event data
+    events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events?$filter={filter_query}', headers=headers)
+    
+    print(events_response)
+    
     events = events_response.json()['Events']
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title

@@ -53,6 +53,56 @@ LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Wood turning Class: Turn a Wooden Pen
+DTSTART:20230508T230000Z
+DTEND:20230509T020000Z
+UID:ff092a7a-a768-4812-a6d0-2708afe2547a
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5208475>https://www.redmountainmakers.org/event-5208475</a>
+ <div class="inner gadgetEventEditableArea">\n <img align="left" alt="" bor
+ der="0" height="201" src="https://www.redmountainmakers.org/resources/Pict
+ ures/Woodworking/Terry_Pens_cropped.jpg" style="margin: 8px\;" title="" wi
+ dth="225"/>\n <p>\n  <font style="font-size: 16px\;">\n   Learn the beauti
+ ful craft of pen-turning\n  </font>\n </p>\n <p>\n  <font style="font-size
+ : 16px\;">\n   In this introductory course to wood turning\, you'll be sho
+ wn how to turn a beautiful wooden pen on the lathe.\n  </font>\n </p>\n <p
+ >\n  <font style="font-size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p>\n 
+  <font style="font-size: 16px\;">\n   Over a couple of hours\, you'll prod
+ uce a gorgeous piece that is a perfect present for a dear one (or for your
+ self!) and learn the basics of woodturning\, safety behind the lathe and i
+ ts operations\, as well as the different gouges to use in the process.\n  
+ </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   <br/>\n  </fo
+ nt>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   <strong>\n    Abo
+ ut the Instructor:\n   </strong>\n   Terry Tingle is the president of the 
+ Alabama Woodturners Association and is a\n  </font>\n  <font style="font-s
+ ize: 16px\;">\n   member of The American Association of Woodturners. Terry
+  has been teaching students how to turn pens for years\, some of whom have
+  had their exhibitions in Art and Craft Shows throughout Alabama\, includi
+ ng Mentone.\n  </font>\n </p>\n <p align="left">\n  <font face="Ubuntu" st
+ yle="font-size: 16px\;">\n   <strong>\n   </strong>\n  </font>\n </p>\n <p
+  align="left">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <stro
+ ng>\n    Are Minors allowed\n   </strong>\n   ? Yes\, accompanied by paren
+ t.\n  </font>\n </p>\n <p align="left">\n  <font face="Ubuntu" style="font
+ -size: 16px\;">\n   <strong>\n   </strong>\n  </font>\n </p>\n <p align="l
+ eft">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <strong>\n    
+ What to wear\n   </strong>\n   : You must dress safely and appropriately. 
+ Arrive for class in long pants\, and closed-toe\, closed-heel shoes with s
+ ocks that protect up to the ankle. Long sleeves should be avoided if possi
+ ble and rolled up if necessary. Long hair must be tied back and dangly nec
+ klaces\, earrings or other accessories shall be removed before starting th
+ e class. Additional protective gear will be provided as needed. Masks may 
+ be required depending on circumstances.\n  </font>\n </p>\n <p align="cent
+ er">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <img alt="" bor
+ der="0" height="145" src="https://www.redmountainmakers.org/resources/Pict
+ ures/Logos%20and%20Posters/AWA%20Logo%20transparent%20bg.png" title="" wid
+ th="141.75"/>\n   <br/>\n  </font>\n </p>\n <p>\n  <font face="Ubuntu" sty
+ le="font-size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\
+ n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5208475
+LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Welding Class: Welding Basics: Introduction to TIG
 DTSTART:20230512T230000Z
 DTEND:20230513T020000Z
@@ -306,17 +356,14 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5256487>https://www.redmountainmakers.org/event-5256487</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
  " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
-  title=""/>\n  <a href="/resources/Pictures/RMM_Game_night_flyer.png" targ
- et="_blank" title="">\n   <img alt="" border="0" height="155" src="https:/
- /www.redmountainmakers.org/resources/Pictures/RMM_Game_night_flyer.png" st
- yle="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n <p>\n  We wi
- ll be hosting a game night in the classroom at RMM. Come join us for a nig
- ht of fun and adventure!\n </p>\n <p>\n  We will have a variety of board g
- ames to choose from. Some games include D&amp\;D Adventure Begins\, Plants
- \, Worst Case Scenarios\, Ticket to Ride and more. You may also bring your
-  own.\n </p>\n <p>\n  Every last Friday of the month we will have a board 
- game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <div clas
- s="clearEndContainer">\n </div>\n</div>\n
+  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
+ e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
+ n <p>\n  We will have a variety of board games to choose from. Some games 
+ include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
+  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
+  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
+ >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
+ n</div>\n
 EVENT_ID:5256487
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -22275,17 +22322,14 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5256490>https://www.redmountainmakers.org/event-5256490</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
  " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
-  title=""/>\n  <a href="/resources/Pictures/RMM_Game_night_flyer.png" targ
- et="_blank" title="">\n   <img align="left" alt="" border="0" height="155"
-  src="https://www.redmountainmakers.org/resources/Pictures/RMM_Game_night_
- flyer.png" style="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n
-  <p>\n  We will be hosting a game night in the classroom at RMM. Come join
-  us for a night of fun and adventure!\n </p>\n <p>\n  We will have a varie
- ty of board games to choose from. Some games include D&amp\;D Adventure Be
- gins\, Plants\, Worst Case Scenarios\, Ticket to Ride and more. You may al
- so bring your own.\n </p>\n <p>\n  Every last Friday of the month we will 
- have a board game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p
- >\n <div class="clearEndContainer">\n </div>\n</div>\n
+  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
+ e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
+ n <p>\n  We will have a variety of board games to choose from. Some games 
+ include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
+  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
+  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
+ >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
+ n</div>\n
 EVENT_ID:5256490
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -22299,17 +22343,14 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5256489>https://www.redmountainmakers.org/event-5256489</a>
  <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
  " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
-  title=""/>\n  <a href="/resources/Pictures/RMM_Game_night_flyer.png" targ
- et="_blank" title="">\n   <img align="left" alt="" border="0" height="155"
-  src="https://www.redmountainmakers.org/resources/Pictures/RMM_Game_night_
- flyer.png" style="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n
-  <p>\n  We will be hosting a game night in the classroom at RMM. Come join
-  us for a night of fun and adventure!\n </p>\n <p>\n  We will have a varie
- ty of board games to choose from. Some games include D&amp\;D Adventure Be
- gins\, Plants\, Worst Case Scenarios\, Ticket to Ride and more. You may al
- so bring your own.\n </p>\n <p>\n  Every last Friday of the month we will 
- have a board game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p
- >\n <div class="clearEndContainer">\n </div>\n</div>\n
+  title=""/>\n  <br/>\n </p>\n <p>\n  We will be hosting a game night in th
+ e classroom at RMM. Come join us for a night of fun and adventure!\n </p>\
+ n <p>\n  We will have a variety of board games to choose from. Some games 
+ include D&amp\;D Adventure Begins\, Plants\, Worst Case Scenarios\, Ticket
+  to Ride and more. You may also bring your own.\n </p>\n <p>\n  Every last
+  Friday of the month we will have a board game night.\n </p>\n <p>\n  <br/
+ >\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\
+ n</div>\n
 EVENT_ID:5256489
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -22539,42 +22580,41 @@ DTEND:20230520T203000Z
 UID:eaa77516-7c3e-4676-8ede-16e69a068a94
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5272856>https://www.redmountainmakers.org/event-5272856</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <span style="font-siz
- e: 16px\;">\n   <img alt="" border="0" height="281" src="https://www.redmo
- untainmakers.org/resources/Pictures/image_6487327%20(6).JPG" title="" widt
- h="285"/>\n  </span>\n </p>\n <p>\n  <span style="font-size: 16px\;">\n   
- Beginning Sewing Class. Learn How to operate one of our basic sewing machi
- nes!\n  </span>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   We wi
- ll make market tote bags.\n  </font>\n </p>\n <p>\n  <font face="Ubuntu\, 
- Arial\, sans-serif\, WaWebKitSavedSpanIndex_1">\n   <span style="">\n    S
- pring is here\, and farmers markets are opening! Come learn how to sew and
-  get inspired using our new sewing machine!\n   </span>\n  </font>\n </p>\
- n <p>\n  <font style="font-size: 16px\;">\n   <strong>\n    Are minors all
- owed?\n   </strong>\n   Only if accompanied by parent.\n  </font>\n </p>\n
-  <p style="line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <
- font>\n    <font>\n     What to Wear: You must dress safely and appropriat
- ely. Arrive\n    </font>\n    for class in long pants\, closed toe and hea
- l shoes with socks\n   </font>\n   that protect up to the ankle. Long slee
- ves should be avoided. Long hair must be tied back and jewelry should not 
- be worn. Additional protective gear will be provided as needed.\n  </font>
- \n </p>\n <p style="line-height: 22px\;">\n  <font style="font-size: 16px\
- ;">\n   <strong>\n    About the instructor -\n   </strong>\n   <strong>\n 
-    Gina Lee:\n   </strong>\n  </font>\n </p>\n <p>\n  <font style="font-si
- ze: 16px\;">\n   My love for collecting vintage sewing machines have opene
- d many paths for me. I have restored a long-lost vintage singer machine. T
- hen I grew into acquiring an industrial sewing machine.\n  </font>\n </p>\
- n <p>\n  <font style="font-size: 16px\;">\n   As a resident of Los Angeles
- \, Ca.\, my exposure allowed me to experience production and percument in 
- the fabric district in the downtown area.\n  </font>\n </p>\n <p>\n  <font
-  style="font-size: 16px\;">\n   Pillow covers were my most requested items
-  to make. I found such ease to kick out these projects on an industrial ma
- chine.\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   So\
- , let's experience what a pleasure it is to learn about this great machine
-  and make an indoor/outdoor pillow here at the space!\n  </font>\n </p>\n 
- <font style="font-size: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </fo
- nt>\n <p style="line-height: 22px\;">\n  <font face="Ubuntu" style="font-s
- ize: 16px\;">\n   <br/>\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div cla
- ss="clearEndContainer">\n </div>\n</div>\n
+ <div class="inner gadgetEventEditableArea">\n <span style="font-size: 16px
+ \;">\n  <img alt="" border="0" src="https://www.redmountainmakers.org/reso
+ urces/Pictures/image_6487327%20(6).JPG" title=""/>\n  Beginning Sewing Cla
+ ss. Learn How to operate one of our basic sewing machines!\n </span>\n <p>
+ \n  <font style="font-size: 16px\;">\n   We will use what we market tote b
+ ags.\n  </font>\n </p>\n <p>\n  <font face="Ubuntu\, Arial\, sans-serif\, 
+ WaWebKitSavedSpanIndex_1">\n   <span style="">\n    Spring is here\, and f
+ armers markets are opening! Come learn how to sew and get inspired using o
+ ur new sewing machine!\n   </span>\n  </font>\n </p>\n <p>\n  <font style=
+ "font-size: 16px\;">\n   <strong>\n    Are minors allowed?\n   </strong>\n
+    Only if accompanied by parent.\n  </font>\n </p>\n <p style="line-heigh
+ t: 22px\;">\n  <font style="font-size: 16px\;">\n   <font>\n    <font>\n  
+    What to Wear: You must dress safely and appropriately. Arrive\n    </fo
+ nt>\n    for class in long pants\, closed toe and heal shoes with socks\n 
+   </font>\n   that protect up to the ankle. Long sleeves should be avoided
+ . Long hair must be tied back and jewelry should not be worn. Additional p
+ rotective gear will be provided as needed.\n  </font>\n </p>\n <p style="l
+ ine-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <strong>\n   
+  About the instructor -\n   </strong>\n   <strong>\n    Gina Lee:\n   </st
+ rong>\n  </font>\n </p>\n <p>\n  <font style="font-size: 16px\;">\n   My l
+ ove for collecting vintage sewing machines have opened many paths for me. 
+ I have restored a long-lost vintage singer machine. Then I grew into acqui
+ ring an industrial sewing machine.\n  </font>\n </p>\n <p>\n  <font style=
+ "font-size: 16px\;">\n   As a resident of Los Angeles\, Ca.\, my exposure 
+ allowed me to experience production and percument in the fabric district i
+ n the downtown area.\n  </font>\n </p>\n <p>\n  <font style="font-size: 16
+ px\;">\n   Pillow covers were my most requested items to make. I found suc
+ h ease to kick out these projects on an industrial machine.\n  </font>\n <
+ /p>\n <p>\n  <font style="font-size: 16px\;">\n   So\, let's experience wh
+ at a pleasure it is to learn about this great machine and make an indoor/o
+ utdoor pillow here at the space!\n  </font>\n </p>\n <font style="font-siz
+ e: 16px\;">\n  <strong>\n   <br/>\n  </strong>\n </font>\n <p style="line-
+ height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <br
+ />\n  </font>\n </p>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer
+ ">\n </div>\n</div>\n
 EVENT_ID:5272856
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -22619,123 +22659,6 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  s="clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5271700
 LOCATION:Red Mountain Makers - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wood turning Class: Turn a Wooden Candle Holder
-DTSTART:20230528T150000Z
-DTEND:20230528T180000Z
-UID:92da56ee-23d6-4bbe-9a4b-fb0e87832f66
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5276204>https://www.redmountainmakers.org/event-5276204</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <span style="backgrou
- nd-color: rgb(15\, 17\, 21)\;">\n   <font face="Ubuntu" style="font-size: 
- 16px\;">\n    <img alt="" border="0" height="254" src="https://www.redmoun
- tainmakers.org/resources/Pictures/Woodworking/candleholders.jpg" title="" 
- width="288"/>\n   </font>\n  </span>\n </p>\n <p>\n  <span style="backgrou
- nd-color: rgb(15\, 17\, 21)\;">\n   <font face="Ubuntu" style="font-size: 
- 16px\;">\n    Learn the basics of turning and tools to make the design of 
- your choice.  We'll cover mounting a wood blank between centers and in a c
- huck\, drilling a recess for a candle\, shaping with gouges\, sanding and 
- finishing.\n   </font>\n  </span>\n </p>\n <p style="font-size: 18px\; bac
- kground-color: transparent\;">\n  <font style="font-size: 16px\;">\n   <st
- rong>\n    Are minors allowed?\n   </strong>\n   Only if accompanied by pa
- rent.\n  </font>\n </p>\n <p style="font-size: 18px\; background-color: tr
- ansparent\; line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   
- <font>\n    <font>\n     What to Wear: You must dress safely and appropria
- tely. Arrive\n    </font>\n    for class in long pants\, closed toe and he
- al shoes with socks\n   </font>\n   that protect up to the ankle. Long sle
- eves should be avoided. Long hair must be tied back and jewelry should not
-  be worn. Additional protective gear will be provided as needed. Ear plugs
-  are recommended for hearing protection and dust masks are also useful.\n 
-  </font>\n </p>\n <p style="font-size: 18px\; background-color: transparen
- t\; line-height: 22px\;">\n  <font style="font-size: 16px\;">\n   <strong>
- \n    About the instructor:\n   </strong>\n  </font>\n </p>\n <font face="
- Ubuntu" style="font-size: 16px\;">\n  Carl Cummins has been woodturning as
-  a primary activity for over 10 years.  He has studied extensively from bo
- oks\, videos\, workshops\, symposiums\, and formal training from nationall
- y and internationally known leaders in the field including David Ellsworth
-  and Jean-Francois Escoulen.  Instead of specializing\, Carl enjoys a wide
-  variety of woodturning projects including bowls\, boxes\, practical items
- \, and eccentric art pieces.\n </font>\n <p align="center" style="font-siz
- e: 18px\; background-color: transparent\;">\n  <font face="Ubuntu" style="
- font-size: 16px\;">\n   <img alt="" border="0" height="145" src="https://w
- ww.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20Lo
- go%20transparent%20bg.png" title="" width="141.75"/>\n   <br/>\n  </font>\
- n </p>\n <p style="font-size: 18px\; background-color: transparent\; line-
- height: 22px\;">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <br
- />\n  </font>\n </p>\n <p style="font-size: 18px\; background-color: trans
- parent\;">\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</d
- iv>\n
-EVENT_ID:5276204
-LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Wood turning Class: Make a Gonk
-DTSTART:20230513T180000Z
-DTEND:20230513T210000Z
-UID:18c3a663-8a9f-4a72-9857-8755f8ccb0e3
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5276259>https://www.redmountainmakers.org/event-5276259</a>
- <div class="inner gadgetEventEditableArea">\n <p align="center">\n  <font>
- \n   <br/>\n  </font>\n </p>\n <p>\n  <font>\n   <img alt="" border="0" he
- ight="174" src="https://www.redmountainmakers.org/resources/Pictures/Woodw
- orking/shepherd%20gonk%201.jpg" title="" width="134"/>\n   <br/>\n  </font
- >\n </p>\n <span style="font-family: Ubuntu\, Arial\, sans-serif\;">\n  <s
- pan style="font-family: Ubuntu\, Arial\, sans-serif\;">\n   <span style="f
- ont-family: Ubuntu\, Arial\, sans-serif\;">\n    <font>\n     <font>\n    
-   <span style="font-family: Ubuntu\, Arial\, sans-serif\;">\n       <font 
- face="Arial\, Helvetica\, sans-serif">\n        A Gonk is a mythical Scand
- inavian creature that inhabits barns and other\n       </font>\n      </sp
- an>\n      <span style="font-family: Ubuntu\, Arial\, sans-serif\;">\n    
-    <font face="Arial\, Helvetica\, sans-serif">\n        farm buildings. G
- onks normally look out for the farmer and their family\,\n       </font>\n
-       </span>\n      <span style="font-family: Ubuntu\, Arial\, sans-serif
- \;">\n       <font face="Arial\, Helvetica\, sans-serif">\n        but can
-  turn mischievous when they are ignored or annoyed. Turned Gonks\n       <
- /font>\n      </span>\n      <span style="font-family: Ubuntu\, Arial\, sa
- ns-serif\;">\n       <font face="Arial\, Helvetica\, sans-serif">\n       
-  can be made to be Christmas tree ornaments\, bottle stoppers\, gifts or\n
-        </font>\n      </span>\n      <span style="font-family: Ubuntu\, Ar
- ial\, sans-serif\;">\n       <font face="Arial\, Helvetica\, sans-serif">\
- n        just a conversation piece that sits on the mantel or shelf. They 
- make\n       </font>\n      </span>\n      <span style="font-family: Ubunt
- u\, Arial\, sans-serif\;">\n       <font face="Arial\, Helvetica\, sans-se
- rif">\n        great gifts especially when made to fit the person's hobby\
- , lifestyle\,\n       </font>\n      </span>\n      <span style="font-fami
- ly: Ubuntu\, Arial\, sans-serif\;">\n       <font face="Arial\, Helvetica\
- , sans-serif">\n        job etc. The variations are only limited by one's 
- imagination. One thing\n       </font>\n      </span>\n      <span style="
- font-family: Ubuntu\, Arial\, sans-serif\;">\n       <font face="Arial\, H
- elvetica\, sans-serif">\n        is sure\, no one can look at a gonk witho
- ut smiling.\n       </font>\n      </span>\n      <br/>\n      <br/>\n    
-   <span style="font-family: Ubuntu\, Arial\, sans-serif\;">\n       <font 
- face="Arial\, Helvetica\, sans-serif">\n        About the Instructor:\n   
-     </font>\n      </span>\n      <br/>\n      <span style="font-family: U
- buntu\, Arial\, sans-serif\;">\n       <font face="Arial\, Helvetica\, san
- s-serif">\n        Steve Pritchard is visiting from Atlanta where he is a 
- member of three (!) woodturning clubs.  He has demonstrated at local clubs
-  and regional symposiums from\n       </font>\n      </span>\n      <span 
- style="font-family: Ubuntu\, Arial\, sans-serif\;">\n       <font face="Ar
- ial\, Helvetica\, sans-serif">\n        Florida to New York and teaches tw
- o one-week classes each year at the\n        <span style="-webkit-tap-high
- light-color: rgba(0\, 0\, 0\, 0)\; font-family: Arial\, Helvetica\, sans-s
- erif\;">\n         out\n        </span>\n       </font>\n      </span>\n  
-    </font>\n     <span style="font-family: Ubuntu\, Arial\, sans-serif\;">
- \n      <font face="Arial\, Helvetica\, sans-serif">\n       John C. Campb
- ell Folk School.\n      </font>\n     </span>\n    </font>\n   </span>\n  
-  <br/>\n  </span>\n </span>\n <p>\n  <font>\n   <span style="font-family: 
- Ubuntu\, Arial\, sans-serif\;">\n    <span style="font-family: Ubuntu\, Ar
- ial\, sans-serif\;">\n     We're looking forward to see you\n    </span>\n
-    </span>\n   !!\n  </font>\n </p>\n <p>\n  <font>\n  </font>\n </p>\n <p
- >\n  <font>\n   <br/>\n  </font>\n </p>\n <p>\n  <font>\n  </font>\n  <img
-  alt="" border="0" height="145" src="https://www.redmountainmakers.org/res
- ources/Pictures/Logos%20and%20Posters/AWA%20Logo%20transparent%20bg.png" s
- tyle="font-family: Ubuntu\; font-size: 16px\;" title="" width="141.75"/>\n
-  </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
-EVENT_ID:5276259
-LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 END:VCALENDAR

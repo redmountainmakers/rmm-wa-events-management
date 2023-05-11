@@ -10,6 +10,17 @@ from icalendar import Calendar, Event
 from datetime import datetime, timezone
 
 def download_ics_file(url, save_path):
+    """
+    Downloads an .ics file from the specified URL and saves it to the specified path. 
+
+    Args:
+        url (str): The URL to download the file from.
+        save_path (str): The path to save the downloaded file.
+
+    Returns:
+        None
+    """
+
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -286,3 +297,40 @@ def events_to_csv(events, file_path):
                 "Contact Phone": "205-588-4077",
                 "Contact Email": "Carla@redmountainmakers.org"
             })
+
+def upload_file_to_pcloud(file_path, access_token):
+    """
+    Uploads a file to pCloud using the API.
+
+    Args:
+        file_path (str): The path to the file to be uploaded.
+        access_token (str): The access token for the pCloud account.
+
+    Returns:
+        dict: The JSON response from the API.
+    """
+
+    # replace with your actual hostname
+    hostname = "api.pcloud.com"  # or "eapi.pcloud.com" depending on the user's data location
+
+    # prepare the headers and parameters for the request
+    headers = {
+        "Authorization": f"Bearer {access_token}",
+    }
+    params = {
+        "path": "/",  # the path in pCloud where the file will be uploaded
+    }
+
+    # open the file in binary mode
+    with open(file_path, "rb") as fp:
+        # prepare the files for the request
+        files = {
+            "file": fp,
+        }
+
+        # make the POST request to the uploadfile endpoint
+        response = requests.post(f"https://{hostname}/uploadfile", headers=headers, params=params, files=files)
+
+    # return the response
+    return response.json()
+

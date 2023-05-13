@@ -300,52 +300,6 @@ def events_to_csv(events, file_path):
                 "Contact Email": "Carla@redmountainmakers.org"
             })
 
-
-    """Uploads a file to Wild Apricot API and returns a list of FileInfo."""
-    api_base_url = 'https://api.wildapricot.org/v2.2'
-    headers = {
-        'Authorization': f'Bearer {access_token}',
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-    }
-
-    # Make an API request to retrieve the account details
-    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
-    account_id = account_response.json()[0]['Id']
-
-    # Endpoint URL
-    url = f"{api_base_url}/accounts/{account_id}/attachments/Upload"
-
-    # Read the file in binary mode and encode to base64
-    with open(file_path, 'rb') as f:
-        file_content = f.read()
-
-    # Encode file to base64
-    file_content_base64 = base64.b64encode(file_content).decode('utf-8')
-
-    # Create payload
-    payload = {
-        "AttachmentDataList": [
-            {
-                "FileName": file_path.split('/')[-1],  # Extract filename from file_path
-                "Data": file_content_base64,
-            }
-        ]
-    }
-
-    # Send POST request
-    response = requests.post(url, headers=headers, data=json.dumps(payload))
-
-    # Check the response
-    if response.status_code == 200:
-        print("File uploaded successfully.")
-        return response.json()
-    else:
-        print("Failed to upload the file.")
-        print("Status Code:", response.status_code)
-        print("Response:", response.text)
-        return None
-
 def upload_to_aws(file_path):
     aws_access_key = os.environ['AWS_ACCESS_KEY']
     aws_secret_key = os.environ['AWS_SECRET_KEY']

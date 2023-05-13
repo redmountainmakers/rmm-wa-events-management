@@ -23,7 +23,7 @@ upcoming_events = get_upcoming_events(access_token) #Gets the list of upcoming e
 create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA API data
 
 process_calendar(ics_current_path, wa_ics_path, output_ics_path,log_file_path)#Deletes old events, adds new events, and updates changed events
-upload_to_wa(access_token,output_ics_path)
+upload_to_aws(output_ics_path)
 
 #print(upcoming_events)
 

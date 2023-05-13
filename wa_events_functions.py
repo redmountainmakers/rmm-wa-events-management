@@ -350,7 +350,7 @@ def upload_to_aws(file_path):
     aws_access_key = os.environ['AWS_ACCESS_KEY']
     aws_secret_key = os.environ['AWS_SECRET_KEY']
 
-    s3_client = boto3.client('s3', aws_access_key, aws_secret_key)
+    s3_client = boto3.client('s3', aws_access_key_id = aws_access_key, aws_secret_access_key_id = aws_secret_key)
     
     bucket_name = 'rmm-events-ics'
     object_key = f'{file_path}'

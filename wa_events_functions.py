@@ -2,6 +2,7 @@ import os
 import csv
 import uuid
 import pytz
+import json
 import base64
 import requests
 import logging
@@ -298,39 +299,48 @@ def events_to_csv(events, file_path):
                 "Contact Email": "Carla@redmountainmakers.org"
             })
 
-def upload_file_to_pcloud(file_path, access_token):
-    """
-    Uploads a file to pCloud using the API.
-
-    Args:
-        file_path (str): The path to the file to be uploaded.
-        access_token (str): The access token for the pCloud account.
-
-    Returns:
-        dict: The JSON response from the API.
-    """
-
-    # replace with your actual hostname
-    hostname = "api.pcloud.com"  # or "eapi.pcloud.com" depending on the user's data location
-
-    # prepare the headers and parameters for the request
+def upload_to_wa(access_token, file_path):
+    """Uploads a file to Wild Apricot API and returns a list of FileInfo."""
+    api_base_url = 'https://api.wildapricot.org/v2.2'
     headers = {
-        "Authorization": f"Bearer {access_token}",
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
     }
-    params = {
-        "path": "/",  # the path in pCloud where the file will be uploaded
+
+    # Make an API request to retrieve the account details
+    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
+    account_id = account_response.json()[0]['Id']
+
+    # Endpoint URL
+    url = f"{api_base_url}/accounts/{account_id}/attachments/Upload"
+
+    # Read the file in binary mode and encode to base64
+    with open(file_path, 'rb') as f:
+        file_content = f.read()
+
+    # Encode file to base64
+    file_content_base64 = base64.b64encode(file_content).decode('utf-8')
+
+    # Create payload
+    payload = {
+        "AttachmentDataList": [
+            {
+                "FileName": file_path.split('/')[-1],  # Extract filename from file_path
+                "Data": file_content_base64,
+            }
+        ]
     }
 
-    # open the file in binary mode
-    with open(file_path, "rb") as fp:
-        # prepare the files for the request
-        files = {
-            "file": fp,
-        }
+    # Send POST request
+    response = requests.post(url, headers=headers, data=json.dumps(payload))
 
-        # make the POST request to the uploadfile endpoint
-        response = requests.post(f"https://{hostname}/uploadfile", headers=headers, params=params, files=files)
-
-    # return the response
-    return response.json()
-
+    # Check the response
+    if response.status_code == 200:
+        print("File uploaded successfully.")
+        return response.json()
+    else:
+        print("Failed to upload the file.")
+        print("Status Code:", response.status_code)
+        print("Response:", response.text)
+        return None

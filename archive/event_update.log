@@ -506,3 +506,20 @@
 2023-05-16 19:13:03,338 - INFO - Added event_id f77e77aa-e365-4969-af0d-f105f3ecd90a
 2023-05-16 19:13:03,338 - INFO - Added event_id a93712da-f5e0-467c-b4e7-6948f33104cd
 2023-05-16 19:13:03,338 - INFO - Added event_id d645980c-57c8-499c-aad5-2c79c947e972
+2023-05-16 19:32:19,336 - INFO - Removed past event with ID 5208475
+2023-05-16 19:32:19,337 - INFO - Removed past event with ID 5204447
+2023-05-16 19:32:19,337 - INFO - Removed event with ID 5211999 as it is not in the latest calendar
+2023-05-16 19:32:19,337 - INFO - Removed past event with ID 5257128
+2023-05-16 19:32:19,337 - INFO - Removed past event with ID 5264600
+2023-05-16 19:32:19,337 - INFO - Removed event with ID 5272856 as it is not in the latest calendar
+2023-05-16 19:32:19,337 - INFO - DESCRIPTION has changed for 5256490
+2023-05-16 19:32:19,337 - INFO - DESCRIPTION has changed for 5256487
+2023-05-16 19:32:19,338 - INFO - DESCRIPTION has changed for 5256489
+2023-05-16 19:32:19,338 - INFO - Added event_id 5283342
+2023-05-16 19:32:19,338 - INFO - Added event_id 5283340
+2023-05-16 19:32:19,338 - INFO - Added event_id 5287392
+2023-05-16 19:32:19,338 - INFO - Added event_id 5208475
+2023-05-16 19:32:19,338 - INFO - Added event_id 5288546
+2023-05-16 19:32:19,338 - INFO - Added event_id 5283344
+2023-05-16 19:32:19,338 - INFO - Added event_id 5276204
+2023-05-16 19:32:19,338 - INFO - Added event_id 5281411

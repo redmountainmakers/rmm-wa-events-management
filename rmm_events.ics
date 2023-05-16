@@ -22770,4 +22770,17 @@ EVENT_ID:5283340
 LOCATION:Red Mountain Makers - 810 4th Ave N\, Birmingham AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:test event
+DTSTART:20231201T060000Z
+DTEND:20231201T060000Z
+UID:28edd1e7-c1bc-4ec8-9bb8-496d18a1506c
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5288506>https://www.redmountainmakers.org/event-5288506</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <div c
+ lass="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5288506
+LOCATION:
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
 END:VCALENDAR

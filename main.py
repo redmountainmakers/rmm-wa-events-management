@@ -1,7 +1,7 @@
 import subprocess
 from wa_events_functions import*
 
-current_ics_url = 'https://redmountainmakers.org/resources/Events_Conversion/redmountainmakers_events.ics'
+current_ics_url = 'https://rmm-events-ics.s3.us-east-2.amazonaws.com/rmm_events.ics'
 
 #Specifies the local file paths for files to be saved locally on the Actions runner
 ics_current_path = 'redmountainmakers_events.ics'

@@ -205,7 +205,7 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
     latest_events = {}
     for event in ics_latest.walk('VEVENT'):
-        event_id = event.get('uid')
+        event_id = event.get('EVENT_ID')
         if event_id:
             latest_events[event_id] = event
 
@@ -214,7 +214,7 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
         if event.name != 'VEVENT':
             continue
 
-        event_id = event.get('uid')
+        event_id = event.get('EVENT_ID')
 
         # Delete past events
         start_time = event.get("dtstart").dt.astimezone(pytz.utc)
@@ -231,7 +231,7 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
     # Update fields
     for event_id in current_event_ids:
-        event = next(e for e in ics_current.subcomponents if e.name == 'VEVENT' and e.get('uid') == event_id)
+        event = next(e for e in ics_current.subcomponents if e.name == 'VEVENT' and e.get('EVENT_ID') == event_id)
         latest_event = latest_events[event_id]
         fields_to_update = ['SUMMARY', 'DTSTART', 'DTEND', 'DESCRIPTION', 'LOCATION']
 

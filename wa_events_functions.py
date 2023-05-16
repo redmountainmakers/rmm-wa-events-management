@@ -2,6 +2,8 @@ import os
 import csv
 import uuid
 import pytz
+import json
+import boto3
 import base64
 import requests
 import logging
@@ -10,10 +12,22 @@ from icalendar import Calendar, Event
 from datetime import datetime, timezone
 
 def download_ics_file(url, save_path):
+    """
+    Downloads an .ics file from the specified URL and saves it to the specified path. 
+
+    Args:
+        url (str): The URL to download the file from.
+        save_path (str): The path to save the downloaded file.
+
+    Returns:
+        None
+    """
+
     response = requests.get(url)
 
     if response.status_code == 200:
         content_type = response.headers.get('content-type')
+        #print(content_type)
         if content_type != 'text/calendar':
             print(f"Error: {url} is not a valid .ics file")
             return
@@ -79,7 +93,7 @@ def get_upcoming_events(access_token):
     # Make an API request to retrieve event data
     events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events?$filter={filter_query}', headers=headers)
     print('test')
-    print(events_response.text)
+    #print(events_response.text)
     
     events = events_response.json()['Events']
 
@@ -286,6 +300,23 @@ def events_to_csv(events, file_path):
                 "Contact Phone": "205-588-4077",
                 "Contact Email": "Carla@redmountainmakers.org"
             })
+
+def upload_to_aws(file_path):
+    aws_access_key = os.environ['AWS_ACCESS_KEY']
+    aws_secret_key = os.environ['AWS_SECRET_KEY']
+
+    s3_client = boto3.client('s3', aws_access_key_id = aws_access_key, aws_secret_access_key = aws_secret_key)
+    
+    bucket_name = 'rmm-events-ics'
+    object_key = f'{file_path}'
+
+    # Open the file that you want to update
+    with open(file_path, 'rb') as f:
+        # Upload the file to S3
+        s3_client.put_object(Bucket=bucket_name, Key=object_key, Body=f, ACL='public-read')
+    
+    # Print a message to let the user know that the file has been updated
+    print('The file has been updated successfully.')
 
 def print_event_titles_from_ics(file_path):
     # Open the .ics file

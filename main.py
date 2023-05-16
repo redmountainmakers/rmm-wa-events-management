@@ -1,7 +1,7 @@
 import subprocess
 from wa_events_functions import*
 
-current_ics_url = 'https://redmountainmakers.org/resources/Events_Conversion/redmountainmakers_events.ics'
+current_ics_url = 'https://rmm-events-ics.s3.us-east-2.amazonaws.com/rmm_events.ics'
 
 #Specifies the local file paths for files to be saved locally on the Actions runner
 ics_current_path = 'redmountainmakers_events.ics'
@@ -15,13 +15,15 @@ bham365_events = "bham365.csv"
 
 download_ics_file(current_ics_url,ics_current_path)#Downloads the current ics file from the RMM website
 
-api_key = os.environ.get("API_KEY")#Gets the API key from the environment variables
-access_token = get_access_token(api_key)#Gets the access token from the WA API
+wa_api_key = os.environ.get("API_KEY")#Gets the API key from the environment variables
+access_token = get_access_token(wa_api_key)#Gets the access token from the WA API
+
 
 upcoming_events = get_upcoming_events(access_token) #Gets the list of upcoming events and data from the WA API
 create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA API data
 
 process_calendar(ics_current_path, wa_ics_path, output_ics_path,log_file_path)#Deletes old events, adds new events, and updates changed events
+upload_to_aws(output_ics_path)
 
 print("Current Events")
 print_event_titles_from_ics(ics_current_path)

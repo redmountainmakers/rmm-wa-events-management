@@ -1,4 +1,5 @@
 pytz
+boto3
 requests
 icalendar
 beautifulsoup4

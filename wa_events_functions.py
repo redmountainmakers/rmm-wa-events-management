@@ -286,3 +286,15 @@ def events_to_csv(events, file_path):
                 "Contact Phone": "205-588-4077",
                 "Contact Email": "Carla@redmountainmakers.org"
             })
+
+def print_event_titles_from_ics(file_path):
+    # Open the .ics file
+    with open(file_path, 'rb') as ics_file:
+        ics_content = Calendar.from_ical(ics_file.read())
+
+        # Iterate over each event in the calendar
+        for component in ics_content.walk('VEVENT'):
+            event_title = component.get('SUMMARY')
+
+            # Print the event title
+            print(event_title)

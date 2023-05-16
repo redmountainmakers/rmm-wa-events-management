@@ -23,6 +23,13 @@ create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA AP
 
 process_calendar(ics_current_path, wa_ics_path, output_ics_path,log_file_path)#Deletes old events, adds new events, and updates changed events
 
+print("Current Events")
+print_event_titles_from_ics(ics_current_path)
+print("Wild Apricot Events")
+print_event_titles_from_ics(wa_ics_path)
+print("New Events")
+print_event_titles_from_ics(output_ics_path)
+
 #print(upcoming_events)
 
 events_to_csv(upcoming_events,bham365_events)

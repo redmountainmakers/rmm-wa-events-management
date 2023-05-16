@@ -27,6 +27,7 @@ def download_ics_file(url, save_path):
 
     if response.status_code == 200:
         content_type = response.headers.get('content-type')
+        print(content_type)
         if content_type != 'text/calendar':
             print(f"Error: {url} is not a valid .ics file")
             return

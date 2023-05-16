@@ -178,7 +178,7 @@ def create_ics_file(events, file_path):
     print(f'iCalendar file written to {os.path.abspath(file_path)}')
 
 def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_file_path):
-    # Create a logger object
+    # Create a logger object 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)
 
@@ -192,6 +192,8 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
     # Add the file handler to the logger
     logger.addHandler(file_handler)
+
+    logger.info(f'Starting to process calendar updates')
 
     # Read the current and latest .ics files
     with open(ics_current_path, 'rb') as ics_current_file:

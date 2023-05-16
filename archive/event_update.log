@@ -463,3 +463,46 @@
 2023-05-15 01:04:58,888 - INFO - Added event_id 5281411
 2023-05-16 16:46:53,413 - INFO - Added event_id 5288506
 2023-05-16 17:02:45,730 - INFO - Added event_id 5288546
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 9d8a6c84-bb18-471c-90b3-80b74cfd856c as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID d8c05cba-dc64-4214-b799-bd39c763a962 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID bb59bf6e-0678-4903-916a-4c80b67724fd as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 084bf65f-c245-4997-9f58-b3a0cca3275a as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 1b4d564a-20a1-417a-90f7-df2b8def4784 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 867d7779-bc80-4d22-8970-08ded42b121f as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 0f90d15b-e33d-4217-ab06-eb0a0bdae39e as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 0bd9abc3-bbd7-4b33-813a-545ab093ff7a as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 27f47e50-ac25-4079-8633-1fe0ae2a8f74 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 39ed32ea-d568-455a-b40a-dbb4af95b68b as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 434da3d1-8c01-46c4-b531-86df9e48f230 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 1bd9af6c-3606-4fc7-98a9-ab80c12540c2 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID eaa77516-7c3e-4676-8ede-16e69a068a94 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 116d6228-a1a2-4346-91f6-9a6a0373ab0c as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID 98fcef01-74e7-4be3-9152-1cac54e3db38 as it is not in the latest calendar
+2023-05-16 19:13:03,337 - INFO - Removed event with ID f6b2d058-f02a-44a2-a59f-d1a6c98a7020 as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 11150b95-8cec-4d44-85f6-2f4538380de8 as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 75317792-e48c-4493-82b8-e5b7b001ad44 as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 20ddbfa1-8138-486e-8257-6b9aed9b7ffe as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 5deb9da1-c0e0-4784-b680-0cb98f19f3ed as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID d324f48f-17aa-4445-95ef-24fbfb8fd5d4 as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 28edd1e7-c1bc-4ec8-9bb8-496d18a1506c as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Removed event with ID 093c1cdd-79aa-4245-93b0-cc226a2563b7 as it is not in the latest calendar
+2023-05-16 19:13:03,338 - INFO - Added event_id 89becba3-5e56-4fea-9386-6b8b8a4a6445
+2023-05-16 19:13:03,338 - INFO - Added event_id 03a7d058-f2ac-4d73-941a-248885133195
+2023-05-16 19:13:03,338 - INFO - Added event_id d4a8e870-167a-4a46-9816-53ff3f244b4a
+2023-05-16 19:13:03,338 - INFO - Added event_id 253d900e-bced-4e0e-8ca9-25ad2f4f24e0
+2023-05-16 19:13:03,338 - INFO - Added event_id a4ad494a-dd14-4654-836d-db44c5bd5532
+2023-05-16 19:13:03,338 - INFO - Added event_id 18331e10-add4-4353-8369-08aeb799ca99
+2023-05-16 19:13:03,338 - INFO - Added event_id 5f57ee4a-616a-484c-8929-1aecc48a4ad4
+2023-05-16 19:13:03,338 - INFO - Added event_id e0e5942b-e92c-4eaa-b9da-8795d1385471
+2023-05-16 19:13:03,338 - INFO - Added event_id 45953ec8-eee0-495c-be44-658f1e306491
+2023-05-16 19:13:03,338 - INFO - Added event_id 7ce8abe0-cee8-4d4f-8e9c-8eff2192248c
+2023-05-16 19:13:03,338 - INFO - Added event_id 932fa7ac-f65f-4669-8c88-02460bfc3a8d
+2023-05-16 19:13:03,338 - INFO - Added event_id 0c743267-8d05-4225-8398-121476a9e711
+2023-05-16 19:13:03,338 - INFO - Added event_id dc52b6db-d025-47d4-b482-1b0b03538a22
+2023-05-16 19:13:03,338 - INFO - Added event_id c682316d-4fa1-4f6c-b4d1-705965d3f5f4
+2023-05-16 19:13:03,338 - INFO - Added event_id 70e1dfe2-1a04-43ea-a825-e93a0ebc4965
+2023-05-16 19:13:03,338 - INFO - Added event_id 86e5b901-80c3-45e0-9a32-cf36285a2535
+2023-05-16 19:13:03,338 - INFO - Added event_id ef1bdc9f-e4d9-4f89-b6cf-c0c42c665757
+2023-05-16 19:13:03,338 - INFO - Added event_id f77e77aa-e365-4969-af0d-f105f3ecd90a
+2023-05-16 19:13:03,338 - INFO - Added event_id a93712da-f5e0-467c-b4e7-6948f33104cd
+2023-05-16 19:13:03,338 - INFO - Added event_id d645980c-57c8-499c-aad5-2c79c947e972

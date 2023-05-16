@@ -205,33 +205,50 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
 
     latest_events = {}
     for event in ics_latest.walk('VEVENT'):
-        event_id = event.get('EVENT_ID')
+        event_id = event.get('uid')
         if event_id:
             latest_events[event_id] = event
 
     current_event_ids = set()
-    for event in ics_current.walk('VEVENT'):
-        event_id = event.get('EVENT_ID')
-
-        # Delete past events
-        start_time = event.get("DTSTART").dt.astimezone(pytz.utc)
-        if start_time < utc_now:
-            ics_current.subcomponents.remove(event)
-            logger.info(f'Removed event with ID {event_id}')
+    for event in ics_current.subcomponents[:]:  # use a copy for iteration
+        if event.name != 'VEVENT':
             continue
 
-        current_event_ids.add(event_id)
+        event_id = event.get('uid')
 
-        # Update fields
-        if event_id and event_id in latest_events:
-            latest_event = latest_events[event_id]
-            fields_to_update = ['SUMMARY', 'DTSTART', 'DTEND', 'DESCRIPTION', 'LOCATION']
+        # Delete past events
+        start_time = event.get("dtstart").dt.astimezone(pytz.utc)
+        if start_time < utc_now:
+            ics_current.subcomponents.remove(event)
+            logger.info(f'Removed past event with ID {event_id}')
 
-            for field in fields_to_update:
-                if latest_event.get(field) != event.get(field):
-                    logger.info(f'{field} has changed for {event_id}')
-                if latest_event.get(field) is not None:
-                    event[field] = latest_event[field]
+        #delete removed events *checks for events that are no longer in the ics_current and removes them*
+        elif event_id not in latest_events:
+            ics_current.subcomponents.remove(event)
+            logger.info(f'Removed event with ID {event_id} as it is not in the latest calendar')
+        else:
+            current_event_ids.add(event_id)
+
+    # Update fields
+    for event_id in current_event_ids:
+        event = next(e for e in ics_current.subcomponents if e.name == 'VEVENT' and e.get('uid') == event_id)
+        latest_event = latest_events[event_id]
+        fields_to_update = ['SUMMARY', 'DTSTART', 'DTEND', 'DESCRIPTION', 'LOCATION']
+
+        for field in fields_to_update:
+            if latest_event.get(field) != event.get(field):
+                logger.info(f'{field} has changed for {event_id}')
+            if latest_event.get(field) is not None:
+                event[field.lower()] = latest_event[field]
+
+    # Add additional events
+    latest_event_ids = set(latest_events.keys())
+    additional_events = latest_event_ids - current_event_ids
+    for event_id in additional_events:
+        new_event = latest_events.get(event_id)
+        if new_event:
+            ics_current
+
 
     # Add additional events
     latest_event_ids = set(latest_events.keys())

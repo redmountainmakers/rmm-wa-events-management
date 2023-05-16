@@ -247,15 +247,6 @@ def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_fil
     for event_id in additional_events:
         new_event = latest_events.get(event_id)
         if new_event:
-            ics_current
-
-
-    # Add additional events
-    latest_event_ids = set(latest_events.keys())
-    additional_events = latest_event_ids - current_event_ids
-    for event_id in additional_events:
-        new_event = latest_events.get(event_id)
-        if new_event:
             ics_current.add_component(new_event)
             logger.info(f'Added event_id {event_id}')
 

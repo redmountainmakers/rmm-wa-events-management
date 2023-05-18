@@ -150,7 +150,7 @@ def create_ics_file(events, file_path):
         event_start = original_tz.localize(event_start).astimezone(pytz.utc)
         event_end = datetime.fromisoformat(event['EndDate'][:-1] + '0').replace(tzinfo=None)
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
-        event_location = event['Location']
+        event_location = event['Location'].upper()#converts the event location to uppercase
         event_tag = event['Tags'][0].capitalize() if event['Tags'] else ''
         if event_tag:
             event_title = f'{event_tag} Class: {event_title}'
@@ -178,6 +178,15 @@ def create_ics_file(events, file_path):
     print(f'iCalendar file written to {os.path.abspath(file_path)}')
 
 def process_calendar(ics_current_path, ics_latest_path, ics_output_path, log_file_path):
+    """
+    Processes calendar updates by reading two ics files, comparing them, and updating them accordingly.
+
+    :param ics_current_path: A string representing the path to the current ics file.
+    :param ics_latest_path: A string representing the path to the latest ics file.
+    :param ics_output_path: A string representing the path to the output ics file.
+    :param log_file_path: A string representing the path to the log file.
+    """
+
     # Create a logger object 
     logger = logging.getLogger(__name__)
     logger.setLevel(logging.INFO)

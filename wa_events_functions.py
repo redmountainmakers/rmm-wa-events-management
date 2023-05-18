@@ -103,7 +103,7 @@ def get_upcoming_events(access_token):
     
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
-    upcoming_events = [event for event in events if 'bham now' in event.get('Tags') is True and
+    upcoming_events = [event for event in events if 'bham now' in event.get('Tags') and
                        event.get('AccessLevel') == 'Public' and
                        'private' not in event.get('Name', '').lower()]
     

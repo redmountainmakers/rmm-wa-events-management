@@ -157,6 +157,8 @@ def create_ics_file(events, file_path):
         event_location = event['Location'].upper()#converts the event location to uppercase
         event_tag = event['Tags'][0].capitalize() if event['Tags'] else ''
         if event_tag:
+            if event_tag == 'bham now' or event_tag == 'social':
+                pass
             event_title = f'{event_tag} Class: {event_title}'
 
         # Create a new event in the iCalendar file

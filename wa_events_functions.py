@@ -87,13 +87,11 @@ def get_upcoming_events(access_token):
     current_datetime = datetime.now(timezone.utc)
 
     
-    #Create a filter query to only get a response based on the recently completed events
+    #Create a filter query to only get a response based on upcoming events
     filter_query = f"StartDate gt {current_datetime.strftime('%Y-%m-%dT%H:%M:%SZ')}"
 
     # Make an API request to retrieve event data
     events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events?$filter={filter_query}', headers=headers)
-    print('test')
-    #print(events_response.text)
     
     events = events_response.json()['Events']
 
@@ -102,6 +100,10 @@ def get_upcoming_events(access_token):
                        datetime.fromisoformat(event['StartDate'][:-1]+'0') >= current_datetime and
                        event.get('AccessLevel') == 'Public' and
                        'private' not in event.get('Name', '').lower()]
+    
+    for event in upcoming_events:
+        if 'BHam now' in event['Tags']:
+            upcoming_events.append(event)
 
     return upcoming_events
 

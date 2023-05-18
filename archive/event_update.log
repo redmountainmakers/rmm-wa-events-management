@@ -583,3 +583,29 @@
 2023-05-18 18:32:25,655 - INFO - Starting to process calendar updates
 2023-05-18 18:32:25,656 - INFO - Added event_id 5212000
 2023-05-18 18:32:25,656 - INFO - Added event_id 5211987
+2023-05-18 19:31:39,829 - INFO - Starting to process calendar updates
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5256490 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5256489 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5256484 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5283342 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5283340 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5288546 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - Removed event with ID 5283344 as it is not in the latest calendar
+2023-05-18 19:31:40,395 - INFO - LOCATION has changed for 5263229
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 4975127
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5287392
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5281411
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5208475
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5276204
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5256480
+2023-05-18 19:31:40,396 - INFO - DESCRIPTION has changed for 5211987
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5211987
+2023-05-18 19:31:40,396 - INFO - SUMMARY has changed for 5256487
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5256487
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5204463
+2023-05-18 19:31:40,396 - INFO - LOCATION has changed for 5271700
+2023-05-18 19:31:40,396 - INFO - DESCRIPTION has changed for 5212000
+2023-05-18 19:31:40,397 - INFO - LOCATION has changed for 5212000
+2023-05-18 19:31:40,397 - INFO - LOCATION has changed for 5208473
+2023-05-18 19:31:40,397 - INFO - Added event_id 5291256
+2023-05-18 19:31:40,397 - INFO - Added event_id 5291258

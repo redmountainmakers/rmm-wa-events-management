@@ -156,7 +156,7 @@ def create_ics_file(events, file_path):
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
         event_location = event['Location'].upper()#converts the event location to uppercase
         event_tag = event['Tags'][0].capitalize() if event['Tags'] else ''
-        if event_tag and event_tag != 'bham now' or event_tag != 'social':
+        if event_tag and event_tag != 'Bham now' or event_tag != 'Social':
             event_title = f'{event_tag} Class: {event_title}'
 
         # Create a new event in the iCalendar file

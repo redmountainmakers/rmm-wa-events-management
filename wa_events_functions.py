@@ -95,13 +95,6 @@ def get_upcoming_events(access_token):
     
     events = events_response.json()['Events']
 
-    print(events[0])
-    event_tags = events[0].get('Tags')
-    print(event_tags)
-    if('bham now' in event_tags):
-        print('bham now is in the tags')
-    
-
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
     upcoming_events = [event for event in events if 'bham now' in event.get('Tags') and
                        event.get('AccessLevel') == 'Public' and
@@ -156,6 +149,7 @@ def create_ics_file(events, file_path):
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
         event_location = event['Location'].upper()#converts the event location to uppercase
         event_tag = event['Tags'][0].capitalize() if event['Tags'] else ''
+        print(f'{event_tag} is the first event tag for {event_id}')
         if event_tag and event_tag != 'Bham now' or event_tag != 'Social':
             event_title = f'{event_tag} Class: {event_title}'
 

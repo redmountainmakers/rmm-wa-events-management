@@ -95,7 +95,12 @@ def get_upcoming_events(access_token):
     
     events = events_response.json()['Events']
 
-    #print(events[0])
+    print(events[0])
+    event_tags = events[0].get('Tags')
+    print(event_tags)
+    if('bham now' in event_tags):
+        print('bham now is in the tags')
+    
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
     upcoming_events = [event for event in events if 'bham now' in event.get('Tags') is True and

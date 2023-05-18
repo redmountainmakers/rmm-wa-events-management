@@ -96,15 +96,10 @@ def get_upcoming_events(access_token):
     events = events_response.json()['Events']
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
-    upcoming_events = [event for event in events if event.get('StartDate') is not None and
-                       datetime.fromisoformat(event['StartDate'][:-1]+'0') >= current_datetime and
+    upcoming_events = [event for event in events if 'BHam now' in event['Tags'] is True and
                        event.get('AccessLevel') == 'Public' and
                        'private' not in event.get('Name', '').lower()]
     
-    for event in upcoming_events:
-        if 'BHam now' in event['Tags']:
-            upcoming_events.append(event)
-
     return upcoming_events
 
 def get_wa_description(event_id):

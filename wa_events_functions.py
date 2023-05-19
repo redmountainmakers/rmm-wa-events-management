@@ -347,3 +347,108 @@ def print_event_titles_from_ics(file_path):
 
             # Print the event title
             print(event_title)
+
+def get_contact_info(contact_id, access_token):
+    """Retrieves the email address and first name of a contact given a contact ID."""
+    api_base_url = 'https://api.wildapricot.org/v2.1'
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+    }
+
+    # Make an API request to retrieve the account details
+    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
+    if account_response.status_code != 200:
+        logging.error(f'Error: Unable to retrieve account details. Status code: {account_response.status_code}')
+        return
+
+    account_id = account_response.json()[0]['Id']
+
+    # Make an API request to retrieve the contact details
+    contact_response = requests.get(f'{api_base_url}/accounts/{account_id}/contacts/{contact_id}', headers=headers)
+    if contact_response.status_code != 200:
+        logging.error(f'Error: Unable to retrieve contact details. Status code: {contact_response.status_code}')
+        return
+
+    contact_details = contact_response.json()
+
+    # Get the email address, first name, and membership status from the contact details
+    email = contact_details.get('Email', 'Unknown')
+    first_name = contact_details.get('FirstName', 'Unknown')
+    membership_enabled = contact_details.get('MembershipEnabled', False)
+
+    return email, first_name, contact_id, membership_enabled
+
+def send_email(access_token,body, contact_id,first_name, email):
+
+
+    """Sends a test email using the Wild Apricot API."""
+    api_base_url = 'https://api.wildapricot.org/v2.2'
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+    }
+
+    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
+    if account_response.status_code != 200:
+        logging.error(f'Error: Unable to retrieve account details. Status code: {account_response.status_code}')
+        return
+
+    account_id = account_response.json()[0]['Id']
+
+    # Prepare email data
+    email_data = {
+        "Subject": "Free Month Promo at Red Mountain Makers!",
+        "Body": body,
+        "ReplyToAddress": "secretary@redmountainmakers.org",
+        "ReplyToName": "Red Mountain Makers",
+        "Recipients": [
+            {
+                "Id": contact_id,
+                "Type": "IndividualContactRecipient",
+                "Name": first_name,
+                "Email": email,
+            }
+        ],
+    }
+
+
+    # Make an API request to send the email
+    send_email_response = requests.post(f'{api_base_url}/rpc/{account_id}/email/SendEmail', headers=headers, json=email_data)
+    
+    if send_email_response.status_code != 200:
+        logging.error(f'Error: Unable to send email. Status code: {send_email_response.status_code}')
+        return
+
+def get_contact_list(access_token,group_id):
+    """Retrieves a list of contact id's based on an input group name"""
+    api_base_url = 'https://api.wildapricot.org/v2.2'
+    headers = {
+        'Authorization': f'Bearer {access_token}',
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+    }
+
+    # Make an API request to retrieve the account details
+    account_response = requests.get(f'{api_base_url}/accounts', headers=headers)
+    if account_response.status_code != 200:
+        logging.error(f'Error: Unable to retrieve account details. Status code: {account_response.status_code}')
+        return
+    
+    account_id = account_response.json()[0]['Id']
+
+    # Make an API request to retrieve the contact details
+    contact_response = requests.get(f'{api_base_url}/accounts/{account_id}/membergroups/', headers=headers)
+    if contact_response.status_code != 200:
+        logging.error(f'Error: Unable to retrieve contact details. Status code: {contact_response.status_code}')
+        return
+
+    group_list = contact_response.json()
+    for group in group_list:
+        # perform actions with group
+        print(group)
+    
+    
+

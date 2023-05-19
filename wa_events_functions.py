@@ -380,7 +380,7 @@ def get_contact_info(contact_id, access_token):
 
     return email, first_name, contact_id, membership_enabled
 
-def send_email(access_token,body, contact_id,first_name, email):
+def send_email(access_token,body, contact_id,):
 
 
     """Sends a test email using the Wild Apricot API."""
@@ -397,7 +397,12 @@ def send_email(access_token,body, contact_id,first_name, email):
         return
 
     account_id = account_response.json()[0]['Id']
-
+    
+    contact_info = get_contact_info(contact_id)
+    
+    first_name = contact_info[1]
+    email = contact_info[0]
+    
     # Prepare email data
     email_data = {
         "Subject": "Free Month Promo at Red Mountain Makers!",

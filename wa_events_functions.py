@@ -440,15 +440,18 @@ def get_contact_list(access_token,group_id):
     account_id = account_response.json()[0]['Id']
 
     # Make an API request to retrieve the contact details
-    contact_response = requests.get(f'{api_base_url}/accounts/{account_id}/membergroups/', headers=headers)
+    contact_response = requests.get(f'{api_base_url}/accounts/{account_id}/membergroups/{group_id}', headers=headers)
     if contact_response.status_code != 200:
         logging.error(f'Error: Unable to retrieve contact details. Status code: {contact_response.status_code}')
         return
 
-    group_list = contact_response.json()
-    for group in group_list:
-        # perform actions with group
-        print(group)
+    # Initialize an empty list to hold the contact IDs
+    contact_ids_list = []
+
+    group_info = contact_response.json()
+
+    contact_ids_list.extend(group_info['ContactIds'])
+    print(contact_ids_list)
     
     
 

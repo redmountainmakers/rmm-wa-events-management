@@ -53,6 +53,45 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Art Class: Welding: Advanced Project Class
+DTSTART:20230519T230000Z
+DTEND:20230520T020000Z
+UID:d8c05cba-dc64-4214-b799-bd39c763a962
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5204463>https://www.redmountainmakers.org/event-5204463</a>
+ <div class="inner gadgetEventEditableArea">\n <p align="center" style="fon
+ t-size: 18px\;">\n  <img alt="" border="0" src="https://www.redmountainmak
+ ers.org/resources/Pictures/Metal%20Work/Screenshot%202023-03-10%20191423.p
+ ng" title=""/>\n  <br/>\n </p>\n <p>\n  Advanced weld project class\, Frid
+ ay May 19th 3hr course with extra open hour time available as needed. Addi
+ tional material charge will apply (for the actual material cost) if you se
+ lect a project larger than a stool.\n </p>\n <p>\n  This class requires pr
+ ior welding training (Intro to MIG\, TIG\, or stick class\, or sufficient 
+ other welding experience to produce sound welds) as all the class time wil
+ l be needed for fabrication without extra time available for welding train
+ ing.\n </p>\n <p>\n  Under the guidance of a fabrication instructor\, usin
+ g welding\, cutting\, and bending techniques you’ll make cool stuff out 
+ of metal!\n </p>\n <p>\n  We’ll have several designs to choose from\; In
+ tricate tables and stools\, etc. but you’re welcome to build your own un
+ ique design.\n </p>\n <p>\n  What to wear: At RMM\, you must dress safely 
+ and appropriately. Arrive for class in all-natural fiber clothing (100% co
+ tton)\, long pants\, and closed-toe\, closed-heel shoes with socks that pr
+ otect up to the ankle. Long hair must be tied back. Nylon\, polyester\, sp
+ andex\, or other synthetics are not allowed around machines\, equipment\, 
+ or processes that can produce hot fragments\, sparks\, or flames. Addition
+ al protective gear will be provided as needed.\n </p>\n <p>\n  About the I
+ nstructor: Stephen Charles is a former Welding Engineer with many years of
+  experience in production welding and custom fabrication. He has taught hu
+ ndreds of beginners in the basics of welding and fabrication. Also\, he’
+ s pretty funny\, so if you don’t have a sense of humor just smile and no
+ d when everyone else laughs and maybe no one will notice.\n </p>\n <p styl
+ e="line-height: 25px\;">\n  <br/>\n </p>\n <div class="clearEndContainer">
+ \n </div>\n</div>\n
+EVENT_ID:5204463
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:3d printing Class: Intro to 3d Design with Solidworks CAD
 DTSTART:20230614T230000Z
 DTEND:20230615T010000Z

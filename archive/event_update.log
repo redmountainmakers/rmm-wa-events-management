@@ -552,3 +552,5 @@
 2023-05-18 20:50:27,995 - INFO - Added event_id 5291256
 2023-05-18 20:50:27,996 - INFO - Added event_id 5291258
 2023-05-19 01:03:30,210 - INFO - Starting to process calendar updates
+2023-05-20 01:00:15,456 - INFO - Starting to process calendar updates
+2023-05-20 01:00:15,889 - INFO - Removed past event with ID 5204463

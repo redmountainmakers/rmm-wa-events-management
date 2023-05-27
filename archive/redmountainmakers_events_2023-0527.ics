@@ -116,6 +116,30 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:**Free Event** Board Game Night
+DTSTART:20230526T230000Z
+DTEND:20230527T040000Z
+UID:867d7779-bc80-4d22-8970-08ded42b121f
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5256487>https://www.redmountainmakers.org/event-5256487</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
+ " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
+  title=""/>\n  <a href="/resources/Pictures/RMM_Game_night_flyer.png" targ
+ et="_blank" title="">\n   <img alt="" border="0" height="155" src="https:/
+ /www.redmountainmakers.org/resources/Pictures/RMM_Game_night_flyer.png" st
+ yle="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n <p>\n  We wi
+ ll be hosting a game night in the classroom at RMM. Come join us for a nig
+ ht of fun and adventure!\n </p>\n <p>\n  We will have a variety of board g
+ ames to choose from. Some games include D&amp\;D Adventure Begins\, Plants
+ \, Worst Case Scenarios\, Ticket to Ride and more. You may also bring your
+  own.\n </p>\n <p>\n  Every last Friday of the month we will have a board 
+ game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <div clas
+ s="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5256487
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Blacksmithing Class: Forged belt buckle
 DTSTART:20230527T180000Z
 DTEND:20230527T230000Z
@@ -22131,6 +22155,48 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
  "clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5256484
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Welding Class: Welding Basics: Introduction to MIG
+DTSTART:20230526T230000Z
+DTEND:20230527T020000Z
+UID:116d6228-a1a2-4346-91f6-9a6a0373ab0c
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5271700>https://www.redmountainmakers.org/event-5271700</a>
+ <div class="inner gadgetEventEditableArea">\n <p align="center" style="fon
+ t-size: 18px\;">\n  <img align="left" alt="" border="0" height="189" src="
+ https://www.redmountainmakers.org/resources/Pictures/Metal%20Work/welding_
+ stock.jpeg" style="margin: 10px\;" title="" width="283.5"/>\n </p>\n <p st
+ yle="">\n  <font style="font-size: 16px\;">\n   Develop fundamental skills
+  in creating and repairing metal objects under the instruction of Stephen 
+ Charles. This introductory class includes a crash course in the MIG weldin
+ g process\, metal cutting\, grinding\, as well as the basics of hand tool 
+ use and shop safety.\n  </font>\n </p>\n <p style="">\n  <font style="font
+ -size: 16px\;">\n   Students will leave with a wide familiarity of skills 
+ and studio techniques.\n   <br/>\n   <br/>\n   NOTE: This class is a pre-r
+ equisite for the Project-Based Metalcraft class.\n  </font>\n </p>\n <p al
+ ign="center" style="">\n  <font style="font-size: 16px\;">\n   <strong>\n 
+    <br/>\n   </strong>\n  </font>\n </p>\n <p style="">\n  <font style="fo
+ nt-size: 16px\;">\n   <font>\n    <strong>\n     What to wear:\n    </stro
+ ng>\n   </font>\n   At RMM\, you must dress safely and appropriately. Arri
+ ve for class in all-natural fiber clothing (100% cotton)\, long pants\, an
+ d closed-toe\, closed-heel shoes with socks that protect up to the ankle. 
+ Long hair must be tied back. Nylon\, polyester\, spandex\, or other synthe
+ tics are not allowed around machines\, equipment\, or processes that can p
+ roduce hot fragments\, sparks\, or flames. Additional protective gear will
+  be provided as needed.\n  </font>\n </p>\n <p style="">\n  <font style="f
+ ont-size: 16px\;">\n   <strong>\n    <br/>\n   </strong>\n  </font>\n </p>
+ \n <p style="">\n  <font style="font-size: 16px\;">\n   <strong style="">\
+ n    About the Instructor\n   </strong>\n   :\n   <font style="font-size: 
+ 16px\;">\n    Stephen Charles is a former Welding Engineer with many years
+  of experience in production welding and custom fabrication. He has taught
+  hundreds of beginners in the basics of welding and fabrication. Also\, he
+ ’s pretty funny\, so if you don’t have a sense of humor there will be 
+ many moments of awkward silence.\n   </font>\n  </font>\n </p>\n <div clas
+ s="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5271700
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

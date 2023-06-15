@@ -593,3 +593,9 @@
 2023-06-12 01:14:32,127 - INFO - Starting to process calendar updates
 2023-06-13 01:11:06,582 - INFO - Starting to process calendar updates
 2023-06-14 01:09:13,028 - INFO - Starting to process calendar updates
+2023-06-15 01:09:42,371 - INFO - Starting to process calendar updates
+2023-06-15 01:09:42,384 - INFO - Removed past event with ID 5211987
+2023-06-15 01:09:42,384 - INFO - Added event_id 5319404
+2023-06-15 01:09:42,384 - INFO - Added event_id 5319410
+2023-06-15 01:09:42,384 - INFO - Added event_id 5319406
+2023-06-15 01:09:42,385 - INFO - Added event_id 5319413

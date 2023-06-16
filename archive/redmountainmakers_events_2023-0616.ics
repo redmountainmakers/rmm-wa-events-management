@@ -201,9 +201,9 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Welding Basics: Introduction to MIG
-DTSTART:20230728T230000Z
-DTEND:20230729T020000Z
+SUMMARY:Welding Class: Welding Basics: Introduction to MIG
+DTSTART:20230721T230000Z
+DTEND:20230722T020000Z
 UID:136d48de-7a67-4b08-9f66-c8b89a715842
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5291258>https://www.redmountainmakers.org/event-5291258</a>

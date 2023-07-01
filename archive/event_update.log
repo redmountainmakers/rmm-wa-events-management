@@ -610,3 +610,13 @@
 2023-06-19 01:10:08,508 - INFO - Starting to process calendar updates
 2023-06-20 01:07:39,123 - INFO - Starting to process calendar updates
 2023-06-20 01:07:39,131 - INFO - Removed past event with ID 5296829
+2023-07-01 03:40:24,181 - INFO - Starting to process calendar updates
+2023-07-01 03:40:24,192 - INFO - Removed past event with ID 5256489
+2023-07-01 03:40:24,193 - INFO - Added event_id 5325106
+2023-07-01 03:40:24,193 - INFO - Added event_id 5329929
+2023-07-01 03:40:24,193 - INFO - Added event_id 5325109
+2023-07-01 03:40:24,193 - INFO - Added event_id 5325096
+2023-07-01 03:40:24,193 - INFO - Added event_id 5332783
+2023-07-01 03:40:24,193 - INFO - Added event_id 5332780
+2023-07-01 03:40:24,193 - INFO - Added event_id 5329930
+2023-07-01 03:40:24,193 - INFO - Added event_id 5325117

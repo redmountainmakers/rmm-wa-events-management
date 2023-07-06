@@ -662,3 +662,9 @@
 2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340350 as it is not in the latest calendar
 2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340371 as it is not in the latest calendar
 2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340430 as it is not in the latest calendar
+2023-07-06 01:51:19,599 - INFO - Starting to process calendar updates
+2023-07-06 01:51:19,621 - INFO - DESCRIPTION has changed for 5212000
+2023-07-06 01:51:19,621 - INFO - SUMMARY has changed for 5325105
+2023-07-06 01:51:19,621 - INFO - Added event_id 5340583
+2023-07-06 01:51:19,621 - INFO - Added event_id 5340577
+2023-07-06 01:51:19,621 - INFO - Added event_id 5283342

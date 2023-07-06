@@ -648,3 +648,17 @@
 2023-07-06 01:20:56,455 - INFO - Added event_id 5340350
 2023-07-06 01:20:56,455 - INFO - Added event_id 5340371
 2023-07-06 01:20:56,455 - INFO - Added event_id 5340430
+2023-07-06 01:39:07,693 - INFO - Starting to process calendar updates
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340380 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340366 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340404 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340363 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340374 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340398 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340383 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340377 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340354 as it is not in the latest calendar
+2023-07-06 01:39:07,718 - INFO - Removed event with ID 5340386 as it is not in the latest calendar
+2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340350 as it is not in the latest calendar
+2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340371 as it is not in the latest calendar
+2023-07-06 01:39:07,719 - INFO - Removed event with ID 5340430 as it is not in the latest calendar

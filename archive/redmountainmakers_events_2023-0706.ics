@@ -16,43 +16,35 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  stries. The course will cover the basics of Solidworks\, including the use
  r interface\, basic features\, and tools needed to create 3D models.\n    
  </font>\n   </span>\n   <br/>\n   <br/>\n   <span style="">\n    <font fac
- e="Arial\, Helvetica\, sans-serif">\n     In the first half of the class\,
-  you will learn the fundamentals of Solidworks. You will learn how to navi
- gate the interface and tools\, create sketches\, and use basic features to
-  create 3D models. You will also learn how to use Solidworks’ parametric
-  modeling capabilities to quickly make changes to your designs.\n    </fon
- t>\n   </span>\n   <br/>\n   <br/>\n   <span style="">\n    <font face="Ar
- ial\, Helvetica\, sans-serif">\n     The second half of the class will foc
- us on creating your own personal project. You will have the opportunity to
-  use your new skills to design and create your own 3D model. Some example 
- projects include a phone stand\, desk organizer\, or replacement parts for
-  items around your home. Feel free to bring your own project!\n    </font>
- \n   </span>\n  </span>\n </span>\n <p style="">\n  <span style="">\n   <f
- ont face="Arial\, Helvetica\, sans-serif" style="">\n    <br/>\n    Before
-  you leave the class\, you will export your 3D model to an STL file\, a co
- mmon file format used for 3D printing. We will kick off a 3D print of your
-  part\, and all parts will be available for pickup within one week of the 
- class. You will have the opportunity to see your design come to life and t
- ake it home with you.\n    <br/>\n    <br/>\n    Whether you're interested
-  in creating prototypes\, product designs\, or just want to learn a new sk
- ill\, this course is an excellent starting point for anyone interested in 
- 3D modeling and Solidworks CAD.\n   </font>\n  </span>\n </p>\n <p style="
- ">\n  <span style="">\n   <span style="">\n    <br/>\n   </span>\n  </span
- >\n </p>\n <p style="">\n  <br/>\n </p>\n <p style="">\n  <font style="fon
- t-size: 16px\;">\n   <span style="">\n    <strong>\n     About the Instruc
- tor\n    </strong>\n   </span>\n   :\n   <span style="">\n    <font face="
- Arial\, Helvetica\, sans-serif">\n     Matt Behling is a highly experience
- d Mechanical Design Engineer with a career spanning over a decade. He has 
- an extensive background in designing for various industries\, including in
- ternal combustion engines\, electric vehicles\, and machine design. With h
- is wealth of experience and expertise\, Matt is an excellent instructor wh
- o is well-equipped to teach and guide students as they learn how to 3d mod
- el. His passion for the subject and commitment to excellence are evident i
- n his teaching style\, which emphasizes practical applications and hands-o
- n learning.\n    </font>\n   </span>\n  </font>\n </p>\n <p style="">\n  <
- font color="#0F1115" style="font-size: 16px\;">\n   <br/>\n  </font>\n </p
- >\n <p style="background-color: transparent\;">\n  <br/>\n </p>\n <div cla
- ss="clearEndContainer">\n </div>\n</div>\n
+ e="Arial\, Helvetica\, sans-serif">\n     The main focus of the class will
+  be on learning the fundamentals Solidworks. You will learn how to navigat
+ e the interface and tools\, create sketches\, and use basic features to cr
+ eate 3D models. You will also learn how to use Solidworks’ parametric mo
+ deling capabilities to quickly make changes to your designs.\n    </font>\
+ n   </span>\n  </span>\n </span>\n <p style="">\n  <span style="">\n   <fo
+ nt face="Arial\, Helvetica\, sans-serif" style="">\n    Before you leave t
+ he class\, you will export your 3D model to an STL file\, a common file fo
+ rmat used for 3D printing. We will kick off a 3D print of your part\, and 
+ all parts will be available for pickup within one week of the class. You w
+ ill have the opportunity to see your design come to life and take it home 
+ with you.\n    <br/>\n    <br/>\n    Whether you're interested in creating
+  prototypes\, product designs\, or just want to learn a new skill\, this c
+ ourse is an excellent starting point for anyone interested in 3D modeling 
+ and Solidworks CAD.\n   </font>\n  </span>\n </p>\n <p style="">\n  <span 
+ style="">\n   <strong>\n    About the Instructor\n   </strong>\n  </span>\
+ n  :\n  <span style="">\n   <font face="Arial\, Helvetica\, sans-serif">\n
+     Matt Behling is a highly experienced Mechanical Design Engineer with a
+  career spanning over a decade. He has an extensive background in designin
+ g for various industries\, including internal combustion engines\, electri
+ c vehicles\, and machine design. With his wealth of experience and experti
+ se\, Matt is an excellent instructor who is well-equipped to teach and gui
+ de students as they learn how to 3d model. His passion for the subject and
+  commitment to excellence are evident in his teaching style\, which emphas
+ izes practical applications and hands-on learning.\n   </font>\n  </span>\
+ n  <br/>\n </p>\n <p style="">\n  <font color="#0F1115" style="font-size: 
+ 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="background-color: transpa
+ rent\;">\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div
+ >\n
 EVENT_ID:5212000
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -452,7 +444,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Blacksmithing Class: Making a Damascus Steel blank
+SUMMARY:Making a Damascus Steel blank
 DTSTART:20230715T150000Z
 DTEND:20230716T213000Z
 UID:9eaaff51-93cd-4a68-8675-19222096c7f3
@@ -654,6 +646,179 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  iv>\n</div>\n
 EVENT_ID:5325121
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Learn to Make an Elegant Hand-crafted “Baron” Fountain Pen
+DTSTART:20230727T230000Z
+DTEND:20230728T020000Z
+UID:f610baf9-90a3-4a83-bc50-71273856c313
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340583>https://www.redmountainmakers.org/event-5340583</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <img alt="" border="0" height="160"
+  src="https://www.redmountainmakers.org/resources/Pictures/Woodworking/fou
+ ntain%20pen.png" title="" width="232"/>\n  </font>\n </p>\n <p style="">\n
+   <font face="Ubuntu" style="font-size: 18px\;">\n   Learn to make an eleg
+ ant hand-crafted “Baron” Fountain Pen!\n  </font>\n </p>\n <p style=""
+ >\n  <font face="Ubuntu" style="font-size: 18px\;">\n   This class is for 
+ anyone who has taken the “Turn a Wooden Pen” class\, or already has ex
+ perience in using a lathe. The “Baron” fountain pen is trimmed with ni
+ bs\, clips and other elements made out of the highest quality silver plati
+ ng which gives each pen a distinguished look in addition to durability.\n 
+  </font>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18
+ px\;">\n   The fountain pen features an ultra-smooth threading removable c
+ ap that screws on to both the bottom and top of the pen. The Baron Fountai
+ n Pen not only is a great looking pen\, but it is also light weight and on
+ e of the smoothest writing instruments available for everyday use and has 
+ a two-tone German made nib with an iridium tip. The artistic fittings are 
+ hand worked and polished and the solid metal external components add to th
+ e pens expensive and hardy feel.\n  </font>\n </p>\n <p style="">\n  <font
+  face="Ubuntu" style="font-size: 18px\;">\n   The Baron comes with both a 
+ siphon pump and blue ink cartridge. This hand-crafted pen will make a uniq
+ ue gift to others or yourself and will be completely one-of-a-kind!\n  </f
+ ont>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;
+ ">\n   Each pen will be turned from beautiful exotic woods such as: King C
+ ocobolo\, Olivewood\, Burmese Rosewood\, Cherry Burl\, Boxelder Burl\, Red
+  Mailee Burl\, Bocote\, Spalted Tamarind\, Box Elder\, etc. Students may c
+ hoose silver plated or gold for the pen kit.\n  </font>\n </p>\n <font sty
+ le="font-size: 16px\;">\n  <br/>\n </font>\n <p style="font-size: 18px\;">
+ \n  <font style="font-size: 16px\;">\n   <strong>\n    About the Instructo
+ r:\n   </strong>\n   Terry Tingle is the president of the Alabama Woodturn
+ ers Association and is a\n  </font>\n  <font style="font-size: 16px\;">\n 
+   member of The American Association of Woodturners. Terry has been teachi
+ ng students how to turn pens for years\, some of whom have had their exhib
+ itions in Art and Craft Shows throughout Alabama\, including Mentone.\n  <
+ /font>\n </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="
+ Ubuntu" style="font-size: 16px\;">\n   <strong>\n   </strong>\n  </font>\n
+  </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="Ubuntu" 
+ style="font-size: 16px\;">\n   <strong>\n    Are Minors allowed\n   </stro
+ ng>\n   ? Yes\, accompanied by parent.\n  </font>\n </p>\n <p align="left"
+  style="font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\
+ ;">\n   <strong>\n   </strong>\n  </font>\n </p>\n <p align="left" style="
+ font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   
+ <strong>\n    What to wear\n   </strong>\n   : You must dress safely and a
+ ppropriately. Arrive for class in long pants\, and closed-toe\, closed-hee
+ l shoes with socks that protect up to the ankle. Long sleeves should be av
+ oided if possible and rolled up if necessary. Long hair must be tied back 
+ and dangly necklaces\, earrings or other accessories shall be removed befo
+ re starting the class. Additional protective gear will be provided as need
+ ed. Masks may be required depending on circumstances.\n  </font>\n </p>\n 
+ <p align="center" style="font-size: 18px\;">\n  <font face="Ubuntu" style=
+ "font-size: 16px\;">\n   <img alt="" border="0" height="145" src="https://
+ www.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20L
+ ogo%20transparent%20bg.png" title="" width="141.75"/>\n   <br/>\n  </font>
+ \n </p>\n <p style="font-size: 18px\;">\n  <font face="Ubuntu" style="font
+ -size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="font-size: 18px\;"
+ >\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340583
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Learn to Make an Elegant Hand-crafted “Baron” Fountain Pen
+DTSTART:20230819T150000Z
+DTEND:20230820T020000Z
+UID:73fc787b-2704-4c6c-95e2-6c3cf57c27ff
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340577>https://www.redmountainmakers.org/event-5340577</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <img alt="" border="0" height="160"
+  src="https://www.redmountainmakers.org/resources/Pictures/Woodworking/fou
+ ntain%20pen.png" title="" width="232"/>\n  </font>\n </p>\n <p style="">\n
+   <font face="Ubuntu" style="font-size: 18px\;">\n   Learn to make an eleg
+ ant hand-crafted “Baron” Fountain Pen!\n  </font>\n </p>\n <p style=""
+ >\n  <font face="Ubuntu" style="font-size: 18px\;">\n   This class is for 
+ anyone who has taken the “Turn a Wooden Pen” class\, or already has ex
+ perience in using a lathe. The “Baron” fountain pen is trimmed with ni
+ bs\, clips and other elements made out of the highest quality silver plati
+ ng which gives each pen a distinguished look in addition to durability.\n 
+  </font>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18
+ px\;">\n   The fountain pen features an ultra-smooth threading removable c
+ ap that screws on to both the bottom and top of the pen. The Baron Fountai
+ n Pen not only is a great looking pen\, but it is also light weight and on
+ e of the smoothest writing instruments available for everyday use and has 
+ a two-tone German made nib with an iridium tip. The artistic fittings are 
+ hand worked and polished and the solid metal external components add to th
+ e pens expensive and hardy feel.\n  </font>\n </p>\n <p style="">\n  <font
+  face="Ubuntu" style="font-size: 18px\;">\n   The Baron comes with both a 
+ siphon pump and blue ink cartridge. This hand-crafted pen will make a uniq
+ ue gift to others or yourself and will be completely one-of-a-kind!\n  </f
+ ont>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;
+ ">\n   Each pen will be turned from beautiful exotic woods such as: King C
+ ocobolo\, Olivewood\, Burmese Rosewood\, Cherry Burl\, Boxelder Burl\, Red
+  Mailee Burl\, Bocote\, Spalted Tamarind\, Box Elder\, etc. Students may c
+ hoose silver plated or gold for the pen kit.\n  </font>\n </p>\n <font sty
+ le="font-size: 16px\;">\n  <br/>\n </font>\n <p style="font-size: 18px\;">
+ \n  <font style="font-size: 16px\;">\n   <strong>\n    About the Instructo
+ r:\n   </strong>\n   Terry Tingle is the president of the Alabama Woodturn
+ ers Association and is a\n  </font>\n  <font style="font-size: 16px\;">\n 
+   member of The American Association of Woodturners. Terry has been teachi
+ ng students how to turn pens for years\, some of whom have had their exhib
+ itions in Art and Craft Shows throughout Alabama\, including Mentone.\n  <
+ /font>\n </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="
+ Ubuntu" style="font-size: 16px\;">\n   <strong>\n   </strong>\n  </font>\n
+  </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="Ubuntu" 
+ style="font-size: 16px\;">\n   <strong>\n    Are Minors allowed\n   </stro
+ ng>\n   ? Yes\, accompanied by parent.\n  </font>\n </p>\n <p align="left"
+  style="font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\
+ ;">\n   <strong>\n   </strong>\n  </font>\n </p>\n <p align="left" style="
+ font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   
+ <strong>\n    What to wear\n   </strong>\n   : You must dress safely and a
+ ppropriately. Arrive for class in long pants\, and closed-toe\, closed-hee
+ l shoes with socks that protect up to the ankle. Long sleeves should be av
+ oided if possible and rolled up if necessary. Long hair must be tied back 
+ and dangly necklaces\, earrings or other accessories shall be removed befo
+ re starting the class. Additional protective gear will be provided as need
+ ed. Masks may be required depending on circumstances.\n  </font>\n </p>\n 
+ <p align="center" style="font-size: 18px\;">\n  <font face="Ubuntu" style=
+ "font-size: 16px\;">\n   <img alt="" border="0" height="145" src="https://
+ www.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20L
+ ogo%20transparent%20bg.png" title="" width="141.75"/>\n   <br/>\n  </font>
+ \n </p>\n <p style="font-size: 18px\;">\n  <font face="Ubuntu" style="font
+ -size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="font-size: 18px\;"
+ >\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340577
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wood turning Class: AWA Class Series - Cowboy Hat Ornamanet
+DTSTART:20230708T180000Z
+DTEND:20230708T210000Z
+UID:a5dd6ed0-5af3-4374-b89d-4da699b5d486
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5283342>https://www.redmountainmakers.org/event-5283342</a>
+ <div class="inner gadgetEventEditableArea">\n <p align="center" style="bac
+ kground-color: transparent\;">\n  <font>\n   <img alt="" border="0" height
+ ="148" src="https://www.redmountainmakers.org/resources/Pictures/Woodworki
+ ng/Cowboy%20Hat%20ornament.jpg" title="" width="198"/>\n   <br/>\n  </font
+ >\n </p>\n <p style="background-color: transparent\;">\n  <span style="fon
+ t-family: Ubuntu\, Arial\, sans-serif\;">\n   <font>\n    <font>\n     <fo
+ nt face="Ubuntu">\n      ALABAMA WOODTURNER'S ASSOCIATION CLASS SERIES\n  
+    </font>\n    </font>\n   </font>\n  </span>\n </p>\n <p align="left" st
+ yle="background-color: transparent\;">\n  <span style="font-family: Ubuntu
+ \, Arial\, sans-serif\;">\n   <font>\n    <font>\n     <br/>\n     Be sure
+  to attend the AWA meeting in the morning (9:00 AM at Hardware Park\n     
+ <a data-saferedirecturl="https://www.google.com/url?q=https://alabamawoodt
+ urners.com/meetings/&amp\;source=gmail&amp\;ust=1667251852421000&amp\;usg=
+ AOvVaw11-1574uD2VhVR6l1wPeFD" href="https://alabamawoodturners.com/meeting
+ s/">\n      <font color="#1155CC">\n       https://alabamawoodturners.com/
+ meetings/\n      </font>\n     </a>\n     )\n    </font>\n   </font>\n  </
+ span>\n </p>\n <p align="left" style="background-color: transparent\;">\n 
+  <span style="font-family: Ubuntu\, Arial\, sans-serif\;">\n   <font>\n   
+  <font>\n     The project will be demonstrated at the morning meeting. Thi
+ s afternoon session will have participants applying what was learned to ma
+ king their own Cowboy Hat Ornament.\n    </font>\n   </font>\n  </span>\n 
+ </p>\n <p align="left" style="background-color: transparent\;">\n  <br/>\n
+  </p>\n <p style="background-color: transparent\;">\n  <font>\n   <br/>\n 
+  </font>\n </p>\n <p style="background-color: transparent\;">\n  <font>\n 
+  </font>\n  <img alt="" border="0" height="145" src="https://www.redmounta
+ inmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20Logo%20transpa
+ rent%20bg.png" style="font-family: Ubuntu\; font-size: 16px\;" title="" wi
+ dth="141.75"/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5283342
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 END:VCALENDAR

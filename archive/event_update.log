@@ -668,3 +668,7 @@
 2023-07-06 01:51:19,621 - INFO - Added event_id 5340583
 2023-07-06 01:51:19,621 - INFO - Added event_id 5340577
 2023-07-06 01:51:19,621 - INFO - Added event_id 5283342
+2023-07-06 01:59:34,322 - INFO - Starting to process calendar updates
+2023-07-06 01:59:34,351 - INFO - SUMMARY has changed for 5283342
+2023-07-06 01:59:34,351 - INFO - DTSTART has changed for 5283342
+2023-07-06 01:59:34,351 - INFO - Added event_id 5340586

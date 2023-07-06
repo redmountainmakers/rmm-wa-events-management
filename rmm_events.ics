@@ -783,8 +783,8 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Wood turning Class: AWA Class Series - Cowboy Hat Ornamanet
-DTSTART:20230708T180000Z
+SUMMARY:AWA Class Series - Cowboy Hat Ornamanet
+DTSTART:20230708T140000Z
 DTEND:20230708T210000Z
 UID:a5dd6ed0-5af3-4374-b89d-4da699b5d486
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
@@ -819,6 +819,32 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  dth="141.75"/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5283342
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Advanced Stained Glass: Leaded Sun Catcher
+DTSTART:20230826T150000Z
+DTEND:20230826T220000Z
+UID:bba85687-ad41-463d-af31-62766972bd5e
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340586>https://www.redmountainmakers.org/event-5340586</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <p>\n 
+  There will be no refunds within 14 days of the event.\n </p>\n <p>\n  Abo
+ ut the Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone For
+ ge\n </p>\n <p>\n  Age: there are no age restrictions to the class. Please
+  read carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wea
+ r: At RMM\, you must dress safely and appropriately. Arrive for class in a
+ ll-natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, cl
+ osed-heel shoes with socks that protect up to the ankle. Long hair must be
+  tied back. Nylon\, polyester\, spandex\, or other synthetics are not allo
+ wed around machines\, equipment\, or processes that can produce hot fragme
+ nts\, sparks\, or flames. Additional protective gear will be provided as n
+ eeded. The CDC has a guide to acceptable cloth masks that help prevent the
+  spread of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n 
+ <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
+ "clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340586
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 END:VCALENDAR

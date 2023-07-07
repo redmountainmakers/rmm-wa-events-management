@@ -417,7 +417,7 @@ def send_email(access_token,body, contact_id,):
 
     account_id = account_response.json()[0]['Id']
     
-    contact_info = get_contact_info(contact_id)
+    contact_info = get_contact_info(contact_id,access_token)
     
     first_name = contact_info[1]
     email = contact_info[0]

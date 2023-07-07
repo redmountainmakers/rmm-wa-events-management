@@ -477,8 +477,8 @@ def get_contact_list(access_token,group_id):
     contact_ids_list.extend(group_info['ContactIds'])
     print(contact_ids_list)
     
-def fill_email_template(Contact_First_Name, Event_Title,Discount_Code, template):
-    return template.format(Contact_First_Name=Contact_First_Name, Event_Title=Event_Title, Discount_Code=Discount_Code)
+def fill_email_template(timescale_info):
+    return template.format(timescale_info=timescale_info)
 
 def read_template_file(file_path):
     with open(file_path, 'r') as file:

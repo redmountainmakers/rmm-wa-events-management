@@ -150,7 +150,11 @@ def create_ics_file(events, file_path):
         event_end = datetime.fromisoformat(event['EndDate'][:-1] + '0').replace(tzinfo=None)
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
         event_location = event['Location'].upper()#converts the event location to uppercase
-        event_tag = event['Tags'][0].capitalize() if event['Tags'] else ''
+        event_tag = ''
+        if event['Tags']:  # Check if tags exist
+            if event['Tags'][0].capitalize() == "Bham now":  # If the first tag is "Bham now"
+                if len(event['Tags']) > 1:  # Check if there are more tags
+                    event_tag = event['Tags'][1].capitalize()  # Take the second tag
         #print(f'{event_tag} is the first event tag for {event_id}')
 
         if event_tag and event_tag != 'Bham now' and event_tag != 'Social':

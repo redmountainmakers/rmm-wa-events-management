@@ -8,6 +8,7 @@ import base64
 import requests
 import logging
 from bs4 import BeautifulSoup
+from dateutil.parser import parse
 from icalendar import Calendar, Event
 from datetime import datetime, timezone, timedelta
 
@@ -491,7 +492,17 @@ def parse_events_html(events):
         event_name = event['Name']
         event_url = base_url + str(event_id)
 
-        html_element = f'<li>\n  <a href="{event_url}">{event_name}</a>\n</li>'
+        # Convert StartDate to "MM/DD/YYYY HH:MM AM/PM" format in CST
+        start_date_str = event['StartDate']
+        start_date_dt = parse(start_date_str)
+
+        # Convert to Central Standard Time
+        cst = pytz.timezone('US/Central')
+        start_date_dt = start_date_dt.astimezone(cst)
+
+        formatted_date_time = start_date_dt.strftime("%m/%d/%Y %I:%M %p")
+
+        html_element = f'<li>{formatted_date_time} <a href="{event_url}">{event_name}</a></li>'
         output_list.append(html_element)
 
     return "\n".join(output_list)

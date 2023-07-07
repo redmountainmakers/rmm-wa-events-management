@@ -50,7 +50,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: **Free Event** Board Game Night
+SUMMARY:**Free Event** Board Game Night
 DTSTART:20230728T230000Z
 DTEND:20230729T040000Z
 UID:0bd9abc3-bbd7-4b33-813a-545ab093ff7a
@@ -74,7 +74,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Welding Basics: Introduction to MIG
+SUMMARY:Welding Class: Welding Basics: Introduction to MIG
 DTSTART:20230728T230000Z
 DTEND:20230729T020000Z
 UID:136d48de-7a67-4b08-9f66-c8b89a715842
@@ -116,7 +116,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Stained Glass - Make Your Own Ornament
+SUMMARY:Stain glass Class: Stained Glass - Make Your Own Ornament
 DTSTART:20230729T150000Z
 DTEND:20230729T213000Z
 UID:9a2d8569-1d33-41da-922e-4223104323ed
@@ -142,7 +142,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Turn a Wooden Pen
+SUMMARY:Wood turning Class: Turn a Wooden Pen
 DTSTART:20230717T230000Z
 DTEND:20230718T020000Z
 UID:50c00f71-4269-46b5-aaff-b7f38710e0e2
@@ -192,7 +192,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Beginner-Stained Glass Pictorial Scene
+SUMMARY:Stain glass Class: Beginner-Stained Glass Pictorial Scene
 DTSTART:20230708T150000Z
 DTEND:20230708T213000Z
 UID:3ea4fcaf-c3c5-4ef4-89aa-b4492cdf8eb0
@@ -218,7 +218,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Cutting Boards for Beginners 101
+SUMMARY:Woodworking Class: Cutting Boards for Beginners 101
 DTSTART:20230819T190000Z
 DTEND:20230819T220000Z
 UID:2fa71fc5-0268-436f-8dde-bc58581c07b0
@@ -271,7 +271,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Cutting Boards for Beginners 101
+SUMMARY:Woodworking Class: Cutting Boards for Beginners 101
 DTSTART:20230715T190000Z
 DTEND:20230715T220000Z
 UID:f42d7258-e5d8-4844-8a10-687e28128b14
@@ -324,7 +324,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Turn a Wooden Pen
+SUMMARY:Wood turning Class: Turn a Wooden Pen
 DTSTART:20230821T230000Z
 DTEND:20230822T020000Z
 UID:f5d8a43b-6e54-4640-a79b-5b03bd5cd674
@@ -374,7 +374,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Monthly Stained Glass Ornament:The Blazing Sun
+SUMMARY:Stain glass Class: Monthly Stained Glass Ornament:The Blazing Sun
 DTSTART:20230806T150000Z
 DTEND:20230806T210000Z
 UID:c54a488e-661a-47a6-a2c1-28ed8c71a0ad
@@ -444,7 +444,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Making a Damascus Steel blank
+SUMMARY:Blacksmithing Class: Making a Damascus Steel blank
 DTSTART:20230715T150000Z
 DTEND:20230716T213000Z
 UID:9eaaff51-93cd-4a68-8675-19222096c7f3
@@ -649,8 +649,8 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Learn to Make an Elegant Hand-crafted “Baron” 
- Fountain Pen
+SUMMARY:Wood turning Class: Learn to Make an Elegant Hand-crafted “Baron
+ ” Fountain Pen
 DTSTART:20230727T230000Z
 DTEND:20230728T020000Z
 UID:f610baf9-90a3-4a83-bc50-71273856c313
@@ -717,8 +717,8 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Learn to Make an Elegant Hand-crafted “Baron” 
- Fountain Pen
+SUMMARY:Wood turning Class: Learn to Make an Elegant Hand-crafted “Baron
+ ” Fountain Pen
 DTSTART:20230819T150000Z
 DTEND:20230820T020000Z
 UID:73fc787b-2704-4c6c-95e2-6c3cf57c27ff
@@ -785,7 +785,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: AWA Class Series - Cowboy Hat Ornamanet
+SUMMARY:Wood turning Class: AWA Class Series - Cowboy Hat Ornamanet
 DTSTART:20230708T140000Z
 DTEND:20230708T210000Z
 UID:a5dd6ed0-5af3-4374-b89d-4da699b5d486
@@ -839,7 +839,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bham now Class: Advanced Stained Glass: Leaded Sun Catcher
+SUMMARY:Stain glass Class: Advanced Stained Glass: Leaded Sun Catcher
 DTSTART:20230826T150000Z
 DTEND:20230826T220000Z
 UID:bba85687-ad41-463d-af31-62766972bd5e
@@ -865,7 +865,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Summer series Class: RMM Summer Series: Intro to Soldering
+SUMMARY:RMM Summer Series: Intro to Soldering
 DTSTART:20230716T200000Z
 DTEND:20230716T200000Z
 UID:d87ea6d2-3794-4a86-af05-5c2b86328a56

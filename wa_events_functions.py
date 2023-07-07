@@ -141,6 +141,8 @@ def create_ics_file(events, file_path):
         # Extract the relevant information from the event
         event_id = event['Id']
         event_title = event['Name']
+        if 'summer' in event_title.lower():
+            event_title = "RMM " + event_title
         description_leading_text = f'Click here to register:\n\n<a href = https://www.redmountainmakers.org/event-{event_id}>https://www.redmountainmakers.org/event-{event_id}</a>'
         event_description = description_leading_text + get_wa_description(event_id)
         event_start = datetime.fromisoformat(event['StartDate'][:-1] + '0').replace(tzinfo=None)

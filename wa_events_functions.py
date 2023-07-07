@@ -71,7 +71,7 @@ def get_access_token(api_key):
 
     return access_token
 
-def get_events(access_token,start_date=None, end_date=None):
+def get_events(access_token,start_date=None, end_date=None,filter_tags=None):
     """Retrieves upcoming public event data from the Wild Apricot API and returns a list of events."""
     api_base_url = 'https://api.wildapricot.org/v2.2'
     headers = {
@@ -105,7 +105,7 @@ def get_events(access_token,start_date=None, end_date=None):
     events = events_response.json()['Events']
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
-    events = [event for event in events if 'bham now' in event.get('Tags') and
+    events = [event for event in events if any(tag in event.get('Tags', []) for tag in filter_tags) and
                        event.get('AccessLevel') == 'Public' and
                        'private' not in event.get('Name', '').lower()]
     

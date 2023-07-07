@@ -13,13 +13,15 @@ archive_ics_path = "archive/" + save_path_with_date
 log_file_path = f"archive/event_update.log"
 bham365_events = "bham365.csv"
 
+
+
 download_ics_file(current_ics_url,ics_current_path)#Downloads the current ics file from the RMM website
 
 wa_api_key = os.environ.get("API_KEY")#Gets the API key from the environment variables
 access_token = get_access_token(wa_api_key)#Gets the access token from the WA API
 
-
-upcoming_events = get_events(access_token) #Gets the list of upcoming events and data from the WA API
+filter_tags = ['bham now']
+upcoming_events = get_events(access_token,filter_tags=filter_tags) #Gets the list of upcoming events and data from the WA API
 create_ics_file(upcoming_events,wa_ics_path)#creates the ics file from the WA API data
 
 process_calendar(ics_current_path, wa_ics_path, output_ics_path,log_file_path)#Deletes old events, adds new events, and updates changed events

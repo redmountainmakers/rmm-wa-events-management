@@ -483,8 +483,18 @@ def fill_email_template(timescale_info,event_list,template):
     return template.format(timescale_info=timescale_info,event_list=event_list)
 
 def parse_events_html(events):
-    
-    return events
+    output_list = []
+    base_url = "https://redmountainmakers.org/event-"
+
+    for event in events:
+        event_id = event['Id']
+        event_name = event['Name']
+        event_url = base_url + str(event_id)
+
+        html_element = f'<li>\n  <a href="{event_url}">{event_name}</a>\n</li>'
+        output_list.append(html_element)
+
+    return "\n".join(output_list)
 
 def read_template_file(file_path):
     with open(file_path, 'r') as file:

@@ -9,7 +9,7 @@ import requests
 import logging
 from bs4 import BeautifulSoup
 from icalendar import Calendar, Event
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 def download_ics_file(url, save_path):
     """
@@ -70,7 +70,7 @@ def get_access_token(api_key):
 
     return access_token
 
-def get_upcoming_events(access_token):
+def get_events(access_token,start_date=None, end_date=None):
     """Retrieves upcoming public event data from the Wild Apricot API and returns a list of events."""
     api_base_url = 'https://api.wildapricot.org/v2.2'
     headers = {
@@ -90,17 +90,27 @@ def get_upcoming_events(access_token):
     #Create a filter query to only get a response based on upcoming events
     filter_query = f"StartDate gt {current_datetime.strftime('%Y-%m-%dT%H:%M:%SZ')}"
 
+    # If start_date and/or end_date are given, adjust the filter_query accordingly
+    if start_date:
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        filter_query += f" and StartDate ge {start_date.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+        
+    if end_date:
+        end_date = datetime.strptime(end_date, "%Y-%m-%d")
+        filter_query += f" and EndDate le {end_date.strftime('%Y-%m-%dT%H:%M:%SZ')}"
+
+
     # Make an API request to retrieve event data
     events_response = requests.get(f'{api_base_url}/accounts/{account_id}/Events?$filter={filter_query}', headers=headers)
     
     events = events_response.json()['Events']
 
     # Filter out events that have already ended, are not visible to the public, or have "private" in the title
-    upcoming_events = [event for event in events if 'bham now' in event.get('Tags') and
+    events = [event for event in events if 'bham now' in event.get('Tags') and
                        event.get('AccessLevel') == 'Public' and
                        'private' not in event.get('Name', '').lower()]
     
-    return upcoming_events
+    return events
 
 def get_wa_description(event_id):
     """Retrieves the contents of the boxBodyContentOuterContainer div for the specified event ID."""
@@ -439,7 +449,7 @@ def send_email(access_token,body, contact_id,):
         return
 
 def get_contact_list(access_token,group_id):
-    """Retrieves a list of contact id's based on an input group name"""
+    """Retrieves a list of contact id's based on an input group id"""
     api_base_url = 'https://api.wildapricot.org/v2.2'
     headers = {
         'Authorization': f'Bearer {access_token}',
@@ -469,5 +479,11 @@ def get_contact_list(access_token,group_id):
     contact_ids_list.extend(group_info['ContactIds'])
     print(contact_ids_list)
     
-    
+def fill_email_template(Contact_First_Name, Event_Title,Discount_Code, template):
+    return template.format(Contact_First_Name=Contact_First_Name, Event_Title=Event_Title, Discount_Code=Discount_Code)
+
+def read_template_file(file_path):
+    with open(file_path, 'r') as file:
+        return file.read()
+
 

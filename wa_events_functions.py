@@ -92,11 +92,9 @@ def get_events(access_token,start_date=None, end_date=None):
 
     # If start_date and/or end_date are given, adjust the filter_query accordingly
     if start_date:
-        start_date = datetime.strptime(start_date, "%Y-%m-%d")
         filter_query += f" and StartDate ge {start_date.strftime('%Y-%m-%dT%H:%M:%SZ')}"
         
     if end_date:
-        end_date = datetime.strptime(end_date, "%Y-%m-%d")
         filter_query += f" and EndDate le {end_date.strftime('%Y-%m-%dT%H:%M:%SZ')}"
 
 

@@ -484,6 +484,9 @@ def fill_email_template(timescale_info,event_list,template):
     return template.format(timescale_info=timescale_info,event_list=event_list)
 
 def parse_events_html(events):
+    
+    events = events.sort(key=lambda e: parse(e['StartDate']))
+    
     output_list = []
     base_url = "https://redmountainmakers.org/event-"
 

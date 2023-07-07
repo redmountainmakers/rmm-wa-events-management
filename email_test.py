@@ -9,7 +9,7 @@ group_id = 749571
 #if today is logic for monthly timescale = timescale = monthly
 #if both conditions are met, combine?
 current_datetime = datetime.now(timezone.utc)
-one_week = current_datetime + timedelta(days=9) #since the email is being sent on friday, we're including the following weekend
+one_week = current_datetime + timedelta(days=10) #since the email is being sent on friday, we're including the following weekend
 
 timescale_info = current_datetime.strftime("%m/%d/%Y") +" through "+ one_week.strftime("%m/%d/%Y")
 email_subject = f"RMM Events from {timescale_info}"

@@ -11,8 +11,8 @@ group_id = 749571
 current_datetime = datetime.now(timezone.utc)
 one_week = current_datetime + timedelta(weeks=1)
 
-timescale_info = "Events from 7/7/2023 through 7/14/2023"
-email_subject = "RMM Events from 7/7/2023 through 7/14/2023"
+timescale_info = current_datetime.strftime("%m/%d/%Y") +" through "+ one_week.strftime("%m/%d/%Y")
+email_subject = f"RMM Events from {timescale_info}"
 template_email_file_path = 'event_email_template.html'
 html_template = read_template_file(template_email_file_path)
 

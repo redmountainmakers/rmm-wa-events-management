@@ -1,7 +1,9 @@
-name: Email Test Workflow
+name: Email Events Workflow
 
 on:
   workflow_dispatch:
+  schedule:
+      - cron: '30 22 * * MON'
 
 
 jobs:

@@ -477,7 +477,7 @@ def get_contact_list(access_token,group_id):
     contact_ids_list.extend(group_info['ContactIds'])
     print(contact_ids_list)
     
-def fill_email_template(timescale_info):
+def fill_email_template(timescale_info,template):
     return template.format(timescale_info=timescale_info)
 
 def read_template_file(file_path):

@@ -160,7 +160,7 @@ def create_ics_file(events, file_path):
                     break  # Stop iterating as we've found a valid tag
 
         if event_tag:  # If we found a valid tag
-            event['title'] = f'{event_tag} Class: {event["title"]}'  # Prepend it to the event title
+            event_title = f'{event_tag} Class: {event_title}'  # Prepend it to the event title
 
 
         # Create a new event in the iCalendar file

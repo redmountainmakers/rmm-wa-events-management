@@ -507,8 +507,11 @@ def parse_events_html(events):
 
         html_element = f'<li>{formatted_date_time} <a href="{event_url}">{event_name}</a></li>'
         output_list.append(html_element)
+    
+    output_html = "\n".join(output_list)
+    print(output_html)
 
-    return "\n".join(output_list)
+    return output_html
 
 def read_template_file(file_path):
     with open(file_path, 'r') as file:

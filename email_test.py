@@ -17,7 +17,6 @@ template_email_file_path = 'event_email_template.html'
 html_template = read_template_file(template_email_file_path)
 
 event_list = get_events(access_token,current_datetime,one_week)
-print(event_list)
 event_list_html = parse_events_html(event_list)
 
 filled_template = fill_email_template(timescale_info,event_list_html,html_template)

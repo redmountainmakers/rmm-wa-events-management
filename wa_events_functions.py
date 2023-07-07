@@ -512,7 +512,7 @@ def parse_events_html(events):
                 <td class="pad" style="padding-bottom:10px;padding-left:45px;padding-right:45px;padding-top:10px;">
                     <div style="font-family: sans-serif">
                         <div style="font-size: 12px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14.399999999999999px; color: #f2103b; line-height: 1.2;">
-                            <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px; letter-spacing: 6px;"><a href="{event_url}">{event_name}</a><br><span style="color:#ffffff;">{formatted_date_time}</span></p>
+                            <p style="margin: 0; font-size: 14px; text-align: left; mso-line-height-alt: 16.8px; letter-spacing: 6px;"><a href="{event_url}" style="color:#f00">{event_name}</a><br><span style="color:#ffffff;">{formatted_date_time}</span></p>
                         </div>
                     </div>
                 </td>

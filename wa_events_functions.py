@@ -155,6 +155,7 @@ def create_ics_file(events, file_path):
             if event['Tags'][0].capitalize() == "Bham now":  # If the first tag is "Bham now"
                 if len(event['Tags']) > 1:  # Check if there are more tags
                     event_tag = event['Tags'][1].capitalize()  # Take the second tag
+            else: event_tag = event['Tags'][1].capitalize()
         #print(f'{event_tag} is the first event tag for {event_id}')
 
         if event_tag and event_tag != 'Bham now' and event_tag != 'Social':

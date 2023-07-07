@@ -399,7 +399,7 @@ def get_contact_info(contact_id, access_token):
 
     return email, first_name, contact_id, membership_enabled
 
-def send_email(access_token,body, contact_id,):
+def send_email(access_token,email_subject,body, contact_id,):
 
 
     """Sends a test email using the Wild Apricot API."""
@@ -424,7 +424,7 @@ def send_email(access_token,body, contact_id,):
     
     # Prepare email data
     email_data = {
-        "Subject": "Free Month Promo at Red Mountain Makers!",
+        "Subject": email_subject,
         "Body": body,
         "ReplyToAddress": "secretary@redmountainmakers.org",
         "ReplyToName": "Red Mountain Makers",
@@ -479,8 +479,12 @@ def get_contact_list(access_token,group_id):
 
     return contact_ids_list
     
-def fill_email_template(timescale_info,template):
-    return template.format(timescale_info=timescale_info)
+def fill_email_template(timescale_info,event_list,template):
+    return template.format(timescale_info=timescale_info,event_list=event_list)
+
+def parse_events_html(events):
+    
+    return events
 
 def read_template_file(file_path):
     with open(file_path, 'r') as file:

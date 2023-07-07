@@ -12,14 +12,19 @@ current_datetime = datetime.now(timezone.utc)
 one_week = current_datetime + timedelta(weeks=1)
 
 timescale_info = "Events from 7/7/2023 through 7/14/2023"
+email_subject = "RMM Events from 7/7/2023 through 7/14/2023"
 template_email_file_path = 'event_email_template.html'
 html_template = read_template_file(template_email_file_path)
 
 event_list = get_events(access_token,current_datetime,one_week)
-filled_template = fill_email_template(timescale_info,html_template)
+print(event_list)
+event_list_html = parse_events_html(event_list)
+
+filled_template = fill_email_template(timescale_info,event_list_html,html_template)
 
 email_list =  get_contact_list(access_token,group_id)
 
+
 for contact_id in email_list:
-    send_email(access_token,filled_template, contact_id)
+    send_email(access_token,email_subject,filled_template, contact_id)
 

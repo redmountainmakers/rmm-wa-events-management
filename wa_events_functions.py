@@ -150,16 +150,18 @@ def create_ics_file(events, file_path):
         event_end = datetime.fromisoformat(event['EndDate'][:-1] + '0').replace(tzinfo=None)
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
         event_location = event['Location'].upper()#converts the event location to uppercase
-        event_tag = ''
-        if event['Tags']:  # Check if tags exist
-            if event['Tags'][0].capitalize() == "Bham now":  # If the first tag is "Bham now"
-                if len(event['Tags']) > 1:  # Check if there are more tags
-                    event_tag = event['Tags'][1].capitalize()  # Take the second tag
-            else: event_tag = event['Tags'][1].capitalize()
-        #print(f'{event_tag} is the first event tag for {event_id}')
+        ignore_tags = ['bham now', 'social', 'summer series']  # Define the tags to ignore
 
-        if event_tag and event_tag != 'Bham now' and event_tag != 'Social':
-            event_title = f'{event_tag} Class: {event_title}'
+        event_tag = None
+        if event.get('Tags'):  # Check if tags exist
+            for tag in event['Tags']:  # Iterate over all tags
+                if tag.capitalize() not in ignore_tags:  # If the tag is not in the ignore list
+                    event_tag = tag.capitalize()  # Assign it to event_tag
+                    break  # Stop iterating as we've found a valid tag
+
+        if event_tag:  # If we found a valid tag
+            event['title'] = f'{event_tag} Class: {event["title"]}'  # Prepend it to the event title
+
 
         # Create a new event in the iCalendar file
         event = Event()

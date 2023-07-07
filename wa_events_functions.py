@@ -476,7 +476,7 @@ def get_contact_list(access_token,group_id):
     group_info = contact_response.json()
 
     contact_ids_list.extend(group_info['ContactIds'])
-    print(contact_ids_list)
+    #print(contact_ids_list)
 
     return contact_ids_list
     
@@ -492,6 +492,7 @@ def parse_events_html(events):
 
     for event in events:
         event_id = event['Id']
+        print(event_id)
         event_name = event['Name']
         event_url = base_url + str(event_id)
 
@@ -517,8 +518,11 @@ def parse_events_html(events):
                 </td>
             </tr>
         </table>'''
+        print(html_element)
 
         output_list.append(html_element)
+
+    
     
     output_html = "\n".join(output_list)
     print(output_html)

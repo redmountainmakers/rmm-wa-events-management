@@ -784,3 +784,6 @@
 2023-07-07 19:42:16,079 - INFO - Starting to process calendar updates
 2023-07-07 19:42:16,119 - INFO - SUMMARY has changed for 5340363
 2023-07-08 01:19:43,065 - INFO - Starting to process calendar updates
+2023-07-09 01:23:53,735 - INFO - Starting to process calendar updates
+2023-07-09 01:23:53,774 - INFO - Removed past event with ID 5325109
+2023-07-09 01:23:53,775 - INFO - Removed past event with ID 5283342

@@ -9,14 +9,15 @@ group_id = 749571
 #if today is logic for monthly timescale = timescale = monthly
 #if both conditions are met, combine?
 current_datetime = datetime.now(timezone.utc)
-one_week = current_datetime + timedelta(days=10) #since the email is being sent on friday, we're including the following weekend
+start_datetime = current_datetime + timedelta(days=2, hours = 7) #By default the script runs at 5:30pm CST on fridays, so I've offset it to pick up any events starting on Monday morning at 12:30 AM
+end_datetime = start_datetime + timedelta(days=8) #sets the end date one week from the "offset datetime" to get a full week of events, it should run through the following Monday's events.
 
-timescale_info = current_datetime.strftime("%m/%d/%Y") +" through "+ one_week.strftime("%m/%d/%Y")
+timescale_info = start_datetime.strftime("%m/%d/%Y") +" through "+ end_datetime.strftime("%m/%d/%Y")
 email_subject = f"RMM Events from {timescale_info}"
 template_email_file_path = 'event_email_template.html'
 html_template = read_template_file(template_email_file_path)
 
-event_list = get_events(access_token,current_datetime,one_week)
+event_list = get_events(access_token,start_datetime,end_datetime)
 event_list_html = parse_events_html(event_list)
 
 filled_template = fill_email_template(timescale_info,event_list_html,html_template)

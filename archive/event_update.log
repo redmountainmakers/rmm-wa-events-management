@@ -798,3 +798,13 @@
 2023-07-14 01:20:42,721 - INFO - DTSTART has changed for 5340366
 2023-07-14 01:20:42,721 - INFO - DTEND has changed for 5340366
 2023-07-14 01:20:42,721 - INFO - Added event_id 5340588
+2023-07-15 01:19:08,640 - INFO - Starting to process calendar updates
+2023-07-15 01:19:08,677 - INFO - Removed event with ID 5325105 as it is not in the latest calendar
+2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5340586
+2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5340366
+2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5340588
+2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5340430
+2023-07-15 01:19:08,678 - INFO - DTSTART has changed for 5329929
+2023-07-15 01:19:08,678 - INFO - DTEND has changed for 5329929
+2023-07-15 01:19:08,678 - INFO - SUMMARY has changed for 5256490
+2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5256490

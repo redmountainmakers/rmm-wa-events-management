@@ -50,7 +50,7 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:**Free Event** Game Night
+SUMMARY:**Free Event** Board Game Night
 DTSTART:20230728T230000Z
 DTEND:20230729T040000Z
 UID:0bd9abc3-bbd7-4b33-813a-545ab093ff7a
@@ -67,8 +67,8 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  ty of board games to choose from. Some games include D&amp\;D Adventure Be
  gins\, Plants\, Worst Case Scenarios\, Ticket to Ride and more. You may al
  so bring your own.\n </p>\n <p>\n  Every last Friday of the month we will 
- have a  game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <
- div class="clearEndContainer">\n </div>\n</div>\n
+ have a board game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p
+ >\n <div class="clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5256490
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -143,8 +143,8 @@ PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wood turning Class: Turn a Wooden Pen
-DTSTART:20230724T230000Z
-DTEND:20230725T020000Z
+DTSTART:20230717T230000Z
+DTEND:20230718T020000Z
 UID:50c00f71-4269-46b5-aaff-b7f38710e0e2
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5329929>https://www.redmountainmakers.org/event-5329929</a>
@@ -370,6 +370,72 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
  "clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5325117
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Blacksmithing Class: Making a Damascus Steel blank
+DTSTART:20230715T150000Z
+DTEND:20230716T213000Z
+UID:9eaaff51-93cd-4a68-8675-19222096c7f3
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5325105>https://www.redmountainmakers.org/event-5325105</a>
+ <div class="inner gadgetEventEditableArea">\n <img align="left" alt="" bor
+ der="0" height="159" src="https://www.redmountainmakers.org/resources/Pict
+ ures/Blacksmithing/Damascus%20Blank.png" style="margin: 8px\;" title="" wi
+ dth="283.5"/>\n <p>\n  <font face="Ubuntu" style="font-size: 16px\;">\n   
+ This is a Two Day Class\n  </font>\n </p>\n <p>\n  <font face="Ubuntu" sty
+ le="font-size: 16px\;">\n   Damascus\, Forge Welding Dissimilar Steels (hi
+ gh work level)\n  </font>\n </p>\n <p>\n  <font face="Ubuntu" style="font-
+ size: 16px\;">\n   Details: For centuries different methods were utilized 
+ to produce metal that was both hard and flexible. Pattern welded steel was
+  the solution that met those requirements. It was the alternating layers o
+ f hard and soft steels that produced superior steel in a time before refin
+ ement was widely practiced. Students in this class will utilize their skil
+ ls to produce their own piece of the pattern welded steel known as Damascu
+ s. This class will introduce students to the process of forge welding\, ac
+ id etching\, and several techniques to obtain different patterns within th
+ e steel. It is suggested that a previous courses should be taken prior to 
+ this one as the techniques are strenuous and require a lot of stamina. How
+ ever if you are up to the challenge\, you are more than welcome to begin a
+ t this level.\n  </font>\n </p>\n <p>\n  <font face="Ubuntu" style="font-s
+ ize: 16px\;">\n   Task involved - (layering steels\, cleaning\, filing\, d
+ rilling\, cutting\, twisting\, brushing\, folding\, forge welding\, fluxin
+ g\, hammering\, sanding\, acid etching)\n  </font>\n </p>\n <p>\n  <br/>\n
+  </p>\n <p>\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <span>\n
+     <font face="Ubuntu" style="font-size: 16px\;">\n     Though no previou
+ s knowledge is necessarily required\, this is a more advanced class design
+ ed to challenge student’s hand-eye coordination and sculpting. "Forging 
+ Nails" and other beginners / intermediate classes offered at RMM are recom
+ mended prior to taking this advanced class\n    </font>\n   </span>\n  </f
+ ont>\n </p>\n <p>\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <s
+ trong>\n    About the Instructor\n   </strong>\n   : Classes taught by\n  
+  <a href="http://www.fireandbrimstoneforge.net/about.html">\n    Kenneth o
+ f Fire &amp\; Brimstone Forge\n   </a>\n  </font>\n </p>\n <p>\n  <strong>
+ \n   <font face="Ubuntu" style="font-size: 16px\;">\n    <br/>\n   </font>
+ \n  </strong>\n </p>\n <p>\n  <font face="Ubuntu" style="font-size: 16px\;
+ ">\n   <strong>\n    Age\n   </strong>\n   : there are no age restrictions
+  to the class. Please read carefully the disclaimers and guidelines\n  </f
+ ont>\n </p>\n <p>\n  <font face="Ubuntu" style="font-size: 16px\;">\n   <s
+ trong>\n    What to wear:\n   </strong>\n   At RMM\, you must dress safely
+  and appropriately. Arrive for class in all-natural fiber clothing (100% c
+ otton)\, long pants\, and closed-toe\, closed-heel shoes with socks that p
+ rotect up to the ankle. Long hair must be tied back. Nylon\, polyester\, s
+ pandex\, or other synthetics are not allowed around machines\, equipment\,
+  or processes that can produce hot fragments\, sparks\, or flames. Additio
+ nal protective gear will be provided as needed. The CDC has\n   <a href="h
+ ttps://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/diy-cloth-fa
+ ce-coverings.html">\n    <font color="#0563C1">\n     a guide\n    </font>
+ \n   </a>\n   to acceptable cloth masks that help prevent the spread of in
+ fection.\n  </font>\n </p>\n <style>\n </style>\n <style>\n </style>\n <st
+ yle>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </st
+ yle>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <sty
+ le>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </sty
+ le>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <styl
+ e>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </styl
+ e>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div c
+ lass="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5325105
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
@@ -655,23 +721,21 @@ DTEND:20230826T220000Z
 UID:bba85687-ad41-463d-af31-62766972bd5e
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5340586>https://www.redmountainmakers.org/event-5340586</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
- " height="207" src="https://www.redmountainmakers.org/resources/Pictures/G
- lass/Sun_Catcher.jpg" title="" width="285"/>\n  <br/>\n </p>\n <p>\n  Ther
- e will be no refunds within 14 days of the event.\n </p>\n <p>\n  About th
- e Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone Forge\n 
- </p>\n <p>\n  Age: there are no age restrictions to the class. Please read
-  carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wear: At
-  RMM\, you must dress safely and appropriately. Arrive for class in all-na
- tural fiber clothing (100% cotton)\, long pants\, and closed-toe\, closed-
- heel shoes with socks that protect up to the ankle. Long hair must be tied
-  back. Nylon\, polyester\, spandex\, or other synthetics are not allowed a
- round machines\, equipment\, or processes that can produce hot fragments\,
-  sparks\, or flames. Additional protective gear will be provided as needed
- . The CDC has a guide to acceptable cloth masks that help prevent the spre
- ad of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n <styl
- e>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class="clea
- rEndContainer">\n </div>\n</div>\n
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <p>\n 
+  There will be no refunds within 14 days of the event.\n </p>\n <p>\n  Abo
+ ut the Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone For
+ ge\n </p>\n <p>\n  Age: there are no age restrictions to the class. Please
+  read carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wea
+ r: At RMM\, you must dress safely and appropriately. Arrive for class in a
+ ll-natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, cl
+ osed-heel shoes with socks that protect up to the ankle. Long hair must be
+  tied back. Nylon\, polyester\, spandex\, or other synthetics are not allo
+ wed around machines\, equipment\, or processes that can produce hot fragme
+ nts\, sparks\, or flames. Additional protective gear will be provided as n
+ eeded. The CDC has a guide to acceptable cloth masks that help prevent the
+  spread of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n 
+ <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
+ "clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5340586
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -736,21 +800,21 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  start with simple projects to display text and icons. Learn to write progr
  ams to keep score\, play a song\, or send secret messages to a friend’s 
  micro:bit. You’ll be amazed at what you can do and control by the end of
-  the class.\n    </font>\n   </font>\n  </font>\n </p>\n <p style="">\n  <
- font face="Ubuntu" style="font-size: 18px\;">\n   Age: there are no age r\
- n   <span style="">\n    estrictions to the class. Please read carefu\n   
- </span>\n  </font>\n  lly the disclaimers and guidelines\n </p>\n <p style
- ="font-size: 18px\;">\n  What to wear: At RMM\, you must dress safely and 
- appropriately. Arrive for class in all-natural fiber clothing (100% cotton
- )\, long pants\, and closed-toe\, closed-heel shoes with socks that protec
- t up to the ankle. Long hair must be tied back. Nylon\, polyester\, spande
- x\, or other synthetics are not allowed around machines\, equipment\, or p
- rocesses that can produce hot fragments\, sparks\, or flames. Additional p
- rotective gear will be provided as needed. The CDC has a guide to acceptab
- le cloth masks that help prevent the spread of infection.\n </p>\n <p styl
- e="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\n <style>\n </
- style>\n <style>\n </style>\n <style>\n </style>\n <div class="clearEndCon
- tainer">\n </div>\n</div>\n
+  theclass\n    </font>\n   </font>\n  </font>\n </p>\n <p style="">\n  <fo
+ nt face="Ubuntu" style="font-size: 18px\;">\n   Age: there are no age r\n 
+   <span style="">\n    estrictions to the class. Please read carefu\n   </
+ span>\n  </font>\n  lly the disclaimers and guidelines\n </p>\n <p style="
+ font-size: 18px\;">\n  What to wear: At RMM\, you must dress safely and ap
+ propriately. Arrive for class in all-natural fiber clothing (100% cotton)\
+ , long pants\, and closed-toe\, closed-heel shoes with socks that protect 
+ up to the ankle. Long hair must be tied back. Nylon\, polyester\, spandex\
+ , or other synthetics are not allowed around machines\, equipment\, or pro
+ cesses that can produce hot fragments\, sparks\, or flames. Additional pro
+ tective gear will be provided as needed. The CDC has a guide to acceptable
+  cloth masks that help prevent the spread of infection.\n </p>\n <p style=
+ "font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\n <style>\n </st
+ yle>\n <style>\n </style>\n <style>\n </style>\n <div class="clearEndConta
+ iner">\n </div>\n</div>\n
 EVENT_ID:5340366
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -912,22 +976,20 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
  Ubuntu" style="font-size: 18px\;">\n   <img alt="" border="0" height="200"
   src="https://www.redmountainmakers.org/resources/Pictures/summer%20series
- .png" title="" width="239"/>\n   <img alt="" border="0" height="332" src="
- https://www.redmountainmakers.org/resources/Pictures/Woodworking/wooden%20
- box.jpg" title="" width="238"/>\n  </font>\n </p>\n <p style="">\n  <font 
- face="Ubuntu" style="font-size: 18px\;">\n   Age: there are no age restric
- tions to the class. Please read carefu\n  </font>\n  lly the disclaimers a
- nd guidelines\n </p>\n <p style="font-size: 18px\;">\n  What to wear: At R
- MM\, you must dress safely and appropriately. Arrive for class in all-natu
- ral fiber clothing (100% cotton)\, long pants\, and closed-toe\, closed-he
- el shoes with socks that protect up to the ankle. Long hair must be tied b
- ack. Nylon\, polyester\, spandex\, or other synthetics are not allowed aro
- und machines\, equipment\, or processes that can produce hot fragments\, s
- parks\, or flames. Additional protective gear will be provided as needed. 
- The CDC has a guide to acceptable cloth masks that help prevent the spread
-  of infection.\n </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <s
- tyle>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </s
- tyle>\n <div class="clearEndContainer">\n </div>\n</div>\n
+ .png" title="" width="239"/>\n  </font>\n </p>\n <p style="">\n  <font fac
+ e="Ubuntu" style="font-size: 18px\;">\n   Age: there are no age restrictio
+ ns to the class. Please read carefu\n  </font>\n  lly the disclaimers and 
+ guidelines\n </p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\
+ , you must dress safely and appropriately. Arrive for class in all-natural
+  fiber clothing (100% cotton)\, long pants\, and closed-toe\, closed-heel 
+ shoes with socks that protect up to the ankle. Long hair must be tied back
+ . Nylon\, polyester\, spandex\, or other synthetics are not allowed around
+  machines\, equipment\, or processes that can produce hot fragments\, spar
+ ks\, or flames. Additional protective gear will be provided as needed. The
+  CDC has a guide to acceptable cloth masks that help prevent the spread of
+  infection.\n </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <styl
+ e>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </styl
+ e>\n <div class="clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5340430
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
@@ -1205,24 +1267,21 @@ DTEND:20230827T230000Z
 UID:99ac159d-e1fe-48ca-9bfe-41cf68433231
 DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  kers.org/event-5340588>https://www.redmountainmakers.org/event-5340588</a>
- <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
- " height="164" src="https://www.redmountainmakers.org/resources/Pictures/G
- lass/Screen%20Shot%202023-07-14%20at%209.46.12%20AM%20(1).png" title="" wi
- dth="234"/>\n  <br/>\n </p>\n <p>\n  There will be no refunds within 14 da
- ys of the event.\n </p>\n <p>\n  About the Instructor: Class is taught by 
- Kenneth of Fire &amp\; Brimstone Forge\n </p>\n <p>\n  Age: there are no a
- ge restrictions to the class. Please read carefully the disclaimers and gu
- idelines\n </p>\n <p>\n  What to wear: At RMM\, you must dress safely and 
- appropriately. Arrive for class in all-natural fiber clothing (100% cotton
- )\, long pants\, and closed-toe\, closed-heel shoes with socks that protec
- t up to the ankle. Long hair must be tied back. Nylon\, polyester\, spande
- x\, or other synthetics are not allowed around machines\, equipment\, or p
- rocesses that can produce hot fragments\, sparks\, or flames. Additional p
- rotective gear will be provided as needed. The CDC has a guide to acceptab
- le cloth masks that help prevent the spread of infection.\n </p>\n <p>\n  
- <br/>\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style
- >\n <style>\n </style>\n <div class="clearEndContainer">\n </div>\n</div>\
- n
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <br/>\n </p>\n <p>\n 
+  There will be no refunds within 14 days of the event.\n </p>\n <p>\n  Abo
+ ut the Instructor: Class is taught by Kenneth of Fire &amp\; Brimstone For
+ ge\n </p>\n <p>\n  Age: there are no age restrictions to the class. Please
+  read carefully the disclaimers and guidelines\n </p>\n <p>\n  What to wea
+ r: At RMM\, you must dress safely and appropriately. Arrive for class in a
+ ll-natural fiber clothing (100% cotton)\, long pants\, and closed-toe\, cl
+ osed-heel shoes with socks that protect up to the ankle. Long hair must be
+  tied back. Nylon\, polyester\, spandex\, or other synthetics are not allo
+ wed around machines\, equipment\, or processes that can produce hot fragme
+ nts\, sparks\, or flames. Additional protective gear will be provided as n
+ eeded. The CDC has a guide to acceptable cloth masks that help prevent the
+  spread of infection.\n </p>\n <p>\n  <br/>\n </p>\n <style>\n </style>\n 
+ <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class=
+ "clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5340588
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//

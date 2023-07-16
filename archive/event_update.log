@@ -808,3 +808,6 @@
 2023-07-15 01:19:08,678 - INFO - DTEND has changed for 5329929
 2023-07-15 01:19:08,678 - INFO - SUMMARY has changed for 5256490
 2023-07-15 01:19:08,678 - INFO - DESCRIPTION has changed for 5256490
+2023-07-16 01:27:38,995 - INFO - Starting to process calendar updates
+2023-07-16 01:27:39,026 - INFO - Removed past event with ID 5332780
+2023-07-16 01:27:39,026 - INFO - Removed past event with ID 5340345

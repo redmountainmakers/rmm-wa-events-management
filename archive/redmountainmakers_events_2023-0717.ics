@@ -624,6 +624,46 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:RMM Summer Series: Intro to Soldering
+DTSTART:20230716T200000Z
+DTEND:20230716T200000Z
+UID:d87ea6d2-3794-4a86-af05-5c2b86328a56
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340371>https://www.redmountainmakers.org/event-5340371</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <span style="">\n    <font style=""
+ >\n     <font style="">\n      <font style="">\n       <img alt="" border=
+ "0" height="251" src="https://www.redmountainmakers.org/resources/Pictures
+ /summer%20series.png" title="" width="300"/>\n      </font>\n     </font>\
+ n    </font>\n   </span>\n  </font>\n </p>\n <p style="">\n  <font face="U
+ buntu" style="font-size: 18px\;">\n   <span style="">\n    <font style="">
+ \n     <font style="">\n      <font style="">\n       Learning how to sold
+ er with proper soldering techniques is a fundamental skill every maker sho
+ uld master. In this introductory class\, participants will learn the basic
+ s of soldering irons\, soldering stations\, types of solder\, desoldering\
+ , and safety tips. Participants will then put these basics into practice a
+ nd assemble a small electronic device using concepts learned. Whether you
+ ’re building a robot or working with Arduino\, knowing how to solder wil
+ l come in handy!\n      </font>\n     </font>\n    </font>\n   </span>\n  
+ </font>\n </p>\n <p style="font-size: 18px\;">\n  <font face="Ubuntu" styl
+ e="font-size: 18px\;">\n   Age: there are no age restrictions to the class
+ . Please read carefu\n  </font>\n  lly the disclaimers and guidelines\n </
+ p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\, you must dres
+ s safely and appropriately. Arrive for class in all-natural fiber clothing
+  (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes with sock
+ s that protect up to the ankle. Long hair must be tied back. Nylon\, polye
+ ster\, spandex\, or other synthetics are not allowed around machines\, equ
+ ipment\, or processes that can produce hot fragments\, sparks\, or flames.
+  Additional protective gear will be provided as needed. The CDC has a guid
+ e to acceptable cloth masks that help prevent the spread of infection.\n <
+ /p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\n
+  <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div class
+ ="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340371
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:RMM Summer Series: Code a Microbit
 DTSTART:20230730T210000Z
 DTEND:20230730T210000Z

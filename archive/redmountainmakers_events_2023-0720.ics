@@ -810,6 +810,44 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:RMM Summer Series: Python Basics
+DTSTART:20230719T230000Z
+DTEND:20230719T230000Z
+UID:4c9a186d-f52c-4222-a3fb-bbba8c5c6fc3
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340374>https://www.redmountainmakers.org/event-5340374</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <span style="">\n    <font style=""
+ >\n     <font style="">\n      <font style="">\n       <font style="">\n  
+       <img alt="" border="0" height="188" src="https://www.redmountainmake
+ rs.org/resources/Pictures/summer%20series.png" title="" width="224"/>\n   
+     </font>\n      </font>\n     </font>\n    </font>\n   </span>\n  </fon
+ t>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;">
+ \n   <span style="">\n    <font style="">\n     <font style="">\n      <fo
+ nt style="">\n       <font style="">\n        This course reviews the basi
+ c syntax of the Python programming language. Participants will learn about
+  printing\, data types\, variables\, user input\, operators\, random\, con
+ ditionals\, and loops. Students will also be expected to work on assignmen
+ ts to reinforce training topics.\n       </font>\n      </font>\n     </fo
+ nt>\n    </font>\n   </span>\n  </font>\n </p>\n <p style="font-size: 18px
+ \;">\n  <font face="Ubuntu" style="font-size: 18px\;">\n   Age: there are 
+ no age restrictions to the class. Please read carefu\n  </font>\n  lly the
+  disclaimers and guidelines\n </p>\n <p style="font-size: 18px\;">\n  What
+  to wear: At RMM\, you must dress safely and appropriately. Arrive for cla
+ ss in all-natural fiber clothing (100% cotton)\, long pants\, and closed-t
+ oe\, closed-heel shoes with socks that protect up to the ankle. Long hair 
+ must be tied back. Nylon\, polyester\, spandex\, or other synthetics are n
+ ot allowed around machines\, equipment\, or processes that can produce hot
+  fragments\, sparks\, or flames. Additional protective gear will be provid
+ ed as needed. The CDC has a guide to acceptable cloth masks that help prev
+ ent the spread of infection.\n </p>\n <p style="font-size: 18px\;">\n  <br
+ />\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n
+  <style>\n </style>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340374
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:RMM Summer Series: Digital Literacy
 DTSTART:20230724T220000Z
 DTEND:20230724T220000Z

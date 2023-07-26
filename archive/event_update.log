@@ -826,3 +826,18 @@
 2023-07-25 01:12:50,002 - INFO - Starting to process calendar updates
 2023-07-25 01:12:50,033 - INFO - Removed past event with ID 5329929
 2023-07-25 01:12:50,033 - INFO - Removed past event with ID 5340377
+2023-07-26 01:07:21,674 - INFO - Starting to process calendar updates
+2023-07-26 01:07:21,708 - INFO - Removed past event with ID 5340354
+2023-07-26 01:07:21,708 - INFO - DTEND has changed for 5340577
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360601
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360106
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360587
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360596
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360118
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360096
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360016
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360057
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360060
+2023-07-26 01:07:21,708 - INFO - Added event_id 5360082
+2023-07-26 01:07:21,709 - INFO - Added event_id 5360599
+2023-07-26 01:07:21,709 - INFO - Added event_id 5360109

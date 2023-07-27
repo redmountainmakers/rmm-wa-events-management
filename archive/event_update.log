@@ -841,3 +841,5 @@
 2023-07-26 01:07:21,708 - INFO - Added event_id 5360082
 2023-07-26 01:07:21,709 - INFO - Added event_id 5360599
 2023-07-26 01:07:21,709 - INFO - Added event_id 5360109
+2023-07-27 01:01:06,985 - INFO - Starting to process calendar updates
+2023-07-27 01:01:07,033 - INFO - Removed past event with ID 5340380

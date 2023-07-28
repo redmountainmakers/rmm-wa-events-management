@@ -412,6 +412,74 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wood turning Class: Learn to Make an Elegant Hand-crafted “Baron
  ” Fountain Pen
+DTSTART:20230727T230000Z
+DTEND:20230728T020000Z
+UID:f610baf9-90a3-4a83-bc50-71273856c313
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340583>https://www.redmountainmakers.org/event-5340583</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <img alt="" border="0" height="160"
+  src="https://www.redmountainmakers.org/resources/Pictures/Woodworking/fou
+ ntain%20pen.png" title="" width="232"/>\n  </font>\n </p>\n <p style="">\n
+   <font face="Ubuntu" style="font-size: 18px\;">\n   Learn to make an eleg
+ ant hand-crafted “Baron” Fountain Pen!\n  </font>\n </p>\n <p style=""
+ >\n  <font face="Ubuntu" style="font-size: 18px\;">\n   This class is for 
+ anyone who has taken the “Turn a Wooden Pen” class\, or already has ex
+ perience in using a lathe. The “Baron” fountain pen is trimmed with ni
+ bs\, clips and other elements made out of the highest quality silver plati
+ ng which gives each pen a distinguished look in addition to durability.\n 
+  </font>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18
+ px\;">\n   The fountain pen features an ultra-smooth threading removable c
+ ap that screws on to both the bottom and top of the pen. The Baron Fountai
+ n Pen not only is a great looking pen\, but it is also light weight and on
+ e of the smoothest writing instruments available for everyday use and has 
+ a two-tone German made nib with an iridium tip. The artistic fittings are 
+ hand worked and polished and the solid metal external components add to th
+ e pens expensive and hardy feel.\n  </font>\n </p>\n <p style="">\n  <font
+  face="Ubuntu" style="font-size: 18px\;">\n   The Baron comes with both a 
+ siphon pump and blue ink cartridge. This hand-crafted pen will make a uniq
+ ue gift to others or yourself and will be completely one-of-a-kind!\n  </f
+ ont>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;
+ ">\n   Each pen will be turned from beautiful exotic woods such as: King C
+ ocobolo\, Olivewood\, Burmese Rosewood\, Cherry Burl\, Boxelder Burl\, Red
+  Mailee Burl\, Bocote\, Spalted Tamarind\, Box Elder\, etc. Students may c
+ hoose silver plated or gold for the pen kit.\n  </font>\n </p>\n <font sty
+ le="font-size: 16px\;">\n  <br/>\n </font>\n <p style="font-size: 18px\;">
+ \n  <font style="font-size: 16px\;">\n   <strong>\n    About the Instructo
+ r:\n   </strong>\n   Terry Tingle is the president of the Alabama Woodturn
+ ers Association and is a\n  </font>\n  <font style="font-size: 16px\;">\n 
+   member of The American Association of Woodturners. Terry has been teachi
+ ng students how to turn pens for years\, some of whom have had their exhib
+ itions in Art and Craft Shows throughout Alabama\, including Mentone.\n  <
+ /font>\n </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="
+ Ubuntu" style="font-size: 16px\;">\n   <strong>\n   </strong>\n  </font>\n
+  </p>\n <p align="left" style="font-size: 18px\;">\n  <font face="Ubuntu" 
+ style="font-size: 16px\;">\n   <strong>\n    Are Minors allowed\n   </stro
+ ng>\n   ? Yes\, accompanied by parent.\n  </font>\n </p>\n <p align="left"
+  style="font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\
+ ;">\n   <strong>\n   </strong>\n  </font>\n </p>\n <p align="left" style="
+ font-size: 18px\;">\n  <font face="Ubuntu" style="font-size: 16px\;">\n   
+ <strong>\n    What to wear\n   </strong>\n   : You must dress safely and a
+ ppropriately. Arrive for class in long pants\, and closed-toe\, closed-hee
+ l shoes with socks that protect up to the ankle. Long sleeves should be av
+ oided if possible and rolled up if necessary. Long hair must be tied back 
+ and dangly necklaces\, earrings or other accessories shall be removed befo
+ re starting the class. Additional protective gear will be provided as need
+ ed. Masks may be required depending on circumstances.\n  </font>\n </p>\n 
+ <p align="center" style="font-size: 18px\;">\n  <font face="Ubuntu" style=
+ "font-size: 16px\;">\n   <img alt="" border="0" height="145" src="https://
+ www.redmountainmakers.org/resources/Pictures/Logos%20and%20Posters/AWA%20L
+ ogo%20transparent%20bg.png" title="" width="141.75"/>\n   <br/>\n  </font>
+ \n </p>\n <p style="font-size: 18px\;">\n  <font face="Ubuntu" style="font
+ -size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="font-size: 18px\;"
+ >\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5340583
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Wood turning Class: Learn to Make an Elegant Hand-crafted “Baron
+ ” Fountain Pen
 DTSTART:20230819T150000Z
 DTEND:20230819T180000Z
 UID:73fc787b-2704-4c6c-95e2-6c3cf57c27ff
@@ -651,6 +719,93 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  tyle>\n </style>\n <style>\n </style>\n <div class="clearEndContainer">\n 
  </div>\n</div>\n
 EVENT_ID:5340404
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RMM Summer Series: Intro to Laser Cutting
+DTSTART:20230727T233000Z
+DTEND:20230727T233000Z
+UID:951d1018-02ed-4f38-90f9-45381a90350c
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5340398>https://www.redmountainmakers.org/event-5340398</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="">\n   <font style="font-size: 16px\;">\n    <img alt="" bo
+ rder="0" height="171" src="https://www.redmountainmakers.org/resources/Pic
+ tures/summer%20series.png" title="" width="204"/>\n   </font>\n  </font>\n
+  </p>\n <p style="">\n  <font face="Ubuntu" style="">\n   <font style="fon
+ t-size: 16px\;">\n    Intro to Laser Cutting will focus on the basics of o
+ perating the RMM laser cutter with a focus on proper usage\, safety and ma
+ intenance. The vector graphics software\, Lightburn\, will be introduced a
+ nd used to prepare a design for cutting. Participants will learn the tools
+  to safely begin designing and cutting their own projects as Makers.\n   <
+ /font>\n  </font>\n </p>\n <p style="font-size: 18px\;">\n  <font face="Ub
+ untu" style="font-size: 18px\;">\n   Age: there are no age r\n   <span>\n 
+    estrictions to the class. Please read carefu\n   </span>\n  </font>\n  
+ lly the disclaimers and guidelines\n </p>\n <p style="font-size: 18px\;">\
+ n  What to wear: At RMM\, you must dress safely and appropriately. Arrive 
+ for class in all-natural fiber clothing (100% cotton)\, long pants\, and c
+ losed-toe\, closed-heel shoes with socks that protect up to the ankle. Lon
+ g hair must be tied back. Nylon\, polyester\, spandex\, or other synthetic
+ s are not allowed around machines\, equipment\, or processes that can prod
+ uce hot fragments\, sparks\, or flames. Additional protective gear will be
+  provided as needed. The CDC has a guide to acceptable cloth masks that he
+ lp prevent the spread of infection.\n </p>\n <p style="font-size: 18px\;">
+ \n  <br/>\n </p>\n <style>\n </style>\n <style>\n </style>\n <style>\n </s
+ tyle>\n <style>\n </style>\n <div class="clearEndContainer">\n </div>\n</d
+ iv>\n
+EVENT_ID:5340398
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:RMM Summer Series: Mathematics Basics
+DTSTART:20230727T230000Z
+DTEND:20230727T230000Z
+UID:7d4f3020-4116-49dc-8ab3-f07de6d4b305
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5342023>https://www.redmountainmakers.org/event-5342023</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <span style="">\n   <
+ span style="">\n    <span style="">\n     <span style="background-color: r
+ gb(15\, 17\, 21)\;">\n      <span style="">\n       <font style="font-size
+ : 18px\;">\n        <font face="Arial" style="">\n         <span style="">
+ \n          <span style="">\n           <img alt="" border="0" height="169
+ " src="https://www.redmountainmakers.org/resources/Pictures/summer%20serie
+ s.png" title="" width="202"/>\n           <br/>\n          </span>\n      
+    </span>\n        </font>\n       </font>\n      </span>\n     </span>\n
+     </span>\n   </span>\n  </span>\n </p>\n <p>\n  <span style="">\n   <sp
+ an style="">\n    <span style="">\n     <span style="background-color: rgb
+ (15\, 17\, 21)\;">\n      <span style="">\n       <font style="font-size: 
+ 18px\;">\n        <font face="Arial" style="">\n         <span style="">\n
+           <span style="">\n           "Math Mastery: GED Prep Course" is d
+ esigned to help those preparing for the GED exam conquer their math challe
+ nges. We cover all required topics such as fractions\, decimals\, algebra\
+ , geometry\, and data analysis in an easy-to-understand way. The course co
+ mbines clear instruction\, interactive exercises\, and problem-solving act
+ ivities\, tailored to facilitate learning at your own pace. We focus on ma
+ king math approachable and applicable\, ensuring you're ready not just for
+  the GED\, but for practical everyday math use.\n          </span>\n      
+    </span>\n        </font>\n       </font>\n      </span>\n     </span>\n
+     </span>\n   </span>\n  </span>\n </p>\n <p style="background-color: tr
+ ansparent\; font-size: 18px\;">\n  <span style="background-color: rgb(255\
+ , 255\, 255)\;">\n   <span style="">\n    <font color="#0F1115">\n     <br
+ />\n    </font>\n   </span>\n  </span>\n </p>\n <p style="background-color
+ : transparent\; font-size: 18px\;">\n  Please bring your own laptop.\n </p
+ >\n <p style="background-color: transparent\; font-size: 18px\;">\n  Age: 
+ there are no age restrictions to the class. Please read carefully the disc
+ laimers and guidelines\n </p>\n <p style="background-color: transparent\; 
+ font-size: 18px\;">\n  What to wear: At RMM\, you must dress safely and ap
+ propriately. Arrive for class in all-natural fiber clothing (100% cotton)\
+ , long pants\, and closed-toe\, closed-heel shoes with socks that protect 
+ up to the ankle. Long hair must be tied back. Nylon\, polyester\, spandex\
+ , or other synthetics are not allowed around machines\, equipment\, or pro
+ cesses that can produce hot fragments\, sparks\, or flames. Additional pro
+ tective gear will be provided as needed. The CDC has a guide to acceptable
+  cloth masks that help prevent the spread of infection.\n </p>\n <p style=
+ "background-color: transparent\; font-size: 18px\;">\n  <br/>\n </p>\n <st
+ yle>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </st
+ yle>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5342023
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

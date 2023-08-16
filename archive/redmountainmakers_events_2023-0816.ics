@@ -845,6 +845,43 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Electronics Class: RMM Summer Series: PC Hardware Basics
+DTSTART:20230815T231500Z
+DTEND:20230815T231500Z
+UID:ebee9dac-045a-4125-8f52-10699dc0298e
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5367936>https://www.redmountainmakers.org/event-5367936</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <span style="">\n    <font style=""
+ >\n     <font style="">\n      <img alt="" border="0" height="216" src="ht
+ tps://www.redmountainmakers.org/resources/Pictures/summer%20series.png" ti
+ tle="" width="258"/>\n     </font>\n    </font>\n   </span>\n  </font>\n <
+ /p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;">\n   <
+ span style="">\n    <font style="">\n     <font style="">\n      Is the in
+ side of a computer a mystery to you? Do you want to gain confidence with c
+ omputer hardware? In this class you will disassemble a desktop PC into its
+  basic components\, and put it back together. After assembly we will insta
+ ll a basic operating system. Each student will leave the class with a flas
+ h drive.\n     </font>\n    </font>\n   </span>\n  </font>\n </p>\n <p sty
+ le="">\n  <br/>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-s
+ ize: 18px\;">\n   Age: there are no age restrictions to the class. Please 
+ read carefu\n  </font>\n  lly the disclaimers and guidelines\n </p>\n <p s
+ tyle="font-size: 18px\;">\n  What to wear: At RMM\, you must dress safely 
+ and appropriately. Arrive for class in all-natural fiber clothing (100% co
+ tton)\, long pants\, and closed-toe\, closed-heel shoes with socks that pr
+ otect up to the ankle. Long hair must be tied back. Nylon\, polyester\, sp
+ andex\, or other synthetics are not allowed around machines\, equipment\, 
+ or processes that can produce hot fragments\, sparks\, or flames. Addition
+ al protective gear will be provided as needed. The CDC has a guide to acce
+ ptable cloth masks that help prevent the spread of infection.\n </p>\n <p 
+ style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\n <style>\
+ n </style>\n <style>\n </style>\n <style>\n </style>\n <div class="clearEn
+ dContainer">\n </div>\n</div>\n
+EVENT_ID:5367936
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Welding Class: Welding Basics: Introduction to MIG
 DTSTART:20230922T230000Z
 DTEND:20230923T020000Z

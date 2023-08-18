@@ -609,6 +609,45 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Coding Class: RMM Summer Series: Python Basics
+DTSTART:20230817T230000Z
+DTEND:20230818T003000Z
+UID:63299959-cd3e-400c-becd-42ff443757d0
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5360060>https://www.redmountainmakers.org/event-5360060</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <span style="">\n    <font style=""
+ >\n     <font style="">\n      <font style="">\n       <font style="">\n  
+       <img alt="" border="0" height="188" src="https://www.redmountainmake
+ rs.org/resources/Pictures/summer%20series.png" title="" width="224"/>\n   
+     </font>\n      </font>\n     </font>\n    </font>\n   </span>\n  </fon
+ t>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-size: 18px\;">
+ \n   <span style="">\n    <font style="">\n     <font style="">\n      <fo
+ nt style="">\n       <font style="">\n        This course reviews the basi
+ c syntax of the Python programming language. Participants will learn about
+  printing\, data types\, variables\, user input\, operators\, random\, con
+ ditionals\, and loops. Students will also be expected to bring their own l
+ aptops work on assignments to reinforce training topics. Laptops can be pr
+ ovided limitedly..\n       </font>\n      </font>\n     </font>\n    </fon
+ t>\n   </span>\n  </font>\n </p>\n <p style="font-size: 18px\;">\n  <font 
+ face="Ubuntu" style="font-size: 18px\;">\n   Age: there are no age restric
+ tions to the class. Please read carefu\n  </font>\n  lly the disclaimers a
+ nd guidelines\n </p>\n <p style="font-size: 18px\;">\n  What to wear: At R
+ MM\, you must dress safely and appropriately. Arrive for class in all-natu
+ ral fiber clothing (100% cotton)\, long pants\, and closed-toe\, closed-he
+ el shoes with socks that protect up to the ankle. Long hair must be tied b
+ ack. Nylon\, polyester\, spandex\, or other synthetics are not allowed aro
+ und machines\, equipment\, or processes that can produce hot fragments\, s
+ parks\, or flames. Additional protective gear will be provided as needed. 
+ The CDC has a guide to acceptable cloth masks that help prevent the spread
+  of infection.\n </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <s
+ tyle>\n </style>\n <style>\n </style>\n <style>\n </style>\n <style>\n </s
+ tyle>\n <div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5360060
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Electronics Class: RMM Summer Series: Circuits and Electronics
 DTSTART:20230819T190000Z
 DTEND:20230819T203000Z

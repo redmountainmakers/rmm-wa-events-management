@@ -295,6 +295,42 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:3d printing Class: RMM Summer Series: Intro to 3D Printing
+DTSTART:20230830T230000Z
+DTEND:20230831T003000Z
+UID:6f0e1a25-6ff8-4775-82a5-745c577e559c
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5364598>https://www.redmountainmakers.org/event-5364598</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    <br/>\n   </fo
+ nt>\n  </font>\n </p>\n <p style="">\n  <font face="Ubuntu" style="font-si
+ ze: 18px\;">\n   <font style="">\n    <img alt="" border="0" height="158" 
+ src="https://www.redmountainmakers.org/resources/Pictures/summer%20series.
+ png" title="" width="189"/>\n   </font>\n  </font>\n </p>\n <p style="">\n
+   <font face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    
+ In this course\, participants will take a pre-made 3d model and learn how 
+ to use RMM's 3d printer ecosystem to bring 3d models to life. Prints will 
+ run overnight after the class\, participants can pick up the completed pro
+ ject within 1 week after the class\n   </font>\n  </font>\n </p>\n <p styl
+ e="">\n  <font face="Ubuntu" style="font-size: 18px\;">\n   <font style=""
+ >\n    Age: there are no age restrictions to the class. Please read carefu
+ \n   </font>\n   ll\n  </font>\n  y the disclaimers and guidelines\n  <br/
+ >\n </p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\, you mus
+ t dress safely and appropriately. Arrive for class in all-natural fiber cl
+ othing (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes wit
+ h socks that protect up to the ankle. Long hair must be tied back. Nylon\,
+  polyester\, spandex\, or other synthetics are not allowed around machines
+ \, equipment\, or processes that can produce hot fragments\, sparks\, or f
+ lames. Additional protective gear will be provided as needed. The CDC has 
+ a guide to acceptable cloth masks that help prevent the spread of infectio
+ n.\n </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </st
+ yle>\n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div
+  class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5364598
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Woodworking Class: Cutting Boards for Beginners 101
 DTSTART:20231216T200000Z
 DTEND:20231216T230000Z

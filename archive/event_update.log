@@ -956,3 +956,5 @@
 2023-09-20 00:53:53,512 - INFO - Starting to process calendar updates
 2023-09-21 00:53:25,623 - INFO - Starting to process calendar updates
 2023-09-21 00:53:25,641 - INFO - Added event_id 5427334
+2023-09-22 00:53:57,412 - INFO - Starting to process calendar updates
+2023-09-22 00:53:57,435 - INFO - Removed past event with ID 5376880

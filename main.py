@@ -17,7 +17,7 @@ bham365_events = "bham365.csv"
 
 download_ics_file(current_ics_url,ics_current_path)#Downloads the current ics file from the RMM website
 
-wa_api_key = os.environ.get("API_KEY")#Gets the API key from the environment variables
+wa_api_key = os.environ.get("WA_API_KEY")#Gets the API key from the environment variables
 access_token = get_access_token(wa_api_key)#Gets the access token from the WA API
 
 filter_tags = ['bham now']

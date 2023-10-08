@@ -2,3 +2,8 @@
 2023-10-06 20:57:00,106 - INFO - Starting to process calendar updates
 2023-10-06 20:57:00,141 - INFO - Added event_id 5426534
 2023-10-07 00:09:47,289 - INFO - Starting to process calendar updates
+2023-10-08 00:10:30,238 - INFO - Starting to process calendar updates
+2023-10-08 00:10:30,261 - INFO - Removed past event with ID 5419987
+2023-10-08 00:10:30,262 - INFO - Added event_id 5426540
+2023-10-08 00:10:30,262 - INFO - Added event_id 5426535
+2023-10-08 00:10:30,262 - INFO - Added event_id 5426538

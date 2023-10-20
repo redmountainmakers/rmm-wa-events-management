@@ -27,3 +27,6 @@
 2023-10-18 08:05:24,469 - INFO - DTEND has changed for 5452503
 2023-10-19 08:05:11,694 - INFO - Starting to process calendar updates
 2023-10-19 08:05:11,731 - INFO - Removed past event with ID 5212000
+2023-10-20 08:05:07,064 - INFO - Starting to process calendar updates
+2023-10-20 08:05:07,097 - INFO - Added event_id 5452497
+2023-10-20 08:05:07,097 - INFO - Added event_id 5451179

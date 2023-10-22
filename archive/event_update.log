@@ -33,3 +33,6 @@
 2023-10-21 08:04:38,491 - INFO - Starting to process calendar updates
 2023-10-21 08:04:38,524 - INFO - Removed past event with ID 5426534
 2023-10-21 08:04:38,525 - INFO - Added event_id 5461467
+2023-10-22 08:04:56,572 - INFO - Starting to process calendar updates
+2023-10-22 08:04:56,609 - INFO - Removed past event with ID 5360588
+2023-10-22 08:04:56,609 - INFO - Removed past event with ID 5452503

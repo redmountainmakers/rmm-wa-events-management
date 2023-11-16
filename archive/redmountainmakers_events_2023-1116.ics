@@ -103,6 +103,39 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:3d printing Class: Intro to 3D Printing
+DTSTART:20231116T000000Z
+DTEND:20231116T013000Z
+UID:ec073d7f-6808-4155-874e-5e53960ba9e9
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5376882>https://www.redmountainmakers.org/event-5376882</a>
+ <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
+ Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    <br/>\n   </fo
+ nt>\n  </font>\n </p>\n <p style="">\n  <br/>\n </p>\n <p style="">\n  <fo
+ nt face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    In th
+ is course\, participants will take a pre-made 3d model and learn how to us
+ e RMM's 3d printer ecosystem to bring 3d models to life. Prints will run o
+ vernight after the class\, participants can pick up the completed project 
+ within 1 week after the class\n   </font>\n  </font>\n </p>\n <p style="">
+ \n  <font face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n  
+   Age: there are no age restrictions to the class. Please read carefu\n   
+ </font>\n   ll\n  </font>\n  y the disclaimers and guidelines\n  <br/>\n <
+ /p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\, you must dre
+ ss safely and appropriately. Arrive for class in all-natural fiber clothin
+ g (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes with soc
+ ks that protect up to the ankle. Long hair must be tied back. Nylon\, poly
+ ester\, spandex\, or other synthetics are not allowed around machines\, eq
+ uipment\, or processes that can produce hot fragments\, sparks\, or flames
+ . Additional protective gear will be provided as needed. The CDC has a gui
+ de to acceptable cloth masks that help prevent the spread of infection.\n 
+ </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\
+ n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div clas
+ s="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5376882
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Woodworking Class: Cutting Boards for Beginners 101
 DTSTART:20231118T200000Z
 DTEND:20231118T230000Z

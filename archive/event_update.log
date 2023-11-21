@@ -78,3 +78,7 @@
 2023-11-19 08:04:30,131 - INFO - Removed past event with ID 5360592
 2023-11-19 08:04:30,131 - INFO - Removed past event with ID 5452499
 2023-11-20 08:05:31,568 - INFO - Starting to process calendar updates
+2023-11-21 08:05:13,180 - INFO - Starting to process calendar updates
+2023-11-21 08:05:13,194 - INFO - Removed past event with ID 5360601
+2023-11-21 08:05:13,194 - INFO - Added event_id 5498044
+2023-11-21 08:05:13,194 - INFO - Added event_id 5498041

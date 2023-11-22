@@ -82,3 +82,6 @@
 2023-11-21 08:05:13,194 - INFO - Removed past event with ID 5360601
 2023-11-21 08:05:13,194 - INFO - Added event_id 5498044
 2023-11-21 08:05:13,194 - INFO - Added event_id 5498041
+2023-11-22 08:05:04,589 - INFO - Starting to process calendar updates
+2023-11-22 08:05:04,603 - INFO - DTSTART has changed for 5498044
+2023-11-22 08:05:04,603 - INFO - DTEND has changed for 5498044

@@ -99,3 +99,7 @@
 2023-12-02 08:04:30,968 - INFO - Added event_id 5510738
 2023-12-03 08:04:53,393 - INFO - Starting to process calendar updates
 2023-12-04 08:05:11,690 - INFO - Starting to process calendar updates
+2023-12-05 08:05:09,302 - INFO - Starting to process calendar updates
+2023-12-05 08:05:09,317 - INFO - Removed past event with ID 5434777
+2023-12-05 08:05:09,317 - INFO - Added event_id 5513316
+2023-12-05 08:05:09,318 - INFO - Added event_id 5513313

@@ -54,14 +54,38 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  et="_blank" title="">\n   <img align="left" alt="" border="0" height="155"
   src="https://www.redmountainmakers.org/resources/Pictures/RMM_Game_night_
  flyer.png" style="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n
-  <p>\n  Our free monthly game night is held in the classroom at RMM. Come 
- join us for a night of fun and adventure!\n </p>\n <p>\n  We have a variet
- y of Tabletop games to play\, like Wingspan\, Sushi GO\, Tokaido\, Ticket 
- to Ride\, and more. You’re also encouraged to bring your own.\n </p>\n <
- p>\n  Game Night is a regular free event typically held on the last Saturd
- ay of the month.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <div
-  class="clearEndContainer">\n </div>\n</div>\n
+  <p>\n  We will be hosting a game night in the classroom at RMM. Come join
+  us for a night of fun and adventure!\n </p>\n <p>\n  We will have a varie
+ ty of board games to choose from. Some games include D&amp\;D Adventure Be
+ gins\, Plants\, Worst Case Scenarios\, Ticket to Ride and more. You may al
+ so bring your own.\n </p>\n <p>\n  Every last Friday of the month we will 
+ have a  game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <
+ div class="clearEndContainer">\n </div>\n</div>\n
 EVENT_ID:5513316
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:**Free Event** Game Night
+DTSTART:20231230T230000Z
+DTEND:20231231T020000Z
+UID:66152f4a-ef2c-47dc-b157-e69857214875
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5513313>https://www.redmountainmakers.org/event-5513313</a>
+ <div class="inner gadgetEventEditableArea">\n <p>\n  <img alt="" border="0
+ " src="https://www.redmountainmakers.org/resources/Pictures/hqdefault.jpg"
+  title=""/>\n  <a href="/resources/Pictures/RMM_Game_night_flyer.png" targ
+ et="_blank" title="">\n   <img align="left" alt="" border="0" height="155"
+  src="https://www.redmountainmakers.org/resources/Pictures/RMM_Game_night_
+ flyer.png" style="margin: 8px\;" width="283.5"/>\n  </a>\n  <br/>\n </p>\n
+  <p>\n  We will be hosting a game night in the classroom at RMM. Come join
+  us for a night of fun and adventure!\n </p>\n <p>\n  We will have a varie
+ ty of board games to choose from. Some games include D&amp\;D Adventure Be
+ gins\, Plants\, Worst Case Scenarios\, Ticket to Ride and more. You may al
+ so bring your own.\n </p>\n <p>\n  Every last Friday of the month we will 
+ have a  game night.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <
+ div class="clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5513313
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

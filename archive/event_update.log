@@ -146,3 +146,16 @@
 2023-12-31 08:04:31,642 - INFO - Starting to process calendar updates
 2023-12-31 08:04:31,646 - INFO - Removed past event with ID 5513313
 2023-12-31 08:04:31,646 - INFO - DESCRIPTION has changed for 5513316
+2024-01-01 08:05:03,478 - INFO - Starting to process calendar updates
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545115
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545107
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545120
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545108
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545114
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545119
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545113
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545112
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545118
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545109
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545110
+2024-01-01 08:05:03,490 - INFO - Added event_id 5545111

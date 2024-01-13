@@ -169,3 +169,6 @@
 2024-01-10 08:05:00,945 - INFO - Starting to process calendar updates
 2024-01-11 08:05:11,589 - INFO - Starting to process calendar updates
 2024-01-12 08:04:54,612 - INFO - Starting to process calendar updates
+2024-01-13 08:04:37,388 - INFO - Starting to process calendar updates
+2024-01-13 08:04:37,408 - INFO - Removed past event with ID 5426540
+2024-01-13 08:04:37,408 - INFO - Added event_id 5565505

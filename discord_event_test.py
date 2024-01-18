@@ -3,7 +3,7 @@ import discord
 import datetime as dt
 
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-SERVER_ID = os.getenv("SERVER_ID")
+SERVER_ID = 567080925884710912
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
 

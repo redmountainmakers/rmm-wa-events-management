@@ -21,8 +21,8 @@ async def on_ready():
     # Define event details
     event_name = "Test Event"
     event_description = "Join us for a fun night of gaming!"
-    event_start = dt(2025, 1, 25, 20, 0)  # Example start time
-    event_end = dt(2025, 1, 25, 22, 0)  # Example end time
+    event_start = dt.datetime(2025, 1, 25, 20, 0)  # Example start time
+    event_end = dt.datetime(2025, 1, 25, 22, 0)  # Example end time
     #event_location = CHANNEL_ID  # Assuming it's an online event in a specific channel
 
     # Create event (this is a conceptual example)

@@ -41,3 +41,4 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
+          WA_API_KEY: ${{ secrets.WA_API_KEY }}

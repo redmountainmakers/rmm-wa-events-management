@@ -51,11 +51,10 @@ async def on_ready():
             entity_type=event_entity_type, 
             location=event_location  # Use location for external events
         )
-    except:
-        print("Failed to create event")
+    except Exception as e:
+        print(f"Error creating event: {e}")
+    finally:
         await client.close()
-        
-    await client.close()
 
 # Log in to Discord runs the on_ready function
 client.run(DISCORD_BOT_TOKEN)

@@ -1,9 +1,10 @@
 import os
 import discord
+from discord.utils import utcnow
 import datetime as dt
 
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
-SERVER_ID = 567080925884710912
+SERVER_ID = int(os.getenv("SERVER_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 
 
@@ -31,11 +32,14 @@ async def on_ready():
     # Define event details
     event_name = "Test Event"
     event_description = "This is a test event"
-    event_start = dt.datetime(2025, 1, 25, 20, 0)  # Example start time
-    event_end = dt.datetime(2025, 1, 25, 22, 0)  # Example end time
+
+    # Use timezone-aware datetime objects
+    event_start = utcnow() + dt.timedelta(days=100)  # For example, 1 day from now
+    event_end = event_start + dt.timedelta(hours=2)  # For example, 2 hours after start
 
     # Create event
     await guild.create_scheduled_event(name=event_name, description=event_description, start_time=event_start, end_time=event_end)
+
 
     await client.close()
 

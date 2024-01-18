@@ -38,7 +38,7 @@ async def on_ready():
     event_end = event_start + dt.timedelta(hours=2)  # For example, 2 hours after start
 
     # Create event
-    await guild.create_scheduled_event(name=event_name, description=event_description, start_time=event_start, end_time=event_end)
+    await guild.create_scheduled_event(name=event_name, description=event_description, start_time=event_start, end_time=event_end,location="Test Location")
 
 
     await client.close()

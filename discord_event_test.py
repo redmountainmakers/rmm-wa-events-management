@@ -42,7 +42,7 @@ async def on_ready():
         await client.close()
         return
 
-    discord_events = guild.scheduled_events()
+    discord_events = guild.scheduled_events
     discord_event_identifiers = {(discord_event.name, discord_event.start_time.strftime('%Y-%m-%d')) for discord_event in discord_events}
 
     for wa_event in upcoming_wa_events:

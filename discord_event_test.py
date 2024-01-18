@@ -1,4 +1,5 @@
 import os
+import asyncio
 import discord
 import dateutil.parser
 import datetime as dt
@@ -60,6 +61,7 @@ async def on_ready():
             continue
 
         await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
+        await asyncio.sleep(1)
 
     await client.close()
     

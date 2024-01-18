@@ -37,10 +37,24 @@ async def on_ready():
     event_start = utcnow() + dt.timedelta(days=100)  # For example, 1 day from now
     event_end = event_start + dt.timedelta(hours=2)  # For example, 2 hours after start
 
+    # External event
+    event_entity_type = discord.EntityType.external
+    event_location = "https://example.com/event"  # Replace with your actual event URL or location
+
     # Create event
-    await guild.create_scheduled_event(name=event_name, description=event_description, start_time=event_start, end_time=event_end,location="Test Location")
-
-
+    try:
+        await guild.create_scheduled_event(
+            name=event_name, 
+            description=event_description, 
+            start_time=event_start, 
+            end_time=event_end, 
+            entity_type=event_entity_type, 
+            location=event_location  # Use location for external events
+        )
+    except:
+        print("Failed to create event")
+        await client.close()
+        
     await client.close()
 
 # Log in to Discord runs the on_ready function

@@ -49,7 +49,8 @@ async def on_ready():
             start_time=event_start, 
             end_time=event_end, 
             entity_type=event_entity_type, 
-            location=event_location  # Use location for external events
+            location=event_location,
+            privacy_level=discord.PrivacyLevel.guild_only
         )
     except Exception as e:
         print(f"Error creating event: {e}")

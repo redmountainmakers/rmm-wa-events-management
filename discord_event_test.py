@@ -49,7 +49,9 @@ async def on_ready():
         wa_event_name = wa_event['Name']
         wa_start_time = dateutil.parser.isoparse(wa_event['StartDate'])
         wa_end_time = dateutil.parser.isoparse(wa_event['EndDate'])
-        wa_event_location = wa_event['Url']
+        wa_event_id = wa_event['Id']
+        wa_event_description = f'https://redmountainmakers.org/event-{wa_event_id}'
+        wa_event_location = wa_event['Location']
 
         # Create a unique identifier for the external event
         event_identifier = (wa_event_name, wa_start_time.strftime('%Y-%m-%d'))
@@ -59,7 +61,7 @@ async def on_ready():
             print(f"Event '{wa_event_name}' on {wa_start_time.strftime('%Y-%m-%d')} already exists in Discord. Skipping...")
             continue
 
-        await create_scheduled_event(guild, wa_event_name, wa_event_name, wa_start_time, wa_end_time, wa_event_location)
+        await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
 
     await client.close()
     

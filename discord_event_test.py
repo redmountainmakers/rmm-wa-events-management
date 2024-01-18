@@ -52,6 +52,8 @@ async def on_ready():
     await client.close()
 
 upcoming_events = get_events(access_token)
+for event in upcoming_events:
+    print(event)
 
 print(upcoming_events)
 client.run(DISCORD_BOT_TOKEN)

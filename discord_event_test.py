@@ -2,9 +2,14 @@ import os
 import discord
 import datetime as dt
 from discord.utils import utcnow
+from wa_events_functions import* 
 
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 SERVER_ID = int(os.getenv("SERVER_ID"))
+wa_api_key = os.environ.get("WA_API_KEY")#Gets the API key from the environment variables
+access_token = get_access_token(wa_api_key)#Gets the access token from the WA API
+
+
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
@@ -23,6 +28,8 @@ async def create_scheduled_event(guild, event_name, event_description, event_sta
         print("Event created successfully.")
     except Exception as e:
         print(f"Error creating event: {e}")
+    finally:
+        await client.close()
 
 @client.event
 async def on_ready():
@@ -30,7 +37,7 @@ async def on_ready():
 
     guild = client.get_guild(SERVER_ID)
     if guild is None:
-        print("Guild not found. Check the SERVER_ID.")
+        print("Discord server not found. Check the SERVER_ID.")
         await client.close()
         return
 
@@ -44,4 +51,7 @@ async def on_ready():
 
     await client.close()
 
+upcoming_events = get_events(access_token)
+
+print(upcoming_events)
 client.run(DISCORD_BOT_TOKEN)

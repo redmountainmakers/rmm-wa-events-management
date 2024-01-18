@@ -15,18 +15,27 @@ client = discord.Client(intents=intents)
 @client.event
 async def on_ready():
     print(f"Logged in as {client.user}")
-    channel = client.get_channel(CHANNEL_ID)  # Fetch the channel object
+
+    # Debugging: Print SERVER_ID
+    print(f"SERVER_ID: {SERVER_ID}")
+
     guild = client.get_guild(SERVER_ID)
-    
+    print(f"Guild: {guild}")  # Debugging: Print guild object
+
+    # Check if guild is found
+    if guild is None:
+        print("Guild not found. Check the SERVER_ID.")
+        await client.close()
+        return
+
     # Define event details
     event_name = "Test Event"
     event_description = "This is a test event"
     event_start = dt.datetime(2025, 1, 25, 20, 0)  # Example start time
     event_end = dt.datetime(2025, 1, 25, 22, 0)  # Example end time
-    #event_location = CHANNEL_ID  # Assuming it's an online event in a specific channel
 
-    # Create event (this is a conceptual example)
-    await guild.create_scheduled_event(name=event_name, description=event_description,start_time=event_start, end_time=event_end)
+    # Create event
+    await guild.create_scheduled_event(name=event_name, description=event_description, start_time=event_start, end_time=event_end)
 
     await client.close()
 

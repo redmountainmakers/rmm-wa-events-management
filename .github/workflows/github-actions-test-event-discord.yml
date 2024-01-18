@@ -1,4 +1,4 @@
-name: Events to .ics workflow
+name: Discord integration testing
 
 on:
   workflow_dispatch:

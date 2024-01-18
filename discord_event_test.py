@@ -29,8 +29,6 @@ async def create_scheduled_event(guild, event_name, event_description, event_sta
         print("Event created successfully.")
     except Exception as e:
         print(f"Error creating event: {e}")
-    finally:
-        await client.close()
 
 @client.event
 async def on_ready():

@@ -46,10 +46,10 @@ async def on_ready():
     discord_event_identifiers = {(discord_event.name, discord_event.start_time.strftime('%Y-%m-%d')) for discord_event in discord_events}
 
     for wa_event in upcoming_wa_events:
-        wa_event_name = wa_event['name']
+        wa_event_name = wa_event['Name']
         wa_start_time = dateutil.parser.isoparse(wa_event['StartDate'])
         wa_end_time = dateutil.parser.isoparse(wa_event['EndDate'])
-        wa_event_location = wa_event['url']
+        wa_event_location = wa_event['Url']
 
         # Create a unique identifier for the external event
         event_identifier = (wa_event_name, wa_start_time.strftime('%Y-%m-%d'))

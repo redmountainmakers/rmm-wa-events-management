@@ -26,8 +26,7 @@ async def on_ready():
     #event_location = CHANNEL_ID  # Assuming it's an online event in a specific channel
 
     # Create event (this is a conceptual example)
-    await guild.create_scheduled_event(name=event_name, description=event_description,
-                                       start_time=event_start, end_time=event_end)
+    await guild.create_scheduled_event(name=event_name, description=event_description,start_time=event_start, end_time=event_end)
 
     await client.close()
 

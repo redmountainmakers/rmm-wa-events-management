@@ -12,9 +12,9 @@ wa_api_key = os.environ.get("WA_API_KEY")#Gets the API key from the environment 
 access_token = get_access_token(wa_api_key)#Gets the access token from the WA API
 upcoming_wa_events = get_events(access_token)
 
-print(f"{len(upcoming_wa_events)} upcoming events found:")
-for event in upcoming_wa_events:
-    print(event)
+#print(f"{len(upcoming_wa_events)} upcoming events found:")
+#for event in upcoming_wa_events:
+#    print(event)
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)

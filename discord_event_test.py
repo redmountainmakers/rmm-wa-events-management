@@ -1,10 +1,14 @@
 import os
 import asyncio
 import discord
+import subprocess
 import dateutil.parser
 import datetime as dt
 from discord.utils import utcnow
 from wa_events_functions import* 
+import logging
+log_file_path = 'discord_events.log'
+logging.basicConfig(level=logging.INFO, filename= log_file_path, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
 
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 SERVER_ID = int(os.getenv("SERVER_ID"))
@@ -32,15 +36,15 @@ async def create_scheduled_event(guild, event_name, event_description, event_sta
         )
         print("Event created successfully.")
     except Exception as e:
-        print(f"Error creating event: {e}")
+        print(f"Error creating event {event_description}: {e}")
 
 @client.event
 async def on_ready():
-    print(f"Logged in as {client.user}")
+    logging.info(f"Logged in as {client.user}")
 
     guild = client.get_guild(SERVER_ID)
     if guild is None:
-        print("Discord server not found. Check the SERVER_ID.")
+        logging.error("Discord server not found. Check the SERVER_ID.")
         await client.close()
         return
 
@@ -72,23 +76,23 @@ async def on_ready():
             # Check for changes in title, time, or duration
             changed = False
             if wa_event_name != discord_event_name:
-                print(f"Event '{wa_event_name}'  description has been updated. Updating in Discord...")
+                print(f"Event '{wa_event_name}', '{wa_event_id}'  description has been updated. Updating in Discord...")
                 changed=True
             if wa_start_time != discord_start_time:
-                print(f"Event '{wa_event_name}' start time has been updated. Updating in Discord...")
+                print(f"Event '{wa_event_name}', '{wa_event_id}' start time has been updated. Updating in Discord...")
                 changed=True
             if wa_end_time != discord_end_time:
-                print(f"Event '{wa_event_name}' end time has been updated. Updating in Discord...")
+                print(f"Event '{wa_event_name}', '{wa_event_id}' end time has been updated. Updating in Discord...")
                 changed=True
             if wa_event_location != discord_event_location:
-                print(f"Event '{wa_event_name}' location has been updated. Updating in Discord...")
+                print(f"Event '{wa_event_name}', '{wa_event_id}' location has been updated. Updating in Discord...")
                 changed=True
 
             if not changed:
-                print(f"Event '{wa_event_name}' already exists in Discord and no changes were detected. Skipping...")
+                print(f"Event '{wa_event_name}', {wa_event_id} already exists in Discord and no changes were detected. Skipping...")
                 
             else:
-                print(f"Event '{wa_event_name}' already exists in Discord but was changed. Updating in Discord...")
+                logging.info(f"Event '{wa_event_name}', {wa_event_id} already exists in Discord but was changed. Updating in Discord...")
                 await guild.get_scheduled_event(discord_event_id).edit(
                     name=wa_event_name,
                     description=wa_event_description,
@@ -98,9 +102,9 @@ async def on_ready():
             continue
         try:
             await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
-            print(f"Event {wa_event_description} created successfully.")
+            logging.info(f"Event {wa_event_description} created successfully.")
         except Exception as e:
-            print(f"Error creating event {wa_event_description}: {e}")
+            logging.error(f"Error creating event {wa_event_description}: {e}")
         await asyncio.sleep(1)
 
     discord_events_to_remove = set(discord_event_details.keys()) - wa_event_descriptions
@@ -108,10 +112,14 @@ async def on_ready():
         discord_event_id = discord_event_details[event_description][0]
         try:
             await guild.delete_guild_scheduled_event(SERVER_ID,discord_event_id)
-            print(f"Event with URL {event_description} removed successfully.")
+            logging.info(f"Event with URL {event_description} removed successfully.")
         except Exception as e:
-            print(f"Error removing event with URL {event_description}: {e}")
+            logging.info(f"Error removing event with URL {event_description}: {e}")
 
     await client.close()
     
 client.run(DISCORD_BOT_TOKEN)
+
+subprocess.run(['git', 'add', log_file_path])
+subprocess.run(['git', 'commit', '-m', 'Processed events from Wild Apricot to discord'])
+subprocess.run(['git', 'push'])

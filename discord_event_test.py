@@ -83,7 +83,7 @@ async def on_ready():
 
             if not changed:
                 print(f"Event '{wa_event_name}' already exists in Discord and no changes were detected. Skipping...")
-                continue
+                
             else:
                 print(f"Event '{wa_event_name}' already exists in Discord but was changed. Updating in Discord...")
                 await guild.get_scheduled_event(discord_event_id).edit(
@@ -92,6 +92,7 @@ async def on_ready():
                     start_time=wa_start_time,
                     end_time=wa_end_time
                 )
+            continue
         try:
             await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
             print(f"Event {wa_event_description} created successfully.")

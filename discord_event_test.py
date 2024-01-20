@@ -89,18 +89,21 @@ async def on_ready():
                     start_time=wa_start_time,
                     end_time=wa_end_time
                 )
-
-        await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
+        try:
+            await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
+            print(f"Event {wa_event_description} created successfully.")
+        except Exception as e:
+            print(f"Error creating event {wa_event_description}: {e}")
         await asyncio.sleep(1)
 
     discord_events_to_remove = set(discord_event_details.keys()) - wa_event_descriptions
     for event_description in discord_events_to_remove:
         discord_event_id = discord_event_details[event_description][0]
         try:
-            await guild.delete_scheduled_event(discord_event_id)
-            print(f"Event with ID {discord_event_id} removed successfully.")
+            await guild.delete_guild_scheduled_event(SERVER_ID,discord_event_id)
+            print(f"Event with URL {event_description} removed successfully.")
         except Exception as e:
-            print(f"Error removing event with ID {discord_event_id}: {e}")
+            print(f"Error removing event with URL {event_description}: {e}")
 
     await client.close()
     

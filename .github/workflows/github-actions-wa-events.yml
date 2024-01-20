@@ -3,7 +3,7 @@ name: Events to .ics workflow
 on:
   workflow_dispatch:
   schedule:
-      - cron: '0 8 * * *'
+      - cron: '0 8 * * *' #Runs every day at  2:00 AM CST
 
 jobs:
   my_job:

@@ -1,8 +1,9 @@
-name: Discord integration testing
+name: Discord event sync
 
 on:
   workflow_dispatch:
-
+  schedule:
+      - cron: '0 8 * * *' #Runs every day at  2:00 AM CST
 jobs:
   my_job:
     runs-on: ubuntu-latest
@@ -36,7 +37,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        run: python discord_event_test.py
+        run: python discord_event_syncing.py
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           SERVER_ID: ${{ secrets.SERVER_ID }}

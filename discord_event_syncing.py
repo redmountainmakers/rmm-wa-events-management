@@ -97,7 +97,8 @@ async def on_ready():
                     name=wa_event_name,
                     description=wa_event_description,
                     start_time=wa_start_time,
-                    end_time=wa_end_time
+                    end_time=wa_end_time,
+                    location=wa_event_location
                 )
             continue
         try:

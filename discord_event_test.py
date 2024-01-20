@@ -42,26 +42,65 @@ async def on_ready():
         return
 
     discord_events = guild.scheduled_events
-    discord_event_identifiers = {(discord_event.name, discord_event.start_time.strftime('%Y-%m-%d')) for discord_event in discord_events}
+    discord_event_details = {
+    event.description: (event.id, event.name, event.start_time, event.end_time)
+    for event in discord_events
+    if event.description and event.description.startswith('https://redmountainmakers.org/event-')
+    }
 
+    wa_event_descriptions = set()
     for wa_event in upcoming_wa_events:
         wa_event_name = wa_event['Name']
         wa_start_time = dateutil.parser.isoparse(wa_event['StartDate'])
         wa_end_time = dateutil.parser.isoparse(wa_event['EndDate'])
         wa_event_id = wa_event['Id']
-        wa_event_description = f'https://redmountainmakers.org/event-{wa_event_id}'
         wa_event_location = wa_event['Location']
 
-        # Create a unique identifier for the external event
-        event_identifier = (wa_event_name, wa_start_time.strftime('%Y-%m-%d'))
 
-        # Check if the event already exists in Discord
-        if event_identifier in discord_event_identifiers:
-            print(f"Event '{wa_event_name}' on {wa_start_time.strftime('%Y-%m-%d')} already exists in Discord. Skipping...")
-            continue
+        wa_event_description = f'https://redmountainmakers.org/event-{wa_event_id}'
+
+        # Add to the set of Wild Apricot event descriptions
+        wa_event_descriptions.add(wa_event_description)
+
+        # Check for existing event in Discord
+        if wa_event_description in discord_event_details:
+            discord_event_id, discord_event_name, discord_start_time, discord_end_time = discord_event_details[wa_event_description]
+
+            # Check for changes in title, time, or duration
+            changed = False
+            if wa_event_name != discord_event_name:
+                print(f"Event '{wa_event_name}'  description has been updated. Updating in Discord...")
+                changed=True
+            if wa_start_time != discord_start_time:
+                print(f"Event '{wa_event_name}' start time has been updated. Updating in Discord...")
+                changed=True
+            if wa_end_time != discord_end_time:
+                print(f"Event '{wa_event_name}' end time has been updated. Updating in Discord...")
+                changed=True
+
+            if not changed:
+                print(f"Event '{wa_event_name}' already exists in Discord and no changes were detected. Skipping...")
+                continue
+            else:
+                print(f"Event '{wa_event_name}' already exists in Discord but was changed. Updating in Discord...")
+                await guild.get_scheduled_event(discord_event_id).edit(
+                    name=wa_event_name,
+                    description=wa_event_description,
+                    start_time=wa_start_time,
+                    end_time=wa_end_time
+                )
 
         await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
         await asyncio.sleep(1)
+
+    discord_events_to_remove = set(discord_event_details.keys()) - wa_event_descriptions
+    for event_description in discord_events_to_remove:
+        discord_event_id = discord_event_details[event_description][0]
+        try:
+            await guild.delete_scheduled_event(discord_event_id)
+            print(f"Event with ID {discord_event_id} removed successfully.")
+        except Exception as e:
+            print(f"Error removing event with ID {discord_event_id}: {e}")
 
     await client.close()
     

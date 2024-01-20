@@ -1,0 +1,5 @@
+2024-01-20 23:44:08,369 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-01-20 23:44:08,370 - INFO - logging in using static token
+2024-01-20 23:44:08,943 - INFO - Shard ID None has connected to Gateway (Session ID: 06dc1087bdac4af8a352b88bccf3918b).
+2024-01-20 23:44:10,956 - INFO - Logged in as RMM-Helper#6590
+2024-01-20 23:44:10,956 - INFO - Event 'Test Event - Edit Again Again once more', 5577844 already exists in Discord but was changed. Updating in Discord...

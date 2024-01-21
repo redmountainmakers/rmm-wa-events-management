@@ -34,11 +34,11 @@ async def on_ready():
         await client.close()
         return
 
-    discord_events = guild.scheduled_events
+    discord_events = await guild.fetch_scheduled_events()
     discord_event_details = {
-    event.description: (event.id, event.name, event.start_time, event.end_time, event.location)
-    for event in discord_events
-    if event.description and event.description.startswith('https://redmountainmakers.org/event-')
+        event.description: event
+        for event in discord_events
+        if event.description and event.description.startswith('https://redmountainmakers.org/event-')
     }
 
     wa_event_descriptions = set()
@@ -57,20 +57,20 @@ async def on_ready():
 
         # Check for existing event in Discord
         if wa_event_description in discord_event_details:
-            discord_event_id, discord_event_name, discord_start_time, discord_end_time, discord_event_location = discord_event_details[wa_event_description]
+            discord_event = discord_event_details[wa_event_description]
 
             # Check for changes in title, time, or duration
             changed = False
-            if wa_event_name != discord_event_name:
+            if wa_event_name != discord_event.name:
                 print(f"Event '{wa_event_name}', '{wa_event_id}'  description has been updated. Updating in Discord...")
                 changed=True
-            if wa_start_time != discord_start_time:
+            if wa_start_time != discord_event.start_time:
                 print(f"Event '{wa_event_name}', '{wa_event_id}' start time has been updated. Updating in Discord...")
                 changed=True
-            if wa_end_time != discord_end_time:
+            if wa_end_time != discord_event.end_time:
                 print(f"Event '{wa_event_name}', '{wa_event_id}' end time has been updated. Updating in Discord...")
                 changed=True
-            if wa_event_location != discord_event_location:
+            if wa_event_location != discord_event.end_time:
                 print(f"Event '{wa_event_name}', '{wa_event_id}' location has been updated. Updating in Discord...")
                 changed=True
 
@@ -79,7 +79,7 @@ async def on_ready():
                 
             else:
                 logging.info(f"Event '{wa_event_name}', {wa_event_id} already exists in Discord but was changed. Updating in Discord...")
-                await guild.get_scheduled_event(discord_event_id).edit(
+                await discord_event.edit(
                     name=wa_event_name,
                     description=wa_event_description,
                     start_time=wa_start_time,

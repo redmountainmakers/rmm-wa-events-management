@@ -99,7 +99,7 @@ async def on_ready():
         discord_event_id = discord_event_details[event_description][0]
         event = guild.get_scheduled_event(discord_event_id)
         try:
-            await event.delete(discord_event_id)
+            await event.delete()
             logging.info(f"Event with URL {event_description} removed successfully.")
         except Exception as e:
             logging.info(f"Error removing event with URL {event_description}: {e}")

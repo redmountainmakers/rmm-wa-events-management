@@ -23,20 +23,6 @@ upcoming_wa_events = get_events(access_token)
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 
-async def create_scheduled_event(guild, event_name, event_description, event_start, event_end, event_location):
-    try:
-        await guild.create_scheduled_event(
-            name=event_name,
-            description=event_description,
-            start_time=event_start,
-            end_time=event_end,
-            entity_type=discord.EntityType.external,
-            location=event_location,
-            privacy_level=discord.PrivacyLevel.guild_only
-        )
-        print("Event created successfully.")
-    except Exception as e:
-        print(f"Error creating event {event_description}: {e}")
 
 @client.event
 async def on_ready():
@@ -102,7 +88,7 @@ async def on_ready():
                 )
             continue
         try:
-            await create_scheduled_event(guild, wa_event_name, wa_event_description, wa_start_time, wa_end_time, wa_event_location)
+            await guild.create_scheduled_event(name=wa_event_name, description=wa_event_description, start_time=wa_start_time, end_time=wa_end_time,entity_type=discord.EntityType.external, location=wa_event_location, privacy_level=discord.PrivacyLevel.guild_only)
             logging.info(f"Event {wa_event_description} created successfully.")
         except Exception as e:
             logging.error(f"Error creating event {wa_event_description}: {e}")
@@ -111,8 +97,9 @@ async def on_ready():
     discord_events_to_remove = set(discord_event_details.keys()) - wa_event_descriptions
     for event_description in discord_events_to_remove:
         discord_event_id = discord_event_details[event_description][0]
+        event = guild.get_scheduled_event(discord_event_id)
         try:
-            await guild.delete_guild_scheduled_event(SERVER_ID,discord_event_id)
+            await event.delete(discord_event_id)
             logging.info(f"Event with URL {event_description} removed successfully.")
         except Exception as e:
             logging.info(f"Error removing event with URL {event_description}: {e}")

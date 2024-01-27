@@ -26,3 +26,7 @@
 2024-01-26 08:06:17,466 - INFO - Logged in as RMM-Helper#6590
 2024-01-26 08:06:17,467 - INFO - Event 'Learn to Make a Drawstring Bag', 5559281 already exists in Discord but was changed. Updating in Discord...
 2024-01-26 08:06:18,408 - INFO - Event https://redmountainmakers.org/event-5584755 created successfully.
+2024-01-27 08:05:58,608 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-01-27 08:05:58,608 - INFO - logging in using static token
+2024-01-27 08:05:59,144 - INFO - Shard ID None has connected to Gateway (Session ID: 2b0c811617acaac4b30a3dee52fe62ea).
+2024-01-27 08:06:01,176 - INFO - Logged in as RMM-Helper#6590

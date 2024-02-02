@@ -55,3 +55,8 @@
 2024-02-01 08:06:31,180 - INFO - Event 'Forging Nails - First Blacksmith Class', 5545120 already exists in Discord but was changed. Updating in Discord...
 2024-02-01 08:06:33,307 - INFO - Event https://redmountainmakers.org/event-5594192 created successfully.
 2024-02-01 08:06:35,440 - INFO - Event https://redmountainmakers.org/event-5594184 created successfully.
+2024-02-02 08:06:10,422 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-02-02 08:06:10,422 - INFO - logging in using static token
+2024-02-02 08:06:10,933 - INFO - Shard ID None has connected to Gateway (Session ID: 4c9cf38870148188a12c312d235b72c6).
+2024-02-02 08:06:12,951 - INFO - Logged in as RMM-Helper#6590
+2024-02-02 08:06:13,493 - INFO - Event https://redmountainmakers.org/event-5596802 created successfully.

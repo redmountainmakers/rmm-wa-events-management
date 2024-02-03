@@ -60,3 +60,17 @@
 2024-02-02 08:06:10,933 - INFO - Shard ID None has connected to Gateway (Session ID: 4c9cf38870148188a12c312d235b72c6).
 2024-02-02 08:06:12,951 - INFO - Logged in as RMM-Helper#6590
 2024-02-02 08:06:13,493 - INFO - Event https://redmountainmakers.org/event-5596802 created successfully.
+2024-02-03 08:05:53,037 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-02-03 08:05:53,037 - INFO - logging in using static token
+2024-02-03 08:05:53,602 - INFO - Shard ID None has connected to Gateway (Session ID: f6e3e1548669874cc28ab5ed40501db1).
+2024-02-03 08:05:55,610 - INFO - Logged in as RMM-Helper#6590
+2024-02-03 08:05:55,994 - INFO - Event https://redmountainmakers.org/event-5597806 created successfully.
+2024-02-03 08:05:57,330 - INFO - Event https://redmountainmakers.org/event-5597804 created successfully.
+2024-02-03 08:05:58,739 - INFO - Event https://redmountainmakers.org/event-5597803 created successfully.
+2024-02-03 08:06:00,063 - INFO - Event https://redmountainmakers.org/event-5597754 created successfully.
+2024-02-03 08:06:55,994 - INFO - Event https://redmountainmakers.org/event-5597765 created successfully.
+2024-02-03 08:06:57,346 - INFO - Event https://redmountainmakers.org/event-5597761 created successfully.
+2024-02-03 08:06:58,866 - INFO - Event https://redmountainmakers.org/event-5597738 created successfully.
+2024-02-03 08:07:00,163 - INFO - Event https://redmountainmakers.org/event-5597735 created successfully.
+2024-02-03 08:07:01,810 - INFO - Event https://redmountainmakers.org/event-5597727 created successfully.
+2024-02-03 08:07:58,411 - INFO - Event https://redmountainmakers.org/event-5597723 created successfully.

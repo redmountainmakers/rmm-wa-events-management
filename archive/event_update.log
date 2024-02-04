@@ -219,3 +219,7 @@
 2024-02-03 08:04:37,667 - INFO - Added event_id 5597738
 2024-02-03 08:04:37,667 - INFO - Added event_id 5597804
 2024-02-03 08:04:37,667 - INFO - Added event_id 5597806
+2024-02-04 08:04:34,486 - INFO - Starting to process calendar updates
+2024-02-04 08:04:34,518 - INFO - Removed event with ID 5596802 as it is not in the latest calendar
+2024-02-04 08:04:34,518 - INFO - Removed past event with ID 5597727
+2024-02-04 08:04:34,518 - INFO - Removed past event with ID 5597723

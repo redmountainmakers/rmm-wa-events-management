@@ -102,3 +102,8 @@
 2024-02-09 08:06:19,736 - INFO - Event https://redmountainmakers.org/event-5606947 created successfully.
 2024-02-09 08:06:21,310 - INFO - Event https://redmountainmakers.org/event-5606902 created successfully.
 2024-02-09 08:06:22,312 - INFO - Event 'Forging Hearts', 5597765 already exists in Discord but was changed. Updating in Discord...
+2024-02-10 08:05:45,941 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-02-10 08:05:45,941 - INFO - logging in using static token
+2024-02-10 08:05:46,560 - INFO - Shard ID None has connected to Gateway (Session ID: 6797abcc7099c8026023924d9ef9f301).
+2024-02-10 08:05:48,573 - INFO - Logged in as RMM-Helper#6590
+2024-02-10 08:05:48,754 - INFO - Event with URL https://redmountainmakers.org/event-5606947 removed successfully.

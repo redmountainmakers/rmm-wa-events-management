@@ -232,3 +232,6 @@
 2024-02-09 08:04:43,033 - INFO - Starting to process calendar updates
 2024-02-09 08:04:43,062 - INFO - Added event_id 5606947
 2024-02-09 08:04:43,062 - INFO - Added event_id 5606902
+2024-02-10 08:04:34,743 - INFO - Starting to process calendar updates
+2024-02-10 08:04:34,772 - INFO - Removed past event with ID 5597738
+2024-02-10 08:04:34,772 - INFO - Removed event with ID 5606947 as it is not in the latest calendar

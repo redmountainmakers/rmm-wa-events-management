@@ -233,3 +233,7 @@
 2024-03-14 18:06:22,188 - INFO - logging in using static token
 2024-03-14 18:06:22,765 - INFO - Shard ID None has connected to Gateway (Session ID: f7f8ce73ffc548e9f98e1e7d045dc63d).
 2024-03-14 18:06:24,771 - INFO - Logged in as RMM-Helper#6590
+2024-03-15 08:06:36,800 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-03-15 08:06:36,801 - INFO - logging in using static token
+2024-03-15 08:06:37,456 - INFO - Shard ID None has connected to Gateway (Session ID: b4cb6186e88a7ab70354e173f9b7a12f).
+2024-03-15 08:06:39,469 - INFO - Logged in as RMM-Helper#6590

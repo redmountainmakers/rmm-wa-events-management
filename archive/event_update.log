@@ -293,3 +293,5 @@
 2024-03-20 08:04:40,180 - INFO - DTSTART has changed for 5594190
 2024-03-20 08:04:40,180 - INFO - DTEND has changed for 5594190
 2024-03-20 08:04:40,180 - INFO - Added event_id 5663283
+2024-03-21 08:04:57,221 - INFO - Starting to process calendar updates
+2024-03-21 08:04:57,238 - INFO - DESCRIPTION has changed for 5663283

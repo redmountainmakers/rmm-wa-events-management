@@ -2,11 +2,6 @@ name: Events to .ics workflow testing
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - 'update-ics-host-to-wa'
-
-
 
 jobs:
   my_job:

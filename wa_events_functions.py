@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from icalendar import Calendar, Event
 from datetime import datetime, timezone, timedelta
+from requests.auth import HTTPDigestAuth
 
 def download_ics_file(url, save_path):
     """
@@ -529,9 +530,24 @@ def parse_events_html(events):
 
     return output_html
 
-
 def read_template_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
 
+def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_uri):
+    
+    api_base_url = 'https://www.redmountainmakers.org'
 
+    # Make sure the directory exists on the webserver manually or update this function.. todo    
+    dst_file_url = api_base_url + dst_file_uri # https://www.redmountainmakers.org + /resources/Pictures/test.png
+
+        # Set the headers for authentication
+    headers = {
+        'Content-type': 'application/octet-stream',
+    }
+    upload_response = requests.put(dst_file_url, data=open(src_file_path, 'rb'), headers=headers, auth=HTTPDigestAuth(wa_username, wa_password))
+    try:
+        upload_response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        # Whoops it wasn't a 200
+        return "Error: " + str(e)

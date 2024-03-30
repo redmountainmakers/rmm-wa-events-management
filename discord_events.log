@@ -296,3 +296,8 @@
 2024-03-29 08:06:39,941 - INFO - logging in using static token
 2024-03-29 08:06:40,771 - INFO - Shard ID None has connected to Gateway (Session ID: cea98df597accaeedd16b7b27ceed336).
 2024-03-29 08:06:42,785 - INFO - Logged in as RMM-Helper#6590
+2024-03-30 08:06:36,925 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-03-30 08:06:36,926 - INFO - logging in using static token
+2024-03-30 08:06:37,436 - INFO - Shard ID None has connected to Gateway (Session ID: 892990286604094cee42cea864d2c39b).
+2024-03-30 08:06:39,463 - INFO - Logged in as RMM-Helper#6590
+2024-03-30 08:06:39,883 - INFO - Event https://redmountainmakers.org/event-5676476 created successfully.

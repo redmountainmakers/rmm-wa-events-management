@@ -44,3 +44,13 @@ jobs:
           AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
           AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
           
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: |
+            redmountainmakers_events*.ics
+            wa_events.ics
+            rmm_events.ics
+            temp_event_update.log
+            bham365.csv

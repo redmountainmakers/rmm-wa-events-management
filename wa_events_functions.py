@@ -542,4 +542,5 @@ def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_url):
         upload_response.raise_for_status()
     except requests.exceptions.HTTPError as e:
         # Whoops it wasn't a 200
+        print(f"Failed to upload file: {upload_response.status_code}")
         raise SystemExit(e)

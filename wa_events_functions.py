@@ -28,25 +28,9 @@ def download_ics_file(url, save_path):
     response = requests.get(url)
 
     if response.status_code == 200:
-        content_type = response.headers.get('content-type')
-        #print(content_type)
-        #if content_type != 'text/calendar':
-            #print(f"Error: {url} is not a valid .ics file")
-            #return
-
         with open(save_path, 'wb') as f:
             f.write(response.content)
         print(f"File saved to {save_path}")
-
-        # Save a second copy with today's date in the filename
-        today = datetime.today().strftime('%Y-%m%d')
-        archive_folder = 'archive'
-        if not os.path.exists(archive_folder):
-            os.makedirs(archive_folder)
-        save_path_with_date = os.path.join(archive_folder, save_path[:-4] + f"_{today}.ics")
-        with open(save_path_with_date, 'wb') as f:
-            f.write(response.content)
-        print(f"File saved to {save_path_with_date}")
     else:
         print(f"Failed to download file: {response.status_code}")
 
@@ -340,17 +324,17 @@ def events_to_csv(events, file_path):
                 "Contact Email": "Carla@redmountainmakers.org"
             })
 
-def upload_to_aws(file_path):
+def upload_to_aws(src_file_path, dest_file_path):
     aws_access_key = os.environ['AWS_ACCESS_KEY']
     aws_secret_key = os.environ['AWS_SECRET_KEY']
 
     s3_client = boto3.client('s3', aws_access_key_id = aws_access_key, aws_secret_access_key = aws_secret_key)
     
     bucket_name = 'rmm-events-ics'
-    object_key = f'{file_path}'
+    object_key = f'{dest_file_path}'
 
     # Open the file that you want to update
-    with open(file_path, 'rb') as f:
+    with open(src_file_path, 'rb') as f:
         # Upload the file to S3
         s3_client.put_object(Bucket=bucket_name, Key=object_key, Body=f, ACL='public-read')
     
@@ -534,14 +518,12 @@ def read_template_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
 
-def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_uri):
+def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_url):
     
-    api_base_url = 'https://www.redmountainmakers.org'
+    # Make sure the directory exists on the webserver manually or update this function.. todo   
+    #  
+    #dst_file_url example: https://www.redmountainmakers.org/resources/Pictures/test.png
 
-    # Make sure the directory exists on the webserver manually or update this function.. todo    
-    dst_file_url = api_base_url + dst_file_uri # https://www.redmountainmakers.org + /resources/Pictures/test.png
-
-        # Set the headers for authentication
     headers = {
         'Content-type': 'application/octet-stream',
     }
@@ -550,4 +532,4 @@ def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_uri):
         upload_response.raise_for_status()
     except requests.exceptions.HTTPError as e:
         # Whoops it wasn't a 200
-        return "Error: " + str(e)
+        raise SystemExit(e)

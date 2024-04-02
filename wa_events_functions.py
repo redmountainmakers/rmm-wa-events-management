@@ -24,15 +24,25 @@ def download_ics_file(url, save_path):
     Returns:
         None
     """
-
-    response = requests.get(url)
-
-    if response.status_code == 200:
-        with open(save_path, 'wb') as f:
-            f.write(response.content)
-        print(f"File saved to {save_path}")
-    else:
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as err:
+        #We want to stop if this fails
         print(f"Failed to download file: {response.status_code}")
+        raise SystemExit(err)
+    
+    try:
+        with open(save_path, 'wb') as f:
+            try:
+                f.write(response.content)
+                print(f"File saved to {save_path}")
+            except (IOError, OSError) as ioerr:
+                print("Error writing to file")
+                raise SystemExit(ioerr)
+    except (FileNotFoundError, PermissionError, OSError) as ferr:
+        print("Error opening file")
+        raise SystemExit(ferr)
 
 def get_access_token(api_key):
     

@@ -49,8 +49,6 @@ jobs:
         with:
           name: outputs
           path: |
-            redmountainmakers_events*.ics
-            wa_events.ics
-            rmm_events.ics
-            temp_event_update.log
-            bham365.csv
+            *.ics
+            *.log
+            *.csv

@@ -350,3 +350,7 @@
 2024-04-21 08:04:42,054 - INFO - Removed past event with ID 5689781
 2024-04-21 08:04:42,054 - INFO - Removed past event with ID 5689782
 2024-04-21 08:04:42,055 - INFO - DESCRIPTION has changed for 5663283
+2024-04-22 08:06:01,236 - INFO - Starting to process calendar updates
+2024-04-22 08:06:01,256 - INFO - Removed past event with ID 5663283
+2024-04-22 08:06:01,256 - INFO - DESCRIPTION has changed for 5703895
+2024-04-22 08:06:01,256 - INFO - Added event_id 5705852

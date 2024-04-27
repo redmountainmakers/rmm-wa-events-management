@@ -363,3 +363,7 @@
 2024-04-25 08:04:51,894 - INFO - Starting to process calendar updates
 2024-04-26 08:05:17,162 - INFO - Starting to process calendar updates
 2024-04-26 08:05:17,183 - INFO - SUMMARY has changed for 5597804
+2024-04-27 08:05:04,002 - INFO - Starting to process calendar updates
+2024-04-27 08:05:04,024 - INFO - Removed past event with ID 5597804
+2024-04-27 08:05:04,024 - INFO - Added event_id 5712223
+2024-04-27 08:05:04,024 - INFO - Added event_id 5712226

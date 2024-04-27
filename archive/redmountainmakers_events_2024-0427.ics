@@ -1,5 +1,45 @@
 BEGIN:VCALENDAR
 BEGIN:VEVENT
+SUMMARY:Class Class: Welding Basics: Introduction to MIG
+DTSTART:20240426T230000Z
+DTEND:20240427T020000Z
+UID:da986ec7-e5d1-4fa5-8e74-301ba0be5d90
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5597804>https://www.redmountainmakers.org/event-5597804</a>
+ <div class="inner gadgetEventEditableArea">\n <p align="left" style="">\n 
+  <font style="font-size: 16px\;">\n   <img align="left" alt="" border="0" 
+ src="https://www.redmountainmakers.org/resources/Pictures/20230214_213752B
+ .jpg" title=""/>\n   Develop fundamental skills in joining metal objects u
+ nder the instruction of Stephen Charles. This introductory class with no p
+ rior experience necessary. It includes a crash course in the MIG welding p
+ rocess\, metal cutting\, grinding\, as well as the basics of hand tool use
+  and shop safety.\n  </font>\n </p>\n <p style="">\n  <font style="font-si
+ ze: 16px\;">\n   Students will leave with a wide familiarity of skills and
+  studio techniques.\n   <br/>\n  </font>\n </p>\n <p style="">\n  <font st
+ yle="font-size: 16px\;">\n   <br/>\n  </font>\n </p>\n <p style="">\n  <fo
+ nt style="font-size: 16px\;">\n   NOTE: This class is a pre-requisite for 
+ the Project-Based Metalcraft class.\n  </font>\n </p>\n <p style="">\n  <f
+ ont style="font-size: 16px\;">\n   <font>\n    <strong>\n     What to wear
+ :\n    </strong>\n   </font>\n   At RMM\, you must dress safely and approp
+ riately. Arrive for class in all-natural fiber clothing (100% cotton)\, lo
+ ng pants\, and closed-toe\, closed-heel shoes with socks that protect up t
+ o the ankle. Long hair must be tied back. Nylon\, polyester\, spandex\, or
+  other synthetics are not allowed around machines\, equipment\, or process
+ es that can produce hot fragments\, sparks\, or flames. Additional protect
+ ive gear will be provided as needed.\n  </font>\n </p>\n <p style="">\n  <
+ font style="font-size: 16px\;">\n   <strong style="">\n    About the Instr
+ uctor\n   </strong>\n   :\n   <font style="font-size: 16px\;">\n    Stephe
+ n Charles is a former Welding Engineer with many years of experience in pr
+ oduction welding and custom fabrication. He has taught hundreds of beginne
+ rs in the basics of welding and fabrication. Also\, he’s pretty funny\, 
+ so if you don’t have a sense of humor just laugh when everyone else does
+  and no one will notice.\n   </font>\n  </font>\n </p>\n <div class="clear
+ EndContainer">\n </div>\n</div>\n
+EVENT_ID:5597804
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Welding Class: Welding Basics: Introduction to MIG
 DTSTART:20240517T230000Z
 DTEND:20240518T020000Z
@@ -836,72 +876,6 @@ DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
  </ul>\n <p>\n  <br/>\n </p>\n <div class="clearEndContainer">\n </div>\n</
  div>\n
 EVENT_ID:5707234
-LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:3d printing Class: Intro to 3D Printing
-DTSTART:20240508T230000Z
-DTEND:20240509T003000Z
-UID:9142d321-da9b-47ca-b0c8-377f9e235d71
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5712223>https://www.redmountainmakers.org/event-5712223</a>
- <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
- Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    <br/>\n   </fo
- nt>\n  </font>\n </p>\n <p style="">\n  <br/>\n </p>\n <p style="">\n  <fo
- nt face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    In th
- is course\, participants will take a pre-made 3d model and learn how to us
- e RMM's 3d printer ecosystem to bring 3d models to life. Prints will run o
- vernight after the class\, participants can pick up the completed project 
- within 1 week after the class\n   </font>\n  </font>\n </p>\n <p style="">
- \n  <font face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n  
-   Age: there are no age restrictions to the class. Please read carefu\n   
- </font>\n   ll\n  </font>\n  y the disclaimers and guidelines\n  <br/>\n <
- /p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\, you must dre
- ss safely and appropriately. Arrive for class in all-natural fiber clothin
- g (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes with soc
- ks that protect up to the ankle. Long hair must be tied back. Nylon\, poly
- ester\, spandex\, or other synthetics are not allowed around machines\, eq
- uipment\, or processes that can produce hot fragments\, sparks\, or flames
- . Additional protective gear will be provided as needed. The CDC has a gui
- de to acceptable cloth masks that help prevent the spread of infection.\n 
- </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\
- n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div clas
- s="clearEndContainer">\n </div>\n</div>\n
-EVENT_ID:5712223
-LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
-PRODID:-//Wild Apricot//wildapricot.org//
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:3d printing Class: Intro to 3D Printing
-DTSTART:20240717T230000Z
-DTEND:20240718T003000Z
-UID:44304844-b78e-4979-9183-c9c8f6a092c6
-DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
- kers.org/event-5712226>https://www.redmountainmakers.org/event-5712226</a>
- <div class="inner gadgetEventEditableArea">\n <p style="">\n  <font face="
- Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    <br/>\n   </fo
- nt>\n  </font>\n </p>\n <p style="">\n  <br/>\n </p>\n <p style="">\n  <fo
- nt face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n    In th
- is course\, participants will take a pre-made 3d model and learn how to us
- e RMM's 3d printer ecosystem to bring 3d models to life. Prints will run o
- vernight after the class\, participants can pick up the completed project 
- within 1 week after the class\n   </font>\n  </font>\n </p>\n <p style="">
- \n  <font face="Ubuntu" style="font-size: 18px\;">\n   <font style="">\n  
-   Age: there are no age restrictions to the class. Please read carefu\n   
- </font>\n   ll\n  </font>\n  y the disclaimers and guidelines\n  <br/>\n <
- /p>\n <p style="font-size: 18px\;">\n  What to wear: At RMM\, you must dre
- ss safely and appropriately. Arrive for class in all-natural fiber clothin
- g (100% cotton)\, long pants\, and closed-toe\, closed-heel shoes with soc
- ks that protect up to the ankle. Long hair must be tied back. Nylon\, poly
- ester\, spandex\, or other synthetics are not allowed around machines\, eq
- uipment\, or processes that can produce hot fragments\, sparks\, or flames
- . Additional protective gear will be provided as needed. The CDC has a gui
- de to acceptable cloth masks that help prevent the spread of infection.\n 
- </p>\n <p style="font-size: 18px\;">\n  <br/>\n </p>\n <style>\n </style>\
- n <style>\n </style>\n <style>\n </style>\n <style>\n </style>\n <div clas
- s="clearEndContainer">\n </div>\n</div>\n
-EVENT_ID:5712226
 LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT

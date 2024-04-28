@@ -762,6 +762,30 @@ LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
 PRODID:-//Wild Apricot//wildapricot.org//
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Event Class: Monthly Game Night *Free and open to Non-members*
+DTSTART:20240427T220000Z
+DTEND:20240428T010000Z
+UID:85535355-915d-4bbd-876e-ffa31becd47e
+DESCRIPTION:Click here to register:\n\n<a href = https://www.redmountainma
+ kers.org/event-5706967>https://www.redmountainmakers.org/event-5706967</a>
+ <div class="inner gadgetEventEditableArea">\n <img align="left" alt="" bor
+ der="0" height="207" src="https://www.redmountainmakers.org/resources/Pict
+ ures/game%20night%204-27.png" style="margin: 0px 8px 0px 0px\;" title="" w
+ idth="207"/>\n <p>\n  Our free monthly game night is held in the classroom
+  at the Red Mountain Makers Makerspace on the last Saturday of each month.
+  Come join us for a night of fun and adventure!\n </p>\n <p>\n  We have a 
+ variety of Tabletop games to play\, like Wingspan\, Sushi GO\, Tokaido\, T
+ icket to Ride\, and more. You’re also encouraged to bring your own.\n </
+ p>\n <p>\n  Game Night is a regular free event typically held on the last 
+ Saturday of the month. You DO NOT need to be a member to attend\, all are 
+ welcome!\n </p>\n <p>\n  Registration not required but encouraged to help 
+ us plan.\n </p>\n <p>\n  <br/>\n </p>\n <p>\n  <br/>\n </p>\n <div class="
+ clearEndContainer">\n </div>\n</div>\n
+EVENT_ID:5706967
+LOCATION:RED MOUNTAIN MAKERS - 810 4TH AVE N\, BIRMINGHAM\, AL 35203
+PRODID:-//Wild Apricot//wildapricot.org//
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Dc205 Class: DC205 May Meetup *Free and open to Non-members*
 DTSTART:20240525T000000Z
 DTEND:20240525T020000Z

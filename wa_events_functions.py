@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from dateutil.parser import parse
 from icalendar import Calendar, Event
 from datetime import datetime, timezone, timedelta
+from requests.auth import HTTPDigestAuth
 
 def download_ics_file(url, save_path):
     """
@@ -23,31 +24,25 @@ def download_ics_file(url, save_path):
     Returns:
         None
     """
-
-    response = requests.get(url)
-
-    if response.status_code == 200:
-        content_type = response.headers.get('content-type')
-        #print(content_type)
-        #if content_type != 'text/calendar':
-            #print(f"Error: {url} is not a valid .ics file")
-            #return
-
-        with open(save_path, 'wb') as f:
-            f.write(response.content)
-        print(f"File saved to {save_path}")
-
-        # Save a second copy with today's date in the filename
-        today = datetime.today().strftime('%Y-%m%d')
-        archive_folder = 'archive'
-        if not os.path.exists(archive_folder):
-            os.makedirs(archive_folder)
-        save_path_with_date = os.path.join(archive_folder, save_path[:-4] + f"_{today}.ics")
-        with open(save_path_with_date, 'wb') as f:
-            f.write(response.content)
-        print(f"File saved to {save_path_with_date}")
-    else:
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as err:
+        #We want to stop if this fails
         print(f"Failed to download file: {response.status_code}")
+        raise SystemExit(err)
+    
+    try:
+        with open(save_path, 'wb') as f:
+            try:
+                f.write(response.content)
+                print(f"File saved to {save_path}")
+            except (IOError, OSError) as ioerr:
+                print("Error writing to file")
+                raise SystemExit(ioerr)
+    except (FileNotFoundError, PermissionError, OSError) as ferr:
+        print("Error opening file")
+        raise SystemExit(ferr)
 
 def get_access_token(api_key):
     
@@ -339,17 +334,17 @@ def events_to_csv(events, file_path):
                 "Contact Email": "Carla@redmountainmakers.org"
             })
 
-def upload_to_aws(file_path):
+def upload_to_aws(src_file_path, dest_file_path):
     aws_access_key = os.environ['AWS_ACCESS_KEY']
     aws_secret_key = os.environ['AWS_SECRET_KEY']
 
     s3_client = boto3.client('s3', aws_access_key_id = aws_access_key, aws_secret_access_key = aws_secret_key)
     
     bucket_name = 'rmm-events-ics'
-    object_key = f'{file_path}'
+    object_key = f'{dest_file_path}'
 
     # Open the file that you want to update
-    with open(file_path, 'rb') as f:
+    with open(src_file_path, 'rb') as f:
         # Upload the file to S3
         s3_client.put_object(Bucket=bucket_name, Key=object_key, Body=f, ACL='public-read')
     
@@ -529,9 +524,23 @@ def parse_events_html(events):
 
     return output_html
 
-
 def read_template_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
 
+def upload_to_wa(wa_username, wa_password, src_file_path, dst_file_url):
+    
+    # Make sure the directory exists on the webserver manually or update this function.. todo   
+    #  
+    #dst_file_url example: https://www.redmountainmakers.org/resources/Pictures/test.png
 
+    headers = {
+        'Content-type': 'application/octet-stream',
+    }
+    upload_response = requests.put(dst_file_url, data=open(src_file_path, 'rb'), headers=headers, auth=HTTPDigestAuth(wa_username, wa_password))
+    try:
+        upload_response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        # Whoops it wasn't a 200
+        print(f"Failed to upload file: {upload_response.status_code}")
+        raise SystemExit(e)

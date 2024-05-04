@@ -43,4 +43,13 @@ jobs:
           WA_API_KEY: ${{ secrets.WA_API_KEY }}
           AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
           AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+          WA_BOT_ACCT_PW: ${{ secrets.WA_BOT_ACCT_PW }}
           
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs
+          path: |
+            *.ics
+            *.log
+            *.csv

@@ -487,3 +487,9 @@
 2024-05-09 08:07:00,137 - INFO - logging in using static token
 2024-05-09 08:07:01,004 - INFO - Shard ID None has connected to Gateway (Session ID: a420a53f3ea161741681365ff3763fb3).
 2024-05-09 08:07:03,012 - INFO - Logged in as RMM-Helper#6590
+2024-05-10 08:07:11,326 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-10 08:07:11,327 - INFO - logging in using static token
+2024-05-10 08:07:11,688 - INFO - Shard ID None has connected to Gateway (Session ID: 0d22afd095be3b921331237942fa21a8).
+2024-05-10 08:07:13,734 - INFO - Logged in as RMM-Helper#6590
+2024-05-10 08:07:14,139 - INFO - Event https://redmountainmakers.org/event-5692589 created successfully.
+2024-05-10 08:07:15,141 - INFO - Event 'Introduction to Welding', 5702397 already exists in Discord but was changed. Updating in Discord...

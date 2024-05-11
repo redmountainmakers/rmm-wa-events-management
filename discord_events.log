@@ -493,3 +493,9 @@
 2024-05-10 08:07:13,734 - INFO - Logged in as RMM-Helper#6590
 2024-05-10 08:07:14,139 - INFO - Event https://redmountainmakers.org/event-5692589 created successfully.
 2024-05-10 08:07:15,141 - INFO - Event 'Introduction to Welding', 5702397 already exists in Discord but was changed. Updating in Discord...
+2024-05-11 08:06:10,201 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-11 08:06:10,201 - INFO - logging in using static token
+2024-05-11 08:06:10,700 - INFO - Shard ID None has connected to Gateway (Session ID: 76e623fd51ea342c1982bfc3430857dc).
+2024-05-11 08:06:12,713 - INFO - Logged in as RMM-Helper#6590
+2024-05-11 08:06:12,713 - INFO - Event 'Learn to Sew: Make a Lumbar Pillow', 5703895 already exists in Discord but was changed. Updating in Discord...
+2024-05-11 08:06:13,253 - INFO - Event with URL https://redmountainmakers.org/event-5692589 removed successfully.

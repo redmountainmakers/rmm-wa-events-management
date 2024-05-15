@@ -511,3 +511,9 @@
 2024-05-14 08:07:34,895 - INFO - logging in using static token
 2024-05-14 08:07:35,546 - INFO - Shard ID None has connected to Gateway (Session ID: 680655827f63c9537f560e12e5eaf635).
 2024-05-14 08:07:37,577 - INFO - Logged in as RMM-Helper#6590
+2024-05-15 08:06:44,735 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-15 08:06:44,735 - INFO - logging in using static token
+2024-05-15 08:06:45,301 - INFO - Shard ID None has connected to Gateway (Session ID: 03d535ff7a74fae19c5a38796e5b0937).
+2024-05-15 08:06:47,315 - INFO - Logged in as RMM-Helper#6590
+2024-05-15 08:06:47,440 - ERROR - Error creating event https://redmountainmakers.org/event-5733422: 400 Bad Request (error code: 50035): Invalid Form Body
+In scheduled_end_time: Cannot schedule event to end before starting.

@@ -580,3 +580,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-05-23 08:08:06,704 - INFO - Event https://redmountainmakers.org/event-5741665 created successfully.
 2024-05-23 08:08:08,089 - INFO - Event https://redmountainmakers.org/event-5741672 created successfully.
 2024-05-23 08:08:09,862 - INFO - Event https://redmountainmakers.org/event-5741670 created successfully.
+2024-05-24 08:06:57,911 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-24 08:06:57,911 - INFO - logging in using static token
+2024-05-24 08:06:58,675 - INFO - Shard ID None has connected to Gateway (Session ID: 349450b989dd601f820f5d9f85ead84f).
+2024-05-24 08:07:00,750 - INFO - Logged in as RMM-Helper#6590
+2024-05-24 08:07:00,751 - INFO - Event 'Intro to Stained Glass - Coasters', 5740165 already exists in Discord but was changed. Updating in Discord...

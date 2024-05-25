@@ -585,3 +585,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-05-24 08:06:58,675 - INFO - Shard ID None has connected to Gateway (Session ID: 349450b989dd601f820f5d9f85ead84f).
 2024-05-24 08:07:00,750 - INFO - Logged in as RMM-Helper#6590
 2024-05-24 08:07:00,751 - INFO - Event 'Intro to Stained Glass - Coasters', 5740165 already exists in Discord but was changed. Updating in Discord...
+2024-05-25 08:06:22,830 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-25 08:06:22,831 - INFO - logging in using static token
+2024-05-25 08:06:23,177 - INFO - Shard ID None has connected to Gateway (Session ID: 976d8a4f7efa3d9cefdf6f5e8430cf26).
+2024-05-25 08:06:25,188 - INFO - Logged in as RMM-Helper#6590

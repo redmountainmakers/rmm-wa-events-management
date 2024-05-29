@@ -605,3 +605,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-05-28 08:07:12,252 - INFO - Shard ID None has connected to Gateway (Session ID: 80830a87974cbb6416c1d06cae6a799c).
 2024-05-28 08:07:14,263 - INFO - Logged in as RMM-Helper#6590
 2024-05-28 08:07:14,264 - INFO - Event '*New Class* Canister Damascus', 5740167 already exists in Discord but was changed. Updating in Discord...
+2024-05-29 08:07:36,984 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-05-29 08:07:36,985 - INFO - logging in using static token
+2024-05-29 08:07:38,002 - INFO - Shard ID None has connected to Gateway (Session ID: 6097670d175c9731e98b8077ddc45ecb).
+2024-05-29 08:07:40,015 - INFO - Logged in as RMM-Helper#6590

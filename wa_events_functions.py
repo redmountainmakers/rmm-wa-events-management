@@ -154,7 +154,7 @@ def create_ics_file(events, file_path):
         event_end = datetime.fromisoformat(event['EndDate'][:-1] + '0').replace(tzinfo=None)
         event_end = original_tz.localize(event_end).astimezone(pytz.utc)
         event_location = event['Location'].upper()#converts the event location to uppercase
-        ignore_tags = ['bham now', 'social', 'summer series']  # Define the tags to ignore
+        ignore_tags = ['bham now', 'social', 'summer series', 'whimsie', 'class', 'email', 'event']  # Define the tags to ignore
 
         event_tag = None
         if event.get('Tags'):  # Check if tags exist

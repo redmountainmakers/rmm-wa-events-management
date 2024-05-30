@@ -145,8 +145,8 @@ def create_ics_file(events, file_path):
         # Extract the relevant information from the event
         event_id = event['Id']
         event_title = event['Name']
-        if 'summer' in event_title.lower():
-            event_title = "RMM " + event_title
+        #if 'summer' in event_title.lower():
+        #    event_title = "RMM " + event_title
         description_leading_text = f'Click here to register:\n\n<a href = https://www.redmountainmakers.org/event-{event_id}>https://www.redmountainmakers.org/event-{event_id}</a>'
         event_description = description_leading_text + get_wa_description(event_id)
         event_start = datetime.fromisoformat(event['StartDate'][:-1] + '0').replace(tzinfo=None)
@@ -165,8 +165,8 @@ def create_ics_file(events, file_path):
                     event_tag = tag.capitalize()  # Assign it to event_tag
                     break  # Stop iterating as we've found a valid tag
 
-        if event_tag:  # If we found a valid tag
-            event_title = f'{event_tag} Class: {event_title}'  # Prepend it to the event title
+        #if event_tag:  # If we found a valid tag
+        #    event_title = f'{event_tag} Class: {event_title}'  # Prepend it to the event title
 
 
         # Create a new event in the iCalendar file

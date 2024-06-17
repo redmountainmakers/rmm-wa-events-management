@@ -31,8 +31,6 @@ create_ics_file(upcoming_events,wa_api_ics_path)
 #Deletes old events, adds new events, and updates changed events
 process_calendar(current_ics_path, wa_api_ics_path, new_ics_path,log_file_path)
 
-#Upload the new ics to WA and aws
 upload_to_wa(wa_username=wa_username, wa_password=wa_password, src_file_path=new_ics_path, dst_file_url=current_ics_url)
-upload_to_aws(src_file_path=new_ics_path, dest_file_path=aws_file_name)
 
 events_to_csv(upcoming_events,bham365_events)

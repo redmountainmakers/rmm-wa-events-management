@@ -329,9 +329,9 @@ def events_to_csv(events, file_path):
                 "End Date": end_date.strftime("%m/%d/%Y"),
                 **weekday_start_time,
                 "Image": event_image,
-                "Contact Name": "Carla Gadson",
+                "Contact Name": "Ian Berg",
                 "Contact Phone": "205-588-4077",
-                "Contact Email": "Carla@redmountainmakers.org"
+                "Contact Email": "classes@redmountainmakers.org"
             })
 
 def upload_to_aws(src_file_path, dest_file_path):

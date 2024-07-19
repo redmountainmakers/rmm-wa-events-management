@@ -33,4 +33,6 @@ process_calendar(current_ics_path, wa_api_ics_path, new_ics_path,log_file_path)
 
 upload_to_wa(wa_username=wa_username, wa_password=wa_password, src_file_path=new_ics_path, dst_file_url=current_ics_url)
 
+print("I got here")
+
 events_to_csv(upcoming_events,bham365_events)

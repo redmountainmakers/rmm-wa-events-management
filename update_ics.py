@@ -38,4 +38,4 @@ events_to_csv(upcoming_events,bham365_events)
 with open(bham365_events, mode='r', encoding='utf-8') as csv_file:
     reader = csv.DictReader(csv_file)
     for row in reader:
-        print(row)
+        print(f"Event Name: {row['Event Name']}, Start Date: {row['Start Date']}")

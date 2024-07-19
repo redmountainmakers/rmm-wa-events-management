@@ -107,7 +107,7 @@ def get_events(access_token,start_date=None, end_date=None,filter_tags=[]):
     return events
 
 def get_wa_description(event_id):
-    """Retrieves the contents of the boxBodyContentOuterContainer div for the specified event ID."""
+    """Retrieves the contents of the gadgetEventEditableArea div for the specified event ID."""
     # Construct the URL for the event page
     url = f'https://redmountainmakers.org/event-{event_id}'
 
@@ -118,7 +118,7 @@ def get_wa_description(event_id):
     # Replace &nbsp; with Unicode non-breaking space
     html = html.replace('&nbsp;', ' ')
 
-    # Parse the HTML with BeautifulSoup and find the boxBodyContentOuterContainer div
+    # Parse the HTML with BeautifulSoup and find the gadgetEventEditableArea div
     soup = BeautifulSoup(html, 'html.parser')
     div = soup.find('div', class_='inner gadgetEventEditableArea')
 
@@ -159,8 +159,8 @@ def create_ics_file(events, file_path):
         event_tag = None
         if event.get('Tags'):  # Check if tags exist
             for tag in event['Tags']:  # Iterate over all tags
-                print(tag.lower())
-                print(tag.lower() not in ignore_tags)
+                #print(tag.lower())
+                #print(tag.lower() not in ignore_tags)
                 if tag.lower() not in ignore_tags:  # If the tag is not in the ignore list
                     event_tag = tag.capitalize()  # Assign it to event_tag
                     break  # Stop iterating as we've found a valid tag
@@ -487,7 +487,7 @@ def parse_events_html(events):
 
     for event in events:
         event_id = event['Id']
-        print(event_id)
+        #print(event_id)
         event_name = event['Name']
         event_url = base_url + str(event_id)
 
@@ -513,14 +513,14 @@ def parse_events_html(events):
                 </td>
             </tr>
         </table>'''
-        print(html_element)
+        #print(html_element)
 
         output_list.append(html_element)
 
     
     
     output_html = "\n".join(output_list)
-    print(output_html)
+    #print(output_html)
 
     return output_html
 

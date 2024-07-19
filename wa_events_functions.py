@@ -291,7 +291,7 @@ def events_to_csv(events, file_path):
     ]
 
     with open(file_path, mode='w', newline='', encoding='utf-8') as csv_file:
-        writer = csv.DictWriter(csv_file, fieldnames=headers)
+        writer = csv.DictWriter(csv_file, fieldnames=headers, quoting=csv.QUOTE_MINIMAL)
         writer.writeheader()
 
         for event in events:

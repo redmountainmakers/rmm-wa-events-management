@@ -948,3 +948,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-07-30 08:07:35,705 - INFO - Event https://redmountainmakers.org/event-5815945 created successfully.
 2024-07-30 08:07:37,091 - INFO - Event https://redmountainmakers.org/event-5815810 created successfully.
 2024-07-30 08:07:39,473 - INFO - Event https://redmountainmakers.org/event-5815961 created successfully.
+2024-07-31 08:07:35,374 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-07-31 08:07:35,375 - INFO - logging in using static token
+2024-07-31 08:07:35,943 - INFO - Shard ID None has connected to Gateway (Session ID: d03d7e0e328d98e2112bcbc10293a639).
+2024-07-31 08:07:37,959 - INFO - Logged in as RMM-Helper#6590
+2024-07-31 08:07:37,961 - INFO - Event 'Intro to Woodworking: Build a Carpenters Tool Tote', 5815961 already exists in Discord but was changed. Updating in Discord...

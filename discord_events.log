@@ -964,3 +964,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-08-02 08:07:16,102 - INFO - Logged in as RMM-Helper#6590
 2024-08-02 08:07:16,104 - INFO - Event 'Intro to Glass Fusing: Make a Fused Plate', 5800377 already exists in Discord but was changed. Updating in Discord...
 2024-08-02 08:07:16,538 - INFO - Event 'Casting metal 101: Aluminum Ingots', 5797229 already exists in Discord but was changed. Updating in Discord...
+2024-08-03 08:06:27,905 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-08-03 08:06:27,906 - INFO - logging in using static token
+2024-08-03 08:06:28,590 - INFO - Shard ID None has connected to Gateway (Session ID: f6eb84c7c340d987bee153decbefb926).
+2024-08-03 08:06:30,601 - INFO - Logged in as RMM-Helper#6590

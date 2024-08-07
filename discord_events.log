@@ -976,3 +976,11 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-08-05 08:08:03,164 - INFO - logging in using static token
 2024-08-05 08:08:03,589 - INFO - Shard ID None has connected to Gateway (Session ID: 6e942fd7a192ea6a2d73b41a2a6abc8f).
 2024-08-05 08:08:05,601 - INFO - Logged in as RMM-Helper#6590
+2024-08-07 15:15:30,030 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-08-07 15:15:30,031 - INFO - logging in using static token
+2024-08-07 15:15:30,988 - INFO - Shard ID None has connected to Gateway (Session ID: 5b38cfe4c039ae20e8f70331573199e7).
+2024-08-07 15:15:33,006 - INFO - Logged in as RMM-Helper#6590
+2024-08-07 15:15:33,440 - INFO - Event https://redmountainmakers.org/event-5825281 created successfully.
+2024-08-07 15:15:34,986 - INFO - Event https://redmountainmakers.org/event-5741677 created successfully.
+2024-08-07 15:15:36,527 - INFO - Event https://redmountainmakers.org/event-5826066 created successfully.
+2024-08-07 15:15:37,528 - INFO - Event 'Stained Glass Sun Catcher II', 5797257 already exists in Discord but was changed. Updating in Discord...

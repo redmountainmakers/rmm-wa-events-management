@@ -1133,3 +1133,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-05 08:07:44,556 - INFO - Logged in as RMM-Helper#6590
 2024-09-05 08:07:44,881 - INFO - Event https://redmountainmakers.org/event-5863073 created successfully.
 2024-09-05 08:07:46,286 - INFO - Event https://redmountainmakers.org/event-5863399 created successfully.
+2024-09-06 08:07:31,599 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-06 08:07:31,600 - INFO - logging in using static token
+2024-09-06 08:07:32,180 - INFO - Shard ID None has connected to Gateway (Session ID: 1a3af506a0df71a6e6b067522dee719e).
+2024-09-06 08:07:34,194 - INFO - Logged in as RMM-Helper#6590
+2024-09-06 08:07:34,194 - INFO - Event 'October Monthly Game Night *Free and open to Non-members*', 5760612 already exists in Discord but was changed. Updating in Discord...

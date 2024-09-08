@@ -1143,3 +1143,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-07 08:06:50,007 - INFO - Shard ID None has connected to Gateway (Session ID: 55b858f75cdff7d6a18ef1f22a930128).
 2024-09-07 08:06:52,018 - INFO - Logged in as RMM-Helper#6590
 2024-09-07 08:06:52,018 - INFO - Event 'TEST You Blew It! 1 Hour Glassblowing Sessions', 5855623 already exists in Discord but was changed. Updating in Discord...
+2024-09-08 08:06:44,978 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-08 08:06:44,979 - INFO - logging in using static token
+2024-09-08 08:06:45,960 - INFO - Shard ID None has connected to Gateway (Session ID: 9100af9c6c9a42c1e528a94f5b7799e2).
+2024-09-08 08:06:47,970 - INFO - Logged in as RMM-Helper#6590

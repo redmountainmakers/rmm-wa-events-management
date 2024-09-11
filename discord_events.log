@@ -1155,3 +1155,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-10 08:07:56,058 - INFO - logging in using static token
 2024-09-10 08:07:56,410 - INFO - Shard ID None has connected to Gateway (Session ID: 6c7b38929fccb3049ecb262b967fc4e4).
 2024-09-10 08:07:58,422 - INFO - Logged in as RMM-Helper#6590
+2024-09-11 08:07:40,897 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-11 08:07:40,898 - INFO - logging in using static token
+2024-09-11 08:07:41,531 - INFO - Shard ID None has connected to Gateway (Session ID: c3bc20047dfe65cc28d49ee9dc56aeec).
+2024-09-11 08:07:43,648 - INFO - Logged in as RMM-Helper#6590
+2024-09-11 08:07:43,649 - INFO - Event 'Leather Crafting: Burlington Belt Bag', 5838585 already exists in Discord but was changed. Updating in Discord...

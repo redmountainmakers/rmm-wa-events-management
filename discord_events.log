@@ -1188,3 +1188,9 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-15 08:07:13,219 - INFO - Logged in as RMM-Helper#6590
 2024-09-15 08:07:13,316 - ERROR - Error creating event https://redmountainmakers.org/event-5874256: 400 Bad Request (error code: 50035): Invalid Form Body
 In scheduled_end_time: Cannot schedule event to end before starting.
+2024-09-16 08:08:25,039 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-16 08:08:25,040 - INFO - logging in using static token
+2024-09-16 08:08:25,648 - INFO - Shard ID None has connected to Gateway (Session ID: 1c6c949d06068176dfa08909cc9d1770).
+2024-09-16 08:08:27,661 - INFO - Logged in as RMM-Helper#6590
+2024-09-16 08:08:27,778 - ERROR - Error creating event https://redmountainmakers.org/event-5874256: 400 Bad Request (error code: 50035): Invalid Form Body
+In scheduled_end_time: Cannot schedule event to end before starting.

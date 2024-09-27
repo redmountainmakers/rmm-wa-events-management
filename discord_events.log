@@ -1258,3 +1258,40 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-26 08:08:26,885 - ERROR - Error creating event https://redmountainmakers.org/event-5874256: 400 Bad Request (error code: 50035): Invalid Form Body
 In scheduled_end_time: Cannot schedule event to end before starting.
 2024-09-26 08:08:28,340 - INFO - Event https://redmountainmakers.org/event-5889564 created successfully.
+2024-09-27 08:08:29,084 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-27 08:08:29,085 - INFO - logging in using static token
+2024-09-27 08:08:29,873 - INFO - Shard ID None has connected to Gateway (Session ID: ab1aa3fa3a9222acd7539975336499a1).
+2024-09-27 08:08:31,887 - INFO - Logged in as RMM-Helper#6590
+2024-09-27 08:08:32,254 - INFO - Event https://redmountainmakers.org/event-5890276 created successfully.
+2024-09-27 08:08:33,639 - INFO - Event https://redmountainmakers.org/event-5890317 created successfully.
+2024-09-27 08:08:35,001 - INFO - Event https://redmountainmakers.org/event-5890296 created successfully.
+2024-09-27 08:08:36,355 - INFO - Event https://redmountainmakers.org/event-5890275 created successfully.
+2024-09-27 08:09:32,231 - INFO - Event https://redmountainmakers.org/event-5890316 created successfully.
+2024-09-27 08:09:33,561 - INFO - Event https://redmountainmakers.org/event-5890295 created successfully.
+2024-09-27 08:09:34,985 - INFO - Event https://redmountainmakers.org/event-5890274 created successfully.
+2024-09-27 08:09:36,377 - INFO - Event https://redmountainmakers.org/event-5890315 created successfully.
+2024-09-27 08:09:37,823 - INFO - Event https://redmountainmakers.org/event-5890294 created successfully.
+2024-09-27 08:10:33,606 - INFO - Event https://redmountainmakers.org/event-5890273 created successfully.
+2024-09-27 08:10:34,979 - INFO - Event https://redmountainmakers.org/event-5890272 created successfully.
+2024-09-27 08:10:36,397 - INFO - Event https://redmountainmakers.org/event-5890314 created successfully.
+2024-09-27 08:10:37,720 - INFO - Event https://redmountainmakers.org/event-5890313 created successfully.
+2024-09-27 08:10:39,068 - INFO - Event https://redmountainmakers.org/event-5890293 created successfully.
+2024-09-27 08:11:35,002 - INFO - Event https://redmountainmakers.org/event-5890268 created successfully.
+2024-09-27 08:11:36,479 - INFO - Event https://redmountainmakers.org/event-5890751 created successfully.
+2024-09-27 08:11:37,833 - INFO - Event https://redmountainmakers.org/event-5890750 created successfully.
+2024-09-27 08:11:39,212 - INFO - Event https://redmountainmakers.org/event-5890249 created successfully.
+2024-09-27 08:11:40,677 - INFO - Event https://redmountainmakers.org/event-5890749 created successfully.
+2024-09-27 08:12:36,516 - INFO - Event https://redmountainmakers.org/event-5890748 created successfully.
+2024-09-27 08:12:37,877 - INFO - Event https://redmountainmakers.org/event-5890248 created successfully.
+2024-09-27 08:12:39,334 - INFO - Event https://redmountainmakers.org/event-5890312 created successfully.
+2024-09-27 08:12:40,706 - INFO - Event https://redmountainmakers.org/event-5890747 created successfully.
+2024-09-27 08:12:42,048 - INFO - Event https://redmountainmakers.org/event-5890746 created successfully.
+2024-09-27 08:12:43,050 - INFO - Event 'Learn Leatherworking: Make a Key Fob', 5887326 already exists in Discord but was changed. Updating in Discord...
+2024-09-27 08:13:37,874 - INFO - Event https://redmountainmakers.org/event-5890311 created successfully.
+2024-09-27 08:13:39,222 - INFO - Event https://redmountainmakers.org/event-5890745 created successfully.
+2024-09-27 08:13:40,334 - ERROR - Error creating event https://redmountainmakers.org/event-5874256: 400 Bad Request (error code: 50035): Invalid Form Body
+In scheduled_end_time: Cannot schedule event to end before starting.
+2024-09-27 08:13:41,816 - INFO - Event https://redmountainmakers.org/event-5890744 created successfully.
+2024-09-27 08:13:43,177 - INFO - Event https://redmountainmakers.org/event-5890292 created successfully.
+2024-09-27 08:14:39,200 - INFO - Event https://redmountainmakers.org/event-5890264 created successfully.
+2024-09-27 08:14:40,397 - INFO - Event with URL https://redmountainmakers.org/event-5855623 removed successfully.

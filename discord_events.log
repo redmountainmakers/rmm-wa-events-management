@@ -1358,3 +1358,11 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-10-02 08:09:14,315 - INFO - Event with URL https://redmountainmakers.org/event-5838627 removed successfully.
 2024-10-02 08:09:14,495 - INFO - Event with URL https://redmountainmakers.org/event-5852234 removed successfully.
 2024-10-02 08:09:14,734 - INFO - Event with URL https://redmountainmakers.org/event-5890264 removed successfully.
+2024-10-03 08:08:16,243 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-10-03 08:08:16,244 - INFO - logging in using static token
+2024-10-03 08:08:16,918 - INFO - Shard ID None has connected to Gateway (Session ID: 5b723c61c7322643f27782e4fce43e83).
+2024-10-03 08:08:19,046 - INFO - Logged in as RMM-Helper#6590
+2024-10-03 08:08:19,048 - INFO - Event 'Learn to Make an Elegant Hand-crafted “Baron” Fountain Pen ', 5890312 already exists in Discord but was changed. Updating in Discord...
+2024-10-03 08:08:19,392 - INFO - Event 'Learn to Make an Elegant Hand-crafted “Baron” Fountain Pen ', 5890311 already exists in Discord but was changed. Updating in Discord...
+2024-10-03 08:08:20,109 - ERROR - Error creating event https://redmountainmakers.org/event-5874256: 400 Bad Request (error code: 50035): Invalid Form Body
+In scheduled_end_time: Cannot schedule event to end before starting.

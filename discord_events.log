@@ -1464,3 +1464,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-10-19 08:07:15,268 - INFO - Event 'Making a Makerspace - October', 5874357 already exists in Discord but was changed. Updating in Discord...
 2024-10-19 08:07:16,091 - INFO - Event https://redmountainmakers.org/event-5912861 created successfully.
 2024-10-19 08:07:17,199 - INFO - Event with URL https://redmountainmakers.org/event-5874358 removed successfully.
+2024-10-20 08:08:01,756 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-10-20 08:08:01,756 - INFO - logging in using static token
+2024-10-20 08:08:02,441 - INFO - Shard ID None has connected to Gateway (Session ID: a90aafc781cb0ab499bb7bf2809fff8b).
+2024-10-20 08:08:04,456 - INFO - Logged in as RMM-Helper#6590

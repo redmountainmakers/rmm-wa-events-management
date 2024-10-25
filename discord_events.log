@@ -1485,3 +1485,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-10-24 08:08:20,256 - INFO - logging in using static token
 2024-10-24 08:08:21,363 - INFO - Shard ID None has connected to Gateway (Session ID: e39c38d4c3b254ebd1667959cee19ad9).
 2024-10-24 08:08:23,380 - INFO - Logged in as RMM-Helper#6590
+2024-10-25 08:08:26,561 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-10-25 08:08:26,562 - INFO - logging in using static token
+2024-10-25 08:08:27,291 - INFO - Shard ID None has connected to Gateway (Session ID: 50e814736cfc0fff2f6e5dd3d05a5635).
+2024-10-25 08:08:29,319 - INFO - Logged in as RMM-Helper#6590

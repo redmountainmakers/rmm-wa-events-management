@@ -3,7 +3,7 @@ name: Email Events Workflow
 on:
   workflow_dispatch:
   schedule:
-      - cron: '30 22 * * FRI'
+      - cron: '30 23 * * FRI'
 
 
 jobs:

@@ -1616,3 +1616,7 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-11-20 08:08:35,279 - INFO - Logged in as RMM-Helper#6590
 2024-11-20 08:08:35,279 - INFO - Event 'Cutting Boards for Beginners 101', 5890275 already exists in Discord but was changed. Updating in Discord...
 2024-11-20 08:08:35,847 - INFO - Event with URL https://redmountainmakers.org/event-5890276 removed successfully.
+2024-11-21 08:08:29,481 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-21 08:08:29,482 - INFO - logging in using static token
+2024-11-21 08:08:30,233 - INFO - Shard ID None has connected to Gateway (Session ID: 73abadaeabb154bf6e1e3f34a407f11e).
+2024-11-21 08:08:32,256 - INFO - Logged in as RMM-Helper#6590

@@ -1638,3 +1638,22 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2024-11-25 08:09:18,476 - INFO - Logged in as RMM-Helper#6590
 2024-11-25 08:09:18,477 - INFO - Event 'Red Mountain Makers Board Meeting - December', 5874285 already exists in Discord but was changed. Updating in Discord...
 2024-11-25 08:09:19,047 - INFO - Event with URL https://redmountainmakers.org/event-5895247 removed successfully.
+2024-11-26 08:08:40,921 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-26 08:08:40,921 - INFO - logging in using static token
+2024-11-26 08:08:41,447 - INFO - Shard ID None has connected to Gateway (Session ID: 61a873b68ef19f723d37e55fd5a4759d).
+2024-11-26 08:08:43,458 - INFO - Logged in as RMM-Helper#6590
+2024-11-26 08:08:43,988 - INFO - Event https://redmountainmakers.org/event-5961567 created successfully.
+2024-11-26 08:08:45,292 - INFO - Event https://redmountainmakers.org/event-5961528 created successfully.
+2024-11-26 08:08:46,536 - INFO - Event https://redmountainmakers.org/event-5961533 created successfully.
+2024-11-26 08:08:47,920 - INFO - Event https://redmountainmakers.org/event-5961564 created successfully.
+2024-11-26 08:09:43,862 - INFO - Event https://redmountainmakers.org/event-5961563 created successfully.
+2024-11-26 08:09:45,252 - INFO - Event https://redmountainmakers.org/event-5961554 created successfully.
+2024-11-26 08:09:46,550 - INFO - Event https://redmountainmakers.org/event-5961546 created successfully.
+2024-11-26 08:09:47,901 - INFO - Event https://redmountainmakers.org/event-5961496 created successfully.
+2024-11-26 08:09:49,267 - INFO - Event https://redmountainmakers.org/event-5961561 created successfully.
+2024-11-26 08:10:45,746 - INFO - Event https://redmountainmakers.org/event-5961550 created successfully.
+2024-11-26 08:10:47,324 - INFO - Event https://redmountainmakers.org/event-5961544 created successfully.
+2024-11-26 08:10:48,325 - INFO - Event 'Glass Fusing: Holiday Ornaments', 5890456 already exists in Discord but was changed. Updating in Discord...
+2024-11-26 08:10:49,966 - INFO - Event https://redmountainmakers.org/event-5961558 created successfully.
+2024-11-26 08:10:51,319 - INFO - Event https://redmountainmakers.org/event-5961549 created successfully.
+2024-11-26 08:10:52,620 - INFO - Event https://redmountainmakers.org/event-5961540 created successfully.

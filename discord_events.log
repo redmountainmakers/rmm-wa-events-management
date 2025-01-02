@@ -1843,3 +1843,22 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-01-01 08:08:15,806 - INFO - Event https://redmountainmakers.org/event-6003215 created successfully.
 2025-01-01 08:08:17,326 - INFO - Event https://redmountainmakers.org/event-6003918 created successfully.
 2025-01-01 08:09:13,031 - INFO - Event https://redmountainmakers.org/event-5692587 created successfully.
+2025-01-02 08:08:13,441 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-02 08:08:13,441 - INFO - logging in using static token
+2025-01-02 08:08:14,066 - INFO - Shard ID None has connected to Gateway (Session ID: 5048c36a6a5dc4144c3bff7bae28488d).
+2025-01-02 08:08:16,099 - INFO - Logged in as RMM-Helper#6590
+2025-01-02 08:08:16,380 - INFO - Event https://redmountainmakers.org/event-6004667 created successfully.
+2025-01-02 08:08:17,719 - INFO - Event https://redmountainmakers.org/event-6004665 created successfully.
+2025-01-02 08:08:19,039 - INFO - Event https://redmountainmakers.org/event-6004678 created successfully.
+2025-01-02 08:08:20,500 - INFO - Event https://redmountainmakers.org/event-6004673 created successfully.
+2025-01-02 08:09:16,382 - INFO - Event https://redmountainmakers.org/event-6004664 created successfully.
+2025-01-02 08:09:17,708 - INFO - Event https://redmountainmakers.org/event-6004663 created successfully.
+2025-01-02 08:09:19,210 - INFO - Event https://redmountainmakers.org/event-6004677 created successfully.
+2025-01-02 08:09:20,501 - INFO - Event https://redmountainmakers.org/event-6004672 created successfully.
+2025-01-02 08:09:21,841 - INFO - Event https://redmountainmakers.org/event-6004662 created successfully.
+2025-01-02 08:10:17,798 - INFO - Event https://redmountainmakers.org/event-6004660 created successfully.
+2025-01-02 08:10:19,159 - INFO - Event https://redmountainmakers.org/event-6004676 created successfully.
+2025-01-02 08:10:20,581 - INFO - Event https://redmountainmakers.org/event-6004671 created successfully.
+2025-01-02 08:10:22,254 - INFO - Event https://redmountainmakers.org/event-6004659 created successfully.
+2025-01-02 08:10:23,628 - INFO - Event https://redmountainmakers.org/event-6004674 created successfully.
+2025-01-02 08:11:19,535 - INFO - Event https://redmountainmakers.org/event-6004670 created successfully.

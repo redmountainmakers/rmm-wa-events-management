@@ -1862,3 +1862,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-01-02 08:10:22,254 - INFO - Event https://redmountainmakers.org/event-6004659 created successfully.
 2025-01-02 08:10:23,628 - INFO - Event https://redmountainmakers.org/event-6004674 created successfully.
 2025-01-02 08:11:19,535 - INFO - Event https://redmountainmakers.org/event-6004670 created successfully.
+2025-01-03 08:08:15,771 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-03 08:08:15,772 - INFO - logging in using static token
+2025-01-03 08:08:16,250 - INFO - Shard ID None has connected to Gateway (Session ID: 694ecbd1870a94869aed65cd64f36d12).
+2025-01-03 08:08:18,265 - INFO - Logged in as RMM-Helper#6590
+2025-01-03 08:08:18,545 - INFO - Event https://redmountainmakers.org/event-6003222 created successfully.

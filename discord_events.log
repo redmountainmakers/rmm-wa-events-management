@@ -1883,3 +1883,27 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-01-04 08:07:49,658 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions', 5999726 already exists in Discord but was changed. Updating in Discord...
 2025-01-04 08:07:49,978 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions', 5999725 already exists in Discord but was changed. Updating in Discord...
 2025-01-04 08:07:50,274 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions', 5999723 already exists in Discord but was changed. Updating in Discord...
+2025-01-05 08:07:25,981 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-05 08:07:25,982 - INFO - logging in using static token
+2025-01-05 08:07:26,405 - INFO - Shard ID None has connected to Gateway (Session ID: 87764ac223bb990d7aee024469782da7).
+2025-01-05 08:07:28,451 - INFO - Logged in as RMM-Helper#6590
+2025-01-05 08:07:28,903 - INFO - Event https://redmountainmakers.org/event-6009645 created successfully.
+2025-01-05 08:07:30,130 - INFO - Event https://redmountainmakers.org/event-6009638 created successfully.
+2025-01-05 08:07:31,469 - INFO - Event https://redmountainmakers.org/event-6009644 created successfully.
+2025-01-05 08:07:32,857 - INFO - Event https://redmountainmakers.org/event-6009637 created successfully.
+2025-01-05 08:08:28,799 - INFO - Event https://redmountainmakers.org/event-6009687 created successfully.
+2025-01-05 08:08:30,168 - INFO - Event https://redmountainmakers.org/event-6009642 created successfully.
+2025-01-05 08:08:31,414 - INFO - Event https://redmountainmakers.org/event-6009696 created successfully.
+2025-01-05 08:08:32,705 - INFO - Event https://redmountainmakers.org/event-6009685 created successfully.
+2025-01-05 08:08:34,290 - INFO - Event https://redmountainmakers.org/event-6009636 created successfully.
+2025-01-05 08:09:30,232 - INFO - Event https://redmountainmakers.org/event-6009681 created successfully.
+2025-01-05 08:09:31,586 - INFO - Event https://redmountainmakers.org/event-6009677 created successfully.
+2025-01-05 08:09:33,222 - INFO - Event https://redmountainmakers.org/event-6009640 created successfully.
+2025-01-05 08:09:34,815 - INFO - Event https://redmountainmakers.org/event-6009635 created successfully.
+2025-01-05 08:09:36,144 - INFO - Event https://redmountainmakers.org/event-6009639 created successfully.
+2025-01-05 08:10:31,746 - INFO - Event https://redmountainmakers.org/event-6009675 created successfully.
+2025-01-05 08:10:33,241 - INFO - Event https://redmountainmakers.org/event-6009634 created successfully.
+2025-01-05 08:10:34,613 - INFO - Event https://redmountainmakers.org/event-6009671 created successfully.
+2025-01-05 08:10:35,962 - INFO - Event https://redmountainmakers.org/event-6009661 created successfully.
+2025-01-05 08:10:37,273 - INFO - Event https://redmountainmakers.org/event-6009658 created successfully.
+2025-01-05 08:11:33,056 - INFO - Event https://redmountainmakers.org/event-6009647 created successfully.

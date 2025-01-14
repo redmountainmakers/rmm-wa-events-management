@@ -1949,3 +1949,20 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-01-13 08:08:55,957 - INFO - logging in using static token
 2025-01-13 08:08:56,705 - INFO - Shard ID None has connected to Gateway (Session ID: 646d3530cbb3ef8a9951efc5de680ba9).
 2025-01-13 08:08:58,724 - INFO - Logged in as RMM-Helper#6590
+2025-01-14 08:08:14,061 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-01-14 08:08:14,062 - INFO - logging in using static token
+2025-01-14 08:08:14,810 - INFO - Shard ID None has connected to Gateway (Session ID: a25177f46e05550ecc64638e46a5b23f).
+2025-01-14 08:08:16,844 - INFO - Logged in as RMM-Helper#6590
+2025-01-14 08:08:17,438 - INFO - Event https://redmountainmakers.org/event-6026150 created successfully.
+2025-01-14 08:08:18,775 - INFO - Event https://redmountainmakers.org/event-6026145 created successfully.
+2025-01-14 08:08:20,395 - INFO - Event https://redmountainmakers.org/event-6026139 created successfully.
+2025-01-14 08:08:21,830 - INFO - Event https://redmountainmakers.org/event-6026101 created successfully.
+2025-01-14 08:09:17,291 - INFO - Event https://redmountainmakers.org/event-6026097 created successfully.
+2025-01-14 08:09:18,891 - INFO - Event https://redmountainmakers.org/event-6026095 created successfully.
+2025-01-14 08:09:20,245 - INFO - Event https://redmountainmakers.org/event-6026093 created successfully.
+2025-01-14 08:09:21,597 - INFO - Event https://redmountainmakers.org/event-6026091 created successfully.
+2025-01-14 08:09:23,034 - INFO - Event https://redmountainmakers.org/event-6026088 created successfully.
+2025-01-14 08:10:18,697 - INFO - Event https://redmountainmakers.org/event-6026086 created successfully.
+2025-01-14 08:10:20,394 - INFO - Event https://redmountainmakers.org/event-6026991 created successfully.
+2025-01-14 08:10:21,766 - INFO - Event https://redmountainmakers.org/event-6026083 created successfully.
+2025-01-14 08:10:23,107 - INFO - Event https://redmountainmakers.org/event-6025593 created successfully.

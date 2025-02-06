@@ -2065,3 +2065,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-02-05 08:08:17,283 - INFO - logging in using static token
 2025-02-05 08:08:17,931 - INFO - Shard ID None has connected to Gateway (Session ID: 07550530cfc77936c2a747d7a305004f).
 2025-02-05 08:08:19,950 - INFO - Logged in as RMM-Helper#6590
+2025-02-06 08:08:26,248 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-06 08:08:26,249 - INFO - logging in using static token
+2025-02-06 08:08:26,870 - INFO - Shard ID None has connected to Gateway (Session ID: 5cc99020411db87427325b73396c752d).
+2025-02-06 08:08:28,885 - INFO - Logged in as RMM-Helper#6590
+2025-02-06 08:08:28,886 - INFO - Event 'RMM Monthly Board Meeting', 6054878 already exists in Discord but was changed. Updating in Discord...

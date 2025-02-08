@@ -2075,3 +2075,15 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-02-07 08:08:11,722 - INFO - Shard ID None has connected to Gateway (Session ID: 8e05ad15c37ecba77b09fdfe0d51521a).
 2025-02-07 08:08:13,766 - INFO - Logged in as RMM-Helper#6590
 2025-02-07 08:08:13,768 - INFO - Event 'Maker Space at Kami-Con: Leather D20 Bag', 6057282 already exists in Discord but was changed. Updating in Discord...
+2025-02-08 08:07:06,052 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-02-08 08:07:06,053 - INFO - logging in using static token
+2025-02-08 08:07:06,673 - INFO - Shard ID None has connected to Gateway (Session ID: 9000dcd72487c9c89e98a8126930c511).
+2025-02-08 08:07:08,698 - INFO - Logged in as RMM-Helper#6590
+2025-02-08 08:07:09,133 - INFO - Event https://redmountainmakers.org/event-6063889 created successfully.
+2025-02-08 08:07:10,687 - INFO - Event https://redmountainmakers.org/event-6063922 created successfully.
+2025-02-08 08:07:12,058 - INFO - Event https://redmountainmakers.org/event-6063918 created successfully.
+2025-02-08 08:07:13,492 - INFO - Event https://redmountainmakers.org/event-6063888 created successfully.
+2025-02-08 08:08:09,125 - INFO - Event https://redmountainmakers.org/event-6063903 created successfully.
+2025-02-08 08:08:10,532 - INFO - Event https://redmountainmakers.org/event-6063895 created successfully.
+2025-02-08 08:08:11,834 - INFO - Event https://redmountainmakers.org/event-6063899 created successfully.
+2025-02-08 08:08:13,117 - INFO - Event https://redmountainmakers.org/event-6063892 created successfully.

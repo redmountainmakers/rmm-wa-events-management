@@ -3864,3 +3864,9 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-07-10 08:09:52,946 - INFO - Shard ID None has connected to Gateway (Session ID: 72ff38713d1b8fbdef498305f4669253).
 2025-07-10 08:09:54,959 - INFO - Logged in as RMM-Helper#6590
 2025-07-10 08:09:54,960 - INFO - Event 'Beginner Blacksmithing: Troll Cross', 6254643 already exists in Discord but was changed. Updating in Discord...
+2025-07-11 08:09:52,538 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-07-11 08:09:52,539 - INFO - logging in using static token
+2025-07-11 08:09:53,094 - INFO - Shard ID None has connected to Gateway (Session ID: 1b0f882f67eb25c1c5dc717ceb86f786).
+2025-07-11 08:09:55,108 - INFO - Logged in as RMM-Helper#6590
+2025-07-11 08:09:55,490 - INFO - Event https://redmountainmakers.org/event-6257171 created successfully.
+2025-07-11 08:09:57,026 - INFO - Event https://redmountainmakers.org/event-6257100 created successfully.

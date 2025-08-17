@@ -4024,3 +4024,34 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2025-08-16 08:08:52,682 - INFO - logging in using static token
 2025-08-16 08:08:53,518 - INFO - Shard ID None has connected to Gateway (Session ID: a59c06f49f36ffc9529c898ea8a4a56a).
 2025-08-16 08:08:55,529 - INFO - Logged in as RMM-Helper#6590
+2025-08-17 08:09:17,945 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-08-17 08:09:17,946 - INFO - logging in using static token
+2025-08-17 08:09:18,767 - INFO - Shard ID None has connected to Gateway (Session ID: 6310ac97d5b7c41fe645814e91cd2554).
+2025-08-17 08:09:20,781 - INFO - Logged in as RMM-Helper#6590
+2025-08-17 08:09:21,172 - INFO - Event https://redmountainmakers.org/event-6302982 created successfully.
+2025-08-17 08:09:22,616 - INFO - Event https://redmountainmakers.org/event-6302962 created successfully.
+2025-08-17 08:09:24,058 - INFO - Event https://redmountainmakers.org/event-6302961 created successfully.
+2025-08-17 08:09:25,452 - INFO - Event https://redmountainmakers.org/event-6302960 created successfully.
+2025-08-17 08:10:21,163 - INFO - Event https://redmountainmakers.org/event-6302959 created successfully.
+2025-08-17 08:10:22,750 - INFO - Event https://redmountainmakers.org/event-6302986 created successfully.
+2025-08-17 08:10:24,243 - INFO - Event https://redmountainmakers.org/event-6302958 created successfully.
+2025-08-17 08:10:25,665 - INFO - Event https://redmountainmakers.org/event-6302957 created successfully.
+2025-08-17 08:10:28,047 - INFO - Event https://redmountainmakers.org/event-6302956 created successfully.
+2025-08-17 08:11:22,665 - INFO - Event https://redmountainmakers.org/event-6302955 created successfully.
+2025-08-17 08:11:24,098 - INFO - Event https://redmountainmakers.org/event-6302969 created successfully.
+2025-08-17 08:11:25,490 - INFO - Event https://redmountainmakers.org/event-6302965 created successfully.
+2025-08-17 08:11:26,878 - INFO - Event https://redmountainmakers.org/event-6302954 created successfully.
+2025-08-17 08:11:28,379 - INFO - Event https://redmountainmakers.org/event-6302953 created successfully.
+2025-08-17 08:12:24,147 - INFO - Event https://redmountainmakers.org/event-6302981 created successfully.
+2025-08-17 08:12:25,677 - INFO - Event https://redmountainmakers.org/event-6302951 created successfully.
+2025-08-17 08:12:27,123 - INFO - Event https://redmountainmakers.org/event-6302950 created successfully.
+2025-08-17 08:12:28,751 - INFO - Event https://redmountainmakers.org/event-6302980 created successfully.
+2025-08-17 08:12:30,279 - INFO - Event https://redmountainmakers.org/event-6302949 created successfully.
+2025-08-17 08:13:26,129 - INFO - Event https://redmountainmakers.org/event-6302948 created successfully.
+2025-08-17 08:13:27,616 - INFO - Event https://redmountainmakers.org/event-6302947 created successfully.
+2025-08-17 08:13:29,139 - INFO - Event https://redmountainmakers.org/event-6302967 created successfully.
+2025-08-17 08:13:30,563 - INFO - Event https://redmountainmakers.org/event-6302963 created successfully.
+2025-08-17 08:13:32,118 - INFO - Event https://redmountainmakers.org/event-6302946 created successfully.
+2025-08-17 08:14:27,598 - INFO - Event https://redmountainmakers.org/event-6302945 created successfully.
+2025-08-17 08:14:29,081 - INFO - Event https://redmountainmakers.org/event-6302943 created successfully.
+2025-08-17 08:14:30,512 - INFO - Event https://redmountainmakers.org/event-6302979 created successfully.

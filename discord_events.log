@@ -6544,3 +6544,22 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-01-26 08:12:11,711 - INFO - Shard ID None has connected to Gateway (Session ID: 32b2390469d8d31abd07b020849ae4c1).
 2026-01-26 08:12:13,745 - INFO - Logged in as RMM-Helper#6590
 2026-01-26 08:12:14,378 - INFO - Event https://redmountainmakers.org/event-6538589 created successfully.
+2026-01-27 08:11:40,377 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-01-27 08:11:40,378 - INFO - logging in using static token
+2026-01-27 08:11:41,112 - INFO - Shard ID None has connected to Gateway (Session ID: ce9900ebc75fab9941075d8b6d1f6a04).
+2026-01-27 08:11:43,119 - INFO - Logged in as RMM-Helper#6590
+2026-01-27 08:11:43,831 - INFO - Event https://redmountainmakers.org/event-6541178 created successfully.
+2026-01-27 08:11:45,200 - INFO - Event https://redmountainmakers.org/event-6541177 created successfully.
+2026-01-27 08:11:47,272 - INFO - Event https://redmountainmakers.org/event-6541176 created successfully.
+2026-01-27 08:11:48,628 - INFO - Event https://redmountainmakers.org/event-6541175 created successfully.
+2026-01-27 08:12:43,602 - INFO - Event https://redmountainmakers.org/event-6541174 created successfully.
+2026-01-27 08:12:44,958 - INFO - Event https://redmountainmakers.org/event-6541173 created successfully.
+2026-01-27 08:12:46,398 - INFO - Event https://redmountainmakers.org/event-6541172 created successfully.
+2026-01-27 08:12:48,350 - INFO - Event https://redmountainmakers.org/event-6541171 created successfully.
+2026-01-27 08:12:49,632 - INFO - Event https://redmountainmakers.org/event-6541170 created successfully.
+2026-01-27 08:13:44,914 - INFO - Event https://redmountainmakers.org/event-6541169 created successfully.
+2026-01-27 08:13:46,384 - INFO - Event https://redmountainmakers.org/event-6539709 created successfully.
+2026-01-27 08:13:47,694 - INFO - Event https://redmountainmakers.org/event-6540168 created successfully.
+2026-01-27 08:13:49,075 - INFO - Event https://redmountainmakers.org/event-6541168 created successfully.
+2026-01-27 08:13:50,077 - INFO - Event 'January Monthly Game Night *Free and open to Non-members*', 6538589 already exists in Discord but was changed. Updating in Discord...
+2026-01-27 08:13:50,534 - INFO - Event with URL https://redmountainmakers.org/event-6525278 removed successfully.

@@ -6563,3 +6563,32 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-01-27 08:13:49,075 - INFO - Event https://redmountainmakers.org/event-6541168 created successfully.
 2026-01-27 08:13:50,077 - INFO - Event 'January Monthly Game Night *Free and open to Non-members*', 6538589 already exists in Discord but was changed. Updating in Discord...
 2026-01-27 08:13:50,534 - INFO - Event with URL https://redmountainmakers.org/event-6525278 removed successfully.
+2026-01-28 08:11:30,149 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-01-28 08:11:30,150 - INFO - logging in using static token
+2026-01-28 08:11:30,875 - INFO - Shard ID None has connected to Gateway (Session ID: 2e7c0e2b2db78363823f45267ab77f4c).
+2026-01-28 08:11:32,882 - INFO - Logged in as RMM-Helper#6590
+2026-01-28 08:11:33,206 - INFO - Event https://redmountainmakers.org/event-6541914 created successfully.
+2026-01-28 08:11:34,544 - INFO - Event https://redmountainmakers.org/event-6541913 created successfully.
+2026-01-28 08:11:36,122 - INFO - Event https://redmountainmakers.org/event-6541912 created successfully.
+2026-01-28 08:11:37,676 - INFO - Event https://redmountainmakers.org/event-6541911 created successfully.
+2026-01-28 08:12:33,443 - INFO - Event https://redmountainmakers.org/event-6541910 created successfully.
+2026-01-28 08:12:34,911 - INFO - Event https://redmountainmakers.org/event-6541909 created successfully.
+2026-01-28 08:12:36,996 - INFO - Event https://redmountainmakers.org/event-6541908 created successfully.
+2026-01-28 08:12:38,475 - INFO - Event https://redmountainmakers.org/event-6541907 created successfully.
+2026-01-28 08:12:39,904 - INFO - Event https://redmountainmakers.org/event-6541906 created successfully.
+2026-01-28 08:13:34,974 - INFO - Event https://redmountainmakers.org/event-6542743 created successfully.
+2026-01-28 08:13:36,510 - INFO - Event https://redmountainmakers.org/event-6542742 created successfully.
+2026-01-28 08:13:39,490 - INFO - Event https://redmountainmakers.org/event-6542741 created successfully.
+2026-01-28 08:13:40,801 - INFO - Event https://redmountainmakers.org/event-6542740 created successfully.
+2026-01-28 08:13:42,299 - INFO - Event https://redmountainmakers.org/event-6542739 created successfully.
+2026-01-28 08:14:36,438 - INFO - Event https://redmountainmakers.org/event-6542738 created successfully.
+2026-01-28 08:14:38,060 - INFO - Event https://redmountainmakers.org/event-6542737 created successfully.
+2026-01-28 08:14:39,766 - INFO - Event https://redmountainmakers.org/event-6542736 created successfully.
+2026-01-28 08:14:41,113 - INFO - Event https://redmountainmakers.org/event-6541905 created successfully.
+2026-01-28 08:14:42,613 - INFO - Event https://redmountainmakers.org/event-6542735 created successfully.
+2026-01-28 08:15:37,836 - INFO - Event https://redmountainmakers.org/event-6542734 created successfully.
+2026-01-28 08:15:39,349 - INFO - Event https://redmountainmakers.org/event-6542733 created successfully.
+2026-01-28 08:15:41,271 - INFO - Event https://redmountainmakers.org/event-6542732 created successfully.
+2026-01-28 08:15:42,994 - INFO - Event https://redmountainmakers.org/event-6536473 created successfully.
+2026-01-28 08:15:43,996 - INFO - Event 'January DC205 Meetup', 6511807 already exists in Discord but was changed. Updating in Discord...
+2026-01-28 08:15:44,608 - INFO - Event with URL https://redmountainmakers.org/event-6536508 removed successfully.

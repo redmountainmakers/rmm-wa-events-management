@@ -8574,3 +8574,9 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-05-30 08:55:10,936 - INFO - Logged in as RMM-Helper#6590
 2026-05-30 08:55:10,937 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6650174 already exists in Discord but was changed. Updating in Discord...
 2026-05-30 08:55:11,368 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6650173 already exists in Discord but was changed. Updating in Discord...
+2026-05-31 09:10:09,137 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-05-31 09:10:09,137 - WARNING - davey is not installed, voice will NOT be supported
+2026-05-31 09:10:09,137 - INFO - logging in using static token
+2026-05-31 09:10:09,959 - INFO - Shard ID None has connected to Gateway (Session ID: 5b51435e8e54fe639e219e306768f810).
+2026-05-31 09:10:11,974 - INFO - Logged in as RMM-Helper#6590
+2026-05-31 09:10:11,975 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6650174 already exists in Discord but was changed. Updating in Discord...

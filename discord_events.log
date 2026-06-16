@@ -8678,3 +8678,9 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-06-15 10:16:11,003 - INFO - logging in using static token
 2026-06-15 10:16:11,888 - INFO - Shard ID None has connected to Gateway (Session ID: 12c8afb459d475ce58098212592e223b).
 2026-06-15 10:16:13,904 - INFO - Logged in as RMM-Helper#6590
+2026-06-16 09:53:56,420 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-06-16 09:53:56,420 - WARNING - davey is not installed, voice will NOT be supported
+2026-06-16 09:53:56,421 - INFO - logging in using static token
+2026-06-16 09:53:57,148 - INFO - Shard ID None has connected to Gateway (Session ID: 825b4fe1d6083af90c9a9357c33ce9ae).
+2026-06-16 09:53:59,160 - INFO - Logged in as RMM-Helper#6590
+2026-06-16 09:53:59,161 - INFO - Event 'Free LARP crafting with Everling Woods at Red Mountain Makers', 6730976 already exists in Discord but was changed. Updating in Discord...

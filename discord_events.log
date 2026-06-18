@@ -8690,3 +8690,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-06-17 09:45:59,043 - INFO - Shard ID None has connected to Gateway (Session ID: 8144c3c9328848646a63f9ae1c7360dd).
 2026-06-17 09:46:01,065 - INFO - Logged in as RMM-Helper#6590
 2026-06-17 09:46:01,066 - INFO - Event 'Intermediate Blacksmithing: Forging Spears', 6730946 already exists in Discord but was changed. Updating in Discord...
+2026-06-18 09:38:24,473 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-06-18 09:38:24,473 - WARNING - davey is not installed, voice will NOT be supported
+2026-06-18 09:38:24,474 - INFO - logging in using static token
+2026-06-18 09:38:25,077 - INFO - Shard ID None has connected to Gateway (Session ID: 1adc023b57b42a15e5bc7090d5009c7e).
+2026-06-18 09:38:27,090 - INFO - Logged in as RMM-Helper#6590

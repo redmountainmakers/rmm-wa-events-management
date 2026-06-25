@@ -8725,3 +8725,9 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-06-24 09:16:09,985 - INFO - logging in using static token
 2026-06-24 09:16:10,641 - INFO - Shard ID None has connected to Gateway (Session ID: 0124e5844a3b64855ce395503283bc65).
 2026-06-24 09:16:12,655 - INFO - Logged in as RMM-Helper#6590
+2026-06-25 09:14:50,822 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-06-25 09:14:50,822 - WARNING - davey is not installed, voice will NOT be supported
+2026-06-25 09:14:50,823 - INFO - logging in using static token
+2026-06-25 09:14:51,441 - INFO - Shard ID None has connected to Gateway (Session ID: ab84da44367c7d908199becb99957a58).
+2026-06-25 09:14:53,457 - INFO - Logged in as RMM-Helper#6590
+2026-06-25 09:14:53,458 - INFO - Event 'Intro to Tie Dye - folding, tying, sinew designs', 6725911 already exists in Discord but was changed. Updating in Discord...

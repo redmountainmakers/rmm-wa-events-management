@@ -8766,3 +8766,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-06-30 09:17:12,845 - INFO - Event https://redmountainmakers.org/event-6747944 created successfully.
 2026-06-30 09:17:14,218 - INFO - Event https://redmountainmakers.org/event-6747940 created successfully.
 2026-06-30 09:18:09,989 - INFO - Event https://redmountainmakers.org/event-6683096 created successfully.
+2026-07-01 09:17:29,702 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-07-01 09:17:29,702 - WARNING - davey is not installed, voice will NOT be supported
+2026-07-01 09:17:29,703 - INFO - logging in using static token
+2026-07-01 09:17:30,318 - INFO - Shard ID None has connected to Gateway (Session ID: 0d93da8f779c400a7e25b1b865d38d42).
+2026-07-01 09:17:32,330 - INFO - Logged in as RMM-Helper#6590

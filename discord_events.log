@@ -8838,3 +8838,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-07-14 08:49:25,898 - INFO - Shard ID None has connected to Gateway (Session ID: 8805a663d617b2a7502d1dad346b5327).
 2026-07-14 08:49:27,916 - INFO - Logged in as RMM-Helper#6590
 2026-07-14 08:49:27,917 - INFO - Event 'Metal Fabrication Class: Make a stool', 6700389 already exists in Discord but was changed. Updating in Discord...
+2026-07-15 08:52:12,337 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-07-15 08:52:12,337 - WARNING - davey is not installed, voice will NOT be supported
+2026-07-15 08:52:12,337 - INFO - logging in using static token
+2026-07-15 08:52:13,073 - INFO - Shard ID None has connected to Gateway (Session ID: d4ac1c0b4f81f35fa35f67f5f217137d).
+2026-07-15 08:52:15,085 - INFO - Logged in as RMM-Helper#6590

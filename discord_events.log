@@ -8901,3 +8901,8 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-07-23 08:58:36,432 - INFO - logging in using static token
 2026-07-23 08:58:37,414 - INFO - Shard ID None has connected to Gateway (Session ID: c8097a407a6f4b026860b47535407873).
 2026-07-23 08:58:39,425 - INFO - Logged in as RMM-Helper#6590
+2026-07-24 08:56:54,255 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-07-24 08:56:54,255 - WARNING - davey is not installed, voice will NOT be supported
+2026-07-24 08:56:54,255 - INFO - logging in using static token
+2026-07-24 08:56:55,045 - INFO - Shard ID None has connected to Gateway (Session ID: a4cfd99f52c92bade74bd5a51350b319).
+2026-07-24 08:56:57,057 - INFO - Logged in as RMM-Helper#6590

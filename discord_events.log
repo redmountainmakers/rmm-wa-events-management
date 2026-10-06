@@ -9590,3 +9590,36 @@ In scheduled_end_time: Cannot schedule event to end before starting.
 2026-10-05 08:33:39,177 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834667 already exists in Discord but was changed. Updating in Discord...
 2026-10-05 08:33:39,653 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834666 already exists in Discord but was changed. Updating in Discord...
 2026-10-05 08:33:40,265 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834665 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:23:50,531 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2026-10-06 08:23:50,531 - WARNING - davey is not installed, voice will NOT be supported
+2026-10-06 08:23:50,531 - INFO - logging in using static token
+2026-10-06 08:23:51,782 - INFO - Shard ID None has connected to Gateway (Session ID: b4ca1c7e3ed7a5ec8900cf6e510e997d).
+2026-10-06 08:23:53,797 - INFO - Logged in as RMM-Helper#6590
+2026-10-06 08:23:54,114 - INFO - Event https://redmountainmakers.org/event-6867913 created successfully.
+2026-10-06 08:23:55,600 - INFO - Event https://redmountainmakers.org/event-6867910 created successfully.
+2026-10-06 08:23:57,879 - INFO - Event https://redmountainmakers.org/event-6867907 created successfully.
+2026-10-06 08:23:59,241 - INFO - Event https://redmountainmakers.org/event-6867906 created successfully.
+2026-10-06 08:24:54,113 - INFO - Event https://redmountainmakers.org/event-6867904 created successfully.
+2026-10-06 08:24:55,674 - INFO - Event https://redmountainmakers.org/event-6867902 created successfully.
+2026-10-06 08:24:57,264 - INFO - Event https://redmountainmakers.org/event-6867901 created successfully.
+2026-10-06 08:24:58,496 - INFO - Event https://redmountainmakers.org/event-6867898 created successfully.
+2026-10-06 08:24:59,948 - INFO - Event https://redmountainmakers.org/event-6867897 created successfully.
+2026-10-06 08:25:55,446 - INFO - Event https://redmountainmakers.org/event-6867895 created successfully.
+2026-10-06 08:25:56,808 - INFO - Event https://redmountainmakers.org/event-6867889 created successfully.
+2026-10-06 08:25:58,058 - INFO - Event https://redmountainmakers.org/event-6867887 created successfully.
+2026-10-06 08:25:59,594 - INFO - Event https://redmountainmakers.org/event-6867882 created successfully.
+2026-10-06 08:26:00,945 - INFO - Event https://redmountainmakers.org/event-6867880 created successfully.
+2026-10-06 08:26:57,144 - INFO - Event https://redmountainmakers.org/event-6867878 created successfully.
+2026-10-06 08:26:58,518 - INFO - Event https://redmountainmakers.org/event-6867877 created successfully.
+2026-10-06 08:27:00,012 - INFO - Event https://redmountainmakers.org/event-6867874 created successfully.
+2026-10-06 08:27:01,489 - INFO - Event https://redmountainmakers.org/event-6867871 created successfully.
+2026-10-06 08:27:02,762 - INFO - Event https://redmountainmakers.org/event-6867869 created successfully.
+2026-10-06 08:27:58,718 - INFO - Event https://redmountainmakers.org/event-6867868 created successfully.
+2026-10-06 08:27:59,721 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834672 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:00,008 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834671 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:00,496 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834670 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:00,955 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834669 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:01,478 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834668 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:20,111 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834667 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:20,449 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834666 already exists in Discord but was changed. Updating in Discord...
+2026-10-06 08:28:20,834 - INFO - Event 'You Blew It! 1 Hour Glassblowing Sessions ', 6834665 already exists in Discord but was changed. Updating in Discord...
